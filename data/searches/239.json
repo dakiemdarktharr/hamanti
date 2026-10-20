@@ -1,0 +1,152 @@
+{
+  "styleId": 239,
+  "name": "Color-gel portraiture",
+  "query": "Color-gel portraiture site:pinterest.com",
+  "date": "2026-10-20",
+  "provider": "TinyFish",
+  "success": true,
+  "data": {
+    "images": [
+      {
+        "title": "Gel Photography and Colored Lighting - Lindsay Adler",
+        "url": "https://www.pinterest.com/lindsayradler/gel-photography-and-colored-lighting/",
+        "imageUrl": "https://i.pinimg.com/200x150/fd/d0/8b/fdd08be6c448aaca78992c98bcbcba59.jpg",
+        "snippet": "May 31, 2020 - Gel photography and colored lighting inspiration. See more ideas about lindsay adler fashion photography, lindsay adler gel photography, ..."
+      },
+      {
+        "title": "Color gel photography - Daniel Salvatore",
+        "url": "https://www.pinterest.com/salvatoredaniel/color-gel-photography/",
+        "imageUrl": "https://i.pinimg.com/200x150/4f/f5/8f/4ff58f1fa6b4484b6b48c12aeaaf916a.jpg",
+        "snippet": "From rgb portrait photography to dual lighting portrait, find what you're looking for on Pinterest!"
+      },
+      {
+        "title": "Lauren's Color Gel",
+        "url": "https://www.pinterest.com/mexis588/laurens-color-gel/",
+        "imageUrl": "https://i.pinimg.com/200x150/9f/67/67/9f67675175157348e4ee229ca9f51c3e.jpg",
+        "snippet": "From coloured gels portrait photography to gel lighting, find what you're looking for on Pinterest!"
+      },
+      {
+        "title": "39 Color gel portraits ideas",
+        "url": "https://uk.pinterest.com/tomashaluska/color-gel-portraits/",
+        "imageUrl": "https://i.pinimg.com/200x150/b1/42/c2/b142c2aa09abd24cb089b41376b224f9.jpg",
+        "snippet": "Jan 26, 2020 - Explore Tomas Haluska's board \"color gel portraits\" on Pinterest. See more ideas about photography with gels, gel portrait photography, ..."
+      },
+      {
+        "title": "22 Gel flash photos ideas | gel photography lighting set up ...",
+        "url": "https://www.pinterest.com/connieetter/gel-flash-photos/",
+        "imageUrl": "https://i.pinimg.com/200x150/27/1a/f2/271af21fb6c1e1d877b4163de6feff40.jpg",
+        "snippet": "Sep 29, 2017 - Explore Connie Etter Photography's board \"Gel flash photos\" on Pinterest. See more ideas about gel photography lighting set up, color gel ..."
+      },
+      {
+        "title": "77 Color gel ideas | photography with gels, portraits ...",
+        "url": "https://in.pinterest.com/aarondasher/color-gel/",
+        "imageUrl": "https://i.pinimg.com/200x150/28/1b/6e/281b6ef3fa6b05ef1486ec0545a49b98.jpg",
+        "snippet": "Aug 15, 2019 - Explore aaron dasher's board \"color gel\" on Pinterest. See more ideas about photography with gels, portraits with colored lighting, ..."
+      },
+      {
+        "title": "Color Gel Portraits",
+        "url": "https://www.pinterest.com/pin/426293921026621007/",
+        "imageUrl": "https://i.pinimg.com/736x/88/dd/cc/88ddcccf2e54d428cb65833dbcd98666.jpg",
+        "snippet": "Color Gel Portraits · Blue And Orange Lighting Photography · Color Dramatic Lighting Portrait · Coloured Gels Photography · Colorful Studio Lighting · Colourful ..."
+      },
+      {
+        "title": "Color Gel Portrait Photography",
+        "url": "https://www.pinterest.com/ideas/color-gel-portrait-photography/934761474207/",
+        "imageUrl": "https://i.pinimg.com/474x/ed/89/49/ed8949776652454c9a7b82deb68824c4.jpg",
+        "snippet": "Discover Pinterest's best ideas and inspiration for Color gel portrait photography. Get inspired and try out new things. 50 people searched this."
+      },
+      {
+        "title": "13 Mood Board for Color Gel ideas",
+        "url": "https://www.pinterest.com/dennishuangphot/mood-board-for-color-gel/",
+        "imageUrl": "https://i.pinimg.com/200x150/bd/a7/b6/bda7b6af227de38a4c2d07fbee294e00.jpg",
+        "snippet": "Feb 6, 2021 - Explore Dennis Huang's board \"Mood Board for Color Gel\" on Pinterest. See more ideas about colour gel lighting photography, colour gel ..."
+      }
+    ]
+  },
+  "raw": {
+    "query": "Color-gel portraiture site:pinterest.com",
+    "results": [
+      {
+        "position": 1,
+        "site_name": "www.pinterest.com",
+        "snippet": "Discover Pinterest's best ideas and inspiration for Color gels photography portraits. Get inspired and try out new things. 92 people searched this.",
+        "title": "Color Gels Photography Portraits",
+        "url": "https://www.pinterest.com/ideas/color-gels-photography-portraits/913991514032/"
+      },
+      {
+        "position": 2,
+        "site_name": "www.pinterest.com",
+        "snippet": "May 31, 2020 - Gel photography and colored lighting inspiration. See more ideas about lindsay adler fashion photography, lindsay adler gel photography, ...",
+        "title": "Gel Photography and Colored Lighting - Lindsay Adler",
+        "url": "https://www.pinterest.com/lindsayradler/gel-photography-and-colored-lighting/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/fd/d0/8b/fdd08be6c448aaca78992c98bcbcba59.jpg"
+      },
+      {
+        "position": 3,
+        "site_name": "www.pinterest.com",
+        "snippet": "From rgb portrait photography to dual lighting portrait, find what you're looking for on Pinterest!",
+        "title": "Color gel photography - Daniel Salvatore",
+        "url": "https://www.pinterest.com/salvatoredaniel/color-gel-photography/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/4f/f5/8f/4ff58f1fa6b4484b6b48c12aeaaf916a.jpg"
+      },
+      {
+        "position": 4,
+        "site_name": "www.pinterest.com",
+        "snippet": "From coloured gels portrait photography to gel lighting, find what you're looking for on Pinterest!",
+        "title": "Lauren's Color Gel",
+        "url": "https://www.pinterest.com/mexis588/laurens-color-gel/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/9f/67/67/9f67675175157348e4ee229ca9f51c3e.jpg"
+      },
+      {
+        "position": 5,
+        "site_name": "uk.pinterest.com",
+        "snippet": "Jan 26, 2020 - Explore Tomas Haluska's board \"color gel portraits\" on Pinterest. See more ideas about photography with gels, gel portrait photography, ...",
+        "title": "39 Color gel portraits ideas",
+        "url": "https://uk.pinterest.com/tomashaluska/color-gel-portraits/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/b1/42/c2/b142c2aa09abd24cb089b41376b224f9.jpg"
+      },
+      {
+        "position": 6,
+        "site_name": "www.pinterest.com",
+        "snippet": "Sep 29, 2017 - Explore Connie Etter Photography's board \"Gel flash photos\" on Pinterest. See more ideas about gel photography lighting set up, color gel ...",
+        "title": "22 Gel flash photos ideas | gel photography lighting set up ...",
+        "url": "https://www.pinterest.com/connieetter/gel-flash-photos/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/27/1a/f2/271af21fb6c1e1d877b4163de6feff40.jpg"
+      },
+      {
+        "position": 7,
+        "site_name": "in.pinterest.com",
+        "snippet": "Aug 15, 2019 - Explore aaron dasher's board \"color gel\" on Pinterest. See more ideas about photography with gels, portraits with colored lighting, ...",
+        "title": "77 Color gel ideas | photography with gels, portraits ...",
+        "url": "https://in.pinterest.com/aarondasher/color-gel/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/28/1b/6e/281b6ef3fa6b05ef1486ec0545a49b98.jpg"
+      },
+      {
+        "position": 8,
+        "site_name": "www.pinterest.com",
+        "snippet": "Color Gel Portraits · Blue And Orange Lighting Photography · Color Dramatic Lighting Portrait · Coloured Gels Photography · Colorful Studio Lighting · Colourful ...",
+        "title": "Color Gel Portraits",
+        "url": "https://www.pinterest.com/pin/426293921026621007/",
+        "thumbnail_url": "https://i.pinimg.com/736x/88/dd/cc/88ddcccf2e54d428cb65833dbcd98666.jpg"
+      },
+      {
+        "position": 9,
+        "site_name": "www.pinterest.com",
+        "snippet": "Discover Pinterest's best ideas and inspiration for Color gel portrait photography. Get inspired and try out new things. 50 people searched this.",
+        "title": "Color Gel Portrait Photography",
+        "url": "https://www.pinterest.com/ideas/color-gel-portrait-photography/934761474207/",
+        "thumbnail_url": "https://i.pinimg.com/474x/ed/89/49/ed8949776652454c9a7b82deb68824c4.jpg"
+      },
+      {
+        "position": 10,
+        "site_name": "www.pinterest.com",
+        "snippet": "Feb 6, 2021 - Explore Dennis Huang's board \"Mood Board for Color Gel\" on Pinterest. See more ideas about colour gel lighting photography, colour gel ...",
+        "title": "13 Mood Board for Color Gel ideas",
+        "url": "https://www.pinterest.com/dennishuangphot/mood-board-for-color-gel/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/bd/a7/b6/bda7b6af227de38a4c2d07fbee294e00.jpg"
+      }
+    ],
+    "total_results": 10,
+    "page": 0
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vercel/
+.deploy-cache/
+.DS_Store
+Thumbs.db
+.playwright-mcp/
+.env
+.env.*
+.image-cache/
+.tmp/

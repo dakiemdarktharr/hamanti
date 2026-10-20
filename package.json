@@ -1,0 +1,32 @@
+{
+  "name": "hamanti",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A visual handbook powered by the project's Obsidian notes.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.mjs",
+    "dev": "npm run build && node server.mjs",
+    "sync:notes": "node scripts/sync-notes.mjs",
+    "migrate:images": "node --env-file=.env.local scripts/migrate-images.mjs"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource-variable/syne": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
+    "lenis": "^1.3.27",
+    "mongodb": "^7.7.0",
+    "motion": "^14.4.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

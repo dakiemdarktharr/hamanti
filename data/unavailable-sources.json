@@ -1,0 +1,80 @@
+{
+  "https://i.pinimg.com/originals/04/6f/72/046f72c7b3d5282bb38dd2e0f1e8ccee.png?nii=t": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      7
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://www.museothyssen.org/sites/default/files/imagen/obras/1984.18_suprematismo.jpg": {
+    "reason": "Source HTTP 403",
+    "styles": [
+      20
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/a9/e1/0e/a9e10e42b432ffdd810057c888eb7894.gif": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      79
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/f5/c2/25/f5c2252c729181fe2aa21e2ce6fa7608.gif": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      86
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/84/2e/20/842e200fd4e8d03f4fcd2231d0b92219.gif": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      125
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/7e/70/61/7e7061521753ede5f23be24ef6182e15.png?nii=t": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      140
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/1b/79/76/1b797646ee0eb242516783b497cda322.png": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      158
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/3e/49/06/3e490624156f349eec8eafa35891bf69.png?nii=t": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      171,
+      182
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/99/20/0f/99200fd49ed19ecf92a399f1a296b43d.png": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      210
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://i.pinimg.com/originals/33/81/31/3381314cf498fa474947ecc2753fc253.jpg?nii=t": {
+    "reason": "Source exceeds the delivery size limit",
+    "styles": [
+      214
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  },
+  "https://78.media.tumblr.com/6bd3f42b9ba5f3b394aef18904d8675e/tumblr_mxs1oyZ9mE1sh08aro1_1280.jpg": {
+    "reason": "TypeError",
+    "styles": [
+      217
+    ],
+    "checkedAt": "2026-10-20T10:10:38.917Z"
+  }
+}

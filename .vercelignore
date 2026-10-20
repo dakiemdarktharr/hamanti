@@ -1,0 +1,13 @@
+.git/
+.playwright-mcp/
+node_modules/
+dist/
+.deploy-cache/
+.env
+.env.*
+README.md
+!source-notes/README.md
+server.mjs
+scripts/sync-notes.mjs
+.image-cache/
+.tmp/

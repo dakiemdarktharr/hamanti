@@ -1,0 +1,145 @@
+{
+  "styleId": 271,
+  "name": "Cottagecore",
+  "query": "Cottagecore site:pinterest.com",
+  "date": "2026-10-20",
+  "provider": "TinyFish",
+  "success": true,
+  "data": {
+    "images": [
+      {
+        "title": "340 1) COTTAGECORE DESIGN STYLE ideas",
+        "url": "https://www.pinterest.com/julieannrachelle/1-cottagecore-design-style/",
+        "imageUrl": "https://i.pinimg.com/custom_covers/200x150/108508740961306951_1724784421.jpg",
+        "snippet": "CottageCore, where cozy cottages meet wildflower meadows. This board celebrates the charm of rustic simplicity with vintage decor, floral patterns, and nature- ..."
+      },
+      {
+        "title": "COTTAGECORE AESTHETIC Room Decor Ideas & Inspo",
+        "url": "https://www.pinterest.com/roomtery/cottagecore-aesthetic-room-decor-ideas-inspo/",
+        "imageUrl": "https://i.pinimg.com/custom_covers/200x150/1065171818056333851_1677853836.jpg",
+        "snippet": "Cottagecore aesthetic room decor is a design style inspired by the romanticized rural lifestyle and traditional English cottages."
+      },
+      {
+        "title": "900+ Best Cottagecore Fashion ideas in 2026",
+        "url": "https://www.pinterest.com/forhomeatelier/cottagecore-fashion/",
+        "imageUrl": "https://i.pinimg.com/custom_covers/200x150/702491310565618667_1644997016.jpg",
+        "snippet": "Cottagecore styling supports embroidery, floral pattern, organic fabric, comfortable fit. Linen dresses, aprons, dungarees, vintage outfits, straw hats, cotton ..."
+      },
+      {
+        "title": "390 Cottagecore Home Decor Ideas in 2026",
+        "url": "https://www.pinterest.com/cameronteam/cottagecore-home-decor-ideas/",
+        "imageUrl": "https://i.pinimg.com/custom_covers/200x150/173247985604740240_1790691882.jpg",
+        "snippet": "Find cottagecore interiors with florals, vintage finds, natural textures, and handmade details. Browse cozy room ideas inspired by country cottages and gardens."
+      },
+      {
+        "title": "40 Best cottagecore DIY ideas in 2026 | sztuka i rękodzieło ...",
+        "url": "https://www.pinterest.com/jordancottagecore/cottagecore-diy/",
+        "imageUrl": "https://i.pinimg.com/200x150/71/b9/86/71b9866ecf6352b5ab78f0c9b4080242.jpg",
+        "snippet": "Explore a hand-picked collection of Pins about cottagecore DIY on Pinterest. Driftwood Plant Decoration Ideas Tree Branch Hanging Plants … easy felt sewing ..."
+      },
+      {
+        "title": "900+ A cottagecore home ideas in 2026",
+        "url": "https://www.pinterest.com/nellemonaco/a-cottagecore-home/",
+        "imageUrl": "https://i.pinimg.com/custom_covers/200x150/213287801041485919_1554340579.jpg",
+        "snippet": "See more ideas about cottagecore home, Vintage floral sink decor | Floral ceramic sink decor, Flower kitchen sink, Aesthetic kitchen. European Coastal Cottage ..."
+      },
+      {
+        "title": "170 Cottagecore ideas in 2026",
+        "url": "https://www.pinterest.com/jeffsangie/cottagecore/",
+        "imageUrl": "https://i.pinimg.com/200x150/b1/55/44/b15544a9e7c55a291955e5804e6586f2.jpg",
+        "snippet": "Cottagecore is an interior style inspired by countryside charm — think storybook cottages, soft sunlight, vintage treasures, and a home that feels gently lived ..."
+      },
+      {
+        "title": "47 Cottagecore ideas | cozy vintage-style bunk bed room ...",
+        "url": "https://www.pinterest.com/simplyabbyxoxox/cottagecore/",
+        "imageUrl": "https://i.pinimg.com/200x150/a1/2c/39/a12c39d5b893d6de21823ecef8fbf0aa.jpg",
+        "snippet": "Jun 12, 2020 - Explore Abby Mooney's board \"Cottagecore\" on Pinterest. See more ideas about cozy vintage-style bunk bed room, attic bedroom victorian, 1940 ..."
+      }
+    ]
+  },
+  "raw": {
+    "query": "Cottagecore site:pinterest.com",
+    "results": [
+      {
+        "position": 1,
+        "site_name": "www.pinterest.com",
+        "snippet": "CottageCore, where cozy cottages meet wildflower meadows. This board celebrates the charm of rustic simplicity with vintage decor, floral patterns, and nature- ...",
+        "title": "340 1) COTTAGECORE DESIGN STYLE ideas",
+        "url": "https://www.pinterest.com/julieannrachelle/1-cottagecore-design-style/",
+        "thumbnail_url": "https://i.pinimg.com/custom_covers/200x150/108508740961306951_1724784421.jpg"
+      },
+      {
+        "position": 2,
+        "site_name": "www.pinterest.com",
+        "snippet": "Cottagecore aesthetic room decor is a design style inspired by the romanticized rural lifestyle and traditional English cottages.",
+        "title": "COTTAGECORE AESTHETIC Room Decor Ideas & Inspo",
+        "url": "https://www.pinterest.com/roomtery/cottagecore-aesthetic-room-decor-ideas-inspo/",
+        "thumbnail_url": "https://i.pinimg.com/custom_covers/200x150/1065171818056333851_1677853836.jpg"
+      },
+      {
+        "position": 3,
+        "site_name": "www.pinterest.com",
+        "snippet": "Cottagecore styling supports embroidery, floral pattern, organic fabric, comfortable fit. Linen dresses, aprons, dungarees, vintage outfits, straw hats, cotton ...",
+        "title": "900+ Best Cottagecore Fashion ideas in 2026",
+        "url": "https://www.pinterest.com/forhomeatelier/cottagecore-fashion/",
+        "thumbnail_url": "https://i.pinimg.com/custom_covers/200x150/702491310565618667_1644997016.jpg"
+      },
+      {
+        "position": 4,
+        "site_name": "www.pinterest.com",
+        "snippet": "Find cottagecore interiors with florals, vintage finds, natural textures, and handmade details. Browse cozy room ideas inspired by country cottages and gardens.",
+        "title": "390 Cottagecore Home Decor Ideas in 2026",
+        "url": "https://www.pinterest.com/cameronteam/cottagecore-home-decor-ideas/",
+        "thumbnail_url": "https://i.pinimg.com/custom_covers/200x150/173247985604740240_1790691882.jpg"
+      },
+      {
+        "position": 5,
+        "site_name": "www.pinterest.com",
+        "snippet": "Explore a hand-picked collection of Pins about cottagecore DIY on Pinterest. Driftwood Plant Decoration Ideas Tree Branch Hanging Plants … easy felt sewing ...",
+        "title": "40 Best cottagecore DIY ideas in 2026 | sztuka i rękodzieło ...",
+        "url": "https://www.pinterest.com/jordancottagecore/cottagecore-diy/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/71/b9/86/71b9866ecf6352b5ab78f0c9b4080242.jpg"
+      },
+      {
+        "position": 6,
+        "site_name": "www.pinterest.com",
+        "snippet": "See more ideas about cottagecore home, Vintage floral sink decor | Floral ceramic sink decor, Flower kitchen sink, Aesthetic kitchen. European Coastal Cottage ...",
+        "title": "900+ A cottagecore home ideas in 2026",
+        "url": "https://www.pinterest.com/nellemonaco/a-cottagecore-home/",
+        "thumbnail_url": "https://i.pinimg.com/custom_covers/200x150/213287801041485919_1554340579.jpg"
+      },
+      {
+        "position": 7,
+        "site_name": "www.pinterest.com",
+        "snippet": "Apr 3, 2023 - All things cottage core aesthetic. Cottagecore fashion, outfits, and clothes, as well as cottage core rooms, wallpapers and houses.",
+        "title": "51 Cottagecore ideas",
+        "url": "https://www.pinterest.com/days_inspired/cottagecore/"
+      },
+      {
+        "position": 8,
+        "site_name": "www.pinterest.com",
+        "snippet": "Jan 13, 2026 - Explore mouse's board \"cottagecore\" on Pinterest. See more ideas about cottage core aesthetic, laura ingalls aesthetic, cottage in the woods.",
+        "title": "900+ Cottagecore ideas in 2026 | cottage core aesthetic ...",
+        "url": "https://www.pinterest.com/mouselibrarian/cottagecore/"
+      },
+      {
+        "position": 9,
+        "site_name": "www.pinterest.com",
+        "snippet": "Cottagecore is an interior style inspired by countryside charm — think storybook cottages, soft sunlight, vintage treasures, and a home that feels gently lived ...",
+        "title": "170 Cottagecore ideas in 2026",
+        "url": "https://www.pinterest.com/jeffsangie/cottagecore/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/b1/55/44/b15544a9e7c55a291955e5804e6586f2.jpg"
+      },
+      {
+        "position": 10,
+        "site_name": "www.pinterest.com",
+        "snippet": "Jun 12, 2020 - Explore Abby Mooney's board \"Cottagecore\" on Pinterest. See more ideas about cozy vintage-style bunk bed room, attic bedroom victorian, 1940 ...",
+        "title": "47 Cottagecore ideas | cozy vintage-style bunk bed room ...",
+        "url": "https://www.pinterest.com/simplyabbyxoxox/cottagecore/",
+        "thumbnail_url": "https://i.pinimg.com/200x150/a1/2c/39/a12c39d5b893d6de21823ecef8fbf0aa.jpg"
+      }
+    ],
+    "total_results": 10,
+    "page": 0
+  }
+}

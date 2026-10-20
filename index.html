@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e9ebe2">
+    <meta name="description" content="hamanti — 300 ways of seeing. An independent field guide to art styles and visual culture.">
+    <title>hamanti — 300 ways of seeing</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/app.css">
+    <script type="module" src="./assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="masthead">
+      <a class="wordmark" href="#/" data-home aria-label="hamanti home">h<span class="wordmark-star" aria-hidden="true">✳</span></a>
+      <span class="masthead-note">An art style handbook</span>
+      <a href="#/index" class="index-link">Index <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main" tabindex="-1">
+      <p id="loading" class="loading" role="status">Opening the handbook…</p>
+      <div id="error" class="error" hidden></div>
+      <div id="home-page" hidden>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-top mono"><span>Independent by nature.</span><span>001 — 300</span></div>
+          <h1 id="hero-title" aria-label="hamanti"><span id="type-title" aria-hidden="true">hamanti</span><span class="type-caret" aria-hidden="true"></span></h1>
+          <div class="hero-baseline"><span class="etymology"><i>anti</i> + homogenous</span><span class="hero-caption mono">A study in difference</span><a href="#/index" class="down-link" aria-label="Explore the style index">↓</a></div>
+          <div class="hero-plant" id="hero-plant" aria-hidden="true"></div>
+        </section>
+        <section class="introduction" aria-label="About hamanti">
+          <span class="mono section-number" aria-hidden="true">( field notes )</span>
+          <p class="intro-copy" id="intro-copy">300 ways of seeing. A field guide to art styles, visual culture, and the pleasure of being different.</p>
+          <span class="intro-aside mono">Take a look.<br>Follow what catches your eye.</span>
+        </section>
+        <section class="explorer" id="index" aria-labelledby="index-heading">
+          <div class="index-heading"><span class="mono">( the index )</span><h2 id="index-heading">Find your<br><em>own language.</em></h2><span class="index-total mono">300 styles<br>8 families</span></div>
+          <div class="filter-bar">
+            <label class="search"><span class="sr-only">Search styles and descriptions</span><input type="search" id="search" placeholder="Search a style…" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
+            <label class="select"><span class="sr-only">Filter by group</span><select id="group-filter"><option value="all">All families</option></select></label>
+            <label class="select coverage-select"><span class="sr-only">Filter by reference coverage</span><select id="coverage-filter"><option value="all">All coverage</option><option value="complete">8 references</option><option value="pending">Examples pending</option></select></label>
+          </div>
+          <p id="result-count" class="result-count mono" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div class="journey"><div id="landscape" class="landscape" aria-hidden="true"></div><div id="style-index" class="style-index"></div></div>
+          <div id="empty" class="empty" hidden><p>No styles found.</p><button id="clear-filters" class="text-button">Clear filters ↗</button></div>
+        </section>
+      </div>
+      <div id="detail-page" hidden></div>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer-inner">
+        <div class="footer-top"><p>Different,<br><i>by nature.</i></p><div class="footer-notes"><p>300 styles. Original descriptions.<br>An independent visual handbook.</p><a href="./artstyles-300.md" target="_blank" rel="noopener">Source notes ↗</a><a href="./sources.html">References & credits ↗</a></div></div>
+        <a class="footer-wordmark" href="#/" data-home aria-label="hamanti home">hamanti<span aria-hidden="true">↗</span></a>
+        <div class="footer-bottom mono"><span>anti + homogenous</span><span id="footer-coverage"></span><button id="motion-toggle" aria-pressed="false">Pause motion</button></div>
+      </div>
+    </footer>
+    <div class="transition" id="transition" aria-hidden="true"><div class="transition-line"></div><div class="curtain"></div><div class="curtain"></div><div class="curtain"></div><div class="curtain"></div><div class="curtain"></div></div>
+    <dialog id="lightbox" aria-labelledby="lightbox-title" data-lenis-prevent>
+      <div class="lightbox-bar"><span id="lightbox-counter" class="mono"></span><button id="lightbox-close" aria-label="Close image">Close ×</button></div>
+      <div class="lightbox-image"><img id="lightbox-image" alt=""></div>
+      <div class="lightbox-caption"><p id="lightbox-title"></p><a id="lightbox-source" target="_blank" rel="noopener">Pinterest source ↗</a></div>
+    </dialog>
+    <noscript><p class="error">JavaScript opens the visual handbook. You can also <a href="./artstyles-300.md">read all 300 styles here</a>.</p></noscript>
+  </body>
+</html>

@@ -1,0 +1,301 @@
+style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
+1,"Art Nouveau",8,8,1,complete
+2,"Art Deco",8,8,5,complete
+3,"Swiss International Style",8,8,1,complete
+4,"Polish School of Graphic Design",8,8,3,complete
+5,"Japanese Modernism",8,8,4,complete
+6,"Soviet Constructivism",8,8,1,complete
+7,"Bauhaus",8,8,2,complete
+8,"De Stijl",8,8,5,complete
+9,"Psychedelic Graphics",8,8,1,complete
+10,"Punk Graphic Design",8,8,1,complete
+11,"New Wave Graphics",8,8,1,complete
+12,"Memphis Design",8,8,0,complete
+13,"Pop Art",8,8,2,complete
+14,"Minimalism",8,8,7,complete
+15,"Swiss Punk",8,8,1,complete
+16,"Brutalist Graphic Design",8,8,6,complete
+17,"Neo-Brutalist Graphic Design",8,8,3,complete
+18,"Dada",8,8,6,complete
+19,"Futurism",8,8,2,complete
+20,"Suprematism",8,8,6,complete
+21,"Vorticism",8,8,2,complete
+22,"Orphism",8,8,4,complete
+23,"Rayonism",8,8,4,complete
+24,"Precisionism",8,8,0,complete
+25,"Op Art",8,8,3,complete
+26,"Kinetic Art",8,8,5,complete
+27,"Abstract Expressionism",8,8,7,complete
+28,"Hard-Edge Abstraction",8,8,0,complete
+29,"Color-Field Painting",8,8,8,complete
+30,"Lyrical Abstraction",8,8,5,complete
+31,"Neo-Expressionism",8,8,8,complete
+32,"Pop Surrealism",8,8,6,complete
+33,"Lowbrow Art",8,8,2,complete
+34,"Fluxus Graphics",8,8,8,complete
+35,"Situationist Graphics",8,8,0,complete
+36,"Postmodern Graphic Design",8,8,5,complete
+37,"Radical Graphic Design",8,8,1,complete
+38,"Corporate Memphis",8,8,6,complete
+39,"Corporate Minimalism",8,8,0,complete
+40,"Post-Internet Aesthetic",8,8,0,complete
+41,"International Typographic Style",8,8,5,complete
+42,"New Typography",8,8,7,complete
+43,"Swiss grid layout",8,8,3,complete
+44,"Baseline-grid editorial layout",8,8,2,complete
+45,"Asymmetric modernist layout",8,8,3,complete
+46,"Geometric sans-serif typography",8,8,1,complete
+47,"Neo-grotesque typography",8,8,3,complete
+48,"Humanist sans-serif typography",8,8,4,complete
+49,"Slab-serif typography",8,8,4,complete
+50,"Didone editorial typography",8,8,0,complete
+51,"Old-style serif typography",8,8,2,complete
+52,"Transitional serif typography",8,8,2,complete
+53,"Clarendon display typography",8,8,1,complete
+54,"Blackletter revival typography",8,8,4,complete
+55,"Stencil typography",8,8,5,complete
+56,"Wood-type typography",8,8,1,complete
+57,"Inline typography",8,8,3,complete
+58,"Extruded 3D typography",8,8,5,complete
+59,"Kinetic typography",8,8,4,complete
+60,"Variable-font typography",8,8,4,complete
+61,"Monospaced terminal typography",8,8,3,complete
+62,"Brutalist typography",8,8,3,complete
+63,"Maximalist typography",8,8,3,complete
+64,"Experimental typography",8,8,4,complete
+65,"Type-specimen editorial style",8,8,3,complete
+66,"Oversized-type layout",8,8,5,complete
+67,"Microtypographic layout",8,8,3,complete
+68,"Modular typography",8,8,6,complete
+69,"Vernacular lettering",8,8,4,complete
+70,"Sign-painter lettering",8,8,5,complete
+71,"Chromatic typography",8,8,0,complete
+72,"Outline typography",8,8,4,complete
+73,"Isometric typography",8,8,1,complete
+74,"Calligraphic display typography",8,8,6,complete
+75,"Data-driven typography",8,8,6,complete
+76,"Skeuomorphic UI",8,8,3,complete
+77,"Flat UI",8,8,2,complete
+78,"Material Design",8,8,1,complete
+79,"Fluent Design",8,8,2,complete
+80,"Apple Human Interface visual language",8,8,0,complete
+81,"Metro-style UI",8,8,1,complete
+82,"Neumorphic UI",8,8,1,complete
+83,"Glassmorphic UI",8,8,2,complete
+84,"Claymorphic UI",8,8,0,complete
+85,"Neubrutalist UI",8,8,3,complete
+86,"Brutalist web design",8,8,2,complete
+87,"Swiss-style web design",8,8,2,complete
+88,"Minimalist web design",8,8,5,complete
+89,"Maximalist web design",8,8,1,complete
+90,"Editorial web design",8,8,4,complete
+91,"Portfolio-grid web design",8,8,5,complete
+92,"Magazine-style web layout",8,8,5,complete
+93,"Bento-grid interface",8,8,4,complete
+94,"Card-based interface",8,8,3,complete
+95,"Dashboard UI aesthetic",8,8,1,complete
+96,"Command-line interface aesthetic",8,8,0,complete
+97,"Terminal-core interface",8,8,0,complete
+98,"Retro-computer interface",8,8,2,complete
+99,"Pixel-art UI",8,8,3,complete
+100,"Arcade-cabinet UI",8,8,1,complete
+101,"Sci-fi HUD interface",8,8,0,complete
+102,"Cyberpunk interface",8,8,1,complete
+103,"Fantasy-game interface",8,8,6,complete
+104,"Mobile-app visual style",8,8,0,complete
+105,"Tactile interface design",8,8,3,complete
+106,"Monochrome interface",8,8,3,complete
+107,"High-contrast UI",8,8,5,complete
+108,"Duotone interface",8,8,3,complete
+109,"Gradient-mesh interface",8,8,2,complete
+110,"Aurora-gradient interface",8,8,3,complete
+111,"Soft-pastel interface",8,8,1,complete
+112,"Dark-mode interface",8,8,2,complete
+113,"Warm-minimal interface",8,8,3,complete
+114,"Organic web design",8,8,3,complete
+115,"Neo-Geo web design",8,8,2,complete
+116,"Y2K web design",8,8,2,complete
+117,"Web 1.0 personal-homepage aesthetic",8,8,0,complete
+118,"GeoCities collage web design",8,8,1,complete
+119,"Web 2.0 glossy style",8,8,4,complete
+120,"Indie-web aesthetic",8,8,2,complete
+121,"Accessible-first interface style",8,8,1,complete
+122,"Scrollytelling editorial design",8,8,0,complete
+123,"Parallax web design",8,8,3,complete
+124,"Single-page portfolio style",8,8,6,complete
+125,"Split-screen website layout",8,8,4,complete
+126,"Infinite-canvas interface",8,8,2,complete
+127,"Spatial UI",8,8,0,complete
+128,"Generative interface design",8,8,4,complete
+129,"Data-visualization dashboard aesthetic",8,8,0,complete
+130,"Ambient interface design",8,8,1,complete
+131,"Flat-vector illustration",8,8,2,complete
+132,"Geometric-vector illustration",8,8,3,complete
+133,"Minimal line illustration",8,8,2,complete
+134,"Monoline illustration",8,8,2,complete
+135,"Outline iconography",8,8,3,complete
+136,"Doodle illustration",8,8,5,complete
+137,"Scribble illustration",8,8,1,complete
+138,"Editorial spot illustration",8,8,1,complete
+139,"Conceptual editorial illustration",8,8,5,complete
+140,"Children's-book illustration",8,8,3,complete
+141,"Storybook watercolor illustration",8,8,2,complete
+142,"Anime visual style",8,8,1,complete
+143,"Manga visual style",8,8,1,complete
+144,"Chibi illustration",8,8,2,complete
+145,"Superflat illustration",8,8,1,complete
+146,"Kawaii illustration",8,8,3,complete
+147,"Ligne claire illustration",8,8,0,complete
+148,"European graphic-novel illustration",8,8,1,complete
+149,"American comic-book art",8,8,4,complete
+150,"Golden-age comic illustration",8,8,1,complete
+151,"Indie-comic illustration",8,8,0,complete
+152,"Mid-century modern illustration",8,8,3,complete
+153,"1950s advertising illustration",8,8,6,complete
+154,"Retro-futurist illustration",8,8,2,complete
+155,"Atomic-age illustration",8,8,4,complete
+156,"Airbrush illustration",8,8,2,complete
+157,"3D-clay illustration",8,8,1,complete
+158,"Isometric 3D illustration",8,8,1,complete
+159,"Low-poly illustration",8,8,3,complete
+160,"Voxel art",8,8,0,complete
+161,"Pixel-art illustration",8,8,0,complete
+162,"Cel-shaded illustration",8,8,2,complete
+163,"Painterly digital illustration",8,8,2,complete
+164,"Minimal 3D render",8,8,4,complete
+165,"Photorealistic 3D rendering",8,8,2,complete
+166,"Surreal digital collage",8,8,4,complete
+167,"Textured-vector illustration",8,8,2,complete
+168,"Paper-cut illustration",8,8,1,complete
+169,"Grainy-gradient illustration",8,8,2,complete
+170,"Halftone illustration",8,8,2,complete
+171,"Risograph-style illustration",8,8,2,complete
+172,"Woodcut illustration",8,8,2,complete
+173,"Linocut illustration",8,8,2,complete
+174,"Etching illustration",8,8,1,complete
+175,"Crosshatch drawing",8,8,2,complete
+176,"Stipple illustration",8,8,4,complete
+177,"Scratchboard illustration",8,8,4,complete
+178,"Charcoal illustration",8,8,5,complete
+179,"Colored-pencil illustration",8,8,2,complete
+180,"Marker illustration",8,8,0,complete
+181,"Screenprint aesthetic",8,8,1,complete
+182,"Risograph print aesthetic",8,8,0,complete
+183,"Letterpress aesthetic",8,8,1,complete
+184,"Woodcut print aesthetic",8,8,2,complete
+185,"Linocut print aesthetic",8,8,1,complete
+186,"Etching print aesthetic",8,8,0,complete
+187,"Lithographic print aesthetic",8,8,0,complete
+188,"Monotype print aesthetic",8,8,3,complete
+189,"Cyanotype aesthetic",8,8,2,complete
+190,"Photogram aesthetic",8,8,3,complete
+191,"Collage aesthetic",8,8,6,complete
+192,"Photomontage aesthetic",8,8,5,complete
+193,"Cut-paper collage",8,8,4,complete
+194,"Paper-ephemera collage",8,8,1,complete
+195,"Xerox copy-art",8,8,2,complete
+196,"Zine aesthetic",8,8,2,complete
+197,"Stencil aesthetic",8,8,0,complete
+198,"Paste-up aesthetic",8,8,0,complete
+199,"Decoupage aesthetic",8,8,2,complete
+200,"Mixed-media assemblage",8,8,2,complete
+201,"Ink-wash aesthetic",8,8,1,complete
+202,"Gouache aesthetic",8,8,1,complete
+203,"Watercolor-wash aesthetic",8,8,1,complete
+204,"Acrylic-impasto aesthetic",8,8,2,complete
+205,"Oil-impasto aesthetic",8,8,2,complete
+206,"Fresco-mural aesthetic",8,8,1,complete
+207,"Pastel aesthetic",8,8,6,complete
+208,"Airbrush-gradient aesthetic",8,8,2,complete
+209,"Chalk-pastel street-art aesthetic",8,8,2,complete
+210,"Enamel sign-painting aesthetic",8,8,4,complete
+211,"Embroidery illustration",8,8,0,complete
+212,"Quilted-collage aesthetic",8,8,2,complete
+213,"Beadwork graphic aesthetic",8,8,0,complete
+214,"Tapestry-inspired graphic style",8,8,0,complete
+215,"Mosaic illustration",8,8,1,complete
+216,"Pictorialist photography",8,8,1,complete
+217,"Straight photography",8,8,0,complete
+218,"Documentary photography",8,8,4,complete
+219,"Humanist photography",8,8,1,complete
+220,"Street photography",8,8,1,complete
+221,"New Topographics",8,8,2,complete
+222,"Deadpan photography",8,8,0,complete
+223,"Snapshot aesthetic",8,8,1,complete
+224,"Direct-flash photography",8,8,2,complete
+225,"35mm film look",8,8,3,complete
+226,"16mm film look",8,8,3,complete
+227,"VHS camcorder look",8,8,0,complete
+228,"Instant-film aesthetic",8,8,2,complete
+229,"Lomography",8,8,7,complete
+230,"Infrared photography",8,8,7,complete
+231,"Long-exposure light trails",8,8,1,complete
+232,"Double-exposure photography",8,8,3,complete
+233,"Tilt-shift miniature photography",8,8,2,complete
+234,"Macro product photography",8,8,1,complete
+235,"High-key studio photography",8,8,0,complete
+236,"Low-key chiaroscuro photography",8,8,1,complete
+237,"Editorial fashion photography",8,8,0,complete
+238,"Surreal staged photography",8,8,1,complete
+239,"Color-gel portraiture",8,8,1,complete
+240,"Duotone photo treatment",8,8,3,complete
+241,"Halftone photo treatment",8,8,4,complete
+242,"Black-and-white documentary look",8,8,6,complete
+243,"Soft-focus romantic look",8,8,2,complete
+244,"Cinematic teal-orange grade",8,8,1,complete
+245,"Bleach-bypass grade",8,8,7,complete
+246,"Day-for-night cinematography",8,8,3,complete
+247,"Film-noir cinematography",8,8,1,complete
+248,"German Expressionist cinema",8,8,2,complete
+249,"French New Wave cinematography",8,8,0,complete
+250,"Giallo cinema style",8,8,2,complete
+251,"Vaporwave",8,8,0,complete
+252,"Synthwave",8,8,0,complete
+253,"Retrowave",8,8,0,complete
+254,"Cyberpunk",8,8,0,complete
+255,"Solarpunk",8,8,1,complete
+256,"Steampunk",8,8,1,complete
+257,"Dieselpunk",8,8,2,complete
+258,"Atompunk",8,8,0,complete
+259,"Cassette futurism",8,8,2,complete
+260,"Frutiger Aero",8,8,2,complete
+261,"Y2K aesthetic",8,8,0,complete
+262,"Webcore",8,8,0,complete
+263,"Weirdcore",8,8,0,complete
+264,"Dreamcore",8,8,0,complete
+265,"Liminal-space aesthetic",8,8,2,complete
+266,"Glitchcore",8,8,1,complete
+267,"Datamosh aesthetic",8,8,2,complete
+268,"Cyberdelic",8,8,2,complete
+269,"Acid graphics",8,8,1,complete
+270,"Hyperpop visual aesthetic",8,8,0,complete
+271,"Cottagecore",8,8,0,complete
+272,"Dark Academia",8,8,0,complete
+273,"Light Academia",8,8,0,complete
+274,"Fairycore",8,8,0,complete
+275,"Goblincore",8,8,1,complete
+276,"Kidcore",8,8,1,complete
+277,"Clowncore",8,8,0,complete
+278,"Dreamwave",8,8,3,complete
+279,"Indie sleaze",8,8,0,complete
+280,"Angelcore",8,8,0,complete
+281,"Grunge aesthetic",8,8,0,complete
+282,"Punk aesthetic",8,8,0,complete
+283,"Goth aesthetic",8,8,1,complete
+284,"Romantic goth",8,8,2,complete
+285,"Cybergoth",8,8,2,complete
+286,"Visual kei",8,8,1,complete
+287,"Lolita fashion",8,8,0,complete
+288,"Decora fashion",8,8,3,complete
+289,"Mori kei",8,8,1,complete
+290,"Gyaru",8,8,0,complete
+291,"Coquette aesthetic",8,8,1,complete
+292,"Normcore",8,8,3,complete
+293,"Mod style",8,8,0,complete
+294,"Rockabilly style",8,8,1,complete
+295,"New Romantic style",8,8,0,complete
+296,"Skate style",8,8,0,complete
+297,"Hip-hop streetwear",8,8,3,complete
+298,"Rave aesthetic",8,8,0,complete
+299,"Gorpcore",8,8,0,complete
+300,"Workwear-core",8,8,5,complete
