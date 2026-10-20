@@ -3,6 +3,8 @@
 import { MongoClient } from 'mongodb';
 import { parseEnv } from 'node:util';
 import fs from 'node:fs/promises';
+import {requirePinterestCollection} from './pinterest-policy.mjs';
+await requirePinterestCollection();
 const root = new URL('../', import.meta.url);
 const sourceURI = parseEnv(await fs.readFile(new URL('.env.cluster0.local', root), 'utf8')).MONGODB_URI;
 const targetURI = process.env.MONGODB_URI;

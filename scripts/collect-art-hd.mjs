@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
+import {requirePinterestCollection} from './pinterest-policy.mjs';
+await requirePinterestCollection();
 
 // Only accepts URLs observed in source pages. It never guesses a larger variant.
 const root = path.resolve(import.meta.dirname, '..');

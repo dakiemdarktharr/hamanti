@@ -2,6 +2,11 @@ import fs from 'node:fs/promises';
 import { isFullHD, hasPeopleReview } from './compile-catalog.mjs';
 const root = new URL('../', import.meta.url);
 const read = async name => JSON.parse(await fs.readFile(new URL(name, root), 'utf8'));
+const policy = await read('data/collection-policy.json').catch(error => {
+  if (error.code !== 'ENOENT') throw error;
+  return {mode:'pinterest'};
+});
+if (policy.mode !== 'pinterest') throw new Error('Pinterest collection is retired. Await the user-supplied image folders.');
 const catalog = await read('data/catalog.json');
 let storedMedia = {};
 try { storedMedia = await read('data/hd-media-map.json'); }

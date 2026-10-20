@@ -1,4 +1,7 @@
 import { getDatabase } from '../../lib/database.js';
+import withdrawnMedia from '../../data/withdrawn-media.json' with {type:'json'};
+
+const withdrawn = new Set(withdrawnMedia);
 
 export default async function image(request, response) {
   if (!['GET', 'HEAD'].includes(request.method)) {
@@ -7,6 +10,10 @@ export default async function image(request, response) {
   }
   const id = String(request.query.id || '');
   if (!/^[a-f0-9]{64}$/.test(id)) return response.status(404).end();
+  if (withdrawn.has(id)) {
+    response.setHeader('Cache-Control', 'no-store');
+    return response.status(410).end('Reference removed.');
+  }
   try {
     const db = await getDatabase();
     const document = await db.collection('images').findOne({_id: id}, {

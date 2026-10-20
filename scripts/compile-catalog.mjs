@@ -11,8 +11,13 @@ export async function compileCatalog() {
   const catalog = await read('data/catalog.json');
   if (catalog.styles.length !== 300 || new Set(catalog.styles.map(s => s.name.toLowerCase())).size !== 300)
     throw new Error('The revised catalog must contain 300 distinct named entries.');
-  const selected = await read('data/hd-selection.json');
-  const media = await read('data/hd-media-map.json');
+  const policy = await read('data/collection-policy.json').catch(error => {
+    if (error.code !== 'ENOENT') throw error;
+    return {mode:'pinterest'};
+  });
+  const manual = policy.mode === 'manual';
+  const selected = await read(manual ? 'data/manual-selection.json' : 'data/hd-selection.json');
+  const media = await read(manual ? 'data/manual-media-map.json' : 'data/hd-media-map.json');
   const styles = {};
   for (const style of catalog.styles) {
     const seen = new Set();

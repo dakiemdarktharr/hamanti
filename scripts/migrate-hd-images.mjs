@@ -6,6 +6,11 @@ import { isFullHD, hasPeopleReview, compileCatalog } from './compile-catalog.mjs
 
 const root = new URL('../', import.meta.url);
 const read = async name => JSON.parse(await fs.readFile(new URL(name, root), 'utf8'));
+const policy = await read('data/collection-policy.json').catch(error => {
+  if (error.code !== 'ENOENT') throw error;
+  return {mode:'pinterest'};
+});
+if (policy.mode !== 'pinterest') throw new Error('Pinterest migration is retired. Await the user-supplied image folders.');
 const uri = process.env.MONGODB_URI;
 if (!uri?.startsWith('mongodb')) throw new Error('Set MONGODB_URI in the local environment.');
 const capacityArgument = process.argv.find(arg => arg.startsWith('--capacity-mb='));

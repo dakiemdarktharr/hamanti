@@ -1,0 +1,10 @@
+{
+  "mode": "manual",
+  "status": "awaiting-user-images",
+  "intakeDirectory": "D:\\3000 reference images",
+  "minimumResolution": "1920x1080 or 1080x1920, native pixels",
+  "peoplePolicy": "No casual people photos; deliberately posed models are allowed.",
+  "collectionStopped": "2026-10-20",
+  "uploadTrigger": "User says done.",
+  "cleanupRule": "Only remove the intake directory after every accepted file is verified in MongoDB and published successfully; preserve rejected or failed files until resolved."
+}

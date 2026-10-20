@@ -2,6 +2,8 @@ import { MongoClient, Binary } from 'mongodb';
 import { createHash } from 'node:crypto';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import sharp from 'sharp';
+import {requirePinterestCollection} from './pinterest-policy.mjs';
+await requirePinterestCollection();
 
 // Run with node --env-file=.env.local scripts/migrate-images.mjs.
 // Original image bytes are retained. No transcoding or generated examples.

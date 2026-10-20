@@ -1,4 +1,32 @@
-# hamanti revision — 20 October 2026
+# hamanti — manual collection revision, 20 October 2026
+
+- Removed all reference image documents from both hamanti MongoDB archives and cleared local collected downloads. The live catalog now contains zero reference images; retired image IDs return HTTP 410.
+- Stopped Pinterest collection and guarded the previous collectors/migrators against restoring the withdrawn archive.
+- Replaced the home screen's formal caption and circular arrows with a handwritten invitation, drawn path arrows, and an interactive procedural SVG flower garden.
+- Added irregular soil patches, grass and paths beneath the trees, ferns and rocks; ground animals follow a shared trail.
+- Replaced the fixed cloud model with rounded procedural clouds that vary in size, shape and puff count.
+- Removed family sections and filters. All 300 styles appear in one A–Z index, with a first-letter filter and alphabetical next-style navigation.
+- Created `D:\3000 reference images` and 300 named subfolders. The collection waits for the user to say “done.” Import verification must finish before this folder is removed.
+- Production build and manual desktop/mobile browser review only; no tests added or run.
+
+## Files changed in this revision
+
+- `README.md`, `CHANGES.md`
+- `app.js`, `index.html`, `sources.html`, `styles.css`
+- `lib/garden.js`, `lib/terrain.js`, `lib/forest.js`, `lib/pastel.js`
+- `api/images/[id].js`
+- `data/collection-policy.json`, `data/manual-intake.json`, `data/manual-selection.json`, `data/manual-media-map.json`
+- `data/coverage.csv`, `data/references.json`, `data/hd-selection.json`
+- `data/reference-removal-report.json`, `data/withdrawn-media.json`
+- `scripts/clear-reference-archive.mjs`, `scripts/create-image-folders.mjs`, `scripts/pinterest-policy.mjs`
+- `scripts/compile-catalog.mjs`, `scripts/prepare-hd-selection.mjs`
+- `scripts/collect-art-hd.mjs`, `scripts/collect-experimental-hd.mjs`, `scripts/collect-foundations-hd.mjs`
+- `scripts/migrate-hd-images.mjs`, `scripts/migrate-images.mjs`, `scripts/copy-legacy-archive.mjs`
+- Outside the repository: `D:\3000 reference images\READ ME.txt` and 300 empty style folders.
+
+---
+
+# Earlier revision — 20 October 2026
 
 ## Interface
 

@@ -1,0 +1,1507 @@
+{
+  "directory": "D:\\3000 reference images",
+  "createdAt": "2026-10-20T14:41:09.011Z",
+  "status": "awaiting-user-done",
+  "folders": [
+    {
+      "id": 242,
+      "name": "Abstract Expressionism",
+      "folder": "Abstract Expressionism"
+    },
+    {
+      "id": 138,
+      "name": "Acidgrafix",
+      "folder": "Acidgrafix"
+    },
+    {
+      "id": 213,
+      "name": "Afrofuturism",
+      "folder": "Afrofuturism"
+    },
+    {
+      "id": 263,
+      "name": "Airbrush illustration",
+      "folder": "Airbrush illustration"
+    },
+    {
+      "id": 261,
+      "name": "American comic-book art",
+      "folder": "American comic-book art"
+    },
+    {
+      "id": 127,
+      "name": "Amiga Workbench UI",
+      "folder": "Amiga Workbench UI"
+    },
+    {
+      "id": 166,
+      "name": "Anaglyph Graphics",
+      "folder": "Anaglyph Graphics"
+    },
+    {
+      "id": 255,
+      "name": "Anime visual style",
+      "folder": "Anime visual style"
+    },
+    {
+      "id": 128,
+      "name": "ANSI Art",
+      "folder": "ANSI Art"
+    },
+    {
+      "id": 3,
+      "name": "Anti-design",
+      "folder": "Anti-design"
+    },
+    {
+      "id": 217,
+      "name": "Art Brut",
+      "folder": "Art Brut"
+    },
+    {
+      "id": 222,
+      "name": "Art Deco",
+      "folder": "Art Deco"
+    },
+    {
+      "id": 221,
+      "name": "Art Nouveau",
+      "folder": "Art Nouveau"
+    },
+    {
+      "id": 211,
+      "name": "Arts and Crafts",
+      "folder": "Arts and Crafts"
+    },
+    {
+      "id": 170,
+      "name": "ASCII Rendering",
+      "folder": "ASCII Rendering"
+    },
+    {
+      "id": 52,
+      "name": "Asymmetric Layout",
+      "folder": "Asymmetric Layout"
+    },
+    {
+      "id": 203,
+      "name": "Aurora Graphics",
+      "folder": "Aurora Graphics"
+    },
+    {
+      "id": 226,
+      "name": "Bauhaus",
+      "folder": "Bauhaus"
+    },
+    {
+      "id": 298,
+      "name": "Beadwork graphic aesthetic",
+      "folder": "Beadwork graphic aesthetic"
+    },
+    {
+      "id": 47,
+      "name": "Bento Grid",
+      "folder": "Bento Grid"
+    },
+    {
+      "id": 125,
+      "name": "BeOS UI",
+      "folder": "BeOS UI"
+    },
+    {
+      "id": 89,
+      "name": "Blackletter typography",
+      "folder": "Blackletter typography"
+    },
+    {
+      "id": 141,
+      "name": "Blob World",
+      "folder": "Blob World"
+    },
+    {
+      "id": 55,
+      "name": "Book Design",
+      "folder": "Book Design"
+    },
+    {
+      "id": 91,
+      "name": "Brush-script typography",
+      "folder": "Brush-script typography"
+    },
+    {
+      "id": 48,
+      "name": "Card-Based Design",
+      "folder": "Card-Based Design"
+    },
+    {
+      "id": 66,
+      "name": "Cartographic Design",
+      "folder": "Cartographic Design"
+    },
+    {
+      "id": 152,
+      "name": "Cassette Futurism",
+      "folder": "Cassette Futurism"
+    },
+    {
+      "id": 157,
+      "name": "Cel Shading",
+      "folder": "Cel Shading"
+    },
+    {
+      "id": 184,
+      "name": "Cellular Automata",
+      "folder": "Cellular Automata"
+    },
+    {
+      "id": 270,
+      "name": "Charcoal illustration",
+      "folder": "Charcoal illustration"
+    },
+    {
+      "id": 257,
+      "name": "Chibi illustration",
+      "folder": "Chibi illustration"
+    },
+    {
+      "id": 180,
+      "name": "Chromatic Aberration",
+      "folder": "Chromatic Aberration"
+    },
+    {
+      "id": 100,
+      "name": "Chromatic typography",
+      "folder": "Chromatic typography"
+    },
+    {
+      "id": 163,
+      "name": "Chrome Rendering",
+      "folder": "Chrome Rendering"
+    },
+    {
+      "id": 87,
+      "name": "Clarendon typography",
+      "folder": "Clarendon typography"
+    },
+    {
+      "id": 120,
+      "name": "Classic Macintosh UI",
+      "folder": "Classic Macintosh UI"
+    },
+    {
+      "id": 15,
+      "name": "Claymorphism",
+      "folder": "Claymorphism"
+    },
+    {
+      "id": 244,
+      "name": "Color-Field Painting",
+      "folder": "Color-Field Painting"
+    },
+    {
+      "id": 271,
+      "name": "Colored-pencil illustration",
+      "folder": "Colored-pencil illustration"
+    },
+    {
+      "id": 44,
+      "name": "Column Grid",
+      "folder": "Column Grid"
+    },
+    {
+      "id": 254,
+      "name": "Conceptual editorial illustration",
+      "folder": "Conceptual editorial illustration"
+    },
+    {
+      "id": 101,
+      "name": "Condensed typography",
+      "folder": "Condensed typography"
+    },
+    {
+      "id": 60,
+      "name": "Contact Sheet",
+      "folder": "Contact Sheet"
+    },
+    {
+      "id": 135,
+      "name": "Corporate Cyberspace",
+      "folder": "Corporate Cyberspace"
+    },
+    {
+      "id": 32,
+      "name": "Corporate Grunge",
+      "folder": "Corporate Grunge"
+    },
+    {
+      "id": 33,
+      "name": "Corporate Hippie",
+      "folder": "Corporate Hippie"
+    },
+    {
+      "id": 22,
+      "name": "Corporate Memphis",
+      "folder": "Corporate Memphis"
+    },
+    {
+      "id": 267,
+      "name": "Crosshatch drawing",
+      "folder": "Crosshatch drawing"
+    },
+    {
+      "id": 131,
+      "name": "CRT Display",
+      "folder": "CRT Display"
+    },
+    {
+      "id": 219,
+      "name": "Cubism",
+      "folder": "Cubism"
+    },
+    {
+      "id": 281,
+      "name": "Cyanotype aesthetic",
+      "folder": "Cyanotype aesthetic"
+    },
+    {
+      "id": 140,
+      "name": "Cyberbougie",
+      "folder": "Cyberbougie"
+    },
+    {
+      "id": 143,
+      "name": "Cyberdelia",
+      "folder": "Cyberdelia"
+    },
+    {
+      "id": 27,
+      "name": "Cyberpunk",
+      "folder": "Cyberpunk"
+    },
+    {
+      "id": 151,
+      "name": "Cybersigilism",
+      "folder": "Cybersigilism"
+    },
+    {
+      "id": 233,
+      "name": "Dada",
+      "folder": "Dada"
+    },
+    {
+      "id": 175,
+      "name": "Databending",
+      "folder": "Databending"
+    },
+    {
+      "id": 174,
+      "name": "Datamoshing",
+      "folder": "Datamoshing"
+    },
+    {
+      "id": 227,
+      "name": "De Stijl",
+      "folder": "De Stijl"
+    },
+    {
+      "id": 288,
+      "name": "Decoupage aesthetic",
+      "folder": "Decoupage aesthetic"
+    },
+    {
+      "id": 63,
+      "name": "Diagonal Composition",
+      "folder": "Diagonal Composition"
+    },
+    {
+      "id": 82,
+      "name": "Didone typography",
+      "folder": "Didone typography"
+    },
+    {
+      "id": 196,
+      "name": "Differential-growth Patterns",
+      "folder": "Differential-growth Patterns"
+    },
+    {
+      "id": 197,
+      "name": "Diffusion-limited Aggregation",
+      "folder": "Diffusion-limited Aggregation"
+    },
+    {
+      "id": 207,
+      "name": "Dissolving Typography",
+      "folder": "Dissolving Typography"
+    },
+    {
+      "id": 201,
+      "name": "Distorted Typography",
+      "folder": "Distorted Typography"
+    },
+    {
+      "id": 116,
+      "name": "Distressed typography",
+      "folder": "Distressed typography"
+    },
+    {
+      "id": 172,
+      "name": "Dithered Rendering",
+      "folder": "Dithered Rendering"
+    },
+    {
+      "id": 39,
+      "name": "Dollar Store Vernacular",
+      "folder": "Dollar Store Vernacular"
+    },
+    {
+      "id": 253,
+      "name": "Doodle illustration",
+      "folder": "Doodle illustration"
+    },
+    {
+      "id": 150,
+      "name": "Dreamcore",
+      "folder": "Dreamcore"
+    },
+    {
+      "id": 19,
+      "name": "Duotone",
+      "folder": "Duotone"
+    },
+    {
+      "id": 144,
+      "name": "Early Cyber",
+      "folder": "Early Cyber"
+    },
+    {
+      "id": 53,
+      "name": "Editorial Design",
+      "folder": "Editorial Design"
+    },
+    {
+      "id": 296,
+      "name": "Embroidery illustration",
+      "folder": "Embroidery illustration"
+    },
+    {
+      "id": 278,
+      "name": "Etching print aesthetic",
+      "folder": "Etching print aesthetic"
+    },
+    {
+      "id": 102,
+      "name": "Extended typography",
+      "folder": "Extended typography"
+    },
+    {
+      "id": 208,
+      "name": "Extruded Typography",
+      "folder": "Extruded Typography"
+    },
+    {
+      "id": 35,
+      "name": "Factory Pomo",
+      "folder": "Factory Pomo"
+    },
+    {
+      "id": 83,
+      "name": "Fat-face typography",
+      "folder": "Fat-face typography"
+    },
+    {
+      "id": 220,
+      "name": "Fauvism",
+      "folder": "Fauvism"
+    },
+    {
+      "id": 153,
+      "name": "Fictional User Interface",
+      "folder": "Fictional User Interface"
+    },
+    {
+      "id": 6,
+      "name": "Flash-era Web",
+      "folder": "Flash-era Web"
+    },
+    {
+      "id": 10,
+      "name": "Flat 2.0",
+      "folder": "Flat 2.0"
+    },
+    {
+      "id": 9,
+      "name": "Flat Design",
+      "folder": "Flat Design"
+    },
+    {
+      "id": 251,
+      "name": "Flat-vector illustration",
+      "folder": "Flat-vector illustration"
+    },
+    {
+      "id": 192,
+      "name": "Flocking Graphics",
+      "folder": "Flocking Graphics"
+    },
+    {
+      "id": 182,
+      "name": "Flow-field Art",
+      "folder": "Flow-field Art"
+    },
+    {
+      "id": 193,
+      "name": "Fluid-simulation Graphics",
+      "folder": "Fluid-simulation Graphics"
+    },
+    {
+      "id": 248,
+      "name": "Fluxus Graphics",
+      "folder": "Fluxus Graphics"
+    },
+    {
+      "id": 90,
+      "name": "Formal script typography",
+      "folder": "Formal script typography"
+    },
+    {
+      "id": 189,
+      "name": "Fractal Graphics",
+      "folder": "Fractal Graphics"
+    },
+    {
+      "id": 58,
+      "name": "Framed Composition",
+      "folder": "Framed Composition"
+    },
+    {
+      "id": 30,
+      "name": "Frasurbane",
+      "folder": "Frasurbane"
+    },
+    {
+      "id": 62,
+      "name": "Freeform Layout",
+      "folder": "Freeform Layout"
+    },
+    {
+      "id": 295,
+      "name": "Fresco-mural aesthetic",
+      "folder": "Fresco-mural aesthetic"
+    },
+    {
+      "id": 137,
+      "name": "Frutiger Aero",
+      "folder": "Frutiger Aero"
+    },
+    {
+      "id": 57,
+      "name": "Full-Bleed Composition",
+      "folder": "Full-Bleed Composition"
+    },
+    {
+      "id": 234,
+      "name": "Futurism",
+      "folder": "Futurism"
+    },
+    {
+      "id": 80,
+      "name": "Garalde typography",
+      "folder": "Garalde typography"
+    },
+    {
+      "id": 160,
+      "name": "Gaussian Splatting",
+      "folder": "Gaussian Splatting"
+    },
+    {
+      "id": 136,
+      "name": "Gen X Soft Club",
+      "folder": "Gen X Soft Club"
+    },
+    {
+      "id": 5,
+      "name": "GeoCities Web",
+      "folder": "GeoCities Web"
+    },
+    {
+      "id": 73,
+      "name": "Geometric sans-serif typography",
+      "folder": "Geometric sans-serif typography"
+    },
+    {
+      "id": 85,
+      "name": "Geometric slab-serif typography",
+      "folder": "Geometric slab-serif typography"
+    },
+    {
+      "id": 14,
+      "name": "Glassmorphism",
+      "folder": "Glassmorphism"
+    },
+    {
+      "id": 173,
+      "name": "Glitch Art",
+      "folder": "Glitch Art"
+    },
+    {
+      "id": 31,
+      "name": "Global Village Coffeehouse",
+      "folder": "Global Village Coffeehouse"
+    },
+    {
+      "id": 88,
+      "name": "Glyphic typography",
+      "folder": "Glyphic typography"
+    },
+    {
+      "id": 291,
+      "name": "Gouache aesthetic",
+      "folder": "Gouache aesthetic"
+    },
+    {
+      "id": 204,
+      "name": "Grainy Gradients",
+      "folder": "Grainy Gradients"
+    },
+    {
+      "id": 74,
+      "name": "Grotesque typography",
+      "folder": "Grotesque typography"
+    },
+    {
+      "id": 266,
+      "name": "Halftone illustration",
+      "folder": "Halftone illustration"
+    },
+    {
+      "id": 18,
+      "name": "Hand-Drawn Design",
+      "folder": "Hand-Drawn Design"
+    },
+    {
+      "id": 92,
+      "name": "Handwritten typography",
+      "folder": "Handwritten typography"
+    },
+    {
+      "id": 243,
+      "name": "Hard-Edge Abstraction",
+      "folder": "Hard-Edge Abstraction"
+    },
+    {
+      "id": 139,
+      "name": "Hexatron",
+      "folder": "Hexatron"
+    },
+    {
+      "id": 46,
+      "name": "Hierarchical Grid",
+      "folder": "Hierarchical Grid"
+    },
+    {
+      "id": 38,
+      "name": "Hipness Purgatory",
+      "folder": "Hipness Purgatory"
+    },
+    {
+      "id": 164,
+      "name": "Holographic Graphics",
+      "folder": "Holographic Graphics"
+    },
+    {
+      "id": 8,
+      "name": "Holographic Spatial UI",
+      "folder": "Holographic Spatial UI"
+    },
+    {
+      "id": 76,
+      "name": "Humanist sans-serif typography",
+      "folder": "Humanist sans-serif typography"
+    },
+    {
+      "id": 79,
+      "name": "Humanist serif typography",
+      "folder": "Humanist serif typography"
+    },
+    {
+      "id": 86,
+      "name": "Humanist slab-serif typography",
+      "folder": "Humanist slab-serif typography"
+    },
+    {
+      "id": 28,
+      "name": "Hyperpop",
+      "folder": "Hyperpop"
+    },
+    {
+      "id": 7,
+      "name": "Immersive 3D Web",
+      "folder": "Immersive 3D Web"
+    },
+    {
+      "id": 293,
+      "name": "Impasto painting",
+      "folder": "Impasto painting"
+    },
+    {
+      "id": 214,
+      "name": "Impressionism",
+      "folder": "Impressionism"
+    },
+    {
+      "id": 290,
+      "name": "Ink-wash aesthetic",
+      "folder": "Ink-wash aesthetic"
+    },
+    {
+      "id": 97,
+      "name": "Inline typography",
+      "folder": "Inline typography"
+    },
+    {
+      "id": 165,
+      "name": "Isometric Rendering",
+      "folder": "Isometric Rendering"
+    },
+    {
+      "id": 224,
+      "name": "Japanese Modernism",
+      "folder": "Japanese Modernism"
+    },
+    {
+      "id": 50,
+      "name": "Justified Image Grid",
+      "folder": "Justified Image Grid"
+    },
+    {
+      "id": 108,
+      "name": "Kaku Gothic typography",
+      "folder": "Kaku Gothic typography"
+    },
+    {
+      "id": 209,
+      "name": "Kaleidoscopic Graphics",
+      "folder": "Kaleidoscopic Graphics"
+    },
+    {
+      "id": 259,
+      "name": "Kawaii illustration",
+      "folder": "Kawaii illustration"
+    },
+    {
+      "id": 241,
+      "name": "Kinetic Art",
+      "folder": "Kinetic Art"
+    },
+    {
+      "id": 200,
+      "name": "Kinetic Typography",
+      "folder": "Kinetic Typography"
+    },
+    {
+      "id": 111,
+      "name": "Kufic-inspired typography",
+      "folder": "Kufic-inspired typography"
+    },
+    {
+      "id": 188,
+      "name": "L-system Graphics",
+      "folder": "L-system Graphics"
+    },
+    {
+      "id": 146,
+      "name": "Laser Grid",
+      "folder": "Laser Grid"
+    },
+    {
+      "id": 275,
+      "name": "Letterpress aesthetic",
+      "folder": "Letterpress aesthetic"
+    },
+    {
+      "id": 260,
+      "name": "Ligne claire illustration",
+      "folder": "Ligne claire illustration"
+    },
+    {
+      "id": 168,
+      "name": "Line-rendered 3D",
+      "folder": "Line-rendered 3D"
+    },
+    {
+      "id": 277,
+      "name": "Linocut print aesthetic",
+      "folder": "Linocut print aesthetic"
+    },
+    {
+      "id": 205,
+      "name": "Liquid Distortion",
+      "folder": "Liquid Distortion"
+    },
+    {
+      "id": 198,
+      "name": "Lissajous Figures",
+      "folder": "Lissajous Figures"
+    },
+    {
+      "id": 279,
+      "name": "Lithographic print aesthetic",
+      "folder": "Lithographic print aesthetic"
+    },
+    {
+      "id": 155,
+      "name": "Low-poly Rendering",
+      "folder": "Low-poly Rendering"
+    },
+    {
+      "id": 245,
+      "name": "Lyrical Abstraction",
+      "folder": "Lyrical Abstraction"
+    },
+    {
+      "id": 123,
+      "name": "Mac OS X Aqua",
+      "folder": "Mac OS X Aqua"
+    },
+    {
+      "id": 256,
+      "name": "Manga visual style",
+      "folder": "Manga visual style"
+    },
+    {
+      "id": 56,
+      "name": "Marginalia",
+      "folder": "Marginalia"
+    },
+    {
+      "id": 272,
+      "name": "Marker illustration",
+      "folder": "Marker illustration"
+    },
+    {
+      "id": 109,
+      "name": "Maru Gothic typography",
+      "folder": "Maru Gothic typography"
+    },
+    {
+      "id": 49,
+      "name": "Masonry Layout",
+      "folder": "Masonry Layout"
+    },
+    {
+      "id": 167,
+      "name": "Matcap Rendering",
+      "folder": "Matcap Rendering"
+    },
+    {
+      "id": 12,
+      "name": "Material Realism",
+      "folder": "Material Realism"
+    },
+    {
+      "id": 21,
+      "name": "Maximalism",
+      "folder": "Maximalism"
+    },
+    {
+      "id": 142,
+      "name": "McBling",
+      "folder": "McBling"
+    },
+    {
+      "id": 231,
+      "name": "Memphis Design",
+      "folder": "Memphis Design"
+    },
+    {
+      "id": 194,
+      "name": "Metaball Graphics",
+      "folder": "Metaball Graphics"
+    },
+    {
+      "id": 133,
+      "name": "Metalheart",
+      "folder": "Metalheart"
+    },
+    {
+      "id": 262,
+      "name": "Mid-century modern illustration",
+      "folder": "Mid-century modern illustration"
+    },
+    {
+      "id": 107,
+      "name": "Mincho typography",
+      "folder": "Mincho typography"
+    },
+    {
+      "id": 252,
+      "name": "Minimal line illustration",
+      "folder": "Minimal line illustration"
+    },
+    {
+      "id": 16,
+      "name": "Minimalism",
+      "folder": "Minimalism"
+    },
+    {
+      "id": 289,
+      "name": "Mixed-media assemblage",
+      "folder": "Mixed-media assemblage"
+    },
+    {
+      "id": 45,
+      "name": "Modular Grid",
+      "folder": "Modular Grid"
+    },
+    {
+      "id": 104,
+      "name": "Modular typography",
+      "folder": "Modular typography"
+    },
+    {
+      "id": 187,
+      "name": "Moiré Patterns",
+      "folder": "Moiré Patterns"
+    },
+    {
+      "id": 115,
+      "name": "Monospaced editorial typography",
+      "folder": "Monospaced editorial typography"
+    },
+    {
+      "id": 280,
+      "name": "Monotype print aesthetic",
+      "folder": "Monotype print aesthetic"
+    },
+    {
+      "id": 300,
+      "name": "Mosaic illustration",
+      "folder": "Mosaic illustration"
+    },
+    {
+      "id": 202,
+      "name": "Motion-trail Graphics",
+      "folder": "Motion-trail Graphics"
+    },
+    {
+      "id": 110,
+      "name": "Naskh typography",
+      "folder": "Naskh typography"
+    },
+    {
+      "id": 112,
+      "name": "Nastaliq typography",
+      "folder": "Nastaliq typography"
+    },
+    {
+      "id": 210,
+      "name": "Neo Geo",
+      "folder": "Neo Geo"
+    },
+    {
+      "id": 246,
+      "name": "Neo-Expressionism",
+      "folder": "Neo-Expressionism"
+    },
+    {
+      "id": 75,
+      "name": "Neo-grotesque typography",
+      "folder": "Neo-grotesque typography"
+    },
+    {
+      "id": 4,
+      "name": "Net Art",
+      "folder": "Net Art"
+    },
+    {
+      "id": 2,
+      "name": "Neubrutalism",
+      "folder": "Neubrutalism"
+    },
+    {
+      "id": 13,
+      "name": "Neumorphism",
+      "folder": "Neumorphism"
+    },
+    {
+      "id": 216,
+      "name": "New Aesthetic",
+      "folder": "New Aesthetic"
+    },
+    {
+      "id": 43,
+      "name": "New Typography",
+      "folder": "New Typography"
+    },
+    {
+      "id": 230,
+      "name": "New Wave Graphics",
+      "folder": "New Wave Graphics"
+    },
+    {
+      "id": 54,
+      "name": "Newspaper Design",
+      "folder": "Newspaper Design"
+    },
+    {
+      "id": 126,
+      "name": "NeXTSTEP UI",
+      "folder": "NeXTSTEP UI"
+    },
+    {
+      "id": 67,
+      "name": "Node-Link Diagram",
+      "folder": "Node-Link Diagram"
+    },
+    {
+      "id": 240,
+      "name": "Op Art",
+      "folder": "Op Art"
+    },
+    {
+      "id": 17,
+      "name": "Organic Design",
+      "folder": "Organic Design"
+    },
+    {
+      "id": 237,
+      "name": "Orphism",
+      "folder": "Orphism"
+    },
+    {
+      "id": 98,
+      "name": "Outline typography",
+      "folder": "Outline typography"
+    },
+    {
+      "id": 61,
+      "name": "Overlapping Layout",
+      "folder": "Overlapping Layout"
+    },
+    {
+      "id": 105,
+      "name": "Oversized typography",
+      "folder": "Oversized typography"
+    },
+    {
+      "id": 265,
+      "name": "Paper-cut illustration",
+      "folder": "Paper-cut illustration"
+    },
+    {
+      "id": 283,
+      "name": "Paper-ephemera collage",
+      "folder": "Paper-ephemera collage"
+    },
+    {
+      "id": 206,
+      "name": "Particle Typography",
+      "folder": "Particle Typography"
+    },
+    {
+      "id": 191,
+      "name": "Particle-field Graphics",
+      "folder": "Particle-field Graphics"
+    },
+    {
+      "id": 287,
+      "name": "Paste-up aesthetic",
+      "folder": "Paste-up aesthetic"
+    },
+    {
+      "id": 294,
+      "name": "Pastel drawing",
+      "folder": "Pastel drawing"
+    },
+    {
+      "id": 282,
+      "name": "Photogram aesthetic",
+      "folder": "Photogram aesthetic"
+    },
+    {
+      "id": 161,
+      "name": "Photogrammetry",
+      "folder": "Photogrammetry"
+    },
+    {
+      "id": 72,
+      "name": "Photomontage",
+      "folder": "Photomontage"
+    },
+    {
+      "id": 162,
+      "name": "Photorealistic 3D",
+      "folder": "Photorealistic 3D"
+    },
+    {
+      "id": 69,
+      "name": "Pictographic Design",
+      "folder": "Pictographic Design"
+    },
+    {
+      "id": 171,
+      "name": "Pixel Art",
+      "folder": "Pixel Art"
+    },
+    {
+      "id": 176,
+      "name": "Pixel Sorting",
+      "folder": "Pixel Sorting"
+    },
+    {
+      "id": 212,
+      "name": "Plakatstil",
+      "folder": "Plakatstil"
+    },
+    {
+      "id": 195,
+      "name": "Plotter Art",
+      "folder": "Plotter Art"
+    },
+    {
+      "id": 159,
+      "name": "Point-cloud Rendering",
+      "folder": "Point-cloud Rendering"
+    },
+    {
+      "id": 223,
+      "name": "Polish School of Graphic Design",
+      "folder": "Polish School of Graphic Design"
+    },
+    {
+      "id": 232,
+      "name": "Pop Art",
+      "folder": "Pop Art"
+    },
+    {
+      "id": 247,
+      "name": "Pop Surrealism",
+      "folder": "Pop Surrealism"
+    },
+    {
+      "id": 215,
+      "name": "Post-Internet Aesthetic",
+      "folder": "Post-Internet Aesthetic"
+    },
+    {
+      "id": 250,
+      "name": "Postmodern Graphic Design",
+      "folder": "Postmodern Graphic Design"
+    },
+    {
+      "id": 239,
+      "name": "Precisionism",
+      "folder": "Precisionism"
+    },
+    {
+      "id": 156,
+      "name": "PS1-era 3D",
+      "folder": "PS1-era 3D"
+    },
+    {
+      "id": 228,
+      "name": "Psychedelic Graphics",
+      "folder": "Psychedelic Graphics"
+    },
+    {
+      "id": 229,
+      "name": "Punk Graphic Design",
+      "folder": "Punk Graphic Design"
+    },
+    {
+      "id": 297,
+      "name": "Quilted-collage aesthetic",
+      "folder": "Quilted-collage aesthetic"
+    },
+    {
+      "id": 64,
+      "name": "Radial Composition",
+      "folder": "Radial Composition"
+    },
+    {
+      "id": 238,
+      "name": "Rayonism",
+      "folder": "Rayonism"
+    },
+    {
+      "id": 183,
+      "name": "Reaction-diffusion Patterns",
+      "folder": "Reaction-diffusion Patterns"
+    },
+    {
+      "id": 103,
+      "name": "Reverse-contrast typography",
+      "folder": "Reverse-contrast typography"
+    },
+    {
+      "id": 274,
+      "name": "Risograph print aesthetic",
+      "folder": "Risograph print aesthetic"
+    },
+    {
+      "id": 77,
+      "name": "Rounded sans-serif typography",
+      "folder": "Rounded sans-serif typography"
+    },
+    {
+      "id": 113,
+      "name": "Ruq’ah typography",
+      "folder": "Ruq’ah typography"
+    },
+    {
+      "id": 68,
+      "name": "Schematic Design",
+      "folder": "Schematic Design"
+    },
+    {
+      "id": 84,
+      "name": "Scotch Roman typography",
+      "folder": "Scotch Roman typography"
+    },
+    {
+      "id": 269,
+      "name": "Scratchboard illustration",
+      "folder": "Scratchboard illustration"
+    },
+    {
+      "id": 273,
+      "name": "Screenprint aesthetic",
+      "folder": "Screenprint aesthetic"
+    },
+    {
+      "id": 99,
+      "name": "Shadow typography",
+      "folder": "Shadow typography"
+    },
+    {
+      "id": 117,
+      "name": "Sign-painted lettering",
+      "folder": "Sign-painted lettering"
+    },
+    {
+      "id": 145,
+      "name": "Silicon Dreams",
+      "folder": "Silicon Dreams"
+    },
+    {
+      "id": 249,
+      "name": "Situationist Graphics",
+      "folder": "Situationist Graphics"
+    },
+    {
+      "id": 11,
+      "name": "Skeuomorphism",
+      "folder": "Skeuomorphism"
+    },
+    {
+      "id": 177,
+      "name": "Slit-scan Imagery",
+      "folder": "Slit-scan Imagery"
+    },
+    {
+      "id": 71,
+      "name": "Small Multiples",
+      "folder": "Small Multiples"
+    },
+    {
+      "id": 29,
+      "name": "Solarpunk",
+      "folder": "Solarpunk"
+    },
+    {
+      "id": 225,
+      "name": "Soviet Constructivism",
+      "folder": "Soviet Constructivism"
+    },
+    {
+      "id": 51,
+      "name": "Split-Screen Layout",
+      "folder": "Split-Screen Layout"
+    },
+    {
+      "id": 41,
+      "name": "Steampunk",
+      "folder": "Steampunk"
+    },
+    {
+      "id": 286,
+      "name": "Stencil aesthetic",
+      "folder": "Stencil aesthetic"
+    },
+    {
+      "id": 94,
+      "name": "Stencil typography",
+      "folder": "Stencil typography"
+    },
+    {
+      "id": 268,
+      "name": "Stipple illustration",
+      "folder": "Stipple illustration"
+    },
+    {
+      "id": 190,
+      "name": "Strange-attractor Art",
+      "folder": "Strange-attractor Art"
+    },
+    {
+      "id": 78,
+      "name": "Superellipse typography",
+      "folder": "Superellipse typography"
+    },
+    {
+      "id": 258,
+      "name": "Superflat illustration",
+      "folder": "Superflat illustration"
+    },
+    {
+      "id": 40,
+      "name": "Supergraphic Ultramodern",
+      "folder": "Supergraphic Ultramodern"
+    },
+    {
+      "id": 235,
+      "name": "Suprematism",
+      "folder": "Suprematism"
+    },
+    {
+      "id": 218,
+      "name": "Surrealism",
+      "folder": "Surrealism"
+    },
+    {
+      "id": 42,
+      "name": "Swiss International Style",
+      "folder": "Swiss International Style"
+    },
+    {
+      "id": 26,
+      "name": "Synthwave",
+      "folder": "Synthwave"
+    },
+    {
+      "id": 65,
+      "name": "Tabular Design",
+      "folder": "Tabular Design"
+    },
+    {
+      "id": 299,
+      "name": "Tapestry-inspired graphic style",
+      "folder": "Tapestry-inspired graphic style"
+    },
+    {
+      "id": 25,
+      "name": "Technozen",
+      "folder": "Technozen"
+    },
+    {
+      "id": 129,
+      "name": "Teletext Art",
+      "folder": "Teletext Art"
+    },
+    {
+      "id": 118,
+      "name": "Terminal UI",
+      "folder": "Terminal UI"
+    },
+    {
+      "id": 119,
+      "name": "Text-mode UI",
+      "folder": "Text-mode UI"
+    },
+    {
+      "id": 264,
+      "name": "Textured-vector illustration",
+      "folder": "Textured-vector illustration"
+    },
+    {
+      "id": 181,
+      "name": "Thermographic Graphics",
+      "folder": "Thermographic Graphics"
+    },
+    {
+      "id": 199,
+      "name": "Topographic Graphics",
+      "folder": "Topographic Graphics"
+    },
+    {
+      "id": 81,
+      "name": "Transitional serif typography",
+      "folder": "Transitional serif typography"
+    },
+    {
+      "id": 70,
+      "name": "Treemap",
+      "folder": "Treemap"
+    },
+    {
+      "id": 186,
+      "name": "Truchet Patterns",
+      "folder": "Truchet Patterns"
+    },
+    {
+      "id": 96,
+      "name": "Tuscan typography",
+      "folder": "Tuscan typography"
+    },
+    {
+      "id": 106,
+      "name": "Type-specimen design",
+      "folder": "Type-specimen design"
+    },
+    {
+      "id": 59,
+      "name": "Typographic Index",
+      "folder": "Typographic Index"
+    },
+    {
+      "id": 93,
+      "name": "Upright script typography",
+      "folder": "Upright script typography"
+    },
+    {
+      "id": 34,
+      "name": "Utopian Scholastic",
+      "folder": "Utopian Scholastic"
+    },
+    {
+      "id": 147,
+      "name": "Vaporwave",
+      "folder": "Vaporwave"
+    },
+    {
+      "id": 23,
+      "name": "Vectordelia",
+      "folder": "Vectordelia"
+    },
+    {
+      "id": 24,
+      "name": "Vectorgarden",
+      "folder": "Vectorgarden"
+    },
+    {
+      "id": 134,
+      "name": "Vectorheart",
+      "folder": "Vectorheart"
+    },
+    {
+      "id": 114,
+      "name": "Vertical Japanese typography",
+      "folder": "Vertical Japanese typography"
+    },
+    {
+      "id": 179,
+      "name": "VHS Texture",
+      "folder": "VHS Texture"
+    },
+    {
+      "id": 178,
+      "name": "Video Feedback",
+      "folder": "Video Feedback"
+    },
+    {
+      "id": 169,
+      "name": "Volumetric Rendering",
+      "folder": "Volumetric Rendering"
+    },
+    {
+      "id": 185,
+      "name": "Voronoi Tessellation",
+      "folder": "Voronoi Tessellation"
+    },
+    {
+      "id": 236,
+      "name": "Vorticism",
+      "folder": "Vorticism"
+    },
+    {
+      "id": 154,
+      "name": "Voxel Art",
+      "folder": "Voxel Art"
+    },
+    {
+      "id": 20,
+      "name": "Warm Minimalism",
+      "folder": "Warm Minimalism"
+    },
+    {
+      "id": 292,
+      "name": "Watercolor-wash aesthetic",
+      "folder": "Watercolor-wash aesthetic"
+    },
+    {
+      "id": 1,
+      "name": "Web Brutalism",
+      "folder": "Web Brutalism"
+    },
+    {
+      "id": 148,
+      "name": "Webcore",
+      "folder": "Webcore"
+    },
+    {
+      "id": 149,
+      "name": "Weirdcore",
+      "folder": "Weirdcore"
+    },
+    {
+      "id": 37,
+      "name": "Whimsicraft",
+      "folder": "Whimsicraft"
+    },
+    {
+      "id": 36,
+      "name": "Whimsigothic",
+      "folder": "Whimsigothic"
+    },
+    {
+      "id": 130,
+      "name": "Winamp Skinning",
+      "folder": "Winamp Skinning"
+    },
+    {
+      "id": 121,
+      "name": "Windows 95 UI",
+      "folder": "Windows 95 UI"
+    },
+    {
+      "id": 124,
+      "name": "Windows Aero UI",
+      "folder": "Windows Aero UI"
+    },
+    {
+      "id": 122,
+      "name": "Windows XP Luna",
+      "folder": "Windows XP Luna"
+    },
+    {
+      "id": 158,
+      "name": "Wireframe Rendering",
+      "folder": "Wireframe Rendering"
+    },
+    {
+      "id": 95,
+      "name": "Wood-type typography",
+      "folder": "Wood-type typography"
+    },
+    {
+      "id": 276,
+      "name": "Woodcut print aesthetic",
+      "folder": "Woodcut print aesthetic"
+    },
+    {
+      "id": 284,
+      "name": "Xerox copy-art",
+      "folder": "Xerox copy-art"
+    },
+    {
+      "id": 132,
+      "name": "Y2K Futurism",
+      "folder": "Y2K Futurism"
+    },
+    {
+      "id": 285,
+      "name": "Zine aesthetic",
+      "folder": "Zine aesthetic"
+    }
+  ]
+}

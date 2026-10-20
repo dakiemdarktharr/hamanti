@@ -136,3 +136,72 @@ dialog { width: 98vw; height: 98svh; }
   .style-grid { grid-template-columns: 1fr; }
   .style-picture { aspect-ratio: 4 / 3; }
 }
+
+/* A personal invitation, followed by one uninterrupted alphabetical index. */
+.index-link { gap: 18px; padding: 8px 0 8px 18px; text-transform: none; font: 14px var(--body); }
+.index-link span { font-size: inherit; }
+.trail-arrow { width: 57px; height: 30px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: transform .35s; }
+.index-link:hover .trail-arrow, .index-link:focus-visible .trail-arrow { transform: translateX(5px) rotate(-7deg); }
+.hero { isolation: isolate; overflow: hidden; }
+.hero-baseline { position: relative; z-index: 2; align-items: end; pointer-events: none; }
+.hero-baseline > * { pointer-events: auto; }
+.hero-caption { display: block; margin: 0 18% 0 0; font: italic clamp(23px,2.1vw,34px)/1.04 var(--serif); letter-spacing: -.02em; transform: rotate(-6deg); text-transform: none; }
+.down-link { display: flex; flex-direction: column; width: auto; height: auto; gap: 8px; border: 0; border-radius: 0; font: italic 25px/1 var(--serif); align-items: center; }
+.down-link svg { width: 38px; height: 56px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: transform .35s; }
+.down-link:hover svg, .down-link:focus-visible svg { transform: translate(3px,7px) rotate(5deg); }
+.hero-garden { position: absolute; z-index: 1; width: clamp(260px,28vw,440px); right: 11%; bottom: 10px; padding: 0; color: var(--ink); background: none; border: 0; }
+.garden-art { display: block; transition: transform .4s; }
+.garden-art svg { display: block; width: 100%; }
+.garden-hint { position: absolute; bottom: 2px; left: 0; right: 0; font: italic 17px var(--serif); opacity: .7; }
+.hero-garden:hover .garden-art, .hero-garden:focus-visible .garden-art { transform: translateY(-7px); }
+.hero-garden:focus-visible { outline: 2px dashed var(--moss); outline-offset: 5px; border-radius: 44% 48% 36% 40%; }
+.garden-stem { animation: garden-sway 5.5s ease-in-out infinite alternate; animation-delay: var(--delay); }
+@keyframes garden-sway { to { transform: rotate(var(--sway)); } }
+.motion-paused .garden-stem { animation-play-state: paused; }
+.filter-bar { grid-template-columns: minmax(0,1fr) 210px; }
+.alphabet-select { border-left: 0; }
+.style-grid { gap: 26px; }
+.style-card-empty { min-height: 180px; padding: 22px 24px 48px; border: 1px solid #85907a70; background: color-mix(in srgb,var(--paper) 91%,transparent); transition: background .2s, border-color .2s; }
+.style-card-empty:hover, .style-card-empty:focus-visible { background: var(--ivory); border-color: var(--ink); }
+.style-card-empty .card-label { margin: 0 0 27px; }
+.style-card-empty .style-name { font: 500 clamp(24px,2.1vw,36px)/1.13 var(--display); letter-spacing: -.04em; padding-right: 10px; }
+.style-card-empty:nth-child(3n + 2) .style-name { font: italic clamp(31px,2.6vw,45px)/1.04 var(--serif); letter-spacing: -.025em; }
+.style-card-empty .card-open { background: none; opacity: .5; transform: none; bottom: 7px; right: 12px; width: 30px; }
+.style-card-empty:hover .card-open, .style-card-empty:focus-visible .card-open { opacity: 1; transform: translate(3px,-3px); }
+.result-count { margin-bottom: 32px; }
+@media(max-width:1000px) {
+  .hero-garden { width: 290px; right: 13%; bottom: 5px; }
+  .hero-caption { margin-right: 24%; font-size: 25px; }
+  .filter-bar { grid-template-columns: minmax(0,1fr) 180px; }
+}
+@media(max-width:700px) {
+  .hero { min-height: calc(100svh - 65px); padding-bottom: 30px; }
+  .hero-baseline { align-items: end; gap: 10px; }
+  .hero-caption { position: absolute; left: 2px; bottom: 140px; font-size: 25px; margin: 0; }
+  .hero-garden { width: 220px; right: 0; bottom: 106px; }
+  .garden-hint { font-size: 14px; }
+  .down-link { font-size: 21px; gap: 4px; }
+  .down-link svg { height: 42px; }
+  .index-link { font-size: 12px; gap: 6px; }
+  .trail-arrow { width: 41px; }
+  .filter-bar { grid-template-columns: minmax(0,1fr) 145px; }
+  .search { grid-column: auto; border-bottom: 0; border-right: 1px solid var(--line); gap: 10px; }
+  .search input { font-size: 25px; padding-right: 32px; }
+  .search-symbol { width: 28px; height: 34px; }
+  .search-symbol svg { width: 18px; }
+  .filter-bar .select select { height: 68px; font-size: 10px; padding-left: 10px; }
+  .style-grid { gap: 16px; }
+  .style-card-empty { min-height: 165px; padding: 16px 18px 40px; }
+  .style-card-empty .style-name { font-size: 25px; }
+  .style-card-empty:nth-child(3n + 2) .style-name { font-size: 32px; }
+  .style-card-empty .card-open { display: grid; }
+}
+@media(max-width:420px) {
+  .hero-caption { bottom: 162px; font-size: 23px; }
+  .hero-garden { width: 185px; bottom: 126px; right: -8px; }
+  .filter-bar { grid-template-columns: minmax(0,1fr) 112px; }
+  .filter-bar .select select { font-size: 9px; padding-right: 25px; }
+  .filter-bar .select::after { right: 10px; }
+  .search { padding-left: 8px; gap: 7px; }
+  .search input { font-size: 24px; }
+}
