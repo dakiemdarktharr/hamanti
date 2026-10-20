@@ -1,301 +1,301 @@
 style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
-1,"Web Brutalism",8,0,0,deferred
-2,"Neubrutalism",8,0,0,deferred
-3,"Anti-design",8,0,0,deferred
-4,"Net Art",8,0,0,deferred
-5,"GeoCities Web",8,0,0,deferred
-6,"Flash-era Web",8,0,0,deferred
-7,"Immersive 3D Web",8,0,0,deferred
-8,"Holographic Spatial UI",8,0,0,deferred
-9,"Flat Design",8,0,0,deferred
-10,"Flat 2.0",8,0,0,deferred
-11,"Skeuomorphism",8,0,0,deferred
-12,"Material Realism",8,0,0,deferred
-13,"Neumorphism",8,0,0,deferred
-14,"Glassmorphism",8,0,0,deferred
-15,"Claymorphism",8,0,0,deferred
-16,"Minimalism",8,0,0,deferred
-17,"Organic Design",8,0,0,deferred
-18,"Hand-Drawn Design",8,0,0,deferred
-19,"Duotone",8,0,0,deferred
-20,"Warm Minimalism",8,0,0,deferred
-21,"Maximalism",8,0,0,deferred
-22,"Corporate Memphis",8,0,0,deferred
-23,"Vectordelia",8,0,0,deferred
-24,"Vectorgarden",8,0,0,deferred
-25,"Technozen",8,0,0,deferred
-26,"Synthwave",8,0,0,deferred
-27,"Cyberpunk",8,0,0,deferred
-28,"Hyperpop",8,0,0,deferred
-29,"Solarpunk",8,0,0,deferred
-30,"Frasurbane",8,0,0,deferred
-31,"Global Village Coffeehouse",8,0,0,deferred
-32,"Corporate Grunge",8,0,0,deferred
-33,"Corporate Hippie",8,0,0,deferred
-34,"Utopian Scholastic",8,0,0,deferred
-35,"Factory Pomo",8,0,0,deferred
-36,"Whimsigothic",8,0,0,deferred
-37,"Whimsicraft",8,0,0,deferred
-38,"Hipness Purgatory",8,0,0,deferred
-39,"Dollar Store Vernacular",8,0,0,deferred
-40,"Supergraphic Ultramodern",8,0,0,deferred
-41,"Steampunk",8,0,0,deferred
-42,"Swiss International Style",8,0,0,deferred
-43,"New Typography",8,0,0,deferred
-44,"Column Grid",8,0,0,deferred
-45,"Modular Grid",8,0,0,deferred
-46,"Hierarchical Grid",8,0,0,deferred
-47,"Bento Grid",8,0,0,deferred
-48,"Card-Based Design",8,0,0,deferred
-49,"Masonry Layout",8,0,0,deferred
-50,"Justified Image Grid",8,0,0,deferred
-51,"Split-Screen Layout",8,0,0,deferred
-52,"Asymmetric Layout",8,0,0,deferred
-53,"Editorial Design",8,0,0,deferred
-54,"Newspaper Design",8,0,0,deferred
-55,"Book Design",8,0,0,deferred
-56,"Marginalia",8,0,0,deferred
-57,"Full-Bleed Composition",8,0,0,deferred
-58,"Framed Composition",8,0,0,deferred
-59,"Typographic Index",8,0,0,deferred
-60,"Contact Sheet",8,0,0,deferred
-61,"Overlapping Layout",8,0,0,deferred
-62,"Freeform Layout",8,0,0,deferred
-63,"Diagonal Composition",8,0,0,deferred
-64,"Radial Composition",8,0,0,deferred
-65,"Tabular Design",8,0,0,deferred
-66,"Cartographic Design",8,0,0,deferred
-67,"Node-Link Diagram",8,0,0,deferred
-68,"Schematic Design",8,0,0,deferred
-69,"Pictographic Design",8,0,0,deferred
-70,"Treemap",8,0,0,deferred
-71,"Small Multiples",8,0,0,deferred
-72,"Photomontage",8,0,0,deferred
-73,"Geometric sans-serif typography",8,0,0,deferred
-74,"Grotesque typography",8,0,0,deferred
-75,"Neo-grotesque typography",8,0,0,deferred
-76,"Humanist sans-serif typography",8,0,0,deferred
-77,"Rounded sans-serif typography",8,0,0,deferred
-78,"Superellipse typography",8,0,0,deferred
-79,"Humanist serif typography",8,0,0,deferred
-80,"Garalde typography",8,0,0,deferred
-81,"Transitional serif typography",8,0,0,deferred
-82,"Didone typography",8,0,0,deferred
-83,"Fat-face typography",8,0,0,deferred
-84,"Scotch Roman typography",8,0,0,deferred
-85,"Geometric slab-serif typography",8,0,0,deferred
-86,"Humanist slab-serif typography",8,0,0,deferred
-87,"Clarendon typography",8,0,0,deferred
-88,"Glyphic typography",8,0,0,deferred
-89,"Blackletter typography",8,0,0,deferred
-90,"Formal script typography",8,0,0,deferred
-91,"Brush-script typography",8,0,0,deferred
-92,"Handwritten typography",8,0,0,deferred
-93,"Upright script typography",8,0,0,deferred
-94,"Stencil typography",8,0,0,deferred
-95,"Wood-type typography",8,0,0,deferred
-96,"Tuscan typography",8,0,0,deferred
-97,"Inline typography",8,0,0,deferred
-98,"Outline typography",8,0,0,deferred
-99,"Shadow typography",8,0,0,deferred
-100,"Chromatic typography",8,0,0,deferred
-101,"Condensed typography",8,0,0,deferred
-102,"Extended typography",8,0,0,deferred
-103,"Reverse-contrast typography",8,0,0,deferred
-104,"Modular typography",8,0,0,deferred
-105,"Oversized typography",8,0,0,deferred
-106,"Type-specimen design",8,0,0,deferred
-107,"Mincho typography",8,0,0,deferred
-108,"Kaku Gothic typography",8,0,0,deferred
-109,"Maru Gothic typography",8,0,0,deferred
-110,"Naskh typography",8,0,0,deferred
-111,"Kufic-inspired typography",8,0,0,deferred
-112,"Nastaliq typography",8,0,0,deferred
-113,"Ruq’ah typography",8,0,0,deferred
-114,"Vertical Japanese typography",8,0,0,deferred
-115,"Monospaced editorial typography",8,0,0,deferred
-116,"Distressed typography",8,0,0,deferred
-117,"Sign-painted lettering",8,0,0,deferred
-118,"Terminal UI",8,0,0,deferred
-119,"Text-mode UI",8,0,0,deferred
-120,"Classic Macintosh UI",8,0,0,deferred
-121,"Windows 95 UI",8,0,0,deferred
-122,"Windows XP Luna",8,0,0,deferred
-123,"Mac OS X Aqua",8,0,0,deferred
-124,"Windows Aero UI",8,0,0,deferred
-125,"BeOS UI",8,0,0,deferred
-126,"NeXTSTEP UI",8,0,0,deferred
-127,"Amiga Workbench UI",8,0,0,deferred
-128,"ANSI Art",8,0,0,deferred
-129,"Teletext Art",8,0,0,deferred
-130,"Winamp Skinning",8,0,0,deferred
-131,"CRT Display",8,0,0,deferred
-132,"Y2K Futurism",8,0,0,deferred
-133,"Metalheart",8,0,0,deferred
-134,"Vectorheart",8,0,0,deferred
-135,"Corporate Cyberspace",8,0,0,deferred
-136,"Gen X Soft Club",8,0,0,deferred
-137,"Frutiger Aero",8,0,0,deferred
-138,"Acidgrafix",8,0,0,deferred
-139,"Hexatron",8,0,0,deferred
-140,"Cyberbougie",8,0,0,deferred
-141,"Blob World",8,0,0,deferred
-142,"McBling",8,0,0,deferred
-143,"Cyberdelia",8,0,0,deferred
-144,"Early Cyber",8,0,0,deferred
-145,"Silicon Dreams",8,0,0,deferred
-146,"Laser Grid",8,0,0,deferred
-147,"Vaporwave",8,0,0,deferred
-148,"Webcore",8,0,0,deferred
-149,"Weirdcore",8,0,0,deferred
-150,"Dreamcore",8,0,0,deferred
-151,"Cybersigilism",8,0,0,deferred
-152,"Cassette Futurism",8,0,0,deferred
-153,"Fictional User Interface",8,0,0,deferred
-154,"Voxel Art",8,0,0,deferred
-155,"Low-poly Rendering",8,0,0,deferred
-156,"PS1-era 3D",8,0,0,deferred
-157,"Cel Shading",8,0,0,deferred
-158,"Wireframe Rendering",8,0,0,deferred
-159,"Point-cloud Rendering",8,0,0,deferred
-160,"Gaussian Splatting",8,0,0,deferred
-161,"Photogrammetry",8,0,0,deferred
-162,"Photorealistic 3D",8,0,0,deferred
-163,"Chrome Rendering",8,0,0,deferred
-164,"Holographic Graphics",8,0,0,deferred
-165,"Isometric Rendering",8,0,0,deferred
-166,"Anaglyph Graphics",8,0,0,deferred
-167,"Matcap Rendering",8,0,0,deferred
-168,"Line-rendered 3D",8,0,0,deferred
-169,"Volumetric Rendering",8,0,0,deferred
-170,"ASCII Rendering",8,0,0,deferred
-171,"Pixel Art",8,0,0,deferred
-172,"Dithered Rendering",8,0,0,deferred
-173,"Glitch Art",8,0,0,deferred
-174,"Datamoshing",8,0,0,deferred
-175,"Databending",8,0,0,deferred
-176,"Pixel Sorting",8,0,0,deferred
-177,"Slit-scan Imagery",8,0,0,deferred
-178,"Video Feedback",8,0,0,deferred
-179,"VHS Texture",8,0,0,deferred
-180,"Chromatic Aberration",8,0,0,deferred
-181,"Thermographic Graphics",8,0,0,deferred
-182,"Flow-field Art",8,0,0,deferred
-183,"Reaction-diffusion Patterns",8,0,0,deferred
-184,"Cellular Automata",8,0,0,deferred
-185,"Voronoi Tessellation",8,0,0,deferred
-186,"Truchet Patterns",8,0,0,deferred
-187,"Moiré Patterns",8,0,0,deferred
-188,"L-system Graphics",8,0,0,deferred
-189,"Fractal Graphics",8,0,0,deferred
-190,"Strange-attractor Art",8,0,0,deferred
-191,"Particle-field Graphics",8,0,0,deferred
-192,"Flocking Graphics",8,0,0,deferred
-193,"Fluid-simulation Graphics",8,0,0,deferred
-194,"Metaball Graphics",8,0,0,deferred
-195,"Plotter Art",8,0,0,deferred
-196,"Differential-growth Patterns",8,0,0,deferred
-197,"Diffusion-limited Aggregation",8,0,0,deferred
-198,"Lissajous Figures",8,0,0,deferred
-199,"Topographic Graphics",8,0,0,deferred
-200,"Kinetic Typography",8,0,0,deferred
-201,"Distorted Typography",8,0,0,deferred
-202,"Motion-trail Graphics",8,0,0,deferred
-203,"Aurora Graphics",8,0,0,deferred
-204,"Grainy Gradients",8,0,0,deferred
-205,"Liquid Distortion",8,0,0,deferred
-206,"Particle Typography",8,0,0,deferred
-207,"Dissolving Typography",8,0,0,deferred
-208,"Extruded Typography",8,0,0,deferred
-209,"Kaleidoscopic Graphics",8,0,0,deferred
-210,"Neo Geo",8,0,0,deferred
-211,"Arts and Crafts",8,0,0,deferred
-212,"Plakatstil",8,0,0,deferred
-213,"Afrofuturism",8,0,0,deferred
-214,"Impressionism",8,0,0,deferred
-215,"Post-Internet Aesthetic",8,0,0,deferred
-216,"New Aesthetic",8,0,0,deferred
-217,"Art Brut",8,0,0,deferred
-218,"Surrealism",8,0,0,deferred
-219,"Cubism",8,0,0,deferred
-220,"Fauvism",8,0,0,deferred
-221,"Art Nouveau",8,0,0,deferred
-222,"Art Deco",8,0,0,deferred
-223,"Polish School of Graphic Design",8,0,0,deferred
-224,"Japanese Modernism",8,0,0,deferred
-225,"Soviet Constructivism",8,0,0,deferred
-226,"Bauhaus",8,0,0,deferred
-227,"De Stijl",8,0,0,deferred
-228,"Psychedelic Graphics",8,0,0,deferred
-229,"Punk Graphic Design",8,0,0,deferred
-230,"New Wave Graphics",8,0,0,deferred
-231,"Memphis Design",8,0,0,deferred
-232,"Pop Art",8,0,0,deferred
-233,"Dada",8,0,0,deferred
-234,"Futurism",8,0,0,deferred
-235,"Suprematism",8,0,0,deferred
-236,"Vorticism",8,0,0,deferred
-237,"Orphism",8,0,0,deferred
-238,"Rayonism",8,0,0,deferred
-239,"Precisionism",8,0,0,deferred
-240,"Op Art",8,0,0,deferred
-241,"Kinetic Art",8,0,0,deferred
-242,"Abstract Expressionism",8,0,0,deferred
-243,"Hard-Edge Abstraction",8,0,0,deferred
-244,"Color-Field Painting",8,0,0,deferred
-245,"Lyrical Abstraction",8,0,0,deferred
-246,"Neo-Expressionism",8,0,0,deferred
-247,"Pop Surrealism",8,0,0,deferred
-248,"Fluxus Graphics",8,0,0,deferred
-249,"Situationist Graphics",8,0,0,deferred
-250,"Postmodern Graphic Design",8,0,0,deferred
-251,"Flat-vector illustration",8,0,0,deferred
-252,"Minimal line illustration",8,0,0,deferred
-253,"Doodle illustration",8,0,0,deferred
-254,"Conceptual editorial illustration",8,0,0,deferred
-255,"Anime visual style",8,0,0,deferred
-256,"Manga visual style",8,0,0,deferred
-257,"Chibi illustration",8,0,0,deferred
-258,"Superflat illustration",8,0,0,deferred
-259,"Kawaii illustration",8,0,0,deferred
-260,"Ligne claire illustration",8,0,0,deferred
-261,"American comic-book art",8,0,0,deferred
-262,"Mid-century modern illustration",8,0,0,deferred
-263,"Airbrush illustration",8,0,0,deferred
-264,"Textured-vector illustration",8,0,0,deferred
-265,"Paper-cut illustration",8,0,0,deferred
-266,"Halftone illustration",8,0,0,deferred
-267,"Crosshatch drawing",8,0,0,deferred
-268,"Stipple illustration",8,0,0,deferred
-269,"Scratchboard illustration",8,0,0,deferred
-270,"Charcoal illustration",8,0,0,deferred
-271,"Colored-pencil illustration",8,0,0,deferred
-272,"Marker illustration",8,0,0,deferred
-273,"Screenprint aesthetic",8,0,0,deferred
-274,"Risograph print aesthetic",8,0,0,deferred
-275,"Letterpress aesthetic",8,0,0,deferred
-276,"Woodcut print aesthetic",8,0,0,deferred
-277,"Linocut print aesthetic",8,0,0,deferred
-278,"Etching print aesthetic",8,0,0,deferred
-279,"Lithographic print aesthetic",8,0,0,deferred
-280,"Monotype print aesthetic",8,0,0,deferred
-281,"Cyanotype aesthetic",8,0,0,deferred
-282,"Photogram aesthetic",8,0,0,deferred
-283,"Paper-ephemera collage",8,0,0,deferred
-284,"Xerox copy-art",8,0,0,deferred
-285,"Zine aesthetic",8,0,0,deferred
-286,"Stencil aesthetic",8,0,0,deferred
-287,"Paste-up aesthetic",8,0,0,deferred
-288,"Decoupage aesthetic",8,0,0,deferred
-289,"Mixed-media assemblage",8,0,0,deferred
-290,"Ink-wash aesthetic",8,0,0,deferred
-291,"Gouache aesthetic",8,0,0,deferred
-292,"Watercolor-wash aesthetic",8,0,0,deferred
-293,"Impasto painting",8,0,0,deferred
-294,"Pastel drawing",8,0,0,deferred
-295,"Fresco-mural aesthetic",8,0,0,deferred
-296,"Embroidery illustration",8,0,0,deferred
-297,"Quilted-collage aesthetic",8,0,0,deferred
-298,"Beadwork graphic aesthetic",8,0,0,deferred
-299,"Tapestry-inspired graphic style",8,0,0,deferred
-300,"Mosaic illustration",8,0,0,deferred
+1,"Web Brutalism",6,0,0,deferred
+2,"Neubrutalism",6,0,0,deferred
+3,"Anti-design",6,0,0,deferred
+4,"Net Art",6,0,0,deferred
+5,"GeoCities Web",6,0,0,deferred
+6,"Flash-era Web",6,0,0,deferred
+7,"Immersive 3D Web",6,0,0,deferred
+8,"Holographic Spatial UI",6,0,0,deferred
+9,"Flat Design",6,0,0,deferred
+10,"Flat 2.0",6,0,0,deferred
+11,"Skeuomorphism",6,0,0,deferred
+12,"Material Realism",6,0,0,deferred
+13,"Neumorphism",6,0,0,deferred
+14,"Glassmorphism",6,0,0,deferred
+15,"Claymorphism",6,0,0,deferred
+16,"Minimalism",6,0,0,deferred
+17,"Organic Design",6,0,0,deferred
+18,"Hand-Drawn Design",6,0,0,deferred
+19,"Duotone",6,0,0,deferred
+20,"Warm Minimalism",6,0,0,deferred
+21,"Maximalism",6,0,0,deferred
+22,"Corporate Memphis",6,0,0,deferred
+23,"Vectordelia",6,0,0,deferred
+24,"Vectorgarden",6,0,0,deferred
+25,"Technozen",6,0,0,deferred
+26,"Synthwave",6,0,0,deferred
+27,"Cyberpunk",6,0,0,deferred
+28,"Hyperpop",6,0,0,deferred
+29,"Solarpunk",6,0,0,deferred
+30,"Frasurbane",6,0,0,deferred
+31,"Global Village Coffeehouse",6,0,0,deferred
+32,"Corporate Grunge",6,0,0,deferred
+33,"Corporate Hippie",6,0,0,deferred
+34,"Utopian Scholastic",6,0,0,deferred
+35,"Factory Pomo",6,0,0,deferred
+36,"Whimsigothic",6,0,0,deferred
+37,"Whimsicraft",6,0,0,deferred
+38,"Hipness Purgatory",6,0,0,deferred
+39,"Dollar Store Vernacular",6,0,0,deferred
+40,"Supergraphic Ultramodern",6,0,0,deferred
+41,"Steampunk",6,0,0,deferred
+42,"Swiss International Style",6,0,0,deferred
+43,"New Typography",6,0,0,deferred
+44,"Column Grid",6,0,0,deferred
+45,"Modular Grid",6,0,0,deferred
+46,"Hierarchical Grid",6,0,0,deferred
+47,"Bento Grid",6,0,0,deferred
+48,"Card-Based Design",6,0,0,deferred
+49,"Masonry Layout",6,0,0,deferred
+50,"Justified Image Grid",6,0,0,deferred
+51,"Split-Screen Layout",6,0,0,deferred
+52,"Asymmetric Layout",6,0,0,deferred
+53,"Editorial Design",6,0,0,deferred
+54,"Newspaper Design",6,0,0,deferred
+55,"Book Design",6,0,0,deferred
+56,"Marginalia",6,0,0,deferred
+57,"Full-Bleed Composition",6,0,0,deferred
+58,"Framed Composition",6,0,0,deferred
+59,"Typographic Index",6,0,0,deferred
+60,"Contact Sheet",6,0,0,deferred
+61,"Overlapping Layout",6,0,0,deferred
+62,"Freeform Layout",6,0,0,deferred
+63,"Diagonal Composition",6,0,0,deferred
+64,"Radial Composition",6,0,0,deferred
+65,"Tabular Design",6,0,0,deferred
+66,"Cartographic Design",6,0,0,deferred
+67,"Node-Link Diagram",6,0,0,deferred
+68,"Schematic Design",6,0,0,deferred
+69,"Pictographic Design",6,0,0,deferred
+70,"Treemap",6,0,0,deferred
+71,"Small Multiples",6,0,0,deferred
+72,"Photomontage",6,0,0,deferred
+73,"Geometric sans-serif typography",6,0,0,deferred
+74,"Grotesque typography",6,0,0,deferred
+75,"Neo-grotesque typography",6,0,0,deferred
+76,"Humanist sans-serif typography",6,0,0,deferred
+77,"Rounded sans-serif typography",6,0,0,deferred
+78,"Superellipse typography",6,0,0,deferred
+79,"Humanist serif typography",6,0,0,deferred
+80,"Garalde typography",6,0,0,deferred
+81,"Transitional serif typography",6,0,0,deferred
+82,"Didone typography",6,0,0,deferred
+83,"Fat-face typography",6,0,0,deferred
+84,"Scotch Roman typography",6,0,0,deferred
+85,"Geometric slab-serif typography",6,0,0,deferred
+86,"Humanist slab-serif typography",6,0,0,deferred
+87,"Clarendon typography",6,0,0,deferred
+88,"Glyphic typography",6,0,0,deferred
+89,"Blackletter typography",6,0,0,deferred
+90,"Formal script typography",6,0,0,deferred
+91,"Brush-script typography",6,0,0,deferred
+92,"Handwritten typography",6,0,0,deferred
+93,"Upright script typography",6,0,0,deferred
+94,"Stencil typography",6,0,0,deferred
+95,"Wood-type typography",6,0,0,deferred
+96,"Tuscan typography",6,0,0,deferred
+97,"Inline typography",6,0,0,deferred
+98,"Outline typography",6,0,0,deferred
+99,"Shadow typography",6,0,0,deferred
+100,"Chromatic typography",6,0,0,deferred
+101,"Condensed typography",6,0,0,deferred
+102,"Extended typography",6,0,0,deferred
+103,"Reverse-contrast typography",6,0,0,deferred
+104,"Modular typography",6,0,0,deferred
+105,"Oversized typography",6,0,0,deferred
+106,"Type-specimen design",6,0,0,deferred
+107,"Mincho typography",6,0,0,deferred
+108,"Kaku Gothic typography",6,0,0,deferred
+109,"Maru Gothic typography",6,0,0,deferred
+110,"Naskh typography",6,0,0,deferred
+111,"Kufic-inspired typography",6,0,0,deferred
+112,"Nastaliq typography",6,0,0,deferred
+113,"Ruq’ah typography",6,0,0,deferred
+114,"Vertical Japanese typography",6,0,0,deferred
+115,"Monospaced editorial typography",6,0,0,deferred
+116,"Distressed typography",6,0,0,deferred
+117,"Sign-painted lettering",6,0,0,deferred
+118,"Terminal UI",6,0,0,deferred
+119,"Text-mode UI",6,0,0,deferred
+120,"Classic Macintosh UI",6,0,0,deferred
+121,"Windows 95 UI",6,0,0,deferred
+122,"Windows XP Luna",6,0,0,deferred
+123,"Mac OS X Aqua",6,0,0,deferred
+124,"Windows Aero UI",6,0,0,deferred
+125,"BeOS UI",6,0,0,deferred
+126,"NeXTSTEP UI",6,0,0,deferred
+127,"Amiga Workbench UI",6,0,0,deferred
+128,"ANSI Art",6,0,0,deferred
+129,"Teletext Art",6,0,0,deferred
+130,"Winamp Skinning",6,0,0,deferred
+131,"CRT Display",6,0,0,deferred
+132,"Y2K Futurism",6,0,0,deferred
+133,"Metalheart",6,0,0,deferred
+134,"Vectorheart",6,0,0,deferred
+135,"Corporate Cyberspace",6,0,0,deferred
+136,"Gen X Soft Club",6,0,0,deferred
+137,"Frutiger Aero",6,0,0,deferred
+138,"Acidgrafix",6,0,0,deferred
+139,"Hexatron",6,0,0,deferred
+140,"Cyberbougie",6,0,0,deferred
+141,"Blob World",6,0,0,deferred
+142,"McBling",6,0,0,deferred
+143,"Cyberdelia",6,0,0,deferred
+144,"Early Cyber",6,0,0,deferred
+145,"Silicon Dreams",6,0,0,deferred
+146,"Laser Grid",6,0,0,deferred
+147,"Vaporwave",6,0,0,deferred
+148,"Webcore",6,0,0,deferred
+149,"Weirdcore",6,0,0,deferred
+150,"Dreamcore",6,0,0,deferred
+151,"Cybersigilism",6,0,0,deferred
+152,"Cassette Futurism",6,0,0,deferred
+153,"Fictional User Interface",6,0,0,deferred
+154,"Voxel Art",6,0,0,deferred
+155,"Low-poly Rendering",6,0,0,deferred
+156,"PS1-era 3D",6,0,0,deferred
+157,"Cel Shading",6,0,0,deferred
+158,"Wireframe Rendering",6,0,0,deferred
+159,"Point-cloud Rendering",6,0,0,deferred
+160,"Gaussian Splatting",6,0,0,deferred
+161,"Photogrammetry",6,0,0,deferred
+162,"Photorealistic 3D",6,0,0,deferred
+163,"Chrome Rendering",6,0,0,deferred
+164,"Holographic Graphics",6,0,0,deferred
+165,"Isometric Rendering",6,0,0,deferred
+166,"Anaglyph Graphics",6,0,0,deferred
+167,"Matcap Rendering",6,0,0,deferred
+168,"Line-rendered 3D",6,0,0,deferred
+169,"Volumetric Rendering",6,0,0,deferred
+170,"ASCII Rendering",6,0,0,deferred
+171,"Pixel Art",6,0,0,deferred
+172,"Dithered Rendering",6,0,0,deferred
+173,"Glitch Art",6,0,0,deferred
+174,"Datamoshing",6,0,0,deferred
+175,"Databending",6,0,0,deferred
+176,"Pixel Sorting",6,0,0,deferred
+177,"Slit-scan Imagery",6,0,0,deferred
+178,"Video Feedback",6,0,0,deferred
+179,"VHS Texture",6,0,0,deferred
+180,"Chromatic Aberration",6,0,0,deferred
+181,"Thermographic Graphics",6,0,0,deferred
+182,"Flow-field Art",6,0,0,deferred
+183,"Reaction-diffusion Patterns",6,0,0,deferred
+184,"Cellular Automata",6,0,0,deferred
+185,"Voronoi Tessellation",6,0,0,deferred
+186,"Truchet Patterns",6,0,0,deferred
+187,"Moiré Patterns",6,0,0,deferred
+188,"L-system Graphics",6,0,0,deferred
+189,"Fractal Graphics",6,0,0,deferred
+190,"Strange-attractor Art",6,0,0,deferred
+191,"Particle-field Graphics",6,0,0,deferred
+192,"Flocking Graphics",6,0,0,deferred
+193,"Fluid-simulation Graphics",6,0,0,deferred
+194,"Metaball Graphics",6,0,0,deferred
+195,"Plotter Art",6,0,0,deferred
+196,"Differential-growth Patterns",6,0,0,deferred
+197,"Diffusion-limited Aggregation",6,0,0,deferred
+198,"Lissajous Figures",6,0,0,deferred
+199,"Topographic Graphics",6,0,0,deferred
+200,"Kinetic Typography",6,0,0,deferred
+201,"Distorted Typography",6,0,0,deferred
+202,"Motion-trail Graphics",6,0,0,deferred
+203,"Aurora Graphics",6,0,0,deferred
+204,"Grainy Gradients",6,0,0,deferred
+205,"Liquid Distortion",6,0,0,deferred
+206,"Particle Typography",6,0,0,deferred
+207,"Dissolving Typography",6,0,0,deferred
+208,"Extruded Typography",6,0,0,deferred
+209,"Kaleidoscopic Graphics",6,0,0,deferred
+210,"Neo Geo",6,0,0,deferred
+211,"Arts and Crafts",6,0,0,deferred
+212,"Plakatstil",6,0,0,deferred
+213,"Afrofuturism",6,0,0,deferred
+214,"Impressionism",6,0,0,deferred
+215,"Post-Internet Aesthetic",6,0,0,deferred
+216,"New Aesthetic",6,0,0,deferred
+217,"Art Brut",6,0,0,deferred
+218,"Surrealism",6,0,0,deferred
+219,"Cubism",6,0,0,deferred
+220,"Fauvism",6,0,0,deferred
+221,"Art Nouveau",6,1,0,partial
+222,"Art Deco",6,0,0,deferred
+223,"Polish School of Graphic Design",6,0,0,deferred
+224,"Japanese Modernism",6,0,0,deferred
+225,"Soviet Constructivism",6,0,0,deferred
+226,"Bauhaus",6,0,0,deferred
+227,"De Stijl",6,0,0,deferred
+228,"Psychedelic Graphics",6,0,0,deferred
+229,"Punk Graphic Design",6,0,0,deferred
+230,"New Wave Graphics",6,0,0,deferred
+231,"Memphis Design",6,0,0,deferred
+232,"Pop Art",6,0,0,deferred
+233,"Dada",6,0,0,deferred
+234,"Futurism",6,0,0,deferred
+235,"Suprematism",6,0,0,deferred
+236,"Vorticism",6,0,0,deferred
+237,"Orphism",6,0,0,deferred
+238,"Rayonism",6,0,0,deferred
+239,"Precisionism",6,0,0,deferred
+240,"Op Art",6,0,0,deferred
+241,"Kinetic Art",6,0,0,deferred
+242,"Abstract Expressionism",6,1,0,partial
+243,"Hard-Edge Abstraction",6,0,0,deferred
+244,"Color-Field Painting",6,0,0,deferred
+245,"Lyrical Abstraction",6,0,0,deferred
+246,"Neo-Expressionism",6,0,0,deferred
+247,"Pop Surrealism",6,0,0,deferred
+248,"Fluxus Graphics",6,0,0,deferred
+249,"Situationist Graphics",6,0,0,deferred
+250,"Postmodern Graphic Design",6,0,0,deferred
+251,"Flat-vector illustration",6,0,0,deferred
+252,"Minimal line illustration",6,0,0,deferred
+253,"Doodle illustration",6,0,0,deferred
+254,"Conceptual editorial illustration",6,0,0,deferred
+255,"Anime visual style",6,0,0,deferred
+256,"Manga visual style",6,0,0,deferred
+257,"Chibi illustration",6,0,0,deferred
+258,"Superflat illustration",6,0,0,deferred
+259,"Kawaii illustration",6,0,0,deferred
+260,"Ligne claire illustration",6,0,0,deferred
+261,"American comic-book art",6,0,0,deferred
+262,"Mid-century modern illustration",6,0,0,deferred
+263,"Airbrush illustration",6,0,0,deferred
+264,"Textured-vector illustration",6,0,0,deferred
+265,"Paper-cut illustration",6,0,0,deferred
+266,"Halftone illustration",6,0,0,deferred
+267,"Crosshatch drawing",6,0,0,deferred
+268,"Stipple illustration",6,0,0,deferred
+269,"Scratchboard illustration",6,0,0,deferred
+270,"Charcoal illustration",6,0,0,deferred
+271,"Colored-pencil illustration",6,0,0,deferred
+272,"Marker illustration",6,0,0,deferred
+273,"Screenprint aesthetic",6,0,0,deferred
+274,"Risograph print aesthetic",6,0,0,deferred
+275,"Letterpress aesthetic",6,0,0,deferred
+276,"Woodcut print aesthetic",6,0,0,deferred
+277,"Linocut print aesthetic",6,0,0,deferred
+278,"Etching print aesthetic",6,0,0,deferred
+279,"Lithographic print aesthetic",6,0,0,deferred
+280,"Monotype print aesthetic",6,0,0,deferred
+281,"Cyanotype aesthetic",6,0,0,deferred
+282,"Photogram aesthetic",6,0,0,deferred
+283,"Paper-ephemera collage",6,0,0,deferred
+284,"Xerox copy-art",6,0,0,deferred
+285,"Zine aesthetic",6,0,0,deferred
+286,"Stencil aesthetic",6,0,0,deferred
+287,"Paste-up aesthetic",6,0,0,deferred
+288,"Decoupage aesthetic",6,0,0,deferred
+289,"Mixed-media assemblage",6,0,0,deferred
+290,"Ink-wash aesthetic",6,0,0,deferred
+291,"Gouache aesthetic",6,0,0,deferred
+292,"Watercolor-wash aesthetic",6,0,0,deferred
+293,"Impasto painting",6,0,0,deferred
+294,"Pastel drawing",6,0,0,deferred
+295,"Fresco-mural aesthetic",6,0,0,deferred
+296,"Embroidery illustration",6,0,0,deferred
+297,"Quilted-collage aesthetic",6,0,0,deferred
+298,"Beadwork graphic aesthetic",6,0,0,deferred
+299,"Tapestry-inspired graphic style",6,0,0,deferred
+300,"Mosaic illustration",6,0,0,deferred

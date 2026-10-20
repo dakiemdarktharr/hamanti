@@ -19,6 +19,39 @@ let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, la
 let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest;
 const filters = { query: '', letter: 'all' };
 let frozenPalette;
+let introWordElements = [];
+let indexCards = [], curvedCards = new Set(), cardLayout;
+
+function measureCards() {
+  const grid = $('.style-grid');
+  if (!grid || currentStyle || !indexCards.length) return;
+  const columns = getComputedStyle(grid);
+  cardLayout = {
+    start:grid.getBoundingClientRect().left + $('#home-page').scrollLeft,
+    width:parseFloat(columns.gridAutoColumns),
+    gap:parseFloat(columns.columnGap),
+  };
+}
+function curveCards(scrollLeft) {
+  if (!cardLayout) return;
+  const {start,width,gap} = cardLayout, pitch = width + gap;
+  const first = Math.max(0,Math.floor((scrollLeft-start)/pitch)-1);
+  const last = Math.min(indexCards.length-1,Math.ceil((scrollLeft+innerWidth-start)/pitch)+1);
+  const visible = new Set();
+  for (let i=first;i<=last;i++) {
+    const card = indexCards[i];
+    const distance = Math.max(-3.7,Math.min(3.7,(start+i*pitch+width/2-scrollLeft-innerWidth/2)/pitch));
+    const tilt = -distance * 10;
+    const depth = Math.min(145,distance*distance*13);
+    card.style.transform = paused ? 'none' : `perspective(1000px) translateZ(${depth.toFixed(1)}px) rotateY(${tilt.toFixed(2)}deg)`;
+    card.style.willChange = paused ? 'auto' : 'transform';
+    visible.add(card);
+  }
+  for (const card of curvedCards) if (!visible.has(card)) {
+    card.style.transform = ''; card.style.willChange = '';
+  }
+  curvedCards = visible;
+}
 
 function smoothTo(target, options = {}) {
   const home = $('#home-page');
@@ -32,7 +65,7 @@ function smoothTo(target, options = {}) {
 function setupMotion() {
   lenis?.destroy();
   lenis = !paused ? new Lenis({
-    autoRaf:true, duration:1.1, smoothWheel:true, syncTouch:false, anchors:false,
+    autoRaf:true, lerp:.085, smoothWheel:true, syncTouch:false, anchors:false,
     ...(!currentStyle ? {wrapper:$('#home-page'),content:$('#home-track'),orientation:'horizontal',gestureOrientation:'both'} : {}),
   }) : null;
   document.body.classList.toggle('motion-paused', paused);
@@ -81,25 +114,31 @@ function typeTitle() {
 function introWords() {
   const element = $('#intro-copy'), text = element.textContent;
   element.setAttribute('aria-label', text);
-  element.innerHTML = text.split(' ').map(word => `<span class="intro-word" aria-hidden="true">${escape(word)} </span>`).join('');
+  element.innerHTML = text.trim().split(/\s+/).map(word => `<span class="intro-word" aria-hidden="true">${escape(word)}</span>`).join(' ');
+  introWordElements = [...element.querySelectorAll('.intro-word')];
 }
 function requestUpdate() {
   if (frameRequest) return;
   frameRequest = requestAnimationFrame(() => {
     frameRequest = null;
     if (!currentStyle) {
-      const words = [...document.querySelectorAll('.intro-word')];
-      words.forEach(word => {
-        const bounds = word.getBoundingClientRect();
+      const intro = $('#about').getBoundingClientRect();
+      // Finish all word geometry reads before writing styles.
+      const bounds = intro.right > 0 && intro.left < innerWidth
+        ? introWordElements.map(word => word.getBoundingClientRect()) : null;
+      introWordElements.forEach((word, i) => {
         // Reveal each word only after it passes the horizontal centre.
-        const progress = clamp((innerWidth * .5 - (bounds.left + bounds.width / 2)) / 90);
-        word.style.opacity = paused ? 1 : progress;
+        const progress = paused ? 1 : bounds
+          ? clamp((innerWidth * .5 - (bounds[i].left + bounds[i].width / 2)) / 90)
+          : intro.right <= 0 ? 1 : 0;
+        const value = String(Math.round(progress * 100) / 100);
+        if (word.style.opacity !== value) word.style.opacity = value;
       });
       const home = $('#home-page'), index = $('#index').getBoundingClientRect();
       const indexStart = index.left + home.scrollLeft;
       $('#index-prev').disabled = home.scrollLeft <= indexStart + 2;
       $('#index-next').disabled = index.right <= innerWidth + 2;
-      landscape?.update();
+      curveCards(home.scrollLeft);
     } else galleryUpdate?.();
     const footer = $('#footer').getBoundingClientRect();
     const footerProgress = currentStyle
@@ -114,18 +153,20 @@ function renderIndex() {
   const styles = searchStyles(handbook.styles, query).filter(style =>
     filters.letter === 'all' || style.name.charAt(0).toLocaleUpperCase() === filters.letter
   );
-  $('#style-index').innerHTML = `<div class="style-grid">${styles.map(style => `<a href="#/style/${style.id}" class="style-card${style.examples.length ? '' : ' style-card-empty'}" data-style="${style.id}" aria-label="${escape(style.name)}${style.found < 8 ? ', examples pending' : ''}">
-    ${style.examples[0] ? `<div class="style-picture"><img src="${escape(safeURL(style.examples[0].image))}" alt="${escape(style.examples[0].title)}" loading="lazy" decoding="async" width="${style.examples[0].width}" height="${style.examples[0].height}"></div>` : ''}
-    <div class="card-label"><span class="style-number">${pad(style.rank)}</span><span class="style-coverage">${style.found ? `${style.found} references` : 'Images to come'}</span></div>
+  $('#style-index').innerHTML = `<div class="style-grid">${styles.map(style => `<a href="#/style/${style.id}" class="style-card${style.examples.length ? '' : ' style-card-empty'}" data-style="${style.id}" title="${escape(style.name)}" aria-label="${escape(style.name)}${style.found < style.expected ? ', examples pending' : ''}">
+    ${style.examples[0] ? `<div class="style-picture"><img src="${escape(safeURL(style.examples[0].thumbnail || style.examples[0].image))}" alt="${escape(style.examples[0].title)}" loading="lazy" decoding="async" width="${style.examples[0].width}" height="${style.examples[0].height}"></div>` : `<div class="style-picture style-picture-pending" aria-hidden="true"><span>${escape(style.name.charAt(0))}</span></div>`}
+    <div class="card-label"><span class="style-number">${pad(style.rank)}</span><span class="style-coverage">${style.found ? `${style.found} ${style.found === 1 ? 'reference' : 'references'}` : 'Images to come'}</span></div>
     <h3 class="style-name">${escape(style.name)}</h3><span class="card-open" aria-hidden="true">↗</span>
   </a>`).join('')}</div>`;
   $('#result-count').textContent = `${styles.length} ${styles.length === 1 ? 'style' : 'styles'}${query || filters.letter !== 'all' ? ' / 300' : ' · A — Z'}`;
   $('#search-clear').hidden = !query;
   $('#empty').hidden = styles.length > 0;
+  indexCards = [...document.querySelectorAll('.style-card')];
+  curvedCards.clear(); measureCards();
   lenis?.resize();
   requestUpdate();
 }
-function sourceLabel(example) { return ({pin:'Pin',board_or_idea:'Board / idea',website:'Website',museum:'Collection'})[example.kind] || 'Source'; }
+function sourceLabel(example) { return ({pin:'Pin',board_or_idea:'Board / idea',website:'Website',museum:'Collection',upload:'Selected reference'})[example.kind] || 'Source'; }
 function renderDetail(style) {
   currentStyle = style;
   lastStyleId = style.id;
@@ -139,24 +180,24 @@ function renderDetail(style) {
       <p class="detail-label">${pad(style.rank)} / 300</p>
       <h1 class="detail-title" tabindex="-1">${escape(style.name)}</h1>
       <p class="detail-description">${escape(style.description)}</p>
-      <div class="detail-meta"><span>${examples.length} / 8 Full HD references${examples.length < 8 ? ' · Examples pending' : ''}</span>${style.sources?.[0] ? `<a href="${escape(safeURL(style.sources[0].url))}" target="_blank" rel="noopener">Read about this direction ↗</a>` : `<a href="./artstyles-300.md" target="_blank" rel="noopener">Original notes ↗</a>`}</div>
+      <div class="detail-meta"><span>${examples.length} Full HD ${examples.length === 1 ? 'reference' : 'references'}${examples.length < style.expected ? ' · Examples pending' : ''}</span>${style.sources?.[0] ? `<a href="${escape(safeURL(style.sources[0].url))}" target="_blank" rel="noopener">Read about this direction ↗</a>` : `<a href="./artstyles-300.md" target="_blank" rel="noopener">Original notes ↗</a>`}</div>
     </header>
     ${examples.length ? `<section class="gallery-track" id="gallery-track" aria-label="${escape(style.name)} references">
-      <div class="gallery-viewport"><div class="gallery-label"><span>( reference studies )</span><span>Scroll to turn · Select to view</span></div>
+      <div class="gallery-viewport"><div class="gallery-label"><span>( reference studies )</span><span id="gallery-hint">Select to view</span></div>
         <div class="gallery-stage" id="gallery-stage">${examples.map((example,index) => `<figure class="reference${example.height > example.width * 1.45 ? ' reference-tall' : ''}" data-reference="${index}">
           <button class="reference-open" data-open-image="${index}" aria-label="View reference ${index + 1}: ${escape(example.title)}"><img src="${escape(safeURL(example.image))}" alt="${escape(example.title)}" loading="${index < 2 ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></button>
-          <figcaption><span>${String(index+1).padStart(2,'0')} / ${String(examples.length).padStart(2,'0')}</span><a href="${escape(safeURL(example.url))}" target="_blank" rel="noopener">${sourceLabel(example)} ↗<span class="sr-only">: ${escape(example.title)}</span></a></figcaption>
+          <figcaption><span>${String(index+1).padStart(2,'0')} / ${String(examples.length).padStart(2,'0')}</span>${example.url ? `<a href="${escape(safeURL(example.url))}" target="_blank" rel="noopener">${sourceLabel(example)} ↗<span class="sr-only">: ${escape(example.title)}</span></a>` : '<span>Selected reference</span>'}</figcaption>
         </figure>`).join('')}</div>
         <div class="gallery-controls"><span class="gallery-current" id="gallery-current" aria-live="off">01 / ${String(examples.length).padStart(2,'0')}</span><div class="gallery-buttons"><button id="gallery-prev" aria-label="Previous reference">←</button><button id="gallery-next" aria-label="Next reference">→</button></div></div>
       </div></section>` : ''}
-    ${examples.length < 8 ? `<aside class="pending"><span class="mono">Examples pending</span><p>${8 - examples.length} ${examples.length === 7 ? 'reference' : 'references'} pending.</p></aside>` : ''}
+    ${examples.length < style.expected ? `<aside class="pending"><span class="mono">Examples pending</span><p>${style.expected - examples.length} more ${style.expected - examples.length === 1 ? 'reference' : 'references'} to come.</p></aside>` : ''}
     ${examples.length ? '<p class="reference-note"><a href="./sources.html">Sources & credits ↗</a></p>' : ''}
     <a class="next-style" href="#/style/${next.id}"><span>Next style ↗</span><strong>${escape(next.name)}</strong></a>
   </article>`;
   $('#detail-page').querySelectorAll('.reference img').forEach(img => img.addEventListener('error', () => {
     const replacement = document.createElement('span');
     replacement.className = 'image-unavailable';
-    replacement.textContent = 'Preview unavailable. Open the source below.';
+    replacement.textContent = 'Image unavailable. Please try again later.';
     img.replaceWith(replacement);
   }, { once: true }));
   setupGallery();
@@ -178,8 +219,10 @@ function setupGallery() {
   const stage = $('#gallery-stage'), cards = [...track.querySelectorAll('.reference')];
   cards.forEach(card => { card.style.transform = ''; card.style.opacity = ''; card.classList.remove('is-active'); card.querySelectorAll('button,a').forEach(el => el.removeAttribute('tabindex')); });
   track.classList.remove('barrel'); track.style.height = ''; stage.style.transform = '';
+  $('#gallery-hint').textContent = 'Select to view';
   if (!desktop.matches || paused || cards.length < 3) { lenis?.resize(); return; }
   track.classList.add('barrel');
+  $('#gallery-hint').textContent = 'Scroll to turn · Select to view';
   const radius = Math.max(900, Math.min(innerWidth * .8, 1550)), step = 360 / cards.length;
   track.style.height = `${cards.length * 65 + 100}svh`;
   stage.style.setProperty('--radius', `${radius}px`);
@@ -226,9 +269,10 @@ function openImage(index) {
   if (!example) return;
   $('#lightbox-image').src = safeURL(example.image); $('#lightbox-image').alt = example.title;
   $('#lightbox-title').textContent = example.title;
-  $('#lightbox-counter').textContent = `${pad(currentStyle.id)} · ${index + 1} / ${currentStyle.examples.length}`;
+  $('#lightbox-counter').textContent = `${pad(currentStyle.rank)} · ${index + 1} / ${currentStyle.examples.length}`;
   $('#lightbox-source').href = safeURL(example.url);
   $('#lightbox-source').textContent = `${sourceLabel(example)} ↗`;
+  $('#lightbox-source').hidden = !example.url;
   lenis?.stop(); $('#lightbox').showModal(); $('.lightbox-image').scrollTop = 0; $('#lightbox-close').focus();
 }
 async function cover(type, render) {
@@ -276,6 +320,8 @@ function showRoute(hash, { returnToIndex = false, focus = true } = {}) {
     if (!hash.startsWith('#/index')) typeTitle();
   }
   lenis?.resize(); bindControls(); requestUpdate();
+  measureCards();
+  landscape?.update();
 }
 document.addEventListener('click', async event => {
   const image = event.target.closest('[data-open-image]');
@@ -304,7 +350,7 @@ $('#home-page').addEventListener('wheel',event => {
   event.preventDefault();
   $('#home-page').scrollLeft += delta * (event.deltaMode===1 ? 16 : event.deltaMode===2 ? innerWidth : 1);
 },{passive:false});
-addEventListener('resize', () => { if (currentStyle) setupGallery(); requestUpdate(); }, {passive:true});
+addEventListener('resize', () => { if (currentStyle) setupGallery(); else measureCards(); requestUpdate(); }, {passive:true});
 $('#lightbox-close').addEventListener('click', () => $('#lightbox').close());
 $('#lightbox').addEventListener('close', () => lenis?.start());
 $('#lightbox').addEventListener('click', event => { if (event.target === $('#lightbox')) $('#lightbox').close(); });
@@ -321,8 +367,14 @@ document.addEventListener('keydown', event => {
   const card = document.activeElement.closest('.style-card');
   if (card && ['ArrowLeft','ArrowRight'].includes(event.key)) {
     const cards = [...document.querySelectorAll('.style-card')], index = cards.indexOf(card);
-    const next = cards[Math.max(0,Math.min(cards.length-1,index+(event.key==='ArrowRight'?1:-1)))];
-    event.preventDefault(); next?.focus(); return;
+    const nextIndex = Math.max(0,Math.min(cards.length-1,index+(event.key==='ArrowRight'?1:-1)));
+    const next = cards[nextIndex];
+    event.preventDefault(); next?.focus({preventScroll:true});
+    if (cardLayout) {
+      const destination = cardLayout.start + nextIndex*(cardLayout.width+cardLayout.gap) + cardLayout.width/2 - innerWidth/2;
+      smoothTo(Math.max($('#index').offsetLeft,Math.min(destination,$('#index').offsetLeft+$('#index').offsetWidth-innerWidth)));
+    }
+    return;
   }
   const direction = ({ArrowRight:1,PageDown:1,ArrowLeft:-1,PageUp:-1})[event.key];
   if (direction) { event.preventDefault(); smoothTo($('#home-page').scrollLeft + direction * innerWidth * .8); }
@@ -367,6 +419,7 @@ try {
   $('#footer-coverage').textContent = `${handbook.stats.examples.toLocaleString()} references`;
   $('.index-total').innerHTML = `${handbook.styles.length} directions<br>A — Z`;
   introWords(); renderIndex(); showRoute(location.hash, {focus:false});
+  document.fonts.ready.then(() => { lenis?.resize(); measureCards(); requestUpdate(); });
   import('./lib/shanshui.js').then(({createShanShui}) => {
     landscape = createShanShui($('#landscape'),$('#home-page'));
   }).catch(() => { $('#landscape').classList.add('landscape-unavailable'); });

@@ -1,1 +1,28 @@
-{}
+{
+  "Abstract Expressionism": [
+    {
+      "imageUrl": "manual:a0f9ffe1fb5e7892dbe1923a3204e9ab6404c76530d5af4332eddf1301d6f920",
+      "title": "Abstract Expressionism — painted splatter study",
+      "url": null,
+      "width": 1200,
+      "height": 2451,
+      "reviewStatus": "approved",
+      "peopleReview": "no-real-people",
+      "provider": "User-supplied collection",
+      "collectedAt": "2026-10-20T17:32:32.508Z"
+    }
+  ],
+  "Art Nouveau": [
+    {
+      "imageUrl": "manual:682c93259ba501387140929b3319a4b50ffc7b9197c60084f26b1a551cf1c312",
+      "title": "Art Nouveau — botanical pattern study",
+      "url": null,
+      "width": 1200,
+      "height": 2211,
+      "reviewStatus": "approved",
+      "peopleReview": "no-real-people",
+      "provider": "User-supplied collection",
+      "collectedAt": "2026-10-20T17:32:32.508Z"
+    }
+  ]
+}

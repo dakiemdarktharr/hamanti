@@ -22,11 +22,13 @@ Open http://localhost:4173. The existing HTML, CSS, and browser JavaScript stack
 
 The home page is one horizontal handscroll: title, introduction, alphabetical A–Z index and closing credits. Wheel and trackpad gestures move sideways; touch uses native horizontal swiping. Arrow keys, Page Up/Down, Home/End and previous/next controls offer keyboard navigation. Reduced-motion mode keeps the same navigation without smoothing. The reference detail pages retain their readable vertical layout and gallery.
 
-The index uses two rows, ordered down each column and then to the right; short screens use one row. Search, first-letter filtering and navigation remain visible while moving through the list. There are no family sections. Empty cards show the style name and “Images to come”; descriptions stay in the detail view. Search includes names, aliases, descriptions and tags, tolerates a single-letter typo in longer words, and has a clear control and slash shortcut. Stable style IDs preserve existing detail URLs; displayed numbers and next-style navigation follow alphabetical order.
+The index is a single curved row with seven complete cards visible on desktop, five on tablets, and one readable card with a neighbouring preview on phones. The side cards turn toward the viewer; only visible cards and a small overscan receive transform updates. Offscreen card contents skip painting. Search, first-letter filtering and navigation remain visible while moving through the list. There are no family sections. Empty cards show a typographic placeholder and “Images to come”; descriptions stay in the detail view. Search includes names, aliases, descriptions and tags, tolerates a single-letter typo in longer words, and has a clear control and slash shortcut. Stable style IDs preserve existing detail URLs; displayed numbers and next-style navigation follow alphabetical order.
 
 The flower graphic and 3D woodland have been replaced. Hand-drawn arrows lead right through the page, while an SVG shan shui landscape extends behind the introduction and index. The generator is from https://github.com/LingDong-/shan-shui-inf, pinned at `9f754d2b2e73495db7883d4d4055a7b0903b0454`, with its MIT license and attribution retained. Its legacy globals and seeded random generator are isolated in a classic Web Worker. Terrain and planning data are pruned, generation requests are coalesced, and distant jumps generate only the requested area. All ink uses the logo's `#222a20`, with wash opacity preserved on `#e9ebe2` paper. Scenery follows scrolling; it does not move on its own.
 
-The introduction starts revealing each word only after it passes the viewport's horizontal centre. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Detail backgrounds are chosen once per visit from Topography, Gradient ASCII, Pattern Waves, Beams, and Aero Shards (when WebGPU is available). The chosen pattern and palette stay fixed until leaving that style.
+The landscape is decoded ahead of the viewport into a single SVG image layer and moved with a composited transform. Scrolling no longer changes a live SVG viewBox containing tens of thousands of paths. The previous layer stays visible until its replacement is decoded; temporary object URLs are revoked. The worker keeps a bounded terrain buffer and skips intervening terrain after distant navigation jumps.
+
+The introduction starts revealing each word only after it passes the viewport's horizontal centre. Spaces sit outside the word spans, with generous line spacing; geometry is read before opacity updates. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Single-image collections use the full gallery width. Detail backgrounds are chosen once per visit from Topography, Gradient ASCII, Pattern Waves, Beams, and Aero Shards (when WebGPU is available). The chosen pattern and palette stay fixed until leaving that style.
 
 All production logo, icon, button, and decorative landscape artwork is SVG with vector paths or text. No raster is embedded in those SVGs. The old GLB forest models and pastel backdrop are excluded from the published build.
 
@@ -42,8 +44,9 @@ The user-authorized revision is `data/catalog.json`: 300 distinct named entries.
 - `data/research/*-hd-approved.json`: references that passed visual review and native-resolution checks.
 - `data/hd-selection.json`: cleared earlier Pinterest selection.
 - `data/hd-media-map.json`: historical source-to-MongoDB mapping; these images have been removed.
-- `data/collection-policy.json`: manual collection policy and the user’s “done” upload trigger.
-- `data/manual-selection.json` and `data/manual-media-map.json`: currently empty inputs for the replacement collection.
+- `data/collection-policy.json`: current collection, review and migration rules.
+- `data/manual-selection.json` and `data/manual-media-map.json`: reviewed replacement collection and verified MongoDB files.
+- `data/manual-review.json` and `data/manual-import-report.json`: explicit review decisions and verified import results.
 - `data/manual-intake.json`: mapping of the 300 named local folders to stable style IDs.
 - `data/references.json` and `data/coverage.csv`: published references and actual coverage.
 - `data/reference-removal-report.json`: verified deletion results for both hamanti image archives.
@@ -51,13 +54,19 @@ The user-authorized revision is `data/catalog.json`: 300 distinct named entries.
 
 Pinterest searches use aesthetic names and optional “design” or “aesthetics,” without forcing “UI” onto names such as Frutiger Aero. Native Full HD means at least 1920×1080 or 1080×1920. Small originals are excluded, not enlarged. Images are inspected for relevance; a keyword match alone is insufficient. Casual group photos, selfies and candid people shots are excluded, including photos embedded in collages and layouts. Deliberately posed model/editorial shoots and drawn or painted figures are allowed. The compiler requires an explicit `peopleReview` decision of `no-real-people` or `posed-model`.
 
-Automated Pinterest collection is stopped. Earlier research files and source links are historical records, not active image selections. The published collection currently contains **zero reference images**. All 300 styles are pending while the user prepares a replacement collection.
+Earlier bulk Pinterest collectors remain disabled. On 2026-10-21 the user authorized partial use of the supplied files, then explicitly retained the native Full HD minimum. Of 118 original files across 17 folders, two qualified and were visually approved: one each for Abstract Expressionism and Art Nouveau. They were copied to MongoDB and read back to verify exact checksums and dimensions. The other 116 originals remain untouched in the intake folder. Small index thumbnails are delivery variants of the qualifying originals, not additional references.
+
+The user subsequently authorized exactly two collection agents, `search` and `check`, both GPT-6 Luna at xhigh. They skip folders that originally contained at least six image files and work on the other 288 folders, seeking twelve candidates and retaining at least six reviewed Full HD references per eligible style. The twelve skipped folders are not automatically certified as Full HD. The interface uses six as its current minimum and can display every approved reference, without the earlier eight-image cap. The agents do not migrate data or edit the website.
 
 ## Manual image handoff
 
 `D:\3000 reference images` contains 300 subfolders named for the current styles and a short `READ ME.txt`. `scripts/create-image-folders.mjs` creates this layout without overwriting existing files. Optional source links can be saved as `sources.csv` with `filename,url,title` columns inside each style folder.
 
-Wait until the user says **“done”**. Then inspect the supplied files for native Full HD resolution, relevance and the people-photo policy, import the accepted files into MongoDB, and publish the updated catalog. The import step must be adapted to the actual supplied files; it is not a background watcher. Verify stored checksums, dimensions, counts and live delivery before removing the intake directory. Resolve failed or unsuitable files first so cleanup never silently discards unimported work.
+The full agent-collected batch is to be migrated after both agents finish the folder review. Their cumulative ready/review manifests and original folder audit are under `.tmp/collection-coordination/`. Preserve the source URL, checksum, measured dimensions and explicit people-photo decision when merging approvals into `data/manual-review.json`.
+
+`scripts/inspect-manual-images.mjs` makes a local dimension inventory and review contact sheets. `node --env-file=.env.local scripts/import-manual-images.mjs` imports only explicitly approved files whose checksum still matches, verifies MongoDB read-back, creates small index thumbnails and rebuilds the published reference data. It is repeatable and never removes intake files. Unattributed user-supplied images do not receive invented Pinterest links.
+
+Keep the intake directory until the user says **“done”**, the accepted images are verified and published, and all remaining rejected or failed files have been resolved. An agent finishing its own collection does not authorize deleting the user's unfinished intake.
 
 The Pinterest collection and migration utilities refuse to run while `data/collection-policy.json` is in manual mode.
 
@@ -75,7 +84,7 @@ The `hamanti` database uses the already-existing `wfg` Flex cluster. At the user
 
 Store `MONGODB_URI` only in ignored `.env.local` and Vercel's server environment. The read-only `api/images/[id].js` endpoint rejects retired image IDs with HTTP 410 and no-store caching. The GitHub Pages site uses the same image API.
 
-Native dimensions are retained while delivery files are encoded as WebP. Files exceeding Vercel's response limit are excluded. Use the explicit 4,000 MB migration ceiling for `wfg`; the script defaults to a conservative 280 MB ceiling for older free-cluster setups. Capacity failures remain pending instead of silently changing plans or removing older data.
+The current manual import retains original bytes and dimensions, with separate WebP thumbnails for the index. Files exceeding the 4.3 MB delivery budget remain pending. The manual importer uses a 4,000 MB ceiling for `wfg`; historical migration tools default to a conservative 280 MB ceiling for older free clusters. Capacity failures remain pending instead of silently changing plans or removing older data.
 
 ## Design assets
 
@@ -99,4 +108,4 @@ Keep `hamanti.vercel.app` attached as the Vercel production domain because the i
 
 Official React Bits components and their MIT + Commons Clause license are in `vendor/react-bits/`. Shan Shui Inf and its MIT license are in `vendor/shan-shui-inf/`. Font licenses ship with the site. Motion example interactions are independently implemented; restricted Motion+ code is not included. Canva assets and the shan shui landscape are interface decoration, never art-style reference examples.
 
-Builds and manual browser inspection only. No tests were added or run, as requested.
+The user authorized tests on 2026-10-21. Run `npm test` for the native-dimension, visual-review, storage-verification, source-link, duplicate and catalog/search regressions. Browser checks also cover desktop/mobile layout, seven-card geometry, keyboard navigation, filtering, the modal image view, motion pause and long-distance landscape navigation. Earlier work predating this authorization used builds and manual inspection only.

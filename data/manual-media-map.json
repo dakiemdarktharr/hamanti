@@ -1,1 +1,34 @@
-{}
+{
+  "manual:a0f9ffe1fb5e7892dbe1923a3204e9ab6404c76530d5af4332eddf1301d6f920": {
+    "id": "bdff3986664b1d0356ce3bf9b48121005588a26d68dba603c5ced9d4613d53e6",
+    "width": 1200,
+    "height": 2451,
+    "size": 894086,
+    "mime": "image/jpeg",
+    "checksum": "a0f9ffe1fb5e7892dbe1923a3204e9ab6404c76530d5af4332eddf1301d6f920",
+    "verified": true,
+    "thumbnailId": "1f265aa6b90f4faa7afae34f256a243731f80c4f048edf72236f7ec58ebfb90f",
+    "sourceChecksum": "a0f9ffe1fb5e7892dbe1923a3204e9ab6404c76530d5af4332eddf1301d6f920",
+    "palette": {
+      "background": "#0e0e0f",
+      "accent": "#73737e",
+      "method": "dominant color of selected reference"
+    }
+  },
+  "manual:682c93259ba501387140929b3319a4b50ffc7b9197c60084f26b1a551cf1c312": {
+    "id": "35f08185c4d886e25dd196d456573e90c68f91893d941538ff04b1ff5dd1b3c8",
+    "width": 1200,
+    "height": 2211,
+    "size": 696172,
+    "mime": "image/jpeg",
+    "checksum": "682c93259ba501387140929b3319a4b50ffc7b9197c60084f26b1a551cf1c312",
+    "verified": true,
+    "thumbnailId": "1b199c0e9f6beff0b3372096cc5548a03c3728020dee2a801f0ea8fe9adb150c",
+    "sourceChecksum": "682c93259ba501387140929b3319a4b50ffc7b9197c60084f26b1a551cf1c312",
+    "palette": {
+      "background": "#0c0c0c",
+      "accent": "#5e5e5e",
+      "method": "dominant color of selected reference"
+    }
+  }
+}

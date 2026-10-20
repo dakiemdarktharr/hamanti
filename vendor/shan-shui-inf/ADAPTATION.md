@@ -13,6 +13,14 @@ The extracted classic script runs only in a Web Worker. The worker retains
 bounded terrain/planning data and recolors grayscale washes to the hamanti
 logo's dark green (`#222a20`) on the site's paper (`#e9ebe2`).
 
-The browser moves an SVG viewBox with the horizontal scroll position.
+The browser moves a decoded SVG image with the horizontal scroll position.
 Generated landscapes are interface decoration, not style reference images.
 No remote scripts, images or calls are made by this integration.
+## Scrolling performance update
+
+The generated SVG remains vector artwork, but is decoded as an image before it
+enters the page. The browser moves one image layer with `translate3d` rather than
+repainting thousands of inline paths after a viewBox change. A worker-generated
+buffer covers the viewport plus a margin; requests are coalesced, obsolete views
+are discarded, and object URLs are revoked when replaced. Generation and
+decoding failures retain the previous view or leave the plain paper background.
