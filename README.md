@@ -69,7 +69,7 @@ Strongly recommended: install the Vercel CLI globally with `npm i -g vercel`. Th
 vercel deploy --prod
 ```
 
-Keep the `hamanti.vercel.app` alias attached to the production deployment because compiled image URLs use it. A build does not crawl Pinterest or access MongoDB.
+The Vercel project is named `hamanti`, and `hamanti.vercel.app` is registered as its production domain. Keep this domain attached because compiled image URLs use it. A build does not crawl Pinterest or access MongoDB.
 
 ## Licenses and validation
 
