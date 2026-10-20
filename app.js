@@ -20,7 +20,7 @@ const filters = { query: '', group: 'all', coverage: 'all' };
 let frozenPalette;
 
 function smoothTo(target, options = {}) {
-  if (lenis && !paused) lenis.scrollTo(target, { duration: 1.1, ...options });
+  if (lenis && !paused) lenis.scrollTo(target, { duration: 1.1, force: options.immediate === true, ...options });
   else window.scrollTo({ top: typeof target === 'number' ? target : target.getBoundingClientRect().top + scrollY, behavior: 'instant' });
 }
 function setupMotion() {
@@ -247,10 +247,11 @@ function showRoute(hash, { returnToIndex = false, focus = true } = {}) {
   document.body.classList.toggle('detail-mode', Boolean(style));
   $('#home-page').hidden = Boolean(style); $('#detail-page').hidden = !style;
   if (style) {
-    renderDetail(style); smoothTo(0, { immediate:true });
+    renderDetail(style); lenis?.resize(); smoothTo(0, { immediate:true });
     if (focus) $('.detail-title').focus({preventScroll:true});
   } else {
     currentStyle = null; $('#detail-page').replaceChildren(); document.title = 'hamanti — 300 ways of seeing';
+    lenis?.resize();
     const destination = hash.startsWith('#/index') ? returnToIndex && homeScroll ? homeScroll : $('#index') : 0;
     smoothTo(destination, { immediate:true });
     if (focus) {
