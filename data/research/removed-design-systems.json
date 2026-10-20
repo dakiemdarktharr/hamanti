@@ -1,0 +1,767 @@
+[
+  {
+    "name": "Material Design",
+    "description": "Paper-like surfaces, deliberate elevation, clear geometry, and responsive motion organize interface layers.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The original material metaphor is distinct from the more expressive shapes and tonal roles of Material 3.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Google — Material Design",
+        "url": "https://m2.material.io/design/introduction"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Material Design website design typography interface",
+      "Material Design design example high resolution"
+    ]
+  },
+  {
+    "name": "Material 3 Expressive",
+    "description": "Adaptive color, contrasting shapes, flexible type, and responsive components give interfaces a more expressive material language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A documented evolution of Material with shape and motion as prominent expressive tools.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Google — Material 3 Expressive",
+        "url": "https://m3.material.io/"
+      }
+    ],
+    "referenceQueries": [
+      "Material 3 Expressive website design typography interface",
+      "Material 3 Expressive design example high resolution"
+    ]
+  },
+  {
+    "name": "Fluent 2",
+    "description": "Coordinated strokes, rounded components, layered surfaces, and platform-aware typography unify Microsoft interfaces.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A named cross-platform system, not a synonym for all translucent or glassy UI.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Microsoft — Fluent 2",
+        "url": "https://fluent2.microsoft.design/"
+      }
+    ],
+    "referenceQueries": [
+      "Fluent 2 website design typography interface",
+      "Fluent 2 design example high resolution"
+    ]
+  },
+  {
+    "name": "IBM Carbon UI",
+    "description": "IBM Plex typography, a disciplined grid, and restrained component geometry support structured information-rich screens.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The IBM visual language and 2x grid distinguish it from generic enterprise flat design.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "IBM — Carbon Design System",
+        "url": "https://carbondesignsystem.com/"
+      },
+      {
+        "title": "IBM Design Language — 2x Grid",
+        "url": "https://www.ibm.com/design/language/2x-grid/"
+      }
+    ],
+    "referenceQueries": [
+      "IBM Carbon UI Pinterest IBM Carbon UI design examples"
+    ]
+  },
+  {
+    "name": "Adobe Spectrum UI",
+    "description": "Adobe’s coordinated typography, component proportions, and interface surfaces create a consistent workspace for creative tools.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A documented Adobe interface language; not any colorful gradient-based design.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Adobe — Spectrum",
+        "url": "https://spectrum.adobe.com/"
+      }
+    ],
+    "referenceQueries": [
+      "Adobe Spectrum UI Pinterest Adobe Spectrum UI design examples"
+    ]
+  },
+  {
+    "name": "Shopify Polaris UI",
+    "description": "Compact cards, clear controls, and consistent spacing create Shopify’s practical administrative interface language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Refers to Shopify’s published system rather than a generic commerce-site category.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Shopify — Polaris",
+        "url": "https://polaris.shopify.com/"
+      }
+    ],
+    "referenceQueries": [
+      "Shopify Polaris UI Pinterest Shopify Polaris UI design examples"
+    ]
+  },
+  {
+    "name": "Atlassian Design System",
+    "description": "Shared typography, semantic colors, illustration, and restrained interface components organize collaborative work.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The actual Atlassian visual system is the reference, rather than a generic blue dashboard.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Atlassian Design",
+        "url": "https://atlassian.design/"
+      }
+    ],
+    "referenceQueries": [
+      "Atlassian Design System Pinterest Atlassian Design System design examples"
+    ]
+  },
+  {
+    "name": "GitHub Primer UI",
+    "description": "Careful type hierarchy, fine borders, compact controls, and code-friendly details give GitHub interfaces their visual structure.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A documented GitHub language, distinct from a terminal simulation.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "GitHub — Primer",
+        "url": "https://primer.style/"
+      }
+    ],
+    "referenceQueries": [
+      "GitHub Primer UI Pinterest GitHub Primer UI design examples"
+    ]
+  },
+  {
+    "name": "Vercel Geist UI",
+    "description": "High contrast, Geist Sans and Mono, precise grids, and controlled surface treatments form Vercel’s interface language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Combines a specific type and material system; it is not merely a black-and-white color option.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Vercel — Geist Design System",
+        "url": "https://vercel.com/geist/introduction"
+      }
+    ],
+    "referenceQueries": [
+      "Vercel Geist UI Pinterest Vercel Geist UI design examples"
+    ]
+  },
+  {
+    "name": "Salesforce Lightning UI",
+    "description": "Coordinated cards, icons, data controls, and interface spacing form Salesforce’s product visual language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A named design system whose newer architecture separates component structure from visual themes.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Salesforce — Lightning Design System 2",
+        "url": "https://www.salesforce.com/blog/what-is-slds-2/"
+      }
+    ],
+    "referenceQueries": [
+      "Salesforce Lightning UI Pinterest Salesforce Lightning UI design examples"
+    ]
+  },
+  {
+    "name": "GOV.UK Design System",
+    "description": "Direct typography, explicit links, firm form outlines, and clear page hierarchy give public-service screens their recognizable structure.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Its established service language differs from generic minimalism or a color-only high-contrast theme.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Government Digital Service — GOV.UK Design System",
+        "url": "https://design-system.service.gov.uk/"
+      }
+    ],
+    "referenceQueries": [
+      "GOV.UK Design System website design typography interface",
+      "GOV.UK Design System design example high resolution"
+    ]
+  },
+  {
+    "name": "USWDS",
+    "description": "Coordinated type, structured components, and a flexible grid create a recognizable foundation for U.S. public-service interfaces.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "An adaptable federal design system rather than one compulsory government color scheme.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "U.S. Web Design System",
+        "url": "https://designsystem.digital.gov/"
+      }
+    ],
+    "referenceQueries": [
+      "USWDS website design typography interface",
+      "USWDS design example high resolution"
+    ]
+  },
+  {
+    "name": "Ant Design",
+    "description": "Fine component borders, clear spacing, restrained depth, and detailed data controls form a measured enterprise interface language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The visual family is defined by Ant’s published components and patterns, not by enterprise subject matter alone.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Ant Design — Introduction",
+        "url": "https://ant.design/docs/spec/introduce"
+      }
+    ],
+    "referenceQueries": [
+      "Ant Design website design typography interface",
+      "Ant Design design example high resolution"
+    ]
+  },
+  {
+    "name": "SAP Fiori",
+    "description": "Coherent page structures, modular controls, clear typography, and purposeful emphasis organize SAP’s application interfaces.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A documented SAP design language with platform-specific implementations.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "SAP — Fiori for Web",
+        "url": "https://www.sap.com/design-system/fiori-design-web/"
+      }
+    ],
+    "referenceQueries": [
+      "SAP Fiori website design typography interface",
+      "SAP Fiori design example high resolution"
+    ]
+  },
+  {
+    "name": "Oracle Redwood",
+    "description": "Earthy color, hand-drawn textures, realistic imagery, and approachable interface presentation give Oracle’s design language warmth.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Its material and illustration choices distinguish it from conventional cool-toned enterprise systems.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Suzanne Asprea — Oracle Redwood brand strategy",
+        "url": "https://suzasprea.com/brand-strategy-oracle-redwood-design-system"
+      }
+    ],
+    "referenceQueries": [
+      "Oracle Redwood website design typography interface",
+      "Oracle Redwood design example high resolution"
+    ]
+  },
+  {
+    "name": "VMware Clarity UI",
+    "description": "Consistent grids, legible typography, clear outlines, and compact controls bring order to complex application screens.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A specific component and visual language, rather than the generic quality of being clear.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Clarity Design System",
+        "url": "https://clarity.design/"
+      }
+    ],
+    "referenceQueries": [
+      "VMware Clarity UI Pinterest VMware Clarity UI design examples"
+    ]
+  },
+  {
+    "name": "Elastic EUI",
+    "description": "Flexible panels, compact data components, coordinated typography, and restrained emphasis organize information-heavy Elastic interfaces.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "EUI’s published visual vocabulary is the reference; not all analytics interfaces belong to it.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Elastic — EUI framework",
+        "url": "https://eui.elastic.co/"
+      }
+    ],
+    "referenceQueries": [
+      "Elastic EUI Pinterest Elastic EUI design examples"
+    ]
+  },
+  {
+    "name": "Palantir Blueprint UI",
+    "description": "Dense controls, precise alignment, and restrained application chrome emphasize structured data and desktop workflows.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A specific Palantir-developed toolkit with a compact visual language.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Palantir — Blueprint",
+        "url": "https://blueprintjs.com/"
+      }
+    ],
+    "referenceQueries": [
+      "Palantir Blueprint UI Pinterest Palantir Blueprint UI design examples"
+    ]
+  },
+  {
+    "name": "Uber Base Web UI",
+    "description": "Strong typography, straightforward surfaces, and a coordinated family of controls form Uber’s flexible interface foundation.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A named system with themeable components, not a universal label for basic websites.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Uber — Base Web",
+        "url": "https://baseweb.design/"
+      }
+    ],
+    "referenceQueries": [
+      "Uber Base Web UI Pinterest Uber Base Web UI design examples"
+    ]
+  },
+  {
+    "name": "Pinterest Gestalt UI",
+    "description": "Rounded controls, image-centered layouts, and coordinated interface details support Pinterest’s visual browsing language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Defined by Pinterest’s design system, distinct from masonry layout as an independent composition technique.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Pinterest — Gestalt",
+        "url": "https://gestalt.pinterest.systems/"
+      }
+    ],
+    "referenceQueries": [
+      "Pinterest Gestalt UI Pinterest Pinterest Gestalt UI design examples"
+    ]
+  },
+  {
+    "name": "GitLab Pajamas UI",
+    "description": "Compact controls, structured typography, and GitLab’s coordinated color and icon systems support a consistent product language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Separates the actual GitLab system from generic developer-tool styling.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "GitLab — Pajamas",
+        "url": "https://design.gitlab.com/"
+      }
+    ],
+    "referenceQueries": [
+      "GitLab Pajamas UI Pinterest GitLab Pajamas UI design examples"
+    ]
+  },
+  {
+    "name": "Twilio Paste UI",
+    "description": "Consistent spacing, typography, and component treatments create Twilio’s shared interface language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Refers to Twilio’s maintained design system, not collage or pasted-paper graphics.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Twilio — Paste",
+        "url": "https://paste.twilio.design/"
+      }
+    ],
+    "referenceQueries": [
+      "Twilio Paste UI Pinterest Twilio Paste UI design examples"
+    ]
+  },
+  {
+    "name": "Canonical Vanilla UI",
+    "description": "A clear grid, readable typography, and restrained component styling form Canonical’s web interface foundation.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The name identifies Canonical’s visual system rather than unstyled HTML.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Canonical — Vanilla Framework",
+        "url": "https://vanillaframework.io/"
+      }
+    ],
+    "referenceQueries": [
+      "Canonical Vanilla UI Pinterest Canonical Vanilla UI design examples"
+    ]
+  },
+  {
+    "name": "GNOME Adwaita",
+    "description": "Integrated header bars, rounded containers, and a coherent set of controls create a focused desktop application language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A platform design language, distinct from flat web styling or historical desktop nostalgia.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "GNOME — Human Interface Guidelines",
+        "url": "https://developer.gnome.org/hig/"
+      }
+    ],
+    "referenceQueries": [
+      "GNOME Adwaita website design typography interface",
+      "GNOME Adwaita design example high resolution"
+    ]
+  },
+  {
+    "name": "KDE Breeze",
+    "description": "Clean desktop chrome, restrained depth, and clear controls support a configurable, information-rich application language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The KDE visual family differs from GNOME’s header-bar-centered conventions.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "KDE — Human Interface Guidelines",
+        "url": "https://develop.kde.org/hig/"
+      }
+    ],
+    "referenceQueries": [
+      "KDE Breeze website design typography interface",
+      "KDE Breeze design example high resolution"
+    ]
+  },
+  {
+    "name": "Samsung One UI",
+    "description": "Large viewing areas, rounded content groups, and accessible lower-screen controls create Samsung’s mobile interface language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Layout and one-handed interaction shape the visual system, beyond a rounded-corner treatment.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Samsung Design — One Thought, One UI",
+        "url": "https://design.samsung.com/global/contents/one-ui/"
+      }
+    ],
+    "referenceQueries": [
+      "Samsung One UI website design typography interface",
+      "Samsung One UI design example high resolution"
+    ]
+  },
+  {
+    "name": "Audi UI",
+    "description": "Precise typography, restrained geometry, and controlled interface contrast apply Audi’s brand language to screens.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A documented brand interface system rather than a category of automotive websites.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Audi — User Interface brand guidelines",
+        "url": "https://styleguide.audi.com/document/2865"
+      }
+    ],
+    "referenceQueries": [
+      "Audi UI website design typography interface",
+      "Audi UI design example high resolution"
+    ]
+  },
+  {
+    "name": "Porsche Design System",
+    "description": "Clear typography, deliberate spacing, and a coordinated component family translate Porsche’s visual identity to digital interfaces.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A specific digital design language, not a general luxury-site aesthetic.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Porsche Design System",
+        "url": "https://designsystem.porsche.com/v4/"
+      }
+    ],
+    "referenceQueries": [
+      "Porsche Design System website design typography interface",
+      "Porsche Design System design example high resolution"
+    ]
+  },
+  {
+    "name": "Wise Design",
+    "description": "Expressive typography, bold geometric forms, and a coordinated color system give Wise’s digital experiences a distinct visual identity.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Its full brand and interface vocabulary matters, rather than copying a green accent.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Wise Design",
+        "url": "https://wise.design/"
+      }
+    ],
+    "referenceQueries": [
+      "Wise Design website design typography interface",
+      "Wise Design design example high resolution"
+    ]
+  },
+  {
+    "name": "Mozilla Protocol",
+    "description": "A shared typographic hierarchy, recognizable brand graphics, and reusable page components structure Mozilla and Firefox websites.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A documented web design language with brand-specific visual assets.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Mozilla — Protocol",
+        "url": "https://protocol.mozilla.org/"
+      }
+    ],
+    "referenceQueries": [
+      "Mozilla Protocol website design typography interface",
+      "Mozilla Protocol design example high resolution"
+    ]
+  },
+  {
+    "name": "Duolingo visual language",
+    "description": "Rounded basic shapes, bright colors, bouncy characters, and substantial buttons create a playful, approachable interface.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The repeated rounded shape vocabulary distinguishes it from generic childlike decoration.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Duolingo — Shape language and interface redesign",
+        "url": "https://blog.duolingo.com/shape-language-duolingos-art-style/"
+      }
+    ],
+    "referenceQueries": [
+      "Duolingo visual language website design typography interface",
+      "Duolingo visual language design example high resolution"
+    ]
+  },
+  {
+    "name": "Mailchimp visual language",
+    "description": "Expressive brand graphics, a warm typographic voice, and clear interface structure mix personality with practical tools.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A specific brand language, not every yellow interface or hand-drawn illustration.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Mailchimp — Brand assets and visual identity",
+        "url": "https://mailchimp.com/about/brand-assets/"
+      }
+    ],
+    "referenceQueries": [
+      "Mailchimp visual language website design typography interface",
+      "Mailchimp visual language design example high resolution"
+    ]
+  },
+  {
+    "name": "Spotify visual language",
+    "description": "Prominent artwork, strong typography, dark listening surfaces, and vivid emphasis organize an image-led media experience.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "Its composition and recurring interface vocabulary extend beyond a green-and-black palette.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Spotify — The look behind the sound",
+        "url": "https://newsroom.spotify.com/2026-04-23/spotify-design-history/"
+      }
+    ],
+    "referenceQueries": [
+      "Spotify visual language website design typography interface",
+      "Spotify visual language design example high resolution"
+    ]
+  },
+  {
+    "name": "SEEK Braid UI",
+    "description": "A coordinated set of layout rules, semantic tones, and accessible components gives SEEK products a shared visual structure.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "A themeable design language; its identity is not a single fixed palette.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "SEEK — Braid Design System",
+        "url": "https://seek-oss.github.io/braid-design-system/"
+      }
+    ],
+    "referenceQueries": [
+      "SEEK Braid UI Pinterest SEEK Braid UI design examples"
+    ]
+  },
+  {
+    "name": "Airbnb Design Language System",
+    "description": "Approachable rounded typography, substantial photography, and consistent component relationships create a welcoming interface language.",
+    "group": "Design languages",
+    "kind": "design-language",
+    "tags": [
+      "design system",
+      "interface"
+    ],
+    "distinction": "The unified DLS and Cereal typography define the direction, rather than travel content alone.",
+    "terminologyStatus": "Named design system",
+    "sources": [
+      {
+        "title": "Karri Saarinen — Creating the Airbnb Design System",
+        "url": "https://karrisaarinen.com/posts/building-airbnb-design-system/"
+      },
+      {
+        "title": "Airbnb — Cereal typeface character",
+        "url": "https://airbnb.design/wp-content/themes/airbnbdesign/microsites/cereal/character/"
+      }
+    ],
+    "referenceQueries": [
+      "Airbnb Design Language System Pinterest Airbnb Design Language System design examples"
+    ]
+  }
+]

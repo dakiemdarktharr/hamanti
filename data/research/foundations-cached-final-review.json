@@ -1,0 +1,641 @@
+[
+  {
+    "reviewId": 222,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/c6/77/7f/c6777f77d4c782c57fbd1d29c6a0361d.png",
+    "cachePath": ".image-cache/hd/e96aa9b885807cc952c392cfb4f14c0b54981930319347dc4e0645a4feb0d9b5.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 224,
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/5f/33/aa/5f33aac8bda278b5912194a23a789e87.png",
+    "cachePath": ".image-cache/hd/7db5a4763c174ef52a056200633c3de6068fd8f7d2a6aa6994ae05a5aedbff69.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 225,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/5c/36/4b/5c364b0a04f33dc93a732da9fd2f21f3.jpg",
+    "cachePath": ".image-cache/hd/a28157e904d53f3ec40e54997d4ef7c2df16095c3a4f0948803f31b0d0489010.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 226,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/10/c1/5d/10c15d0e340de97c8f55856cf9cd7680.png",
+    "cachePath": ".image-cache/hd/e314943ff4a686d0c336a2298b86d62bde3d1538ad404fdffa65ff0308f1d4cf.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 228,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/24/c3/f2/24c3f22dddbeca238c14c1c41c738d37.png",
+    "cachePath": ".image-cache/hd/53bd56630a6f1e81f22142b3db1dcb718574483f750a0856acefa987acb7b063.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 231,
+    "styleName": "Kufic-inspired typography",
+    "imageUrl": "https://i.pinimg.com/originals/32/30/96/3230964b4511d90d1d4237d993be090f.png",
+    "cachePath": ".image-cache/hd/92758181740bcc198450d1a6469f7e98a0bcc0e9d5ecc971a35d61e90d6dff3d.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 233,
+    "styleName": "Kufic-inspired typography",
+    "imageUrl": "https://i.pinimg.com/originals/ba/2c/14/ba2c1487acd06f84866cd97a8c33bea9.jpg",
+    "cachePath": ".image-cache/hd/b99312fd80a3e430b82711360d836f72b3da0ec80fd7aeda7edb51e4f843897a.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 234,
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/61/ca/86/61ca86c4cf7fa47481770751134f3125.jpg",
+    "cachePath": ".image-cache/hd/18ef3eeb8cc634cfcc5846b305009084cf7ea2fae056e2331273d3a84f886945.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 235,
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/5b/70/ac/5b70acc9ff5f88b152cdccea17482f2c.jpg",
+    "cachePath": ".image-cache/hd/78ebc693f86e586e4e3ed8bde0df9a4d8e25612fdd73e0496d8d4f6bc8c1856b.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 237,
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/37/f1/63/37f16310614142e73fa2238922fb308a.png",
+    "cachePath": ".image-cache/hd/b2a52dd7d8f8f96319dd496cd649f1acf2984e9ca65ab1ebebdbf1fa061d364e.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 221,
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/b7/62/57/b76257e03bd180ce35609b69aa0e11ef.jpg",
+    "cachePath": ".image-cache/hd/7ea085b227ff4bdc56a27b5a00a79f13eaf0fad564635c9ff6fae64c2b1b61cf.webp",
+    "status": "posed-model",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: deliberate posed portrait studies or editorial headshot."
+  },
+  {
+    "reviewId": 223,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/5f/33/aa/5f33aac8bda278b5912194a23a789e87.png",
+    "cachePath": ".image-cache/hd/7db5a4763c174ef52a056200633c3de6068fd8f7d2a6aa6994ae05a5aedbff69.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Nastaliq specimen, not Naskh; the same source is reviewed under Nastaliq."
+  },
+  {
+    "reviewId": 227,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/65/eb/6a/65eb6a47e30de92cdd44de000326ca63.jpg",
+    "cachePath": ".image-cache/hd/22bd9efd0e247c8830f5e77ca04a62dafcef4f582708389828f7b241cf6e995f.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Practice lettering does not clearly establish the defining Naskh typographic character."
+  },
+  {
+    "reviewId": 229,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/cd/f4/64/cdf464dbc96b960de1c904c1664be564.jpg",
+    "cachePath": ".image-cache/hd/8f5c77934f6d16471a015b0631c50421274dd8c989ed12b055739ebf9443282b.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Angular geometric Arabic lettering does not demonstrate Naskh."
+  },
+  {
+    "reviewId": 230,
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/aa/9e/92/aa9e9251439db4895a14435824b509c4.png",
+    "cachePath": ".image-cache/hd/a610ffec956737d044ac42a5042825a2d50ef84407add97d08441fcf5215faa5.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Dense ornamental calligraphic composition does not clearly demonstrate Naskh text forms."
+  },
+  {
+    "reviewId": 236,
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/f6/be/01/f6be01756f0dcbdfc7b7694a86611c89.jpg",
+    "cachePath": ".image-cache/hd/c5f5b6a25b98c546e26a23c7ea1cb058976b0499ff2a72f74fd83feb9b404eea.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Angular geometric composition does not demonstrate the sloping connected character of Nastaliq."
+  },
+  {
+    "reviewId": 238,
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/da/a1/d3/daa1d39f4e0fb91c1aa8863f5f6009c8.png",
+    "cachePath": ".image-cache/hd/97427ac37a8651c8b9c7dbb8d354e373d3ce176d48bd471ff596aad963f8c7f5.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Pencil signpost drawing, not sign-painted lettering."
+  },
+  {
+    "reviewId": 239,
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/9f/13/f1/9f13f1da1d583828bd64af05337ca03a.jpg",
+    "cachePath": ".image-cache/hd/da2c9eb449547986e095bfe15d5d7971281a929119740c5e1084b447163a48ee.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 241,
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/35/ff/a9/35ffa9ecab45cffadb2de79e93f84866.jpg",
+    "cachePath": ".image-cache/hd/180b9f15fa3da0397de3b028a00600385049c7ae21d014fa66743645e07cd8ca.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 244,
+    "styleName": "Typographic Index",
+    "imageUrl": "https://i.pinimg.com/originals/62/72/3f/62723f7757702036db96d6d4d9c49f8d.jpg",
+    "cachePath": ".image-cache/hd/303810f777fa820fe8cb4d428357aa8ff6925de8ea798a68c2e34f9224861804.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 245,
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/c0/ab/90/c0ab905ecb7ac67ed7a41c118ac0c2c2.jpg",
+    "cachePath": ".image-cache/hd/db2f77d209da0cda730ed9578c6201932065f1480399ef0e3cb89ac95a82e69e.webp",
+    "status": "posed-model",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: deliberate posed portrait studies or editorial headshot."
+  },
+  {
+    "reviewId": 240,
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/54/f3/e4/54f3e49bda06fe0b4ba21cf25a6338fc.jpg",
+    "cachePath": ".image-cache/hd/69fe59e8688a4a89ea46e20a4478ac284c205939cca0628687bdf58c79ad78b2.webp",
+    "status": "excluded-photo",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Candid photograph of a person painting a sign, not a deliberately posed model shoot."
+  },
+  {
+    "reviewId": 242,
+    "styleName": "Typographic Index",
+    "imageUrl": "https://i.pinimg.com/originals/2d/ea/54/2dea54941d1ae035e6c341f61d38e10f.png",
+    "cachePath": ".image-cache/hd/e4f8d60669d6430c43773eba3468600a3acc2c5404ad3d7b7b99a578bcd22797.webp",
+    "status": "excluded-photo",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Casual hand-held page demonstration photograph."
+  },
+  {
+    "reviewId": 247,
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/cc/0d/15/cc0d157aab9223c2b6dc85a803553b4c.jpg",
+    "cachePath": ".image-cache/hd/589cbdb1eb75423c2c8a5e4ffdedfe6baa8499006322538f0cec9d1240b4b0a6.webp",
+    "status": "excluded-photo",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Contact sheet includes candid street and casual portrait photographs."
+  },
+  {
+    "reviewId": 249,
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/55/88/e0/5588e0e139390ddc341cde94a65b6c7b.jpg",
+    "cachePath": ".image-cache/hd/d72a4844a29414a3e881d7b3e8d219cab6dc55a93a2ffdff9a96af91fc4d5976.webp",
+    "status": "excluded-photo",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Casual hand-held contact-sheet snapshot, not a deliberate model shoot."
+  },
+  {
+    "reviewId": 246,
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/72/4d/93/724d9317f616289883ead507ce16f14c.jpg",
+    "cachePath": ".image-cache/hd/06c4e8b4c124d071c2275d5009a4538e87ebfd5f5d85618277aea830657a34e5.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Tutorial worksheet is dominated by instructions; the small embedded contact sheet is not a clear standalone reference."
+  },
+  {
+    "reviewId": 250,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/a6/b8/fa/a6b8fa0f8676c0e7c65b05545fb5d5ce.png",
+    "cachePath": ".image-cache/hd/5d9654402d8e0c2ac8ed0cedfee703e8ebc5bf562217d4f790b44deb8e8156fe.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 251,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/a1/2b/3c/a12b3c9ee8b4c459ffe540928ff7c840.jpg",
+    "cachePath": ".image-cache/hd/60dd6b6d54b48b90f2146311f4900609e2968b04a3fae6fe60de324123b4f3d0.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 252,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/71/db/40/71db408b6e5cb9c7273f2803091c0553.jpg",
+    "cachePath": ".image-cache/hd/9690f62be296cc4834430bbfe96d3aae2238662dddfeb9ce15f87a1d747f512c.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 253,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/66/71/34/667134d97069daed1a35a7aba09b7a26.jpg",
+    "cachePath": ".image-cache/hd/99d9a1fc0fa70d45a38df7e468a3fe5796ff4f064ecea457484c46bb3e981763.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 254,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/3c/8c/62/3c8c622dd4666c3ea463ba91ba132d6c.jpg",
+    "cachePath": ".image-cache/hd/dcb1477c3642a47fde3642fe5fb5acda5036c39492d80bc99357a1d3cc30c8e4.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 255,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/ef/21/d7/ef21d78bb24206ecd6351a3259456f2c.jpg",
+    "cachePath": ".image-cache/hd/a1468ef81c8e69a58f99ac44e47ef081ec6a82d67662acda8fd6854c817a8976.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 256,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/54/8a/a9/548aa9fbdd207fa448b3afc62dda5ad8.jpg",
+    "cachePath": ".image-cache/hd/7a00bbeaad0725ac97b7d8a0fbba4b2b904ef3271b4e76f6c9f271e5caeeaea5.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah."
+  },
+  {
+    "reviewId": 257,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/dd/d7/20/ddd720359934b3f4b33b0aa8e0385bb2.png",
+    "cachePath": ".image-cache/hd/858564f9dd160ce77760cf7223ea58df5c58026b131ea07c64a039172a0b45d6.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 263,
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/52/38/89/523889dab1d0969e8808145117ffe9aa.jpg",
+    "cachePath": ".image-cache/hd/c663613a0f1831986b70c6ff6f8dc30d4826562f531a54427abe2e6c6dd183e0.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 264,
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/87/82/c4/8782c4c88b924ca35e7c0707d0f980a7.jpg",
+    "cachePath": ".image-cache/hd/3125546ab9722b71c554596cbc4e2acfe50b420e6428a8225bb3ad9fa7184fe8.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 265,
+    "styleName": "Monospaced editorial typography",
+    "imageUrl": "https://i.pinimg.com/originals/f3/f4/72/f3f472f49a0fc4dfb36e1054318839ff.webp",
+    "cachePath": ".image-cache/hd/4f60e800c2f9594e2ee494190aa8081828e82fb4ef96d73b2801352104d00bfd.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 266,
+    "styleName": "Monospaced editorial typography",
+    "imageUrl": "https://i.pinimg.com/originals/ae/61/73/ae6173707e2e213598d356123555493a.jpg",
+    "cachePath": ".image-cache/hd/5eb9ab77c17366adb643de3b596ce81297927b4d68588d6ea04edf275a3ccb4c.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 267,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/a6/90/74/a69074959c00e330d962a85fcc20d2de.jpg",
+    "cachePath": ".image-cache/hd/75eeb491cdb03acbb64b65f46288a1288f3d6277a23b36d3b43bcf8abfe4b2c9.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 274,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/71/46/41/714641d7ae35849dfb1d441f8b66fe0c.png",
+    "cachePath": ".image-cache/hd/b8bf82ed87779afb8288aa198f1e256f0a43740dadba1659adecf31264d0f93f.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 258,
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/ff/34/66/ff34660a1f1b20ba306edd3b2351fcf8.jpg",
+    "cachePath": ".image-cache/hd/48986a30235c6923c65a9b565ee10c745e01d695aee223a814383ff88960c1c8.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Decorative Latin initial is not Ruq’ah typography."
+  },
+  {
+    "reviewId": 259,
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/67/17/b1/6717b1b5d28ca76514a63b22ba06f07c.jpg",
+    "cachePath": ".image-cache/hd/99d405fc7548cb50242dbd0087f08d318c0c45bcfd59fc49818744db9636504e.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Chinese calligraphy example does not establish Japanese vertical typesetting."
+  },
+  {
+    "reviewId": 260,
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/9a/fb/4c/9afb4ce1f7b9d0420cbfe4b2ec8cba7e.jpg",
+    "cachePath": ".image-cache/hd/3a8369936deaa85971a2963459a7111a4ee5b7f42828bc6c9f86fc82ce4ff781.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Chinese idiomatic calligraphy does not establish Japanese vertical typesetting."
+  },
+  {
+    "reviewId": 261,
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/41/3a/b2/413ab2328779b3c331dba2158075ab62.jpg",
+    "cachePath": ".image-cache/hd/38521ffe2812bcf454e090efee283a5d3a21c5e6fb19bcbe0e408654f29bd76f.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Chinese text set vertically is not a Japanese typesetting reference."
+  },
+  {
+    "reviewId": 262,
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/63/ca/5d/63ca5d5641bf6b7146e720dc8ad5b7c1.png",
+    "cachePath": ".image-cache/hd/d0b7bbf57770794e07c9347de944a1d2e042076b8080459b837d2caaee9c70e1.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Isolated kanji words with English translations do not clearly demonstrate Japanese vertical typesetting."
+  },
+  {
+    "reviewId": 270,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/c9/4d/f6/c94df66f5c7a7532662b53af73cd7c5b.jpg",
+    "cachePath": ".image-cache/hd/4d3b84f670b864a2048617bbb7afc92a8dc46616ed125a88bf85684730af6382.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Soft irregular alternate glyphs do not clearly demonstrate worn, damaged or distressed letter surfaces."
+  },
+  {
+    "reviewId": 271,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/b1/cb/73/b1cb7376b1003a566ae04c2bda1311bf.png",
+    "cachePath": ".image-cache/hd/db4695aa3fec27ec40d053fbfc3e28734ed560f04755bbe534578675dc70565f.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Conventional serif branding specimen lacks a defining distressed type treatment."
+  },
+  {
+    "reviewId": 273,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/e6/5b/90/e65b9020bcaef7544f6d1d70d9986180.png",
+    "cachePath": ".image-cache/hd/0835af2deae5162155fd8793f5c5f2b7cdec71040ae82a360c785125dbd8033a.webp",
+    "status": "excluded-photo",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Includes candid basketball action photographs."
+  },
+  {
+    "reviewId": 232,
+    "styleName": "Kufic-inspired typography",
+    "imageUrl": "https://i.pinimg.com/originals/1b/d4/53/1bd4534ce8ae4a12ff5a66026e0a385e.jpg",
+    "cachePath": ".image-cache/hd/fee7bea0f2332186bcc0d0b7f51b3b9895b3638e4e12e9c4dee2ba8ad2664842.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 248,
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/41/bc/a9/41bca9136d59c90965afb32c550e2e75.jpg",
+    "cachePath": ".image-cache/hd/ed189f7f6419e27616e19467e015cdb2ddb60edb05fc63449466e9b0deb2bd26.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 279,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/ac/68/ac/ac68acd891bf119b68ebcb5caa7c571f.png",
+    "cachePath": ".image-cache/hd/95a4a13c2e1e10f6c5907d63b8535abbc2dd298468efe5021752f03cc1894c6d.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 280,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/d3/71/90/d37190686d52c8a10a4b091ac465c3c7.png",
+    "cachePath": ".image-cache/hd/197d8272c33be7c0cb311b915fb0f76da185bf22b1a3463f615e1320371b136b.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 282,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/e9/a5/97/e9a597e8d10f852c1047631f1e0066a9.png",
+    "cachePath": ".image-cache/hd/aca075ae835b63b5b7e96c8384c03887f6a8537d99a93149f07a1d4e208ef3f1.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 287,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/7f/78/2e/7f782ef52d664e91455128000ea1b26b.png",
+    "cachePath": ".image-cache/hd/e33393788319c5672576c446b46166f3bb7036f51dd6c2c21bb2f418f6fb909b.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 290,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/5a/77/94/5a7794127654e8b9b03cc36e93bf03bc.jpg",
+    "cachePath": ".image-cache/hd/9274f306af86bb160cf17e2cd005afd6dea1ca5eda2006ac76eacade041fd86a.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 291,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/57/df/a7/57dfa7d5f6d51216d3d8c2e5685695d6.jpg",
+    "cachePath": ".image-cache/hd/202945432397f26e717935988bf3cd91a55020aca12a2dfd9f5378284c6c5895.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "reviewId": 268,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/28/8f/08/288f083e77a36b3299a35199ddae4a7a.png",
+    "cachePath": ".image-cache/hd/6c3d6acc6c8e4ccad5ca24379c0f2897d6d37c0c5e55d1fd8fa47625410b7eee.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 272,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/e5/36/70/e53670abc5dba45aff72748f454b9140.png",
+    "cachePath": ".image-cache/hd/df5aecf3e60354518f07c0789206c7d6ae17d3851fe01c1d4b48a7fd9580b34c.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 275,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/03/16/a7/0316a731f3c013f28243a3748d6b0eb4.png",
+    "cachePath": ".image-cache/hd/4a042391105b9370d71779791c2a040abd5f12771391d56c1cda962b6ee008b0.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 276,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/99/ce/47/99ce474459293b02138db3ba23906dd4.png",
+    "cachePath": ".image-cache/hd/771ce82ac526c1e1b0a3687dc7c1111e07e80defa29f924a56613c1b1d95d7b6.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 277,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/56/8c/6d/568c6dba7ea50965b1549d61c861501b.png",
+    "cachePath": ".image-cache/hd/a847199870e6edd54a514277afb2f3fed62c3d0624d9a36580c26d260a20650c.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 278,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/ea/66/c1/ea66c16463901505b7e446e2c225b0ef.png",
+    "cachePath": ".image-cache/hd/d457c04743a1d5d8f265fcb46b10514c6ccb1bb5166e3c861ade0feec016215d.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 281,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/4d/90/4c/4d904c77b8dba22c07a86eb15d55ee6b.png",
+    "cachePath": ".image-cache/hd/23ae350e976e73a3fc4f2340db02dba543533a8b97322aa38c99335a050867b3.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 283,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/c8/fb/57/c8fb57bacc98e5e198dc9c5c18e3c153.png",
+    "cachePath": ".image-cache/hd/4d0e7979618b5c155fe05bf6050955e439fb08187210798f977838835506d32b.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 285,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/86/01/0c/86010ca61452cc723513295939398ef1.png",
+    "cachePath": ".image-cache/hd/d8072f03a62d3636f85111e638f155d0eab805345a3c7e13ab93f14e05a3dc1f.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 286,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/3d/47/32/3d4732b38f827ac49ef4b297750c56e6.jpg",
+    "cachePath": ".image-cache/hd/65df841302e6340bca76219fcf016c841a513fec0662808c4a70feea791b05ba.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 288,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/05/fc/fb/05fcfbf108a13974a8849fb66cf58dbd.png",
+    "cachePath": ".image-cache/hd/8da70b2c9bea04c2060007b401d4dcbb21133ff30bee4c98e41cb4a6b5688788.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 289,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/2b/44/dd/2b44ddee9f450d8eafa1460a09477465.jpg",
+    "cachePath": ".image-cache/hd/c4120d95ca9cb3b982cc0c1709a80c4e8bdf3fe937e34c2da5fcd39c0637241f.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments."
+  },
+  {
+    "reviewId": 284,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/b5/e3/cd/b5e3cd475ee36fb50835849f8ab77706.jpg",
+    "cachePath": ".image-cache/hd/55605727d5665f9358916ff7bae26e4635c03babe21f4380f73dd22998df0c64.webp",
+    "status": "rejected-aesthetic",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Visually duplicates another collected Hoax specimen; not selected."
+  },
+  {
+    "reviewId": 269,
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/36/72/17/367217e00787350bc840aea8cd64a37e.png",
+    "cachePath": ".image-cache/hd/a2cf7706ecd6f593e0176ca61c29503a849e26bba6d50b09bf098006691ab5be.webp",
+    "status": "excluded-photo",
+    "reviewStatus": "rejected",
+    "peopleReviewNote": "Photocopy-type specimen includes a blurred candid street photograph with people."
+  },
+  {
+    "reviewId": 243,
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/64/4d/1a/644d1a1bface2e9f49016d07f8d33351.jpg",
+    "cachePath": ".image-cache/hd/0c3c6bf02381817780450dfbf6c416ec5bcc90f75576080de1471f0e8e44985a.webp",
+    "status": "no-real-people",
+    "reviewStatus": "approved",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  }
+]

@@ -1,0 +1,846 @@
+{
+  "updatedAt": "2026-10-20T13:28:18.729Z",
+  "taxonomyCount": 100,
+  "scope": "Experimental digital aesthetics; agent-owned manifest only. Parent approvals were read for combined coverage but not edited.",
+  "visuallyReviewed": 353,
+  "accepted": 339,
+  "noRealPeople": 313,
+  "posedModel": 26,
+  "excluded": 14,
+  "coverage": {
+    "stylesWithReferences": 72,
+    "completeEight": 16,
+    "partial": 56,
+    "pending": 28
+  },
+  "discoveredRecords": 4769,
+  "nativeHdCandidates": 683,
+  "exASourcesReviewed": 350,
+  "referenceRequirements": {
+    "minimumShortSide": 1080,
+    "minimumLongSide": 1920,
+    "upscaled": false,
+    "maxPerStyle": 8,
+    "source": "Observed Pinterest source pages and observed image URLs"
+  },
+  "limitations": [
+    "Eight references for every category is not achieved. Exact coverage is listed below; partial and pending must remain visible.",
+    "Pinterest board/idea pages include unrelated recommendations. Metadata qualification does not imply style relevance; only the approved manifest received visual selection and photo review.",
+    "Native pixel dimensions were verified on downloaded originals, then compressed as WebP at unchanged dimensions. Large pixel dimensions alone cannot establish how the original publisher produced an image.",
+    "Rare technical/procedural aesthetics and historic interfaces yielded few native Full HD, visually relevant references; unsupported or weak matches were not used.",
+    "Motion-focused aesthetics are represented by static artwork/stills where suitable; these are not playable original motion examples.",
+    "Firecrawl credits were exhausted earlier in the parent task; Pinterest acquisition used TinyFish under its shared rate limit. Remaining unreviewed candidates were not promoted merely to meet quota.",
+    "User photo rule: allow clear deliberately posed editorial/model imagery and illustrations; reject classroom/group, candid, selfie or uncertain casual-photo matches."
+  ],
+  "perStyle": [
+    {
+      "name": "Web Brutalism",
+      "count": 0
+    },
+    {
+      "name": "Neubrutalism",
+      "count": 3
+    },
+    {
+      "name": "Anti-design",
+      "count": 0
+    },
+    {
+      "name": "Net Art",
+      "count": 0
+    },
+    {
+      "name": "GeoCities Web",
+      "count": 0
+    },
+    {
+      "name": "Flash-era Web",
+      "count": 0
+    },
+    {
+      "name": "Immersive 3D Web",
+      "count": 0
+    },
+    {
+      "name": "Holographic Spatial UI",
+      "count": 0
+    },
+    {
+      "name": "Terminal UI",
+      "count": 0
+    },
+    {
+      "name": "Text-mode UI",
+      "count": 0
+    },
+    {
+      "name": "Classic Macintosh UI",
+      "count": 1
+    },
+    {
+      "name": "Windows 95 UI",
+      "count": 5
+    },
+    {
+      "name": "Windows XP Luna",
+      "count": 1
+    },
+    {
+      "name": "Mac OS X Aqua",
+      "count": 2
+    },
+    {
+      "name": "Windows Aero UI",
+      "count": 1
+    },
+    {
+      "name": "BeOS UI",
+      "count": 0
+    },
+    {
+      "name": "NeXTSTEP UI",
+      "count": 0
+    },
+    {
+      "name": "Amiga Workbench UI",
+      "count": 2
+    },
+    {
+      "name": "ANSI Art",
+      "count": 1
+    },
+    {
+      "name": "Teletext Art",
+      "count": 0
+    },
+    {
+      "name": "Winamp Skinning",
+      "count": 1
+    },
+    {
+      "name": "CRT Display",
+      "count": 6
+    },
+    {
+      "name": "Y2K Futurism",
+      "count": 7
+    },
+    {
+      "name": "Metalheart",
+      "count": 8
+    },
+    {
+      "name": "Vectorheart",
+      "count": 8
+    },
+    {
+      "name": "Corporate Cyberspace",
+      "count": 0
+    },
+    {
+      "name": "Gen X Soft Club",
+      "count": 5
+    },
+    {
+      "name": "Frutiger Aero",
+      "count": 7
+    },
+    {
+      "name": "Acidgrafix",
+      "count": 5
+    },
+    {
+      "name": "Hexatron",
+      "count": 2
+    },
+    {
+      "name": "Cyberbougie",
+      "count": 0
+    },
+    {
+      "name": "Blob World",
+      "count": 0
+    },
+    {
+      "name": "McBling",
+      "count": 6
+    },
+    {
+      "name": "Cyberdelia",
+      "count": 3
+    },
+    {
+      "name": "Early Cyber",
+      "count": 0
+    },
+    {
+      "name": "Silicon Dreams",
+      "count": 8
+    },
+    {
+      "name": "Laser Grid",
+      "count": 8
+    },
+    {
+      "name": "Vaporwave",
+      "count": 4
+    },
+    {
+      "name": "Webcore",
+      "count": 6
+    },
+    {
+      "name": "Weirdcore",
+      "count": 4
+    },
+    {
+      "name": "Dreamcore",
+      "count": 0
+    },
+    {
+      "name": "Cybersigilism",
+      "count": 8
+    },
+    {
+      "name": "Cassette Futurism",
+      "count": 5
+    },
+    {
+      "name": "Fictional User Interface",
+      "count": 8
+    },
+    {
+      "name": "Voxel Art",
+      "count": 2
+    },
+    {
+      "name": "Low-poly Rendering",
+      "count": 7
+    },
+    {
+      "name": "PS1-era 3D",
+      "count": 0
+    },
+    {
+      "name": "Cel Shading",
+      "count": 4
+    },
+    {
+      "name": "Wireframe Rendering",
+      "count": 8
+    },
+    {
+      "name": "Point-cloud Rendering",
+      "count": 0
+    },
+    {
+      "name": "Gaussian Splatting",
+      "count": 0
+    },
+    {
+      "name": "Photogrammetry",
+      "count": 3
+    },
+    {
+      "name": "Photorealistic 3D",
+      "count": 8
+    },
+    {
+      "name": "Chrome Rendering",
+      "count": 6
+    },
+    {
+      "name": "Holographic Graphics",
+      "count": 0
+    },
+    {
+      "name": "Isometric Rendering",
+      "count": 8
+    },
+    {
+      "name": "Anaglyph Graphics",
+      "count": 4
+    },
+    {
+      "name": "Matcap Rendering",
+      "count": 0
+    },
+    {
+      "name": "Line-rendered 3D",
+      "count": 7
+    },
+    {
+      "name": "Volumetric Rendering",
+      "count": 3
+    },
+    {
+      "name": "ASCII Rendering",
+      "count": 6
+    },
+    {
+      "name": "Pixel Art",
+      "count": 5
+    },
+    {
+      "name": "Dithered Rendering",
+      "count": 3
+    },
+    {
+      "name": "Glitch Art",
+      "count": 7
+    },
+    {
+      "name": "Datamoshing",
+      "count": 1
+    },
+    {
+      "name": "Databending",
+      "count": 0
+    },
+    {
+      "name": "Pixel Sorting",
+      "count": 7
+    },
+    {
+      "name": "Slit-scan Imagery",
+      "count": 0
+    },
+    {
+      "name": "Video Feedback",
+      "count": 0
+    },
+    {
+      "name": "VHS Texture",
+      "count": 3
+    },
+    {
+      "name": "Chromatic Aberration",
+      "count": 1
+    },
+    {
+      "name": "Thermographic Graphics",
+      "count": 2
+    },
+    {
+      "name": "Flow-field Art",
+      "count": 8
+    },
+    {
+      "name": "Reaction-diffusion Patterns",
+      "count": 6
+    },
+    {
+      "name": "Cellular Automata",
+      "count": 3
+    },
+    {
+      "name": "Voronoi Tessellation",
+      "count": 1
+    },
+    {
+      "name": "Truchet Patterns",
+      "count": 7
+    },
+    {
+      "name": "Moiré Patterns",
+      "count": 1
+    },
+    {
+      "name": "L-system Graphics",
+      "count": 0
+    },
+    {
+      "name": "Fractal Graphics",
+      "count": 8
+    },
+    {
+      "name": "Strange-attractor Art",
+      "count": 3
+    },
+    {
+      "name": "Particle-field Graphics",
+      "count": 8
+    },
+    {
+      "name": "Flocking Graphics",
+      "count": 0
+    },
+    {
+      "name": "Fluid-simulation Graphics",
+      "count": 8
+    },
+    {
+      "name": "Metaball Graphics",
+      "count": 2
+    },
+    {
+      "name": "Plotter Art",
+      "count": 8
+    },
+    {
+      "name": "Differential-growth Patterns",
+      "count": 0
+    },
+    {
+      "name": "Diffusion-limited Aggregation",
+      "count": 1
+    },
+    {
+      "name": "Lissajous Figures",
+      "count": 1
+    },
+    {
+      "name": "Topographic Graphics",
+      "count": 6
+    },
+    {
+      "name": "Kinetic Typography",
+      "count": 5
+    },
+    {
+      "name": "Distorted Typography",
+      "count": 6
+    },
+    {
+      "name": "Motion-trail Graphics",
+      "count": 6
+    },
+    {
+      "name": "Aurora Graphics",
+      "count": 8
+    },
+    {
+      "name": "Grainy Gradients",
+      "count": 8
+    },
+    {
+      "name": "Liquid Distortion",
+      "count": 6
+    },
+    {
+      "name": "Particle Typography",
+      "count": 2
+    },
+    {
+      "name": "Dissolving Typography",
+      "count": 2
+    },
+    {
+      "name": "Extruded Typography",
+      "count": 2
+    },
+    {
+      "name": "Kaleidoscopic Graphics",
+      "count": 3
+    }
+  ],
+  "combinedWithParent": {
+    "acceptedRecords": 355,
+    "stylesWithReferences": 75,
+    "completeEight": 16,
+    "partial": 59,
+    "pending": 25,
+    "perStyle": [
+      {
+        "name": "Web Brutalism",
+        "count": 5
+      },
+      {
+        "name": "Neubrutalism",
+        "count": 7
+      },
+      {
+        "name": "Anti-design",
+        "count": 5
+      },
+      {
+        "name": "Net Art",
+        "count": 0
+      },
+      {
+        "name": "GeoCities Web",
+        "count": 0
+      },
+      {
+        "name": "Flash-era Web",
+        "count": 1
+      },
+      {
+        "name": "Immersive 3D Web",
+        "count": 0
+      },
+      {
+        "name": "Holographic Spatial UI",
+        "count": 0
+      },
+      {
+        "name": "Terminal UI",
+        "count": 0
+      },
+      {
+        "name": "Text-mode UI",
+        "count": 0
+      },
+      {
+        "name": "Classic Macintosh UI",
+        "count": 2
+      },
+      {
+        "name": "Windows 95 UI",
+        "count": 5
+      },
+      {
+        "name": "Windows XP Luna",
+        "count": 1
+      },
+      {
+        "name": "Mac OS X Aqua",
+        "count": 2
+      },
+      {
+        "name": "Windows Aero UI",
+        "count": 1
+      },
+      {
+        "name": "BeOS UI",
+        "count": 0
+      },
+      {
+        "name": "NeXTSTEP UI",
+        "count": 0
+      },
+      {
+        "name": "Amiga Workbench UI",
+        "count": 2
+      },
+      {
+        "name": "ANSI Art",
+        "count": 1
+      },
+      {
+        "name": "Teletext Art",
+        "count": 0
+      },
+      {
+        "name": "Winamp Skinning",
+        "count": 1
+      },
+      {
+        "name": "CRT Display",
+        "count": 6
+      },
+      {
+        "name": "Y2K Futurism",
+        "count": 7
+      },
+      {
+        "name": "Metalheart",
+        "count": 8
+      },
+      {
+        "name": "Vectorheart",
+        "count": 8
+      },
+      {
+        "name": "Corporate Cyberspace",
+        "count": 0
+      },
+      {
+        "name": "Gen X Soft Club",
+        "count": 5
+      },
+      {
+        "name": "Frutiger Aero",
+        "count": 7
+      },
+      {
+        "name": "Acidgrafix",
+        "count": 5
+      },
+      {
+        "name": "Hexatron",
+        "count": 2
+      },
+      {
+        "name": "Cyberbougie",
+        "count": 0
+      },
+      {
+        "name": "Blob World",
+        "count": 0
+      },
+      {
+        "name": "McBling",
+        "count": 6
+      },
+      {
+        "name": "Cyberdelia",
+        "count": 3
+      },
+      {
+        "name": "Early Cyber",
+        "count": 0
+      },
+      {
+        "name": "Silicon Dreams",
+        "count": 8
+      },
+      {
+        "name": "Laser Grid",
+        "count": 8
+      },
+      {
+        "name": "Vaporwave",
+        "count": 4
+      },
+      {
+        "name": "Webcore",
+        "count": 6
+      },
+      {
+        "name": "Weirdcore",
+        "count": 4
+      },
+      {
+        "name": "Dreamcore",
+        "count": 0
+      },
+      {
+        "name": "Cybersigilism",
+        "count": 8
+      },
+      {
+        "name": "Cassette Futurism",
+        "count": 5
+      },
+      {
+        "name": "Fictional User Interface",
+        "count": 8
+      },
+      {
+        "name": "Voxel Art",
+        "count": 2
+      },
+      {
+        "name": "Low-poly Rendering",
+        "count": 7
+      },
+      {
+        "name": "PS1-era 3D",
+        "count": 0
+      },
+      {
+        "name": "Cel Shading",
+        "count": 4
+      },
+      {
+        "name": "Wireframe Rendering",
+        "count": 8
+      },
+      {
+        "name": "Point-cloud Rendering",
+        "count": 0
+      },
+      {
+        "name": "Gaussian Splatting",
+        "count": 0
+      },
+      {
+        "name": "Photogrammetry",
+        "count": 3
+      },
+      {
+        "name": "Photorealistic 3D",
+        "count": 8
+      },
+      {
+        "name": "Chrome Rendering",
+        "count": 6
+      },
+      {
+        "name": "Holographic Graphics",
+        "count": 0
+      },
+      {
+        "name": "Isometric Rendering",
+        "count": 8
+      },
+      {
+        "name": "Anaglyph Graphics",
+        "count": 4
+      },
+      {
+        "name": "Matcap Rendering",
+        "count": 0
+      },
+      {
+        "name": "Line-rendered 3D",
+        "count": 7
+      },
+      {
+        "name": "Volumetric Rendering",
+        "count": 3
+      },
+      {
+        "name": "ASCII Rendering",
+        "count": 6
+      },
+      {
+        "name": "Pixel Art",
+        "count": 5
+      },
+      {
+        "name": "Dithered Rendering",
+        "count": 3
+      },
+      {
+        "name": "Glitch Art",
+        "count": 7
+      },
+      {
+        "name": "Datamoshing",
+        "count": 1
+      },
+      {
+        "name": "Databending",
+        "count": 0
+      },
+      {
+        "name": "Pixel Sorting",
+        "count": 7
+      },
+      {
+        "name": "Slit-scan Imagery",
+        "count": 0
+      },
+      {
+        "name": "Video Feedback",
+        "count": 0
+      },
+      {
+        "name": "VHS Texture",
+        "count": 3
+      },
+      {
+        "name": "Chromatic Aberration",
+        "count": 1
+      },
+      {
+        "name": "Thermographic Graphics",
+        "count": 2
+      },
+      {
+        "name": "Flow-field Art",
+        "count": 8
+      },
+      {
+        "name": "Reaction-diffusion Patterns",
+        "count": 6
+      },
+      {
+        "name": "Cellular Automata",
+        "count": 3
+      },
+      {
+        "name": "Voronoi Tessellation",
+        "count": 1
+      },
+      {
+        "name": "Truchet Patterns",
+        "count": 7
+      },
+      {
+        "name": "Moiré Patterns",
+        "count": 1
+      },
+      {
+        "name": "L-system Graphics",
+        "count": 0
+      },
+      {
+        "name": "Fractal Graphics",
+        "count": 8
+      },
+      {
+        "name": "Strange-attractor Art",
+        "count": 3
+      },
+      {
+        "name": "Particle-field Graphics",
+        "count": 8
+      },
+      {
+        "name": "Flocking Graphics",
+        "count": 0
+      },
+      {
+        "name": "Fluid-simulation Graphics",
+        "count": 8
+      },
+      {
+        "name": "Metaball Graphics",
+        "count": 2
+      },
+      {
+        "name": "Plotter Art",
+        "count": 8
+      },
+      {
+        "name": "Differential-growth Patterns",
+        "count": 0
+      },
+      {
+        "name": "Diffusion-limited Aggregation",
+        "count": 1
+      },
+      {
+        "name": "Lissajous Figures",
+        "count": 1
+      },
+      {
+        "name": "Topographic Graphics",
+        "count": 6
+      },
+      {
+        "name": "Kinetic Typography",
+        "count": 5
+      },
+      {
+        "name": "Distorted Typography",
+        "count": 6
+      },
+      {
+        "name": "Motion-trail Graphics",
+        "count": 6
+      },
+      {
+        "name": "Aurora Graphics",
+        "count": 8
+      },
+      {
+        "name": "Grainy Gradients",
+        "count": 8
+      },
+      {
+        "name": "Liquid Distortion",
+        "count": 6
+      },
+      {
+        "name": "Particle Typography",
+        "count": 2
+      },
+      {
+        "name": "Dissolving Typography",
+        "count": 2
+      },
+      {
+        "name": "Extruded Typography",
+        "count": 2
+      },
+      {
+        "name": "Kaleidoscopic Graphics",
+        "count": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "startedAt": "2026-10-20T12:00:45.504Z",
+  "discovered": 4769,
+  "uniqueFiles": 4644,
+  "downloaded": 556,
+  "belowHD": 3744,
+  "qualifying": 608,
+  "failures": [
+    {
+      "imageUrl": "https://i.pinimg.com/originals/0e/fe/ee/0efeeeb74a940789b05bde67cb25ab53.heic",
+      "error": "source: bad seek to 551808\nsource: bad seek to 551791\nsource: bad seek to 551782\nsource: bad seek to 551778\nsource: bad seek to 551777\nheif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/f7/ab/27/f7ab27f9816a6339e23e1bd3bd651361.jpg",
+      "error": "Encoded image exceeds existing endpoint body budget"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/33/43/76/3343764f329ed810bf0b7981ff5b5750.jpg",
+      "error": "Encoded image exceeds existing endpoint body budget"
+    }
+  ],
+  "finishedAt": "2026-10-20T12:02:38.805Z",
+  "cachedBytes": 672778999,
+  "styleCoverage": [
+    {
+      "styleName": "Web Brutalism",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Neubrutalism",
+      "qualifying": 16
+    },
+    {
+      "styleName": "Anti-design",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Net Art",
+      "qualifying": 4
+    },
+    {
+      "styleName": "GeoCities Web",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Flash-era Web",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Immersive 3D Web",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Holographic Spatial UI",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Terminal UI",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Classic Macintosh UI",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Text-mode UI",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Windows 95 UI",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Windows XP Luna",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Mac OS X Aqua",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Windows Aero UI",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Amiga Workbench UI",
+      "qualifying": 8
+    },
+    {
+      "styleName": "ANSI Art",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Teletext Art",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Winamp Skinning",
+      "qualifying": 1
+    },
+    {
+      "styleName": "CRT Display",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Y2K Futurism",
+      "qualifying": 16
+    },
+    {
+      "styleName": "Metalheart",
+      "qualifying": 15
+    },
+    {
+      "styleName": "Vectorheart",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Gen X Soft Club",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Frutiger Aero",
+      "qualifying": 16
+    },
+    {
+      "styleName": "Acidgrafix",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Cyberbougie",
+      "qualifying": 1
+    },
+    {
+      "styleName": "McBling",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Cyberdelia",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Silicon Dreams",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Laser Grid",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Vaporwave",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Webcore",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Weirdcore",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Dreamcore",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Cybersigilism",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Cassette Futurism",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Fictional User Interface",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Voxel Art",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Low-poly Rendering",
+      "qualifying": 9
+    },
+    {
+      "styleName": "PS1-era 3D",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Cel Shading",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Wireframe Rendering",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Point-cloud Rendering",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Gaussian Splatting",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Photogrammetry",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Photorealistic 3D",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Chrome Rendering",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Holographic Graphics",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Isometric Rendering",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Anaglyph Graphics",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Matcap Rendering",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Line-rendered 3D",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Volumetric Rendering",
+      "qualifying": 8
+    },
+    {
+      "styleName": "ASCII Rendering",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Pixel Art",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Dithered Rendering",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Glitch Art",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Datamoshing",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Pixel Sorting",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Slit-scan Imagery",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Video Feedback",
+      "qualifying": 1
+    },
+    {
+      "styleName": "VHS Texture",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Chromatic Aberration",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Thermographic Graphics",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Flow-field Art",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Reaction-diffusion Patterns",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Cellular Automata",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Voronoi Tessellation",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Truchet Patterns",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Moiré Patterns",
+      "qualifying": 2
+    },
+    {
+      "styleName": "L-system Graphics",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Fractal Graphics",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Strange-attractor Art",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Particle-field Graphics",
+      "qualifying": 16
+    },
+    {
+      "styleName": "Fluid-simulation Graphics",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Metaball Graphics",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Plotter Art",
+      "qualifying": 16
+    },
+    {
+      "styleName": "Differential-growth Patterns",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Diffusion-limited Aggregation",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Lissajous Figures",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Topographic Graphics",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Kinetic Typography",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Distorted Typography",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Motion-trail Graphics",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Aurora Graphics",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Grainy Gradients",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Liquid Distortion",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Particle Typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Dissolving Typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Extruded Typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Kaleidoscopic Graphics",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Corporate Cyberspace",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Hexatron",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Blob World",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Early Cyber",
+      "qualifying": 13
+    }
+  ]
+}

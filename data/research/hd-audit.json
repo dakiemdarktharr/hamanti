@@ -1,0 +1,1513 @@
+{
+  "auditedAt": "2026-10-20T11:08:18.424Z",
+  "rule": "Native width >= 1920 and height >= 1080, or width >= 1080 and height >= 1920; no upscaling.",
+  "uniqueImages": 2159,
+  "qualifyingUniqueImages": 41,
+  "qualifyingStyleSlots": 46,
+  "stylesWithAnyHD": 40,
+  "stylesWithEightHD": 0,
+  "originalBytes": 184608781,
+  "qualifyingBytes": 34055165,
+  "styles": [
+    {
+      "id": 1,
+      "name": "Art Nouveau",
+      "qualifying": 0
+    },
+    {
+      "id": 2,
+      "name": "Art Deco",
+      "qualifying": 0
+    },
+    {
+      "id": 3,
+      "name": "Swiss International Style",
+      "qualifying": 1
+    },
+    {
+      "id": 4,
+      "name": "Polish School of Graphic Design",
+      "qualifying": 0
+    },
+    {
+      "id": 5,
+      "name": "Japanese Modernism",
+      "qualifying": 0
+    },
+    {
+      "id": 6,
+      "name": "Soviet Constructivism",
+      "qualifying": 1
+    },
+    {
+      "id": 7,
+      "name": "Bauhaus",
+      "qualifying": 0
+    },
+    {
+      "id": 8,
+      "name": "De Stijl",
+      "qualifying": 0
+    },
+    {
+      "id": 9,
+      "name": "Psychedelic Graphics",
+      "qualifying": 1
+    },
+    {
+      "id": 10,
+      "name": "Punk Graphic Design",
+      "qualifying": 0
+    },
+    {
+      "id": 11,
+      "name": "New Wave Graphics",
+      "qualifying": 0
+    },
+    {
+      "id": 12,
+      "name": "Memphis Design",
+      "qualifying": 1
+    },
+    {
+      "id": 13,
+      "name": "Pop Art",
+      "qualifying": 0
+    },
+    {
+      "id": 14,
+      "name": "Minimalism",
+      "qualifying": 0
+    },
+    {
+      "id": 15,
+      "name": "Swiss Punk",
+      "qualifying": 1
+    },
+    {
+      "id": 16,
+      "name": "Brutalist Graphic Design",
+      "qualifying": 0
+    },
+    {
+      "id": 17,
+      "name": "Neo-Brutalist Graphic Design",
+      "qualifying": 0
+    },
+    {
+      "id": 18,
+      "name": "Dada",
+      "qualifying": 0
+    },
+    {
+      "id": 19,
+      "name": "Futurism",
+      "qualifying": 0
+    },
+    {
+      "id": 20,
+      "name": "Suprematism",
+      "qualifying": 0
+    },
+    {
+      "id": 21,
+      "name": "Vorticism",
+      "qualifying": 0
+    },
+    {
+      "id": 22,
+      "name": "Orphism",
+      "qualifying": 1
+    },
+    {
+      "id": 23,
+      "name": "Rayonism",
+      "qualifying": 0
+    },
+    {
+      "id": 24,
+      "name": "Precisionism",
+      "qualifying": 0
+    },
+    {
+      "id": 25,
+      "name": "Op Art",
+      "qualifying": 0
+    },
+    {
+      "id": 26,
+      "name": "Kinetic Art",
+      "qualifying": 0
+    },
+    {
+      "id": 27,
+      "name": "Abstract Expressionism",
+      "qualifying": 0
+    },
+    {
+      "id": 28,
+      "name": "Hard-Edge Abstraction",
+      "qualifying": 0
+    },
+    {
+      "id": 29,
+      "name": "Color-Field Painting",
+      "qualifying": 0
+    },
+    {
+      "id": 30,
+      "name": "Lyrical Abstraction",
+      "qualifying": 0
+    },
+    {
+      "id": 31,
+      "name": "Neo-Expressionism",
+      "qualifying": 0
+    },
+    {
+      "id": 32,
+      "name": "Pop Surrealism",
+      "qualifying": 0
+    },
+    {
+      "id": 33,
+      "name": "Lowbrow Art",
+      "qualifying": 0
+    },
+    {
+      "id": 34,
+      "name": "Fluxus Graphics",
+      "qualifying": 0
+    },
+    {
+      "id": 35,
+      "name": "Situationist Graphics",
+      "qualifying": 0
+    },
+    {
+      "id": 36,
+      "name": "Postmodern Graphic Design",
+      "qualifying": 0
+    },
+    {
+      "id": 37,
+      "name": "Radical Graphic Design",
+      "qualifying": 0
+    },
+    {
+      "id": 38,
+      "name": "Corporate Memphis",
+      "qualifying": 0
+    },
+    {
+      "id": 39,
+      "name": "Corporate Minimalism",
+      "qualifying": 0
+    },
+    {
+      "id": 40,
+      "name": "Post-Internet Aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 41,
+      "name": "International Typographic Style",
+      "qualifying": 2
+    },
+    {
+      "id": 42,
+      "name": "New Typography",
+      "qualifying": 0
+    },
+    {
+      "id": 43,
+      "name": "Swiss grid layout",
+      "qualifying": 0
+    },
+    {
+      "id": 44,
+      "name": "Baseline-grid editorial layout",
+      "qualifying": 0
+    },
+    {
+      "id": 45,
+      "name": "Asymmetric modernist layout",
+      "qualifying": 0
+    },
+    {
+      "id": 46,
+      "name": "Geometric sans-serif typography",
+      "qualifying": 0
+    },
+    {
+      "id": 47,
+      "name": "Neo-grotesque typography",
+      "qualifying": 0
+    },
+    {
+      "id": 48,
+      "name": "Humanist sans-serif typography",
+      "qualifying": 0
+    },
+    {
+      "id": 49,
+      "name": "Slab-serif typography",
+      "qualifying": 0
+    },
+    {
+      "id": 50,
+      "name": "Didone editorial typography",
+      "qualifying": 0
+    },
+    {
+      "id": 51,
+      "name": "Old-style serif typography",
+      "qualifying": 0
+    },
+    {
+      "id": 52,
+      "name": "Transitional serif typography",
+      "qualifying": 0
+    },
+    {
+      "id": 53,
+      "name": "Clarendon display typography",
+      "qualifying": 0
+    },
+    {
+      "id": 54,
+      "name": "Blackletter revival typography",
+      "qualifying": 0
+    },
+    {
+      "id": 55,
+      "name": "Stencil typography",
+      "qualifying": 0
+    },
+    {
+      "id": 56,
+      "name": "Wood-type typography",
+      "qualifying": 0
+    },
+    {
+      "id": 57,
+      "name": "Inline typography",
+      "qualifying": 0
+    },
+    {
+      "id": 58,
+      "name": "Extruded 3D typography",
+      "qualifying": 0
+    },
+    {
+      "id": 59,
+      "name": "Kinetic typography",
+      "qualifying": 2
+    },
+    {
+      "id": 60,
+      "name": "Variable-font typography",
+      "qualifying": 0
+    },
+    {
+      "id": 61,
+      "name": "Monospaced terminal typography",
+      "qualifying": 0
+    },
+    {
+      "id": 62,
+      "name": "Brutalist typography",
+      "qualifying": 1
+    },
+    {
+      "id": 63,
+      "name": "Maximalist typography",
+      "qualifying": 0
+    },
+    {
+      "id": 64,
+      "name": "Experimental typography",
+      "qualifying": 0
+    },
+    {
+      "id": 65,
+      "name": "Type-specimen editorial style",
+      "qualifying": 1
+    },
+    {
+      "id": 66,
+      "name": "Oversized-type layout",
+      "qualifying": 0
+    },
+    {
+      "id": 67,
+      "name": "Microtypographic layout",
+      "qualifying": 0
+    },
+    {
+      "id": 68,
+      "name": "Modular typography",
+      "qualifying": 1
+    },
+    {
+      "id": 69,
+      "name": "Vernacular lettering",
+      "qualifying": 0
+    },
+    {
+      "id": 70,
+      "name": "Sign-painter lettering",
+      "qualifying": 0
+    },
+    {
+      "id": 71,
+      "name": "Chromatic typography",
+      "qualifying": 1
+    },
+    {
+      "id": 72,
+      "name": "Outline typography",
+      "qualifying": 0
+    },
+    {
+      "id": 73,
+      "name": "Isometric typography",
+      "qualifying": 0
+    },
+    {
+      "id": 74,
+      "name": "Calligraphic display typography",
+      "qualifying": 0
+    },
+    {
+      "id": 75,
+      "name": "Data-driven typography",
+      "qualifying": 0
+    },
+    {
+      "id": 76,
+      "name": "Skeuomorphic UI",
+      "qualifying": 0
+    },
+    {
+      "id": 77,
+      "name": "Flat UI",
+      "qualifying": 1
+    },
+    {
+      "id": 78,
+      "name": "Material Design",
+      "qualifying": 0
+    },
+    {
+      "id": 79,
+      "name": "Fluent Design",
+      "qualifying": 0
+    },
+    {
+      "id": 80,
+      "name": "Apple Human Interface visual language",
+      "qualifying": 0
+    },
+    {
+      "id": 81,
+      "name": "Metro-style UI",
+      "qualifying": 0
+    },
+    {
+      "id": 82,
+      "name": "Neumorphic UI",
+      "qualifying": 1
+    },
+    {
+      "id": 83,
+      "name": "Glassmorphic UI",
+      "qualifying": 0
+    },
+    {
+      "id": 84,
+      "name": "Claymorphic UI",
+      "qualifying": 0
+    },
+    {
+      "id": 85,
+      "name": "Neubrutalist UI",
+      "qualifying": 0
+    },
+    {
+      "id": 86,
+      "name": "Brutalist web design",
+      "qualifying": 0
+    },
+    {
+      "id": 87,
+      "name": "Swiss-style web design",
+      "qualifying": 0
+    },
+    {
+      "id": 88,
+      "name": "Minimalist web design",
+      "qualifying": 0
+    },
+    {
+      "id": 89,
+      "name": "Maximalist web design",
+      "qualifying": 0
+    },
+    {
+      "id": 90,
+      "name": "Editorial web design",
+      "qualifying": 0
+    },
+    {
+      "id": 91,
+      "name": "Portfolio-grid web design",
+      "qualifying": 0
+    },
+    {
+      "id": 92,
+      "name": "Magazine-style web layout",
+      "qualifying": 0
+    },
+    {
+      "id": 93,
+      "name": "Bento-grid interface",
+      "qualifying": 0
+    },
+    {
+      "id": 94,
+      "name": "Card-based interface",
+      "qualifying": 0
+    },
+    {
+      "id": 95,
+      "name": "Dashboard UI aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 96,
+      "name": "Command-line interface aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 97,
+      "name": "Terminal-core interface",
+      "qualifying": 1
+    },
+    {
+      "id": 98,
+      "name": "Retro-computer interface",
+      "qualifying": 0
+    },
+    {
+      "id": 99,
+      "name": "Pixel-art UI",
+      "qualifying": 1
+    },
+    {
+      "id": 100,
+      "name": "Arcade-cabinet UI",
+      "qualifying": 0
+    },
+    {
+      "id": 101,
+      "name": "Sci-fi HUD interface",
+      "qualifying": 0
+    },
+    {
+      "id": 102,
+      "name": "Cyberpunk interface",
+      "qualifying": 0
+    },
+    {
+      "id": 103,
+      "name": "Fantasy-game interface",
+      "qualifying": 0
+    },
+    {
+      "id": 104,
+      "name": "Mobile-app visual style",
+      "qualifying": 0
+    },
+    {
+      "id": 105,
+      "name": "Tactile interface design",
+      "qualifying": 0
+    },
+    {
+      "id": 106,
+      "name": "Monochrome interface",
+      "qualifying": 0
+    },
+    {
+      "id": 107,
+      "name": "High-contrast UI",
+      "qualifying": 0
+    },
+    {
+      "id": 108,
+      "name": "Duotone interface",
+      "qualifying": 0
+    },
+    {
+      "id": 109,
+      "name": "Gradient-mesh interface",
+      "qualifying": 0
+    },
+    {
+      "id": 110,
+      "name": "Aurora-gradient interface",
+      "qualifying": 0
+    },
+    {
+      "id": 111,
+      "name": "Soft-pastel interface",
+      "qualifying": 0
+    },
+    {
+      "id": 112,
+      "name": "Dark-mode interface",
+      "qualifying": 1
+    },
+    {
+      "id": 113,
+      "name": "Warm-minimal interface",
+      "qualifying": 0
+    },
+    {
+      "id": 114,
+      "name": "Organic web design",
+      "qualifying": 0
+    },
+    {
+      "id": 115,
+      "name": "Neo-Geo web design",
+      "qualifying": 0
+    },
+    {
+      "id": 116,
+      "name": "Y2K web design",
+      "qualifying": 0
+    },
+    {
+      "id": 117,
+      "name": "Web 1.0 personal-homepage aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 118,
+      "name": "GeoCities collage web design",
+      "qualifying": 0
+    },
+    {
+      "id": 119,
+      "name": "Web 2.0 glossy style",
+      "qualifying": 0
+    },
+    {
+      "id": 120,
+      "name": "Indie-web aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 121,
+      "name": "Accessible-first interface style",
+      "qualifying": 0
+    },
+    {
+      "id": 122,
+      "name": "Scrollytelling editorial design",
+      "qualifying": 1
+    },
+    {
+      "id": 123,
+      "name": "Parallax web design",
+      "qualifying": 0
+    },
+    {
+      "id": 124,
+      "name": "Single-page portfolio style",
+      "qualifying": 1
+    },
+    {
+      "id": 125,
+      "name": "Split-screen website layout",
+      "qualifying": 0
+    },
+    {
+      "id": 126,
+      "name": "Infinite-canvas interface",
+      "qualifying": 0
+    },
+    {
+      "id": 127,
+      "name": "Spatial UI",
+      "qualifying": 0
+    },
+    {
+      "id": 128,
+      "name": "Generative interface design",
+      "qualifying": 0
+    },
+    {
+      "id": 129,
+      "name": "Data-visualization dashboard aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 130,
+      "name": "Ambient interface design",
+      "qualifying": 0
+    },
+    {
+      "id": 131,
+      "name": "Flat-vector illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 132,
+      "name": "Geometric-vector illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 133,
+      "name": "Minimal line illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 134,
+      "name": "Monoline illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 135,
+      "name": "Outline iconography",
+      "qualifying": 0
+    },
+    {
+      "id": 136,
+      "name": "Doodle illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 137,
+      "name": "Scribble illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 138,
+      "name": "Editorial spot illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 139,
+      "name": "Conceptual editorial illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 140,
+      "name": "Children's-book illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 141,
+      "name": "Storybook watercolor illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 142,
+      "name": "Anime visual style",
+      "qualifying": 1
+    },
+    {
+      "id": 143,
+      "name": "Manga visual style",
+      "qualifying": 1
+    },
+    {
+      "id": 144,
+      "name": "Chibi illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 145,
+      "name": "Superflat illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 146,
+      "name": "Kawaii illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 147,
+      "name": "Ligne claire illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 148,
+      "name": "European graphic-novel illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 149,
+      "name": "American comic-book art",
+      "qualifying": 0
+    },
+    {
+      "id": 150,
+      "name": "Golden-age comic illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 151,
+      "name": "Indie-comic illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 152,
+      "name": "Mid-century modern illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 153,
+      "name": "1950s advertising illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 154,
+      "name": "Retro-futurist illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 155,
+      "name": "Atomic-age illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 156,
+      "name": "Airbrush illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 157,
+      "name": "3D-clay illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 158,
+      "name": "Isometric 3D illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 159,
+      "name": "Low-poly illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 160,
+      "name": "Voxel art",
+      "qualifying": 0
+    },
+    {
+      "id": 161,
+      "name": "Pixel-art illustration",
+      "qualifying": 1
+    },
+    {
+      "id": 162,
+      "name": "Cel-shaded illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 163,
+      "name": "Painterly digital illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 164,
+      "name": "Minimal 3D render",
+      "qualifying": 0
+    },
+    {
+      "id": 165,
+      "name": "Photorealistic 3D rendering",
+      "qualifying": 0
+    },
+    {
+      "id": 166,
+      "name": "Surreal digital collage",
+      "qualifying": 0
+    },
+    {
+      "id": 167,
+      "name": "Textured-vector illustration",
+      "qualifying": 2
+    },
+    {
+      "id": 168,
+      "name": "Paper-cut illustration",
+      "qualifying": 2
+    },
+    {
+      "id": 169,
+      "name": "Grainy-gradient illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 170,
+      "name": "Halftone illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 171,
+      "name": "Risograph-style illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 172,
+      "name": "Woodcut illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 173,
+      "name": "Linocut illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 174,
+      "name": "Etching illustration",
+      "qualifying": 1
+    },
+    {
+      "id": 175,
+      "name": "Crosshatch drawing",
+      "qualifying": 1
+    },
+    {
+      "id": 176,
+      "name": "Stipple illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 177,
+      "name": "Scratchboard illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 178,
+      "name": "Charcoal illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 179,
+      "name": "Colored-pencil illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 180,
+      "name": "Marker illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 181,
+      "name": "Screenprint aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 182,
+      "name": "Risograph print aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 183,
+      "name": "Letterpress aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 184,
+      "name": "Woodcut print aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 185,
+      "name": "Linocut print aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 186,
+      "name": "Etching print aesthetic",
+      "qualifying": 2
+    },
+    {
+      "id": 187,
+      "name": "Lithographic print aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 188,
+      "name": "Monotype print aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 189,
+      "name": "Cyanotype aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 190,
+      "name": "Photogram aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 191,
+      "name": "Collage aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 192,
+      "name": "Photomontage aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 193,
+      "name": "Cut-paper collage",
+      "qualifying": 1
+    },
+    {
+      "id": 194,
+      "name": "Paper-ephemera collage",
+      "qualifying": 2
+    },
+    {
+      "id": 195,
+      "name": "Xerox copy-art",
+      "qualifying": 0
+    },
+    {
+      "id": 196,
+      "name": "Zine aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 197,
+      "name": "Stencil aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 198,
+      "name": "Paste-up aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 199,
+      "name": "Decoupage aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 200,
+      "name": "Mixed-media assemblage",
+      "qualifying": 0
+    },
+    {
+      "id": 201,
+      "name": "Ink-wash aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 202,
+      "name": "Gouache aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 203,
+      "name": "Watercolor-wash aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 204,
+      "name": "Acrylic-impasto aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 205,
+      "name": "Oil-impasto aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 206,
+      "name": "Fresco-mural aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 207,
+      "name": "Pastel aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 208,
+      "name": "Airbrush-gradient aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 209,
+      "name": "Chalk-pastel street-art aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 210,
+      "name": "Enamel sign-painting aesthetic",
+      "qualifying": 1
+    },
+    {
+      "id": 211,
+      "name": "Embroidery illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 212,
+      "name": "Quilted-collage aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 213,
+      "name": "Beadwork graphic aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 214,
+      "name": "Tapestry-inspired graphic style",
+      "qualifying": 0
+    },
+    {
+      "id": 215,
+      "name": "Mosaic illustration",
+      "qualifying": 0
+    },
+    {
+      "id": 216,
+      "name": "Pictorialist photography",
+      "qualifying": 0
+    },
+    {
+      "id": 217,
+      "name": "Straight photography",
+      "qualifying": 0
+    },
+    {
+      "id": 218,
+      "name": "Documentary photography",
+      "qualifying": 0
+    },
+    {
+      "id": 219,
+      "name": "Humanist photography",
+      "qualifying": 0
+    },
+    {
+      "id": 220,
+      "name": "Street photography",
+      "qualifying": 0
+    },
+    {
+      "id": 221,
+      "name": "New Topographics",
+      "qualifying": 0
+    },
+    {
+      "id": 222,
+      "name": "Deadpan photography",
+      "qualifying": 0
+    },
+    {
+      "id": 223,
+      "name": "Snapshot aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 224,
+      "name": "Direct-flash photography",
+      "qualifying": 0
+    },
+    {
+      "id": 225,
+      "name": "35mm film look",
+      "qualifying": 0
+    },
+    {
+      "id": 226,
+      "name": "16mm film look",
+      "qualifying": 0
+    },
+    {
+      "id": 227,
+      "name": "VHS camcorder look",
+      "qualifying": 0
+    },
+    {
+      "id": 228,
+      "name": "Instant-film aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 229,
+      "name": "Lomography",
+      "qualifying": 0
+    },
+    {
+      "id": 230,
+      "name": "Infrared photography",
+      "qualifying": 1
+    },
+    {
+      "id": 231,
+      "name": "Long-exposure light trails",
+      "qualifying": 1
+    },
+    {
+      "id": 232,
+      "name": "Double-exposure photography",
+      "qualifying": 0
+    },
+    {
+      "id": 233,
+      "name": "Tilt-shift miniature photography",
+      "qualifying": 0
+    },
+    {
+      "id": 234,
+      "name": "Macro product photography",
+      "qualifying": 0
+    },
+    {
+      "id": 235,
+      "name": "High-key studio photography",
+      "qualifying": 0
+    },
+    {
+      "id": 236,
+      "name": "Low-key chiaroscuro photography",
+      "qualifying": 0
+    },
+    {
+      "id": 237,
+      "name": "Editorial fashion photography",
+      "qualifying": 0
+    },
+    {
+      "id": 238,
+      "name": "Surreal staged photography",
+      "qualifying": 0
+    },
+    {
+      "id": 239,
+      "name": "Color-gel portraiture",
+      "qualifying": 0
+    },
+    {
+      "id": 240,
+      "name": "Duotone photo treatment",
+      "qualifying": 0
+    },
+    {
+      "id": 241,
+      "name": "Halftone photo treatment",
+      "qualifying": 0
+    },
+    {
+      "id": 242,
+      "name": "Black-and-white documentary look",
+      "qualifying": 0
+    },
+    {
+      "id": 243,
+      "name": "Soft-focus romantic look",
+      "qualifying": 0
+    },
+    {
+      "id": 244,
+      "name": "Cinematic teal-orange grade",
+      "qualifying": 0
+    },
+    {
+      "id": 245,
+      "name": "Bleach-bypass grade",
+      "qualifying": 0
+    },
+    {
+      "id": 246,
+      "name": "Day-for-night cinematography",
+      "qualifying": 0
+    },
+    {
+      "id": 247,
+      "name": "Film-noir cinematography",
+      "qualifying": 0
+    },
+    {
+      "id": 248,
+      "name": "German Expressionist cinema",
+      "qualifying": 0
+    },
+    {
+      "id": 249,
+      "name": "French New Wave cinematography",
+      "qualifying": 0
+    },
+    {
+      "id": 250,
+      "name": "Giallo cinema style",
+      "qualifying": 0
+    },
+    {
+      "id": 251,
+      "name": "Vaporwave",
+      "qualifying": 0
+    },
+    {
+      "id": 252,
+      "name": "Synthwave",
+      "qualifying": 0
+    },
+    {
+      "id": 253,
+      "name": "Retrowave",
+      "qualifying": 0
+    },
+    {
+      "id": 254,
+      "name": "Cyberpunk",
+      "qualifying": 0
+    },
+    {
+      "id": 255,
+      "name": "Solarpunk",
+      "qualifying": 0
+    },
+    {
+      "id": 256,
+      "name": "Steampunk",
+      "qualifying": 0
+    },
+    {
+      "id": 257,
+      "name": "Dieselpunk",
+      "qualifying": 0
+    },
+    {
+      "id": 258,
+      "name": "Atompunk",
+      "qualifying": 0
+    },
+    {
+      "id": 259,
+      "name": "Cassette futurism",
+      "qualifying": 0
+    },
+    {
+      "id": 260,
+      "name": "Frutiger Aero",
+      "qualifying": 0
+    },
+    {
+      "id": 261,
+      "name": "Y2K aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 262,
+      "name": "Webcore",
+      "qualifying": 0
+    },
+    {
+      "id": 263,
+      "name": "Weirdcore",
+      "qualifying": 0
+    },
+    {
+      "id": 264,
+      "name": "Dreamcore",
+      "qualifying": 0
+    },
+    {
+      "id": 265,
+      "name": "Liminal-space aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 266,
+      "name": "Glitchcore",
+      "qualifying": 0
+    },
+    {
+      "id": 267,
+      "name": "Datamosh aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 268,
+      "name": "Cyberdelic",
+      "qualifying": 0
+    },
+    {
+      "id": 269,
+      "name": "Acid graphics",
+      "qualifying": 0
+    },
+    {
+      "id": 270,
+      "name": "Hyperpop visual aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 271,
+      "name": "Cottagecore",
+      "qualifying": 0
+    },
+    {
+      "id": 272,
+      "name": "Dark Academia",
+      "qualifying": 0
+    },
+    {
+      "id": 273,
+      "name": "Light Academia",
+      "qualifying": 0
+    },
+    {
+      "id": 274,
+      "name": "Fairycore",
+      "qualifying": 0
+    },
+    {
+      "id": 275,
+      "name": "Goblincore",
+      "qualifying": 0
+    },
+    {
+      "id": 276,
+      "name": "Kidcore",
+      "qualifying": 0
+    },
+    {
+      "id": 277,
+      "name": "Clowncore",
+      "qualifying": 0
+    },
+    {
+      "id": 278,
+      "name": "Dreamwave",
+      "qualifying": 0
+    },
+    {
+      "id": 279,
+      "name": "Indie sleaze",
+      "qualifying": 0
+    },
+    {
+      "id": 280,
+      "name": "Angelcore",
+      "qualifying": 0
+    },
+    {
+      "id": 281,
+      "name": "Grunge aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 282,
+      "name": "Punk aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 283,
+      "name": "Goth aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 284,
+      "name": "Romantic goth",
+      "qualifying": 0
+    },
+    {
+      "id": 285,
+      "name": "Cybergoth",
+      "qualifying": 0
+    },
+    {
+      "id": 286,
+      "name": "Visual kei",
+      "qualifying": 0
+    },
+    {
+      "id": 287,
+      "name": "Lolita fashion",
+      "qualifying": 0
+    },
+    {
+      "id": 288,
+      "name": "Decora fashion",
+      "qualifying": 0
+    },
+    {
+      "id": 289,
+      "name": "Mori kei",
+      "qualifying": 0
+    },
+    {
+      "id": 290,
+      "name": "Gyaru",
+      "qualifying": 0
+    },
+    {
+      "id": 291,
+      "name": "Coquette aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 292,
+      "name": "Normcore",
+      "qualifying": 0
+    },
+    {
+      "id": 293,
+      "name": "Mod style",
+      "qualifying": 0
+    },
+    {
+      "id": 294,
+      "name": "Rockabilly style",
+      "qualifying": 0
+    },
+    {
+      "id": 295,
+      "name": "New Romantic style",
+      "qualifying": 0
+    },
+    {
+      "id": 296,
+      "name": "Skate style",
+      "qualifying": 0
+    },
+    {
+      "id": 297,
+      "name": "Hip-hop streetwear",
+      "qualifying": 0
+    },
+    {
+      "id": 298,
+      "name": "Rave aesthetic",
+      "qualifying": 0
+    },
+    {
+      "id": 299,
+      "name": "Gorpcore",
+      "qualifying": 0
+    },
+    {
+      "id": 300,
+      "name": "Workwear-core",
+      "qualifying": 0
+    }
+  ]
+}

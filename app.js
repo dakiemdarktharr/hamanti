@@ -2,7 +2,8 @@ import './styles.css';
 import { animate, hover, press, stagger } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
-import { createLandscape, fern } from './lib/nature.js';
+import { fern } from './lib/nature.js';
+import { searchStyles } from './lib/search.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -14,7 +15,7 @@ const desktop = matchMedia('(min-width: 900px)');
 let savedPause = false;
 try { savedPause = localStorage.getItem('hamanti-motion') === 'paused'; } catch {}
 let paused = reduced.matches || savedPause;
-let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, sceneryUpdate, homeScroll = 0, lastStyleId;
+let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, forest, homeScroll = 0, lastStyleId;
 let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest;
 const filters = { query: '', group: 'all', coverage: 'all' };
 let frozenPalette;
@@ -30,6 +31,7 @@ function setupMotion() {
   $('#motion-toggle').textContent = paused ? 'Motion paused' : 'Pause motion';
   $('#motion-toggle').setAttribute('aria-pressed', String(paused));
   background?.pause(paused);
+  forest?.pause(paused);
   if (currentStyle) setupGallery();
   requestUpdate();
 }
@@ -78,11 +80,13 @@ function requestUpdate() {
   frameRequest = requestAnimationFrame(() => {
     frameRequest = null;
     if (!currentStyle) {
-      const intro = $('.introduction').getBoundingClientRect();
-      const progress = clamp((innerHeight * .8 - intro.top) / Math.max(1, intro.height * .8));
       const words = [...document.querySelectorAll('.intro-word')];
-      words.forEach((word, index) => { word.style.opacity = paused ? 1 : .25 + .75 * clamp(progress * (words.length + 3) - index); });
-      if (!paused) sceneryUpdate?.();
+      words.forEach(word => {
+        const bounds = word.getBoundingClientRect();
+        // A word stays hidden until its own line reaches the centre.
+        const progress = clamp((innerHeight * .5 - (bounds.top + bounds.height / 2)) / 90);
+        word.style.opacity = paused ? 1 : progress;
+      });
     } else galleryUpdate?.();
     const footer = $('#footer').getBoundingClientRect();
     const footerProgress = clamp((innerHeight - footer.top) / Math.min(innerHeight, footer.height));
@@ -91,56 +95,55 @@ function requestUpdate() {
   });
 }
 function renderIndex() {
-  const query = filters.query.toLocaleLowerCase().trim(), words = query.split(/\s+/).filter(Boolean);
-  const styles = handbook.styles.filter(style =>
+  const query = filters.query.trim();
+  const styles = searchStyles(handbook.styles, query).filter(style =>
     (filters.group === 'all' || style.group === filters.group) &&
-    (filters.coverage === 'all' || (filters.coverage === 'complete' ? style.found === 8 : style.found < 8)) &&
-    words.every(word => `${style.id} ${style.name} ${style.description} ${style.groupName}`.toLocaleLowerCase().includes(word))
+    (filters.coverage === 'all' || (filters.coverage === 'complete' ? style.found === 8 : style.found < 8))
   );
   $('#style-index').innerHTML = handbook.groups.map(group => {
     const members = styles.filter(style => style.group === group.id);
     if (!members.length) return '';
     return `<section class="style-group" data-group="${group.id}" aria-labelledby="group-${group.id}">
       <div class="group-heading"><span>${String(group.id).padStart(2,'0')}</span><h3 id="group-${group.id}">${escape(group.name)}</h3><span class="group-size">${members.length}</span></div>
-      ${members.map(style => `<a href="#/style/${style.id}" class="style-row" data-style="${style.id}" aria-label="${escape(style.name)}${style.found < 8 ? ', examples pending' : ''}">
-        <span class="style-number">${pad(style.id)}</span><span class="style-name">${escape(style.name)}</span>
-        <span class="style-description">${escape(style.description)}</span>
-        <span class="style-coverage">${style.found < 8 ? `${style.found}/8<br>pending` : '08 refs'}</span><span class="style-arrow" aria-hidden="true">↗</span>
-      </a>`).join('')}
+      <div class="style-grid">${members.map(style => `<a href="#/style/${style.id}" class="style-card" data-style="${style.id}" aria-label="${escape(style.name)}${style.found < 8 ? ', examples pending' : ''}">
+        <div class="style-picture">${style.examples[0] ? `<img src="${escape(safeURL(style.examples[0].image))}" alt="${escape(style.examples[0].title)}" loading="lazy" decoding="async" width="${style.examples[0].width}" height="${style.examples[0].height}">` : `<span class="cover-pending"><span aria-hidden="true">${pad(style.id)}</span>Reference pending</span>`}<span class="card-open" aria-hidden="true">↗</span></div>
+        <div class="card-label"><span class="style-number">${pad(style.id)}</span><span class="style-coverage">${style.found < 8 ? `${style.found}/8 · pending` : '08 references'}</span></div>
+        <h4 class="style-name">${escape(style.name)}</h4>
+      </a>`).join('')}</div>
     </section>`;
   }).join('');
-  $('#result-count').textContent = `${styles.length} ${styles.length === 1 ? 'style' : 'styles'}${query || filters.group !== 'all' || filters.coverage !== 'all' ? ' / 300' : ' — follow your curiosity'}`;
+  $('#result-count').textContent = `${styles.length} ${styles.length === 1 ? 'style' : 'styles'}${query || filters.group !== 'all' || filters.coverage !== 'all' ? ' / 300' : ''}`;
+  $('#search-clear').hidden = !query;
   $('#empty').hidden = styles.length > 0;
-  sceneryUpdate = createLandscape($('#landscape'), styles.length);
   lenis?.resize();
   requestUpdate();
 }
-function sourceLabel(example) { return example.kind === 'pin' ? 'Pin' : 'Board / idea'; }
+function sourceLabel(example) { return ({pin:'Pin',board_or_idea:'Board / idea',website:'Website',museum:'Collection'})[example.kind] || 'Source'; }
 function renderDetail(style) {
   currentStyle = style;
   lastStyleId = style.id;
   const groupColors = ['#ce917c','#c4bc91','#78c2be','#a8a1c9','#c4a483','#9ba6ac','#bd93c9','#a5b589'];
-  frozenPalette = Object.freeze(style.palette || { background: '#141714', accent: groupColors[+style.group - 1] });
+  frozenPalette = Object.freeze(style.palette || { background: '#141714', accent: groupColors[(+style.group - 1) % groupColors.length] });
   document.documentElement.style.setProperty('--detail-bg', frozenPalette.background);
   const next = handbook.styles[style.id % handbook.styles.length], examples = style.examples;
   $('#detail-page').innerHTML = `<div class="detail-background" id="detail-background" aria-hidden="true"></div><article class="detail-content">
     <header class="detail-intro">
       <a class="back-link" href="#/index" data-return>← <span>Back to index</span></a>
-      <p class="detail-label">${pad(style.id)} / ${escape(style.groupName)}</p>
+      <p class="detail-label">${pad(style.id)} / ${escape(style.groupName)}${style.kind ? ` / ${escape(style.kind.replaceAll('-', ' '))}` : ''}</p>
       <h1 class="detail-title" tabindex="-1">${escape(style.name)}</h1>
       <p class="detail-description">${escape(style.description)}</p>
-      <div class="detail-meta"><span>${examples.length} / 8 references${examples.length < 8 ? ' · Examples pending' : ''}</span><a href="./artstyles-300.md" target="_blank" rel="noopener">Original notes ↗</a></div>
+      <div class="detail-meta"><span>${examples.length} / 8 Full HD references${examples.length < 8 ? ' · Examples pending' : ''}</span>${style.sources?.[0] ? `<a href="${escape(safeURL(style.sources[0].url))}" target="_blank" rel="noopener">Read about this direction ↗</a>` : `<a href="./artstyles-300.md" target="_blank" rel="noopener">Original notes ↗</a>`}</div>
     </header>
     ${examples.length ? `<section class="gallery-track" id="gallery-track" aria-label="${escape(style.name)} references">
       <div class="gallery-viewport"><div class="gallery-label"><span>( reference studies )</span><span>Scroll to turn · Select to view</span></div>
-        <div class="gallery-stage" id="gallery-stage">${examples.map((example,index) => `<figure class="reference" data-reference="${index}">
+        <div class="gallery-stage" id="gallery-stage">${examples.map((example,index) => `<figure class="reference${example.height > example.width * 1.45 ? ' reference-tall' : ''}" data-reference="${index}">
           <button class="reference-open" data-open-image="${index}" aria-label="View reference ${index + 1}: ${escape(example.title)}"><img src="${escape(safeURL(example.image))}" alt="${escape(example.title)}" loading="${index < 2 ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></button>
           <figcaption><span>${String(index+1).padStart(2,'0')} / ${String(examples.length).padStart(2,'0')}</span><a href="${escape(safeURL(example.url))}" target="_blank" rel="noopener">${sourceLabel(example)} ↗<span class="sr-only">: ${escape(example.title)}</span></a></figcaption>
         </figure>`).join('')}</div>
-        <div class="gallery-controls"><span class="gallery-current" id="gallery-current" aria-live="off">01 / ${String(examples.length).padStart(2,'0')}</span><span>Scroll to explore</span><div class="gallery-buttons"><button id="gallery-prev" aria-label="Previous reference">←</button><button id="gallery-next" aria-label="Next reference">→</button></div></div>
+        <div class="gallery-controls"><span class="gallery-current" id="gallery-current" aria-live="off">01 / ${String(examples.length).padStart(2,'0')}</span><div class="gallery-buttons"><button id="gallery-prev" aria-label="Previous reference">←</button><button id="gallery-next" aria-label="Next reference">→</button></div></div>
       </div></section>` : ''}
-    ${examples.length < 8 ? `<aside class="pending"><span class="mono">Examples pending</span><p>${examples.length ? `${8 - examples.length} more references are still being collected.` : 'References for this style are still being collected.'}</p></aside>` : ''}
-    <p class="reference-note">Collected from Pinterest. Pin = image page; board / idea = collection. <a href="./sources.html">About the references ↗</a></p>
+    ${examples.length < 8 ? `<aside class="pending"><span class="mono">Examples pending</span><p>${8 - examples.length} ${examples.length === 7 ? 'reference' : 'references'} pending.</p></aside>` : ''}
+    <p class="reference-note">Pinterest references, checked at native Full HD or larger. <a href="./sources.html">Sources & credits ↗</a></p>
     <a class="next-style" href="#/style/${next.id}"><span>Next style ↗</span><strong>${escape(next.name)}</strong></a>
   </article>`;
   $('#detail-page').querySelectorAll('.reference img').forEach(img => img.addEventListener('error', () => {
@@ -153,7 +156,10 @@ function renderDetail(style) {
   const version = routeVersion;
   import('./lib/background.jsx').then(({ mountBackground }) => {
     if (version !== routeVersion || currentStyle?.id !== style.id) return;
-    background = mountBackground($('#detail-background'), frozenPalette, paused);
+    return mountBackground($('#detail-background'), frozenPalette, paused).then(instance => {
+      if (version !== routeVersion) instance.destroy();
+      else background = instance;
+    });
   }).catch(() => { /* The fixed palette remains usable without WebGL. */ });
   document.title = `${style.name} — hamanti`;
 }
@@ -167,7 +173,7 @@ function setupGallery() {
   track.classList.remove('barrel'); track.style.height = ''; stage.style.transform = '';
   if (!desktop.matches || paused || cards.length < 3) { lenis?.resize(); return; }
   track.classList.add('barrel');
-  const radius = Math.max(420, Math.min(innerWidth * .44, 620)), step = 360 / cards.length;
+  const radius = Math.max(900, Math.min(innerWidth * .8, 1550)), step = 360 / cards.length;
   track.style.height = `${cards.length * 65 + 100}svh`;
   stage.style.setProperty('--radius', `${radius}px`);
   let active = -1;
@@ -215,8 +221,8 @@ function openImage(index) {
   $('#lightbox-title').textContent = example.title;
   $('#lightbox-counter').textContent = `${pad(currentStyle.id)} · ${index + 1} / ${currentStyle.examples.length}`;
   $('#lightbox-source').href = safeURL(example.url);
-  $('#lightbox-source').textContent = `Pinterest ${sourceLabel(example).toLowerCase()} ↗`;
-  lenis?.stop(); $('#lightbox').showModal(); $('#lightbox-close').focus();
+  $('#lightbox-source').textContent = `${sourceLabel(example)} ↗`;
+  lenis?.stop(); $('#lightbox').showModal(); $('.lightbox-image').scrollTop = 0; $('#lightbox-close').focus();
 }
 async function cover(type, render) {
   if (paused) { render(); return; }
@@ -293,6 +299,13 @@ reduced.addEventListener('change', () => { paused = reduced.matches || savedPaus
 document.addEventListener('keydown', event => {
   if (event.key === '/' && !currentStyle && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { event.preventDefault(); $('#search').focus(); smoothTo($('#index')); }
 });
+$('#search').addEventListener('keydown', event => {
+  if (event.key === 'Escape') { event.preventDefault(); $('#search-clear').click(); }
+  if (event.key === 'ArrowDown') { event.preventDefault(); $('.style-card')?.focus(); }
+});
+$('#search-clear').addEventListener('click', () => {
+  $('#search').value = ''; $('#search').dispatchEvent(new Event('input')); $('#search').focus();
+});
 for (const [id, key] of [['search','query'],['group-filter','group'],['coverage-filter','coverage']]) {
   $(`#${id}`).addEventListener(id === 'search' ? 'input' : 'change', event => {
     filters[key] = event.target.value; renderIndex();
@@ -317,7 +330,11 @@ try {
   if (['complete','pending'].includes(params.get('coverage'))) filters.coverage = params.get('coverage');
   $('#search').value = filters.query; $('#group-filter').value = filters.group; $('#coverage-filter').value = filters.coverage;
   $('#footer-coverage').textContent = `${handbook.stats.examples.toLocaleString()} references`;
+  $('.index-total').innerHTML = `${handbook.styles.length} directions<br>${handbook.groups.length} families`;
   $('#hero-plant').innerHTML = fern(); introWords(); renderIndex(); setupMotion(); showRoute(location.hash, {focus:false});
+  import('./lib/forest.js').then(({createForest}) => createForest($('#landscape'))).then(instance => {
+    forest = instance; forest.pause(paused);
+  }).catch(() => { $('#landscape').classList.add('forest-unavailable'); });
 } catch (error) {
   $('#loading').hidden = true; $('#error').hidden = false;
   $('#error').innerHTML = `<p>The handbook could not open.</p><p>${escape(error.message)}</p><a href="./artstyles-300.md">Read the original notes ↗</a>`;

@@ -1,0 +1,43 @@
+{
+  "canvaDesign": "https://canva.link/gs5kjbknzcrey7w",
+  "logoMedia": "MAHYi0jM56o",
+  "assets": [
+    {
+      "file": "canva-arrow.svg",
+      "id": "MAHYi0-U5NU",
+      "status": "success"
+    },
+    {
+      "file": "search.svg",
+      "id": "MAHYiyEAbBM",
+      "status": "success"
+    },
+    {
+      "file": "imperfect-star.svg",
+      "id": "MAHYi_gv4yo",
+      "status": "success"
+    },
+    {
+      "file": "button-default.svg",
+      "id": "MAHYi4P_H40",
+      "status": "success"
+    },
+    {
+      "file": "button-hover.svg",
+      "id": "MAHYiwL-Eos",
+      "status": "success"
+    },
+    {
+      "file": "button-pressed.svg",
+      "id": "MAHYi_r3up8",
+      "status": "success"
+    },
+    {
+      "file": "button-focus.svg",
+      "id": "MAHYi-ZFqCs",
+      "status": "success"
+    }
+  ],
+  "format": "SVG vector paths and text; no embedded raster",
+  "forest": "Original Blender GLB meshes; scripts/create-forest-assets.py"
+}

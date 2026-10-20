@@ -1,4 +1,4 @@
-import { copyFile, mkdir, rm } from 'node:fs/promises';
+import { copyFile, mkdir, rm, cp } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { build } from 'esbuild';
@@ -21,6 +21,9 @@ for (const file of files) {
   await mkdir(dirname(destination), { recursive: true });
   await copyFile(resolve(root, file), destination);
 }
+try { await copyFile(resolve(root, 'data/catalog.json'), resolve(output, 'data/catalog.json')); }
+catch (error) { if (error.code !== 'ENOENT') throw error; }
+await cp(resolve(root, 'public'), output, { recursive: true });
 await build({
   absWorkingDir: root, entryPoints: ['app.js', 'sources.js'], outdir: resolve(output, 'assets'),
   bundle: true, splitting: true, format: 'esm', target: ['es2022'],

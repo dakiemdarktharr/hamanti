@@ -1,0 +1,3076 @@
+[
+  {
+    "name": "Geometric sans-serif typography",
+    "description": "Circular bowls, simple construction, and repeated shapes give type-led pages a geometric rhythm.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Constructed geometry differs from the calligraphic proportions of humanist sans.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Geometric sans-serif typography",
+      "Geometric sans-serif typography design",
+      "Geometric sans-serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Grotesque typography",
+    "description": "Early sans-serif irregularities, uneven stroke contrast, and blunt forms give headlines a workmanlike character.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Retains eccentric forms that neo-grotesques regularize.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Grotesque typography",
+      "Grotesque typography design",
+      "Grotesque typography aesthetics"
+    ]
+  },
+  {
+    "name": "Neo-grotesque typography",
+    "description": "Regular sans-serif shapes and coordinated weights organize interfaces through quiet, consistent type.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "More systematic and neutral than early grotesques; not synonymous with a complete Swiss layout.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Neo-grotesque typography",
+      "Neo-grotesque typography design",
+      "Neo-grotesque typography aesthetics"
+    ]
+  },
+  {
+    "name": "Humanist sans-serif typography",
+    "description": "Open counters and writing-derived proportions give interface text a warmer, more varied rhythm.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Calligraphic structure distinguishes it from geometric and neo-grotesque type.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Humanist sans-serif typography",
+      "Humanist sans-serif typography design",
+      "Humanist sans-serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Rounded sans-serif typography",
+    "description": "Rounded terminals and soft corners make type the gentle, tactile center of a visual system.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Rounding changes the stroke endings, not just the color or weight of a geometric font.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Rounded sans-serif typography",
+      "Rounded sans-serif typography design",
+      "Rounded sans-serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Superellipse typography",
+    "description": "Squared curves and rounded rectangular counters produce a technical, compact lettering language.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Superelliptical bowls differ from circular geometric construction.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Superellipse typography",
+      "Superellipse typography design",
+      "Superellipse typography aesthetics"
+    ]
+  },
+  {
+    "name": "Humanist serif typography",
+    "description": "Broad-pen influence, angled stress, and softly bracketed serifs give reading pages a manuscript-derived character.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Earlier and more visibly calligraphic than refined Garalde forms.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Humanist serif typography",
+      "Humanist serif typography design",
+      "Humanist serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Garalde typography",
+    "description": "Refined old-style serifs, moderate contrast, and sloping stress give editorial screens a bookish texture.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "More regular and refined than Venetian humanist serifs, with less vertical stress than transitional faces.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Garalde typography",
+      "Garalde typography design",
+      "Garalde typography aesthetics"
+    ]
+  },
+  {
+    "name": "Transitional serif typography",
+    "description": "Sharper contrast and increasingly vertical stress balance traditional reading texture with precise detail.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Bridges old-style serifs and the more extreme contrast of Didones.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Transitional serif typography",
+      "Transitional serif typography design",
+      "Transitional serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Didone typography",
+    "description": "Hairline serifs and emphatic thick–thin contrast make large editorial headings crisp and dramatic.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Vertical contrast and unbracketed fine serifs distinguish it from transitional type.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Didone typography",
+      "Didone typography design",
+      "Didone typography aesthetics"
+    ]
+  },
+  {
+    "name": "Fat-face typography",
+    "description": "Extremely heavy vertical strokes and delicate hairlines turn serif lettering into bold graphic masses.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "A display construction with exaggerated weight contrast, rather than simply bold body text.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Fat-face typography",
+      "Fat-face typography design",
+      "Fat-face typography aesthetics"
+    ]
+  },
+  {
+    "name": "Scotch Roman typography",
+    "description": "Sturdy vertical strokes, bracketed serifs, and strong contrast bring a compact editorial authority.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Bracketing and robust text forms distinguish Scotch Romans from hairline Didones.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Scotch Roman typography",
+      "Scotch Roman typography design",
+      "Scotch Roman typography aesthetics"
+    ]
+  },
+  {
+    "name": "Geometric slab-serif typography",
+    "description": "Geometric letterforms and rectangular, unbracketed serifs give pages an engineered, sturdy voice.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Squared mechanical slabs differ from the curved brackets of Clarendon.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Geometric slab-serif typography",
+      "Geometric slab-serif typography design",
+      "Geometric slab-serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Humanist slab-serif typography",
+    "description": "Calligraphic proportions combine with substantial serifs for a sturdy but approachable reading texture.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Uses humanist rather than geometric construction beneath the slab serifs.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Humanist slab-serif typography",
+      "Humanist slab-serif typography design",
+      "Humanist slab-serif typography aesthetics"
+    ]
+  },
+  {
+    "name": "Clarendon typography",
+    "description": "Bracketed slab serifs and compact, weighty letters create a firm display rhythm.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Rounded brackets separate this language from unbracketed Egyptian slabs.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Clarendon typography",
+      "Clarendon typography design",
+      "Clarendon typography aesthetics"
+    ]
+  },
+  {
+    "name": "Glyphic typography",
+    "description": "Chiseled terminals and inscription-like proportions give type-led screens a monumental restraint.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Its forms derive from carved lettering rather than pen-written serifs.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Glyphic typography",
+      "Glyphic typography design",
+      "Glyphic typography aesthetics"
+    ]
+  },
+  {
+    "name": "Blackletter typography",
+    "description": "Dense, angular strokes and fractured curves make lettering an emphatic ornamental presence.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "A manuscript-derived construction, distinct from ordinary condensed serif type.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Blackletter typography",
+      "Blackletter typography design",
+      "Blackletter typography aesthetics"
+    ]
+  },
+  {
+    "name": "Formal script typography",
+    "description": "Connected, sloping letterforms and controlled flourishes give display text a penmanship-led elegance.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Regular formal writing differs from loose brush and casual handwritten lettering.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Formal script typography",
+      "Formal script typography design",
+      "Formal script typography aesthetics"
+    ]
+  },
+  {
+    "name": "Brush-script typography",
+    "description": "Visible brush pressure, energetic joins, and varying stroke width make headings feel painted.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Brush-shaped strokes distinguish it from formal pointed-pen scripts.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Brush-script typography",
+      "Brush-script typography design",
+      "Brush-script typography aesthetics"
+    ]
+  },
+  {
+    "name": "Handwritten typography",
+    "description": "Personal letter variation and informal spacing give interfaces the intimacy of written notes.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Emphasizes irregular everyday writing instead of formal script conventions.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Handwritten typography",
+      "Handwritten typography design",
+      "Handwritten typography aesthetics"
+    ]
+  },
+  {
+    "name": "Upright script typography",
+    "description": "Connected cursive forms stay comparatively upright, combining flowing joins with a steady vertical rhythm.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Connectivity is retained without the strong slant common to formal scripts.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Upright script typography",
+      "Upright script typography design",
+      "Upright script typography aesthetics"
+    ]
+  },
+  {
+    "name": "Stencil typography",
+    "description": "Interrupted strokes and visible bridges turn lettering into a cut, fabricated graphic system.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "The bridges are structural features of the letters, not a distressed texture.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Bold Monday — Typeface collection",
+        "url": "https://www.boldmonday.com/typefaces/"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Stencil typography",
+      "Stencil typography design",
+      "Stencil typography aesthetics"
+    ]
+  },
+  {
+    "name": "Wood-type typography",
+    "description": "Heavy display letters, varied widths, and nineteenth-century printing character give headings a tactile presence.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Draws on wood display type rather than a generic old-fashioned serif.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Type Network — Adobe Originals: Wood Type Revival",
+        "url": "https://typenetwork.com/articles/adobe-originals-more-than-just-one-collection"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Wood-type typography",
+      "Wood-type typography design",
+      "Wood-type typography aesthetics"
+    ]
+  },
+  {
+    "name": "Tuscan typography",
+    "description": "Split or ornamental serifs and decorated letter structures give display text an elaborate sign-like character.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Ornament changes the letter anatomy, beyond a standard slab serif.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Type Network — Adobe Originals: Wood Type Revival",
+        "url": "https://typenetwork.com/articles/adobe-originals-more-than-just-one-collection"
+      }
+    ],
+    "referenceQueries": [
+      "Tuscan typography",
+      "Tuscan typography design",
+      "Tuscan typography aesthetics"
+    ]
+  },
+  {
+    "name": "Inline typography",
+    "description": "Fine interior strokes travel through bold letters, creating a decorative second contour.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Interior lines remain inside filled letterforms; outline typography removes the fill.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Inline typography",
+      "Inline typography design",
+      "Inline typography aesthetics"
+    ]
+  },
+  {
+    "name": "Outline typography",
+    "description": "Hollow letterforms let background space pass through large headings and typographic images.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "The letter is drawn by its boundary, unlike the interior decoration of inline type.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Outline typography",
+      "Outline typography design",
+      "Outline typography aesthetics"
+    ]
+  },
+  {
+    "name": "Shadow typography",
+    "description": "Letterforms carry drawn offset or dimensional shadows, giving display text a graphic sense of depth.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Depth belongs to the type itself; the surrounding interface can remain flat.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Shadow typography",
+      "Shadow typography design",
+      "Shadow typography aesthetics"
+    ]
+  },
+  {
+    "name": "Chromatic typography",
+    "description": "Coordinated letter layers create multicolor forms and printed dimensional effects.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Layered type construction, rather than ordinary letters assigned different colors.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Type Network — Adobe Originals: Wood Type Revival",
+        "url": "https://typenetwork.com/articles/adobe-originals-more-than-just-one-collection"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Chromatic typography",
+      "Chromatic typography design",
+      "Chromatic typography aesthetics"
+    ]
+  },
+  {
+    "name": "Condensed typography",
+    "description": "Narrow letterforms create dense vertical rhythms and headlines that pack tightly across a screen.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Width is a dominant compositional feature; not equivalent to small or condensed body copy.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Awwwards — Typography website collection",
+        "url": "https://www.awwwards.com/websites/typography/"
+      }
+    ],
+    "referenceQueries": [
+      "Condensed typography",
+      "Condensed typography design",
+      "Condensed typography aesthetics"
+    ]
+  },
+  {
+    "name": "Extended typography",
+    "description": "Wide letterforms stretch headlines into horizontal bands and emphasize the width of the page.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Expansion changes letter proportions rather than merely adding tracking.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Awwwards — Typography website collection",
+        "url": "https://www.awwwards.com/websites/typography/"
+      }
+    ],
+    "referenceQueries": [
+      "Extended typography",
+      "Extended typography design",
+      "Extended typography aesthetics"
+    ]
+  },
+  {
+    "name": "Reverse-contrast typography",
+    "description": "Heavy horizontal strokes and lighter verticals invert familiar letter weight, producing an unconventional display voice.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "The direction of stroke contrast changes, beyond ordinary boldness.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      },
+      {
+        "title": "Awwwards — Typography website collection",
+        "url": "https://www.awwwards.com/websites/typography/"
+      }
+    ],
+    "referenceQueries": [
+      "Reverse-contrast typography",
+      "Reverse-contrast typography design",
+      "Reverse-contrast typography aesthetics"
+    ]
+  },
+  {
+    "name": "Modular typography",
+    "description": "Repeated geometric units construct letters and connect type with the surrounding graphic system.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Letters are assembled from shared modules rather than simply drawn with geometric proportions.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      }
+    ],
+    "referenceQueries": [
+      "Modular typography",
+      "Modular typography design",
+      "Modular typography aesthetics"
+    ]
+  },
+  {
+    "name": "Oversized typography",
+    "description": "Very large words act as the page’s main visual shapes, with scale establishing hierarchy.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "A composition-led direction that can use many typeface classes.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Awwwards — Typography website collection",
+        "url": "https://www.awwwards.com/websites/typography/"
+      }
+    ],
+    "referenceQueries": [
+      "Oversized typography",
+      "Oversized typography design",
+      "Oversized typography aesthetics"
+    ]
+  },
+  {
+    "name": "Type-specimen design",
+    "description": "Glyph samples, weight comparisons, and carefully staged text turn typography itself into the visual subject.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "web"
+    ],
+    "distinction": "Centers on displaying the type system, rather than using a large headline alone.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Awwwards — Typography website collection",
+        "url": "https://www.awwwards.com/websites/typography/"
+      }
+    ],
+    "referenceQueries": [
+      "Type-specimen design",
+      "Type-specimen design design",
+      "Type-specimen design aesthetics"
+    ]
+  },
+  {
+    "name": "Mincho typography",
+    "description": "Contrasting strokes and triangular terminals give Japanese text a precise, print-derived rhythm.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Japanese",
+      "editorial"
+    ],
+    "distinction": "A specific Japanese classification; not a synonym for every serif style in East Asian scripts.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts Knowledge — Japanese type classification",
+        "url": "https://fonts.google.com/knowledge/type_in_china_japan_and_korea/type_classification_in_cjk_japanese"
+      },
+      {
+        "title": "Google Fonts — The Zen Fonts collection",
+        "url": "https://fonts.googleblog.com/2021/10/say-hello-to-our-big-new-japanese.html"
+      }
+    ],
+    "referenceQueries": [
+      "Mincho typography",
+      "Mincho typography design",
+      "Mincho typography aesthetics"
+    ]
+  },
+  {
+    "name": "Kaku Gothic typography",
+    "description": "Even strokes and squared endings give Japanese text a clear, structured sans-serif appearance.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Japanese",
+      "sans-serif"
+    ],
+    "distinction": "Angular endings distinguish it from rounded Maru Gothic.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts Knowledge — Japanese type classification",
+        "url": "https://fonts.google.com/knowledge/type_in_china_japan_and_korea/type_classification_in_cjk_japanese"
+      },
+      {
+        "title": "Google Fonts — The Zen Fonts collection",
+        "url": "https://fonts.googleblog.com/2021/10/say-hello-to-our-big-new-japanese.html"
+      }
+    ],
+    "referenceQueries": [
+      "Kaku Gothic typography",
+      "Kaku Gothic typography design",
+      "Kaku Gothic typography aesthetics"
+    ]
+  },
+  {
+    "name": "Maru Gothic typography",
+    "description": "Rounded stroke ends soften Japanese sans-serif forms into a friendly, open text texture.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Japanese",
+      "rounded"
+    ],
+    "distinction": "A rounded Japanese classification, distinct from Kaku Gothic.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts Knowledge — Japanese type classification",
+        "url": "https://fonts.google.com/knowledge/type_in_china_japan_and_korea/type_classification_in_cjk_japanese"
+      },
+      {
+        "title": "Google Fonts — The Zen Fonts collection",
+        "url": "https://fonts.googleblog.com/2021/10/say-hello-to-our-big-new-japanese.html"
+      }
+    ],
+    "referenceQueries": [
+      "Maru Gothic typography",
+      "Maru Gothic typography design",
+      "Maru Gothic typography aesthetics"
+    ]
+  },
+  {
+    "name": "Naskh typography",
+    "description": "Flowing Arabic-script joins and balanced letter proportions create a legible, calligraphic reading texture.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Arabic script",
+      "reading"
+    ],
+    "distinction": "Uses continuous cursive structure rather than the more geometric rhythm associated with Kufic designs.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "29LT — Arabic type anatomy and typographic terms",
+        "url": "https://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/"
+      },
+      {
+        "title": "W3C Internationalization — Typeface styles and font fallback",
+        "url": "https://www.w3.org/International/articles/typography/fontstyles.en"
+      }
+    ],
+    "referenceQueries": [
+      "Naskh typography",
+      "Naskh typography design",
+      "Naskh typography aesthetics"
+    ]
+  },
+  {
+    "name": "Kufic-inspired typography",
+    "description": "Geometric construction and emphatic horizontal and vertical relationships structure Arabic-script display text.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Arabic script",
+      "geometric"
+    ],
+    "distinction": "A broad family with historical variations; contemporary geometric interpretations are not all identical to early Kufic.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "29LT — Arabic type anatomy and typographic terms",
+        "url": "https://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/"
+      },
+      {
+        "title": "Rosetta — Arabic calligraphic styles",
+        "url": "https://rosettatype.com/articles/2016-05-24-arabic-calligraphic-styles/"
+      }
+    ],
+    "referenceQueries": [
+      "Kufic-inspired typography",
+      "Kufic-inspired typography design",
+      "Kufic-inspired typography aesthetics"
+    ]
+  },
+  {
+    "name": "Nastaliq typography",
+    "description": "Sloping word groups and intricate stacked relationships give Urdu and Persian text a distinctive flowing rhythm.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Arabic script",
+      "Urdu",
+      "Persian"
+    ],
+    "distinction": "Word-level diagonal structure differs from Naskh’s more horizontal text line.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "W3C Internationalization — Typeface styles and font fallback",
+        "url": "https://www.w3.org/International/articles/typography/fontstyles.en"
+      }
+    ],
+    "referenceQueries": [
+      "Nastaliq typography",
+      "Nastaliq typography design",
+      "Nastaliq typography aesthetics"
+    ]
+  },
+  {
+    "name": "Ruq’ah typography",
+    "description": "Compact forms, clipped letters, and simple curves produce a brisk handwritten Arabic-script texture.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Arabic script",
+      "handwritten"
+    ],
+    "distinction": "Short forms and a steadier line distinguish it from elaborate Nastaliq and fully formed Naskh.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "W3C Internationalization — Typeface styles and font fallback",
+        "url": "https://www.w3.org/International/articles/typography/fontstyles.en"
+      }
+    ],
+    "referenceQueries": [
+      "Ruq’ah typography",
+      "Ruq’ah typography design",
+      "Ruq’ah typography aesthetics"
+    ]
+  },
+  {
+    "name": "Vertical Japanese typography",
+    "description": "Vertical text columns and carefully oriented punctuation turn reading direction into the organizing graphic structure.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "Japanese",
+      "vertical"
+    ],
+    "distinction": "A writing and composition direction, independent of whether the type is Mincho or Gothic.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts Knowledge — Japanese type classification",
+        "url": "https://fonts.google.com/knowledge/type_in_china_japan_and_korea/type_classification_in_cjk_japanese"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Vertical Japanese typography",
+      "Vertical Japanese typography design",
+      "Vertical Japanese typography aesthetics"
+    ]
+  },
+  {
+    "name": "Monospaced editorial typography",
+    "description": "Equal-width characters establish a measured text rhythm across headings, captions, and editorial layouts.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "monospace",
+      "editorial"
+    ],
+    "distinction": "Typography-led pages need not imitate a terminal or historical computer screen.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Monospaced editorial typography",
+      "Monospaced editorial typography design",
+      "Monospaced editorial typography aesthetics"
+    ]
+  },
+  {
+    "name": "Distressed typography",
+    "description": "Eroded edges and uneven printed marks make display letters feel worn and materially imperfect.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "texture",
+      "display"
+    ],
+    "distinction": "Texture is built into the lettering; it does not require an entire grunge or punk composition.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Google Fonts — Typeface classification metadata",
+        "url": "https://github.com/google/fonts/blob/main/tags/tags_metadata.csv"
+      },
+      {
+        "title": "Type Network — Adobe Originals: Wood Type Revival",
+        "url": "https://typenetwork.com/articles/adobe-originals-more-than-just-one-collection"
+      }
+    ],
+    "referenceQueries": [
+      "Distressed typography",
+      "Distressed typography design",
+      "Distressed typography aesthetics"
+    ]
+  },
+  {
+    "name": "Sign-painted lettering",
+    "description": "Brush-built letters, custom joins, outlines, and drawn shadows bring the character of painted signs to screens.",
+    "group": "Typography",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "lettering",
+      "painted"
+    ],
+    "distinction": "A lettering craft with deliberate construction, distinct from casual handwritten text.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Monotype — A guide to type styles",
+        "url": "https://www.monotype.com/resources/guide-type-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Sign-painted lettering",
+      "Sign-painted lettering design",
+      "Sign-painted lettering aesthetics"
+    ]
+  },
+  {
+    "name": "Swiss International Style",
+    "description": "Rational grids, sans-serif type, asymmetrical balance, and measured open space form a precise graphic language.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "grid",
+      "typography",
+      "modernism"
+    ],
+    "distinction": "Unifies the duplicate labels Swiss Style and International Typographic Style.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IBM Design Language — 2x Grid",
+        "url": "https://www.ibm.com/design/language/2x-grid/"
+      }
+    ],
+    "referenceQueries": [
+      "Swiss International Style",
+      "Swiss International Style design",
+      "Swiss International Style aesthetics"
+    ]
+  },
+  {
+    "name": "New Typography",
+    "description": "Functional hierarchy, asymmetry, and modern lettering organize the page as active visual communication.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "asymmetry",
+      "modernism"
+    ],
+    "distinction": "An earlier modernist typographic approach, broader than the later Swiss system.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      }
+    ],
+    "referenceQueries": [
+      "New Typography",
+      "New Typography design",
+      "New Typography aesthetics"
+    ]
+  },
+  {
+    "name": "Column Grid",
+    "description": "Continuous vertical alignments organize images and text into a stable, readable page structure.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "composition",
+      "web"
+    ],
+    "distinction": "Columns align content vertically without requiring a repeated horizontal module.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Using grids in interface designs",
+        "url": "https://www.nngroup.com/articles/using-grids-in-interface-designs/"
+      },
+      {
+        "title": "IBM Design Language — 2x Grid",
+        "url": "https://www.ibm.com/design/language/2x-grid/"
+      }
+    ],
+    "referenceQueries": [
+      "Column Grid",
+      "Column Grid design",
+      "Column Grid aesthetics"
+    ]
+  },
+  {
+    "name": "Modular Grid",
+    "description": "Repeated columns and rows establish regular cells for images, text, and interface elements.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "composition",
+      "web"
+    ],
+    "distinction": "Adds horizontal modules to a column grid; not every module becomes an individual card.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Using grids in interface designs",
+        "url": "https://www.nngroup.com/articles/using-grids-in-interface-designs/"
+      },
+      {
+        "title": "IBM Design Language — 2x Grid",
+        "url": "https://www.ibm.com/design/language/2x-grid/"
+      }
+    ],
+    "referenceQueries": [
+      "Modular Grid",
+      "Modular Grid design",
+      "Modular Grid aesthetics"
+    ]
+  },
+  {
+    "name": "Hierarchical Grid",
+    "description": "Unequal regions give major content greater space while arranging supporting material around it.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "composition",
+      "web"
+    ],
+    "distinction": "Allocates area by importance rather than maintaining uniformly sized modules.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Using grids in interface designs",
+        "url": "https://www.nngroup.com/articles/using-grids-in-interface-designs/"
+      }
+    ],
+    "referenceQueries": [
+      "Hierarchical Grid",
+      "Hierarchical Grid design",
+      "Hierarchical Grid aesthetics"
+    ]
+  },
+  {
+    "name": "Bento Grid",
+    "description": "A compact arrangement of differently sized, self-contained panels presents varied content as one composition.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "grid",
+      "panels",
+      "interface"
+    ],
+    "distinction": "Compartmentalized panels distinguish it from an open hierarchical editorial grid.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Nielsen Norman Group — Cards: UI-component definition",
+        "url": "https://www.nngroup.com/articles/cards-component/"
+      }
+    ],
+    "referenceQueries": [
+      "Bento Grid",
+      "Bento Grid design",
+      "Bento Grid aesthetics"
+    ]
+  },
+  {
+    "name": "Card-Based Design",
+    "description": "Consistent containers gather related images and information into distinct, repeatable visual units.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "cards",
+      "interface",
+      "modular"
+    ],
+    "distinction": "Cards define content units; their arrangement need not be bento-shaped or masonry-packed.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Cards: UI-component definition",
+        "url": "https://www.nngroup.com/articles/cards-component/"
+      }
+    ],
+    "referenceQueries": [
+      "Card-Based Design",
+      "Card-Based Design design",
+      "Card-Based Design aesthetics"
+    ]
+  },
+  {
+    "name": "Masonry Layout",
+    "description": "Uneven-height blocks pack into continuous columns, making image proportions shape the page.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "grid",
+      "images",
+      "web"
+    ],
+    "distinction": "Vertical packing differs from equal-height rows in a justified gallery.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "David DeSandro — Masonry",
+        "url": "https://masonry.desandro.com/"
+      }
+    ],
+    "referenceQueries": [
+      "Masonry Layout",
+      "Masonry Layout design",
+      "Masonry Layout aesthetics"
+    ]
+  },
+  {
+    "name": "Justified Image Grid",
+    "description": "Rows of images share a height while retaining varied widths, filling the available horizontal space.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "images",
+      "rows",
+      "web"
+    ],
+    "distinction": "Images preserve their aspect ratios within fitted rows, unlike fixed-size contact sheets.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Flickr — Justified Layout",
+        "url": "https://flickr.github.io/justified-layout/"
+      }
+    ],
+    "referenceQueries": [
+      "Justified Image Grid",
+      "Justified Image Grid design",
+      "Justified Image Grid aesthetics"
+    ]
+  },
+  {
+    "name": "Split-Screen Layout",
+    "description": "Two prominent panels share the viewport, creating a sustained relationship between parallel visual streams.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "panels",
+      "contrast",
+      "web"
+    ],
+    "distinction": "A deliberate two-part page structure rather than ordinary multi-column text.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "AIGA Eye on Design — Digital magazines and reading conventions",
+        "url": "https://eyeondesign.aiga.org/the-digital-mags-challenging-outdated-reading-content-rules/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Split-Screen Layout",
+      "Split-Screen Layout design",
+      "Split-Screen Layout aesthetics"
+    ]
+  },
+  {
+    "name": "Asymmetric Layout",
+    "description": "Unequal visual masses and open space create balance without a centered or mirrored arrangement.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "balance",
+      "asymmetry",
+      "web"
+    ],
+    "distinction": "Balance comes from visual weight rather than an evenly divided split screen.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Asymmetric Layout",
+      "Asymmetric Layout design",
+      "Asymmetric Layout aesthetics"
+    ]
+  },
+  {
+    "name": "Editorial Design",
+    "description": "Expressive headlines, varied image scales, and carefully paced reading blocks borrow the rhythm of print publications.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "editorial",
+      "typography",
+      "images"
+    ],
+    "distinction": "A broad art-directed reading language, not a requirement for dense newspaper columns.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Ernest Journal",
+        "url": "https://www.smashingmagazine.com/2019/08/inspired-design-decisions-ernest-journal/"
+      },
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Avaunt Magazine",
+        "url": "https://www.smashingmagazine.com/2019/06/inspired-design-decisions-avaunt-magazine/"
+      }
+    ],
+    "referenceQueries": [
+      "Editorial Design",
+      "Editorial Design design",
+      "Editorial Design aesthetics"
+    ]
+  },
+  {
+    "name": "Newspaper Design",
+    "description": "Ruled columns, compact headlines, and a clear hierarchy of stories create a dense, browsable reading field.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "editorial",
+      "columns",
+      "dense"
+    ],
+    "distinction": "More tightly structured and information-dense than the broader editorial direction.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Using grids in interface designs",
+        "url": "https://www.nngroup.com/articles/using-grids-in-interface-designs/"
+      }
+    ],
+    "referenceQueries": [
+      "Newspaper Design",
+      "Newspaper Design design",
+      "Newspaper Design aesthetics"
+    ]
+  },
+  {
+    "name": "Book Design",
+    "description": "Facing-page relationships pair images and text across the screen, treating the viewport as a reading spread.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "editorial",
+      "reading",
+      "spread"
+    ],
+    "distinction": "Uses the relationship between facing pages rather than a generic two-panel tool.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "AIGA Eye on Design — Digital magazines and reading conventions",
+        "url": "https://eyeondesign.aiga.org/the-digital-mags-challenging-outdated-reading-content-rules/"
+      },
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Ernest Journal",
+        "url": "https://www.smashingmagazine.com/2019/08/inspired-design-decisions-ernest-journal/"
+      }
+    ],
+    "referenceQueries": [
+      "Book Design",
+      "Book Design design",
+      "Book Design aesthetics"
+    ]
+  },
+  {
+    "name": "Marginalia",
+    "description": "A primary reading column is accompanied by small annotations, captions, or contextual notes in generous margins.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "editorial",
+      "notes",
+      "reading"
+    ],
+    "distinction": "Peripheral commentary becomes part of the page language, not an ordinary navigation sidebar.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Ernest Journal",
+        "url": "https://www.smashingmagazine.com/2019/08/inspired-design-decisions-ernest-journal/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Marginalia",
+      "Marginalia design",
+      "Marginalia aesthetics"
+    ]
+  },
+  {
+    "name": "Full-Bleed Composition",
+    "description": "Large images reach the edges of the viewing area, with typography placed around or across the imagery.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "images",
+      "immersive",
+      "web"
+    ],
+    "distinction": "Image fields define the screen rather than appearing inside repeated framed cards.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Avaunt Magazine",
+        "url": "https://www.smashingmagazine.com/2019/06/inspired-design-decisions-avaunt-magazine/"
+      },
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Ernest Journal",
+        "url": "https://www.smashingmagazine.com/2019/08/inspired-design-decisions-ernest-journal/"
+      }
+    ],
+    "referenceQueries": [
+      "Full-Bleed Composition",
+      "Full-Bleed Composition design",
+      "Full-Bleed Composition aesthetics"
+    ]
+  },
+  {
+    "name": "Framed Composition",
+    "description": "Generous borders and deliberate margins present images as individual objects within a restrained page.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "images",
+      "space",
+      "web"
+    ],
+    "distinction": "The surrounding frame and space remain visible, unlike full-bleed imagery.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "IBM Design Language — 2x Grid",
+        "url": "https://www.ibm.com/design/language/2x-grid/"
+      },
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Ernest Journal",
+        "url": "https://www.smashingmagazine.com/2019/08/inspired-design-decisions-ernest-journal/"
+      }
+    ],
+    "referenceQueries": [
+      "Framed Composition",
+      "Framed Composition design",
+      "Framed Composition aesthetics"
+    ]
+  },
+  {
+    "name": "Typographic Index",
+    "description": "Names, numbers, and short metadata form a compact, predominantly textual visual catalogue.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "typography",
+      "index",
+      "web"
+    ],
+    "distinction": "The index itself is the main composition, rather than an incidental menu.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Awwwards — Typography website collection",
+        "url": "https://www.awwwards.com/websites/typography/"
+      }
+    ],
+    "referenceQueries": [
+      "Typographic Index",
+      "Typographic Index design",
+      "Typographic Index aesthetics"
+    ]
+  },
+  {
+    "name": "Contact Sheet",
+    "description": "Uniform image cells, consistent captions, and repeated numbering make a collection read as a visual archive.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "images",
+      "archive",
+      "grid"
+    ],
+    "distinction": "Uniformity and cataloguing distinguish it from varied masonry or bento panels.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Using grids in interface designs",
+        "url": "https://www.nngroup.com/articles/using-grids-in-interface-designs/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Contact Sheet",
+      "Contact Sheet design",
+      "Contact Sheet aesthetics"
+    ]
+  },
+  {
+    "name": "Overlapping Layout",
+    "description": "Images and type deliberately cross one another’s boundaries, making layered relationships visible.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "layers",
+      "composition",
+      "web"
+    ],
+    "distinction": "Overlap is the dominant organizing device; freeform placement alone need not overlap.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Readymag — Complete compositional freedom",
+        "url": "https://blog.readymag.com/experiment-with-design/"
+      },
+      {
+        "title": "Andy Clarke — Inspired Design Decisions: Avaunt Magazine",
+        "url": "https://www.smashingmagazine.com/2019/06/inspired-design-decisions-avaunt-magazine/"
+      }
+    ],
+    "referenceQueries": [
+      "Overlapping Layout",
+      "Overlapping Layout design",
+      "Overlapping Layout aesthetics"
+    ]
+  },
+  {
+    "name": "Freeform Layout",
+    "description": "Elements are positioned as a graphic field, with scale and visual balance taking precedence over repeated rows.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "freeform",
+      "composition",
+      "web"
+    ],
+    "distinction": "A composed spatial arrangement, distinct from random placement or algorithmic generation.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Readymag — Complete compositional freedom",
+        "url": "https://blog.readymag.com/experiment-with-design/"
+      }
+    ],
+    "referenceQueries": [
+      "Freeform Layout",
+      "Freeform Layout design",
+      "Freeform Layout aesthetics"
+    ]
+  },
+  {
+    "name": "Diagonal Composition",
+    "description": "Slanted alignments and directional image relationships lead the eye across the page.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "diagonal",
+      "movement",
+      "web"
+    ],
+    "distinction": "Direction is established by the composition rather than by italic lettering alone.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Diagonal Composition",
+      "Diagonal Composition design",
+      "Diagonal Composition aesthetics"
+    ]
+  },
+  {
+    "name": "Radial Composition",
+    "description": "Elements gather around a center, using circular relationships and spokes to establish hierarchy.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "radial",
+      "geometry",
+      "interface"
+    ],
+    "distinction": "A center-out structure differs from linear columns or a freeform image field.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      },
+      {
+        "title": "Mike Bostock — D3 visualization gallery",
+        "url": "https://observablehq.com/@d3/gallery"
+      }
+    ],
+    "referenceQueries": [
+      "Radial Composition",
+      "Radial Composition design",
+      "Radial Composition aesthetics"
+    ]
+  },
+  {
+    "name": "Tabular Design",
+    "description": "Aligned rows, compact labels, and repeated data columns create an orderly, information-dense visual field.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "data",
+      "table",
+      "interface"
+    ],
+    "distinction": "Tables and alignment dominate the appearance, not merely the presence of a chart.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Nielsen Norman Group — Using grids in interface designs",
+        "url": "https://www.nngroup.com/articles/using-grids-in-interface-designs/"
+      }
+    ],
+    "referenceQueries": [
+      "Tabular Design",
+      "Tabular Design design",
+      "Tabular Design aesthetics"
+    ]
+  },
+  {
+    "name": "Cartographic Design",
+    "description": "Map fields, location marks, routes, and geographic labels organize a spatially grounded interface.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "map",
+      "data",
+      "interface"
+    ],
+    "distinction": "Geographic position determines composition; a node graph may have no geographic meaning.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Mike Bostock — D3 visualization gallery",
+        "url": "https://observablehq.com/@d3/gallery"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Cartographic Design",
+      "Cartographic Design design",
+      "Cartographic Design aesthetics"
+    ]
+  },
+  {
+    "name": "Node-Link Diagram",
+    "description": "Connected nodes and labeled relationships turn the screen into a readable network of entities.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "network",
+      "diagram",
+      "interface"
+    ],
+    "distinction": "Connections determine the visible structure rather than a general infinite canvas.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Mike Bostock — D3 visualization gallery",
+        "url": "https://observablehq.com/@d3/gallery"
+      }
+    ],
+    "referenceQueries": [
+      "Node-Link Diagram",
+      "Node-Link Diagram design",
+      "Node-Link Diagram aesthetics"
+    ]
+  },
+  {
+    "name": "Schematic Design",
+    "description": "Fine lines, measured labels, and diagrammatic views give the interface the clarity of a technical drawing.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "diagram",
+      "technical",
+      "interface"
+    ],
+    "distinction": "Explains structure through diagrams rather than simulating a fictional HUD.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      }
+    ],
+    "referenceQueries": [
+      "Schematic Design",
+      "Schematic Design design",
+      "Schematic Design aesthetics"
+    ]
+  },
+  {
+    "name": "Pictographic Design",
+    "description": "Repeated symbols and clear groupings communicate information through recognizable visual units.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "symbols",
+      "information",
+      "interface"
+    ],
+    "distinction": "Pictograms carry the information itself, beyond decorative icons beside text.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      },
+      {
+        "title": "Mike Bostock — D3 visualization gallery",
+        "url": "https://observablehq.com/@d3/gallery"
+      }
+    ],
+    "referenceQueries": [
+      "Pictographic Design",
+      "Pictographic Design design",
+      "Pictographic Design aesthetics"
+    ]
+  },
+  {
+    "name": "Treemap",
+    "description": "Nested rectangles of varying area display hierarchy as a continuous, space-filling graphic field.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "hierarchy",
+      "data",
+      "interface"
+    ],
+    "distinction": "Area represents a hierarchy or quantity, unlike decorative bento compartments.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Mike Bostock — D3 visualization gallery",
+        "url": "https://observablehq.com/@d3/gallery"
+      }
+    ],
+    "referenceQueries": [
+      "Treemap",
+      "Treemap design",
+      "Treemap aesthetics"
+    ]
+  },
+  {
+    "name": "Small Multiples",
+    "description": "Repeated visual panels use a consistent scale and structure to make differences easy to compare.",
+    "group": "Composition",
+    "kind": "visual-direction",
+    "tags": [
+      "comparison",
+      "data",
+      "interface"
+    ],
+    "distinction": "The repeated comparison system defines the view, rather than unrelated cards.",
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Mike Bostock — D3 visualization gallery",
+        "url": "https://observablehq.com/@d3/gallery"
+      }
+    ],
+    "referenceQueries": [
+      "Small Multiples",
+      "Small Multiples design",
+      "Small Multiples aesthetics"
+    ]
+  },
+  {
+    "name": "Flat Design",
+    "description": "Solid shapes and simplified graphics establish hierarchy without simulated lighting or material depth.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "flat",
+      "interface",
+      "geometric"
+    ],
+    "distinction": "Flatness concerns visual treatment; a flat interface can still contain substantial information.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Flat design and Flat 2.0",
+        "url": "https://www.nngroup.com/articles/flat-design/"
+      }
+    ],
+    "referenceQueries": [
+      "Flat Design",
+      "Flat Design design",
+      "Flat Design aesthetics"
+    ]
+  },
+  {
+    "name": "Flat 2.0",
+    "description": "Mostly flat graphics gain selective shadows and depth cues that make interaction and layering clearer.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "flat",
+      "depth",
+      "interface"
+    ],
+    "distinction": "Retains a flat base while restoring limited dimensional signifiers.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Flat design and Flat 2.0",
+        "url": "https://www.nngroup.com/articles/flat-design/"
+      }
+    ],
+    "referenceQueries": [
+      "Flat 2.0",
+      "Flat 2.0 design",
+      "Flat 2.0 aesthetics"
+    ]
+  },
+  {
+    "name": "Skeuomorphism",
+    "description": "Controls and containers borrow the appearance and familiar behavior of physical objects.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "material",
+      "physical",
+      "interface"
+    ],
+    "distinction": "The physical resemblance carries a functional metaphor, beyond visual texture alone.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Flat design and Flat 2.0",
+        "url": "https://www.nngroup.com/articles/flat-design/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Skeuomorphism",
+      "Skeuomorphism design",
+      "Skeuomorphism aesthetics"
+    ]
+  },
+  {
+    "name": "Material Realism",
+    "description": "Realistic textures, lighting, and rendered materials give a screen the appearance of physical surfaces.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "material",
+      "realism",
+      "interface"
+    ],
+    "distinction": "Material realism may be purely visual; it does not require a skeuomorphic interaction metaphor.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Flat design and Flat 2.0",
+        "url": "https://www.nngroup.com/articles/flat-design/"
+      }
+    ],
+    "referenceQueries": [
+      "Material Realism",
+      "Material Realism design",
+      "Material Realism aesthetics"
+    ]
+  },
+  {
+    "name": "Neumorphism",
+    "description": "Paired light and dark shadows make controls appear molded from the same material as their background.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "soft",
+      "depth",
+      "interface"
+    ],
+    "distinction": "Forms emerge from a continuous surface instead of floating on separate layers.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Michał Malewicz — Neumorphism in user interfaces",
+        "url": "https://hype4.academy/articles/design/neumorphism-in-user-interfaces"
+      }
+    ],
+    "referenceQueries": [
+      "Neumorphism",
+      "Neumorphism design",
+      "Neumorphism aesthetics"
+    ]
+  },
+  {
+    "name": "Glassmorphism",
+    "description": "Translucent, blurred panels and highlighted edges separate interface layers like frosted glass.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "glass",
+      "translucency",
+      "interface"
+    ],
+    "distinction": "Background visibility and blur define the material, unlike opaque soft shadows.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — Glassmorphism",
+        "url": "https://www.nngroup.com/articles/glassmorphism/"
+      }
+    ],
+    "referenceQueries": [
+      "Glassmorphism",
+      "Glassmorphism design",
+      "Glassmorphism aesthetics"
+    ]
+  },
+  {
+    "name": "Claymorphism",
+    "description": "Rounded, inflated forms and soft directional shading give interface objects a clay-like volume.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "rounded",
+      "volume",
+      "interface"
+    ],
+    "distinction": "Puffy objects remain distinct from the background, unlike molded neumorphic surfaces.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Michał Malewicz — Claymorphism in user interfaces",
+        "url": "https://hype4.academy/articles/design/claymorphism-in-user-interfaces"
+      }
+    ],
+    "referenceQueries": [
+      "Claymorphism",
+      "Claymorphism design",
+      "Claymorphism aesthetics"
+    ]
+  },
+  {
+    "name": "Minimalism",
+    "description": "A limited set of elements, generous open space, and deliberate hierarchy keep attention on essential content.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "space",
+      "restraint",
+      "web"
+    ],
+    "distinction": "Reduction governs the whole page, independent of whether its surfaces are flat or dimensional.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Nielsen Norman Group — The characteristics of minimalism in web design",
+        "url": "https://www.nngroup.com/articles/characteristics-minimalism/"
+      }
+    ],
+    "referenceQueries": [
+      "Minimalism",
+      "Minimalism design",
+      "Minimalism aesthetics"
+    ]
+  },
+  {
+    "name": "Organic Design",
+    "description": "Irregular contours, fluid image boundaries, and natural forms soften rigid screen geometry.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "organic",
+      "shape",
+      "web"
+    ],
+    "distinction": "Shape construction defines the direction; changing a conventional interface to green does not.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "University of Wisconsin — Graphic design: layout and composition",
+        "url": "https://sts.doit.wisc.edu/manuals/graphic-design-layout_composition/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Organic Design",
+      "Organic Design design",
+      "Organic Design aesthetics"
+    ]
+  },
+  {
+    "name": "Hand-Drawn Design",
+    "description": "Drawn lines, informal lettering, and intentionally uneven graphic elements give the interface a handmade character.",
+    "group": "Surfaces",
+    "kind": "aesthetic",
+    "tags": [
+      "drawn",
+      "handmade",
+      "web"
+    ],
+    "distinction": "The drawn treatment extends across the visual system rather than appearing in one decorative illustration.",
+    "terminologyStatus": "Established aesthetic term",
+    "sources": [
+      {
+        "title": "Adrian Bece — Claymorphism and illustration on the web",
+        "url": "https://www.smashingmagazine.com/2022/03/claymorphism-css-ui-design-trend/"
+      },
+      {
+        "title": "Hamanti — Original Obsidian typography and composition notes",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Hand-Drawn Design",
+      "Hand-Drawn Design design",
+      "Hand-Drawn Design aesthetics"
+    ]
+  },
+  {
+    "name": "Maximalism",
+    "description": "Dense imagery, ornament, contrasting type, and layered patterns turn visual abundance into a deliberate composition.",
+    "distinction": "A broad approach to density and eclecticism; it does not require a particular historical motif.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "RGD — The case for maximalism",
+        "url": "https://rgd.ca/articles/the-case-for-maximalism-top-5-maximalist-design-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Maximalism",
+      "Maximalism design",
+      "Maximalism aesthetics"
+    ]
+  },
+  {
+    "name": "Duotone",
+    "description": "Two coordinated tones map an image's shadows and highlights, unifying photography and surrounding graphics.",
+    "distinction": "A tonal image treatment, distinct from simply using two flat colors in a layout.",
+    "kind": "visual-direction",
+    "group": "Color and surface",
+    "tags": [
+      "color and surface",
+      "graphic design"
+    ],
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Adobe — Duotones",
+        "url": "https://helpx.adobe.com/photoshop/using/duotones.html"
+      }
+    ],
+    "referenceQueries": [
+      "Duotone",
+      "Duotone design",
+      "Duotone aesthetics"
+    ]
+  },
+  {
+    "name": "Warm Minimalism",
+    "description": "Spare compositions pair natural hues, soft neutrals, and tactile imagery with quiet typography.",
+    "distinction": "Adds natural material cues and softer contrast to minimalism, rather than merely recoloring a dense composition.",
+    "kind": "visual-direction",
+    "group": "Color and surface",
+    "tags": [
+      "color and surface",
+      "graphic design"
+    ],
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Original Obsidian handbook — Warm-minimal interface",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Warm Minimalism",
+      "Warm Minimalism design",
+      "Warm Minimalism aesthetics"
+    ]
+  },
+  {
+    "name": "Neo Geo",
+    "description": "Hard geometric forms and impersonal surfaces evoke circuits, systems, and the organization of commercial life.",
+    "distinction": "The 1980s conceptual movement uses geometry critically; it is not a label for all geometric abstraction.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Tate — Neo-geo",
+        "url": "https://www.tate.org.uk/art/art-terms/n/neo-geo"
+      }
+    ],
+    "referenceQueries": [
+      "Neo Geo",
+      "Neo Geo design",
+      "Neo Geo aesthetics"
+    ]
+  },
+  {
+    "name": "Corporate Memphis",
+    "description": "Friendly, simplified figures and elastic proportions combine with flat shapes and approachable commercial color.",
+    "distinction": "A recent corporate illustration vernacular, distinct from the patterned objects of the original Memphis group.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Corporate Memphis",
+        "url": "https://cari.institute/aesthetics/corporate-memphis"
+      }
+    ],
+    "referenceQueries": [
+      "Corporate Memphis",
+      "Corporate Memphis design",
+      "Corporate Memphis aesthetics"
+    ]
+  },
+  {
+    "name": "Vectordelia",
+    "description": "Crisp vector silhouettes, exuberant flourishes, gradients, stars, and overlapping shapes create expansive digital ornament.",
+    "distinction": "Also called Frutiger Metro; flatter and more ornamental than Frutiger Aero's photographic gloss.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "Aesthetics Wiki — Vectordelia",
+        "url": "https://aesthetics.fandom.com/wiki/Vectordelia"
+      }
+    ],
+    "referenceQueries": [
+      "Vectordelia",
+      "Vectordelia design",
+      "Vectordelia aesthetics"
+    ],
+    "aliases": [
+      "Frutiger Metro"
+    ]
+  },
+  {
+    "name": "Vectorgarden",
+    "description": "Botanical vector flourishes, butterflies, translucent curls, and luminous gradients create a delicate digital garden.",
+    "distinction": "A nature-focused branch of vector ornament, distinguished from Vectordelia's music, urban silhouettes, and denser graphic bursts.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "Aesthetics Wiki — Vectorgarden",
+        "url": "https://aesthetics.fandom.com/wiki/Vectordelia"
+      }
+    ],
+    "referenceQueries": [
+      "Vectorgarden",
+      "Vectorgarden design",
+      "Vectorgarden aesthetics"
+    ]
+  },
+  {
+    "name": "Technozen",
+    "description": "Clean white surfaces, gentle curves, small friendly symbols, and restrained natural accents suggest calm everyday technology.",
+    "distinction": "A retrospective look associated with 2000s Japanese consumer technology; quieter and less scenic than Frutiger Aero.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "Aesthetics Wiki — Technozen",
+        "url": "https://aesthetics.fandom.com/wiki/Technozen"
+      }
+    ],
+    "referenceQueries": [
+      "Technozen",
+      "Technozen design",
+      "Technozen aesthetics"
+    ]
+  },
+  {
+    "name": "Arts and Crafts",
+    "description": "Interlaced botanical ornament, crafted lettering, and integrated page borders celebrate the visible work of making.",
+    "distinction": "Its craft ethic and ornamental page construction differ from Art Nouveau's flowing modern line.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "V&A — Arts and Crafts: an introduction",
+        "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+      }
+    ],
+    "referenceQueries": [
+      "Arts and Crafts",
+      "Arts and Crafts design",
+      "Arts and Crafts aesthetics"
+    ]
+  },
+  {
+    "name": "Synthwave",
+    "description": "Neon horizons, receding grids, chrome lettering, and sunset gradients reimagine 1980s electronic futurism.",
+    "distinction": "Builds an idealized cinematic night world; Vaporwave more often remixes consumer imagery and obsolete media.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "Original Obsidian handbook — Synthwave",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Synthwave",
+      "Synthwave design",
+      "Synthwave aesthetics"
+    ]
+  },
+  {
+    "name": "Cyberpunk",
+    "description": "Dense neon signage, dark industrial surfaces, electronic overlays, and visible urban wear suggest a contested technological future.",
+    "distinction": "Combines advanced technology with social friction and decay, rather than treating luminous technology as automatically optimistic.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "Linearity — Cyberpunk: how to master the futuristic style",
+        "url": "https://www.linearity.io/blog/cyberpunk-style/amp/"
+      }
+    ],
+    "referenceQueries": [
+      "Cyberpunk",
+      "Cyberpunk design",
+      "Cyberpunk aesthetics"
+    ]
+  },
+  {
+    "name": "Hyperpop",
+    "description": "Artificial gloss, exaggerated typography, colliding digital textures, and saturated imagery create a knowingly excessive pop surface.",
+    "distinction": "Draws on music's synthetic intensity and pop spectacle; distinct from McBling's celebrity luxury motifs.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "RGD — Hyperpop and Acidgrafix",
+        "url": "https://rgd.ca/articles/the-case-for-maximalism-top-5-maximalist-design-styles"
+      }
+    ],
+    "referenceQueries": [
+      "Hyperpop",
+      "Hyperpop design",
+      "Hyperpop aesthetics"
+    ]
+  },
+  {
+    "name": "Solarpunk",
+    "description": "Lush vegetation, organic ornament, and visible renewable technology imagine a cooperative ecological future.",
+    "distinction": "Nature and technology are presented as a social vision, not simply a green palette or decorative leaves.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "ACMI — An introduction to solarpunk on screen",
+        "url": "https://www.acmi.net.au/stories-and-ideas/an-introduction-to-solarpunk-on-screen-acmi/"
+      }
+    ],
+    "referenceQueries": [
+      "Solarpunk",
+      "Solarpunk design",
+      "Solarpunk aesthetics"
+    ]
+  },
+  {
+    "name": "Frasurbane",
+    "description": "Classical serif type, sepia imagery, textured paper, and cultivated scientific motifs create a quietly sophisticated 1990s mood.",
+    "distinction": "Its bookish adult consumer tone differs from Global Village Coffeehouse's rough folk illustration.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Frasurbane",
+        "url": "https://cari.institute/aesthetics/frasurbane"
+      }
+    ],
+    "referenceQueries": [
+      "Frasurbane",
+      "Frasurbane design",
+      "Frasurbane aesthetics"
+    ]
+  },
+  {
+    "name": "Global Village Coffeehouse",
+    "description": "Rough woodcut-like lines, earthy colors, spirals, suns, hands, and organic emblems create a warm commercial folk vernacular.",
+    "distinction": "Uses irregular symbolic illustration and historically borrowed cultural motifs, rather than Frasurbane's polished classical imagery.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Global Village Coffeehouse",
+        "url": "https://cari.institute/aesthetics/global-village-coffeehouse"
+      }
+    ],
+    "referenceQueries": [
+      "Global Village Coffeehouse",
+      "Global Village Coffeehouse design",
+      "Global Village Coffeehouse aesthetics"
+    ]
+  },
+  {
+    "name": "Corporate Grunge",
+    "description": "Distressed type, rough textures, tilted fragments, and compressed layouts bring 1990s alternative graphics into advertising.",
+    "distinction": "A commercial adaptation of grunge's visual roughness, distinct from punk's original cut-and-paste counterculture.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Corporate Grunge",
+        "url": "https://cari.institute/aesthetics/corporate-grunge"
+      }
+    ],
+    "referenceQueries": [
+      "Corporate Grunge",
+      "Corporate Grunge design",
+      "Corporate Grunge aesthetics"
+    ]
+  },
+  {
+    "name": "Corporate Hippie",
+    "description": "Bright, curving illustration and playful psychedelic ornament translate counterculture imagery into approachable commercial graphics.",
+    "distinction": "The consumer-facing adaptation is more controlled and welcoming than immersive psychedelic visual overload.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Corporate Hippie",
+        "url": "https://cari.institute/aesthetics/corporate-hippie"
+      }
+    ],
+    "referenceQueries": [
+      "Corporate Hippie",
+      "Corporate Hippie design",
+      "Corporate Hippie aesthetics"
+    ]
+  },
+  {
+    "name": "Utopian Scholastic",
+    "description": "Classical serif typography, specimen-like objects, and clean photographic collage frame knowledge as inviting and universal.",
+    "distinction": "Also known as Encartacore; educational image assemblages distinguish it from Frasurbane's lifestyle sophistication.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Utopian Scholastic",
+        "url": "https://cari.institute/aesthetics/utopian-scholastic"
+      }
+    ],
+    "referenceQueries": [
+      "Utopian Scholastic",
+      "Utopian Scholastic design",
+      "Utopian Scholastic aesthetics"
+    ],
+    "aliases": [
+      "Encartacore"
+    ]
+  },
+  {
+    "name": "Factory Pomo",
+    "description": "Industrial signs, constructed geometry, strong diagonals, and machine-age references combine with playful postmodern arrangement.",
+    "distinction": "Uses early industrial graphic vernacular within late-1980s postmodern design, rather than repeating historical Constructivism.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Factory Pomo",
+        "url": "https://cari.institute/aesthetics/factory-pomo"
+      }
+    ],
+    "referenceQueries": [
+      "Factory Pomo",
+      "Factory Pomo design",
+      "Factory Pomo aesthetics"
+    ]
+  },
+  {
+    "name": "Whimsigothic",
+    "description": "Celestial emblems, curling shapes, dark jewel tones, and eccentric ornament make gothic imagery playful and dreamlike.",
+    "distinction": "Combines whimsy with gothic theatricality; unlike ordinary goth styling, its forms often feel storybook-like.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Whimsigothic",
+        "url": "https://cari.institute/aesthetics/whimsigothic"
+      }
+    ],
+    "referenceQueries": [
+      "Whimsigothic",
+      "Whimsigothic design",
+      "Whimsigothic aesthetics"
+    ]
+  },
+  {
+    "name": "Whimsicraft",
+    "description": "Colorful folk shapes, found-object collage, visible joins, and handmade textures celebrate playful assembly.",
+    "distinction": "The craft revival's assembled material character differs from flat whimsical illustration.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Whimsicraft",
+        "url": "https://cari.institute/aesthetics/whimsicraft"
+      }
+    ],
+    "referenceQueries": [
+      "Whimsicraft",
+      "Whimsicraft design",
+      "Whimsicraft aesthetics"
+    ]
+  },
+  {
+    "name": "Hipness Purgatory",
+    "description": "Loose hand lettering, offbeat drawings, mundane objects, and knowingly awkward retro cues create a twee indie vernacular.",
+    "distinction": "Associated with 2000s indie consumer culture; its deadpan everyday humor differs from expansive craft ornament.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Hipness Purgatory",
+        "url": "https://cari.institute/aesthetics/hipness-purgatory"
+      }
+    ],
+    "referenceQueries": [
+      "Hipness Purgatory",
+      "Hipness Purgatory design",
+      "Hipness Purgatory aesthetics"
+    ]
+  },
+  {
+    "name": "Dollar Store Vernacular",
+    "description": "Mixed display fonts, clip art, bright gradients, crowded badges, and improvised arrangements create an exuberant everyday commercial look.",
+    "distinction": "A vernacular of low-budget production and improvised software use, rather than a single intentional design movement.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Dollar Store Vernacular",
+        "url": "https://cari.institute/aesthetics/dollar-store-vernacular"
+      }
+    ],
+    "referenceQueries": [
+      "Dollar Store Vernacular",
+      "Dollar Store Vernacular design",
+      "Dollar Store Vernacular aesthetics"
+    ]
+  },
+  {
+    "name": "Plakatstil",
+    "description": "A sharply simplified object, a flat background, and bold lettering deliver an immediate visual message.",
+    "distinction": "The object-led reduction of Sachplakat differs from Swiss Style's extended information grids.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "National Museum of Modern Art, Kyoto — Modern German Posters",
+        "url": "https://www.momak.go.jp/English/exhibitionArchive/2007/362.html"
+      }
+    ],
+    "referenceQueries": [
+      "Plakatstil",
+      "Plakatstil design",
+      "Plakatstil aesthetics"
+    ],
+    "aliases": [
+      "Sachplakat"
+    ]
+  },
+  {
+    "name": "Supergraphic Ultramodern",
+    "description": "Oversized geometric stripes, rounded futuristic forms, rainbow bands, and confident sans-serif type create a playful synthetic future.",
+    "distinction": "Its 1960s–1970s supergraphic scale and plastic-age optimism precede Y2K's digital chrome.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "CARI — Supergraphic Ultramodern",
+        "url": "https://cari.institute/aesthetics/supergraphic-ultramodern"
+      }
+    ],
+    "referenceQueries": [
+      "Supergraphic Ultramodern",
+      "Supergraphic Ultramodern design",
+      "Supergraphic Ultramodern aesthetics"
+    ]
+  },
+  {
+    "name": "Steampunk",
+    "description": "Engraved ornament, brass-like surfaces, mechanical diagrams, and Victorian lettering imagine an alternate industrial technology.",
+    "distinction": "A speculative historical aesthetic, distinct from actual Victorian graphic artifacts or generic metallic rendering.",
+    "kind": "aesthetic",
+    "group": "Contemporary aesthetics",
+    "tags": [
+      "contemporary aesthetics",
+      "graphic design"
+    ],
+    "terminologyStatus": "Established or retrospective aesthetic label",
+    "sources": [
+      {
+        "title": "Original Obsidian handbook — Steampunk",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Steampunk",
+      "Steampunk design",
+      "Steampunk aesthetics"
+    ]
+  },
+  {
+    "name": "Afrofuturism",
+    "description": "Cosmic imagery, speculative technology, and references to African diaspora histories envision liberated Black futures.",
+    "distinction": "A cultural and artistic framework centered on Black agency, not a single palette or interchangeable futuristic motif.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Smithsonian NMAAHC — Afrofuturism",
+        "url": "https://nmaahc.si.edu/explore/exhibitions/afrofuturism"
+      }
+    ],
+    "referenceQueries": [
+      "Afrofuturism",
+      "Afrofuturism design",
+      "Afrofuturism aesthetics"
+    ]
+  },
+  {
+    "name": "Impressionism",
+    "description": "Broken touches of color and soft shifting edges capture momentary light and everyday atmosphere.",
+    "distinction": "Observed light and fleeting perception distinguish it from the non-naturalistic color of Fauvism.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Tate — Impressionism",
+        "url": "https://www.tate.org.uk/art/art-terms/i/impressionism"
+      }
+    ],
+    "referenceQueries": [
+      "Impressionism",
+      "Impressionism design",
+      "Impressionism aesthetics"
+    ]
+  },
+  {
+    "name": "Post-Internet Aesthetic",
+    "description": "Digital gradients, altered documentation, borrowed online imagery, and physical media artifacts circulate between screen and object.",
+    "distinction": "Concerns art made within pervasive network culture; unlike Net Art, the work need not exist only online.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Artie Vierkant — Image Objects",
+        "url": "http://artievierkant.com/imageobjects.php"
+      }
+    ],
+    "referenceQueries": [
+      "Post-Internet Aesthetic",
+      "Post-Internet Aesthetic design",
+      "Post-Internet Aesthetic aesthetics"
+    ]
+  },
+  {
+    "name": "New Aesthetic",
+    "description": "Machine vision, mapping artifacts, pixels, and computational patterns reveal digital perception inside ordinary physical life.",
+    "distinction": "James Bridle's research project concerns how machines see the world, rather than any generic futuristic appearance.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "James Bridle — The New Aesthetic",
+        "url": "https://www.jamesbridle.com/works/the-new-aesthetic"
+      }
+    ],
+    "referenceQueries": [
+      "New Aesthetic",
+      "New Aesthetic design",
+      "New Aesthetic aesthetics"
+    ]
+  },
+  {
+    "name": "Art Brut",
+    "description": "Personal symbols, unconventional figures, dense marks, and idiosyncratic construction emerge outside academic artistic conventions.",
+    "distinction": "A category associated with independent, self-taught creation; roughness alone does not make a work Art Brut.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Tate — Art brut",
+        "url": "https://www.tate.org.uk/art/art-terms/a/art-brut"
+      }
+    ],
+    "referenceQueries": [
+      "Art Brut",
+      "Art Brut design",
+      "Art Brut aesthetics"
+    ]
+  },
+  {
+    "name": "Surrealism",
+    "description": "Dream logic, impossible combinations, transformed objects, and unexpected scale challenge ordinary perception.",
+    "distinction": "A historical movement exploring the unconscious, distinct from Pop Surrealism's later cartoon and popular-culture vocabulary.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Tate — Surrealism",
+        "url": "https://www.tate.org.uk/art/art-terms/s/surrealism"
+      }
+    ],
+    "referenceQueries": [
+      "Surrealism",
+      "Surrealism design",
+      "Surrealism aesthetics"
+    ]
+  },
+  {
+    "name": "Cubism",
+    "description": "Fragmented planes and overlapping viewpoints reconstruct objects as a compact field of shapes.",
+    "distinction": "Simultaneous viewpoints distinguish Cubist construction from decorative geometric abstraction.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Tate — Cubism",
+        "url": "https://www.tate.org.uk/art/art-terms/c/cubism"
+      }
+    ],
+    "referenceQueries": [
+      "Cubism",
+      "Cubism design",
+      "Cubism aesthetics"
+    ]
+  },
+  {
+    "name": "Fauvism",
+    "description": "Intense non-naturalistic color, simplified forms, and assertive brushwork make color the main organizing force.",
+    "distinction": "The expressive use of arbitrary color differs from Impressionism's effort to observe changing natural light.",
+    "kind": "art-influence",
+    "group": "Art influences",
+    "tags": [
+      "art influences",
+      "graphic design"
+    ],
+    "terminologyStatus": "Historical art influence",
+    "sources": [
+      {
+        "title": "Tate — Fauvism",
+        "url": "https://www.tate.org.uk/art/art-terms/f/fauvism"
+      }
+    ],
+    "referenceQueries": [
+      "Fauvism",
+      "Fauvism design",
+      "Fauvism aesthetics"
+    ]
+  },
+  {
+    "name": "Photomontage",
+    "description": "Cut, combined, and rescaled photographs construct a new scene, argument, or impossible relationship.",
+    "distinction": "Photographic source fragments are essential; this differs from collage built mainly from paper, lettering, or found objects.",
+    "kind": "visual-direction",
+    "group": "Composition",
+    "tags": [
+      "composition",
+      "graphic design"
+    ],
+    "terminologyStatus": "Descriptive visual direction",
+    "sources": [
+      {
+        "title": "Tate — Photomontage",
+        "url": "https://www.tate.org.uk/art/art-terms/p/photomontage"
+      }
+    ],
+    "referenceQueries": [
+      "Photomontage",
+      "Photomontage design",
+      "Photomontage aesthetics"
+    ]
+  }
+]

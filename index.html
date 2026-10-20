@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#e9ebe2">
-    <meta name="description" content="hamanti — 300 ways of seeing. An independent field guide to art styles and visual culture.">
+    <meta name="description" content="hamanti — an independent field guide to 300 web and interface aesthetics, visual directions, and art influences.">
     <title>hamanti — 300 ways of seeing</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./assets/app.css">
@@ -13,9 +13,10 @@
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="masthead">
-      <a class="wordmark" href="#/" data-home aria-label="hamanti home">h<span class="wordmark-star" aria-hidden="true">✳</span></a>
-      <span class="masthead-note">An art style handbook</span>
-      <a href="#/index" class="index-link">Index <span aria-hidden="true">↗</span></a>
+      <a class="wordmark" href="#/" data-home aria-label="hamanti home"><svg class="wordmark-mark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g fill="#222a20"><path transform="translate(4.3333 58) scale(0.066667 -0.066667)" d="M723 0V182Q723 227 705.0 258.0Q687 289 641.5 304.5Q596 320 513 320Q466 320 421.5 311.5Q377 303 341.5 291.0Q306 279 285 267L283 315Q287 330 310.5 360.5Q334 391 379.0 424.5Q424 458 492.5 481.5Q561 505 655 505Q714 505 769.0 494.0Q824 483 867.5 457.5Q911 432 937.0 389.0Q963 346 963 282V0ZM55 0V690H295V0Z"/><path transform="translate(25 0) scale(.71)" d="M29 1 27 22 41 19 32 27 38 31 27 31 30 43 20 32 8 38 14 29 1 20 19 23 16 15 23 21Z"/></g></svg>
+</a>
+      <span class="masthead-note">A field guide to difference</span>
+      <a href="#/index" class="index-link">Index <img class="canva-arrow" src="./ui/canva-arrow.svg" alt="" aria-hidden="true"></a>
     </header>
     <main id="main" tabindex="-1">
       <p id="loading" class="loading" role="status">Opening the handbook…</p>
@@ -29,13 +30,12 @@
         </section>
         <section class="introduction" aria-label="About hamanti">
           <span class="mono section-number" aria-hidden="true">( field notes )</span>
-          <p class="intro-copy" id="intro-copy">300 ways of seeing. A field guide to art styles, visual culture, and the pleasure of being different.</p>
-          <span class="intro-aside mono">Take a look.<br>Follow what catches your eye.</span>
+          <p class="intro-copy" id="intro-copy">A visual guide to web design, interfaces, and the art that shapes them. Find your own way of seeing.</p>
         </section>
         <section class="explorer" id="index" aria-labelledby="index-heading">
-          <div class="index-heading"><span class="mono">( the index )</span><h2 id="index-heading">Find your<br><em>own language.</em></h2><span class="index-total mono">300 styles<br>8 families</span></div>
+          <div class="index-heading"><span class="mono">( the index )</span><h2 id="index-heading">Find your<br><em>own language.</em></h2><span class="index-total mono">300 directions<br>17 families</span></div>
           <div class="filter-bar">
-            <label class="search"><span class="sr-only">Search styles and descriptions</span><input type="search" id="search" placeholder="Search a style…" autocomplete="off" spellcheck="false"><kbd aria-hidden="true">/</kbd></label>
+            <div class="search"><label for="search" class="sr-only">Search styles, descriptions and tags</label><span class="search-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m15 15 6 6" stroke="currentColor" stroke-width="1.5"/></svg></span><input type="search" id="search" placeholder="Find a style…" autocomplete="off" spellcheck="false" aria-controls="style-index"><button id="search-clear" aria-label="Clear search" hidden>×</button><kbd aria-hidden="true">/</kbd></div>
             <label class="select"><span class="sr-only">Filter by group</span><select id="group-filter"><option value="all">All families</option></select></label>
             <label class="select coverage-select"><span class="sr-only">Filter by reference coverage</span><select id="coverage-filter"><option value="all">All coverage</option><option value="complete">8 references</option><option value="pending">Examples pending</option></select></label>
           </div>
@@ -48,7 +48,7 @@
     </main>
     <footer class="footer" id="footer">
       <div class="footer-inner">
-        <div class="footer-top"><p>Different,<br><i>by nature.</i></p><div class="footer-notes"><p>300 styles. Original descriptions.<br>An independent visual handbook.</p><a href="./artstyles-300.md" target="_blank" rel="noopener">Source notes ↗</a><a href="./sources.html">References & credits ↗</a></div></div>
+        <div class="footer-top"><p>Different,<br><i>by nature.</i></p><div class="footer-notes"><p>An independent visual handbook.</p><a href="./artstyles-300.md" target="_blank" rel="noopener">Original Obsidian notes ↗</a><a href="./sources.html">References & credits ↗</a></div></div>
         <a class="footer-wordmark" href="#/" data-home aria-label="hamanti home">hamanti<span aria-hidden="true">↗</span></a>
         <div class="footer-bottom mono"><span>anti + homogenous</span><span id="footer-coverage"></span><button id="motion-toggle" aria-pressed="false">Pause motion</button></div>
       </div>

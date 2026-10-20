@@ -1,0 +1,1003 @@
+{
+  "updatedAt": "2026-10-20T13:31:14.201Z",
+  "taxonomyCount": 120,
+  "targetPerCategory": 8,
+  "approvedImageRecords": 230,
+  "acceptedAfterPeopleReview": 230,
+  "noRealPeople": 198,
+  "posedModel": 32,
+  "excludedByPeopleReview": 27,
+  "peopleReviewTotal": 291,
+  "peopleReviewPending": 0,
+  "categoriesAtTarget": 6,
+  "categoriesPartial": 73,
+  "categoriesEmpty": 41,
+  "remainingReferencesToTarget": 731,
+  "discoveryRows": 3565,
+  "latestMeasurement": {
+    "discovered": 3439,
+    "uniqueFiles": 3207,
+    "belowHD": 2784,
+    "qualifying": 418
+  },
+  "unreviewedCandidateRecords": 0,
+  "sourcesReviewed": 340,
+  "collectionStatus": "All measured candidates have been visually reviewed. Discovery is paused for publication; searches are not exhausted and eight per category remains incomplete.",
+  "limitations": [
+    "Pinterest search returns many small originals; 2,784 of 3,207 unique files in the latest measurement pass were below native Full HD.",
+    "Exact-name queries can return unrelated visuals, adjacent type classifications, generic UI screenshots, photographic interiors or tutorial content. Arabic script searches returned personal names and decorative Latin initials; Japanese typesetting searches returned Chinese calligraphy. These were rejected when they did not demonstrate the requested direction.",
+    "Some source pages are Pinterest boards or idea pages rather than individual pins. Recorded sourceKind preserves that distinction; individual-pin attribution is not invented.",
+    "All already-measured candidate records are now visually reviewed. Discovery is paused, not exhausted: 126 discovery rows were added after the latest measurement pass and have not all gone through measurement.",
+    "Only 230 records passed aesthetic selection and photo policy review. Publication should cap at eight per category and keep shortfalls pending.",
+    "People review allows deliberate model/editorial/product posing. Casual news, classroom, tutorial, street, crowd and ambiguous small-avatar photographs are excluded."
+  ],
+  "categories": [
+    {
+      "name": "Geometric sans-serif typography",
+      "group": "Typography",
+      "approved": 8,
+      "target": 8,
+      "shortfall": 0,
+      "measuredCandidates": 11
+    },
+    {
+      "name": "Grotesque typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Neo-grotesque typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 6
+    },
+    {
+      "name": "Humanist sans-serif typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Rounded sans-serif typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Superellipse typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Humanist serif typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 6
+    },
+    {
+      "name": "Garalde typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Transitional serif typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 8
+    },
+    {
+      "name": "Didone typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Fat-face typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Scotch Roman typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Geometric slab-serif typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Humanist slab-serif typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Clarendon typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Glyphic typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Blackletter typography",
+      "group": "Typography",
+      "approved": 6,
+      "target": 8,
+      "shortfall": 2,
+      "measuredCandidates": 17
+    },
+    {
+      "name": "Formal script typography",
+      "group": "Typography",
+      "approved": 8,
+      "target": 8,
+      "shortfall": 0,
+      "measuredCandidates": 14
+    },
+    {
+      "name": "Brush-script typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Handwritten typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Upright script typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Stencil typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Wood-type typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Tuscan typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Inline typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Outline typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Shadow typography",
+      "group": "Typography",
+      "approved": 6,
+      "target": 8,
+      "shortfall": 2,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Chromatic typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Condensed typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Extended typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Reverse-contrast typography",
+      "group": "Typography",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Modular typography",
+      "group": "Typography",
+      "approved": 9,
+      "target": 8,
+      "shortfall": 0,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Oversized typography",
+      "group": "Typography",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Type-specimen design",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Mincho typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Kaku Gothic typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Maru Gothic typography",
+      "group": "Typography",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Naskh typography",
+      "group": "Typography",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 8
+    },
+    {
+      "name": "Kufic-inspired typography",
+      "group": "Typography",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Nastaliq typography",
+      "group": "Typography",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Ruq’ah typography",
+      "group": "Typography",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Vertical Japanese typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 6
+    },
+    {
+      "name": "Monospaced editorial typography",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Distressed typography",
+      "group": "Typography",
+      "approved": 8,
+      "target": 8,
+      "shortfall": 0,
+      "measuredCandidates": 25
+    },
+    {
+      "name": "Sign-painted lettering",
+      "group": "Typography",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Swiss International Style",
+      "group": "Composition",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "New Typography",
+      "group": "Composition",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Column Grid",
+      "group": "Composition",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Modular Grid",
+      "group": "Composition",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 6
+    },
+    {
+      "name": "Hierarchical Grid",
+      "group": "Composition",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Bento Grid",
+      "group": "Composition",
+      "approved": 7,
+      "target": 8,
+      "shortfall": 1,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Card-Based Design",
+      "group": "Composition",
+      "approved": 6,
+      "target": 8,
+      "shortfall": 2,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Masonry Layout",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Justified Image Grid",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Split-Screen Layout",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Asymmetric Layout",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Editorial Design",
+      "group": "Composition",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Newspaper Design",
+      "group": "Composition",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 8
+    },
+    {
+      "name": "Book Design",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Marginalia",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Full-Bleed Composition",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Framed Composition",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Typographic Index",
+      "group": "Composition",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Contact Sheet",
+      "group": "Composition",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 6
+    },
+    {
+      "name": "Overlapping Layout",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Freeform Layout",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Diagonal Composition",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Radial Composition",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Tabular Design",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Cartographic Design",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Node-Link Diagram",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Schematic Design",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Pictographic Design",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Treemap",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Small Multiples",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Flat Design",
+      "group": "Surfaces",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Flat 2.0",
+      "group": "Surfaces",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Skeuomorphism",
+      "group": "Surfaces",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Material Realism",
+      "group": "Surfaces",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Neumorphism",
+      "group": "Surfaces",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Glassmorphism",
+      "group": "Surfaces",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 5
+    },
+    {
+      "name": "Claymorphism",
+      "group": "Surfaces",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Minimalism",
+      "group": "Surfaces",
+      "approved": 5,
+      "target": 8,
+      "shortfall": 3,
+      "measuredCandidates": 12
+    },
+    {
+      "name": "Organic Design",
+      "group": "Surfaces",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Hand-Drawn Design",
+      "group": "Surfaces",
+      "approved": 7,
+      "target": 8,
+      "shortfall": 1,
+      "measuredCandidates": 8
+    },
+    {
+      "name": "Maximalism",
+      "group": "Contemporary aesthetics",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Duotone",
+      "group": "Color and surface",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Warm Minimalism",
+      "group": "Color and surface",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Neo Geo",
+      "group": "Art influences",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Corporate Memphis",
+      "group": "Contemporary aesthetics",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Vectordelia",
+      "group": "Contemporary aesthetics",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Vectorgarden",
+      "group": "Contemporary aesthetics",
+      "approved": 8,
+      "target": 8,
+      "shortfall": 0,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Technozen",
+      "group": "Contemporary aesthetics",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Arts and Crafts",
+      "group": "Art influences",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Synthwave",
+      "group": "Contemporary aesthetics",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Cyberpunk",
+      "group": "Contemporary aesthetics",
+      "approved": 4,
+      "target": 8,
+      "shortfall": 4,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Hyperpop",
+      "group": "Contemporary aesthetics",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Solarpunk",
+      "group": "Contemporary aesthetics",
+      "approved": 5,
+      "target": 8,
+      "shortfall": 3,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Frasurbane",
+      "group": "Contemporary aesthetics",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Global Village Coffeehouse",
+      "group": "Contemporary aesthetics",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Corporate Grunge",
+      "group": "Contemporary aesthetics",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 4
+    },
+    {
+      "name": "Corporate Hippie",
+      "group": "Contemporary aesthetics",
+      "approved": 3,
+      "target": 8,
+      "shortfall": 5,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Utopian Scholastic",
+      "group": "Contemporary aesthetics",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Factory Pomo",
+      "group": "Contemporary aesthetics",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 6
+    },
+    {
+      "name": "Whimsigothic",
+      "group": "Contemporary aesthetics",
+      "approved": 8,
+      "target": 8,
+      "shortfall": 0,
+      "measuredCandidates": 9
+    },
+    {
+      "name": "Whimsicraft",
+      "group": "Contemporary aesthetics",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 7
+    },
+    {
+      "name": "Hipness Purgatory",
+      "group": "Contemporary aesthetics",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Dollar Store Vernacular",
+      "group": "Contemporary aesthetics",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Plakatstil",
+      "group": "Art influences",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Supergraphic Ultramodern",
+      "group": "Contemporary aesthetics",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Steampunk",
+      "group": "Contemporary aesthetics",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Afrofuturism",
+      "group": "Art influences",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 1
+    },
+    {
+      "name": "Impressionism",
+      "group": "Art influences",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Post-Internet Aesthetic",
+      "group": "Art influences",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "New Aesthetic",
+      "group": "Art influences",
+      "approved": 1,
+      "target": 8,
+      "shortfall": 7,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Art Brut",
+      "group": "Art influences",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Surrealism",
+      "group": "Art influences",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    },
+    {
+      "name": "Cubism",
+      "group": "Art influences",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 3
+    },
+    {
+      "name": "Fauvism",
+      "group": "Art influences",
+      "approved": 2,
+      "target": 8,
+      "shortfall": 6,
+      "measuredCandidates": 2
+    },
+    {
+      "name": "Photomontage",
+      "group": "Composition",
+      "approved": 0,
+      "target": 8,
+      "shortfall": 8,
+      "measuredCandidates": 0
+    }
+  ],
+  "finalCachedPass": {
+    "reviewed": 71,
+    "accepted": 31,
+    "rejectedOrNotSelected": 40,
+    "photoExclusions": 6,
+    "newCrawling": false
+  }
+}

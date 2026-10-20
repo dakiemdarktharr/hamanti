@@ -1,0 +1,2202 @@
+[
+  {
+    "name": "Web Brutalism",
+    "description": "Raw page structure, blunt typography and exposed browser conventions turn a website's construction into its visual identity.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "raw",
+      "structural",
+      "web"
+    ],
+    "sources": [
+      {
+        "title": "Brutalist Websites — curated archive",
+        "url": "https://www.brutalistwebsites.com/"
+      }
+    ],
+    "referenceQueries": [
+      "Web Brutalism",
+      "Web Brutalism design",
+      "Web Brutalism aesthetics"
+    ]
+  },
+  {
+    "name": "Neubrutalism",
+    "description": "Strong outlines, hard offset shadows and assertive typography make flat interface elements feel deliberately solid and graphic.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "outlined",
+      "graphic",
+      "web"
+    ],
+    "sources": [
+      {
+        "title": "Neobrutalism components — bold borders and hard shadows",
+        "url": "https://neobrutalism.com/components"
+      }
+    ],
+    "referenceQueries": [
+      "Neubrutalism",
+      "Neubrutalism design",
+      "Neubrutalism aesthetics"
+    ]
+  },
+  {
+    "name": "Anti-design",
+    "description": "Clashing scales, awkward alignment and deliberate visual disruption challenge the polished conventions of commercial websites.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "disruptive",
+      "expressive",
+      "web"
+    ],
+    "sources": [
+      {
+        "title": "AIGA Eye on Design — The Era of Rebellious Web Design",
+        "url": "https://eyeondesign.aiga.org/the-era-of-nonchalant-web-design-is-here/"
+      }
+    ],
+    "referenceQueries": [
+      "Anti-design",
+      "Anti-design design",
+      "Anti-design aesthetics"
+    ]
+  },
+  {
+    "name": "Net Art",
+    "description": "The browser, its windows, links and technical behavior become the material of an artwork and the structure of its interface.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "conceptual",
+      "browser",
+      "web"
+    ],
+    "sources": [
+      {
+        "title": "Rhizome — One Terabyte of Kilobyte Age",
+        "url": "https://anthology.rhizome.org/one-terabyte-of-kilobyte-age"
+      }
+    ],
+    "referenceQueries": [
+      "Net Art",
+      "Net Art design",
+      "Net Art aesthetics"
+    ]
+  },
+  {
+    "name": "GeoCities Web",
+    "description": "Tiled backgrounds, animated graphics and dense personal collections recreate the handmade visual culture of early homepages.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "vernacular",
+      "nostalgic",
+      "web"
+    ],
+    "sources": [
+      {
+        "title": "Cameron's World — a GeoCities web collage",
+        "url": "https://www.cameronsworld.net/"
+      }
+    ],
+    "referenceQueries": [
+      "GeoCities Web",
+      "GeoCities Web design",
+      "GeoCities Web aesthetics"
+    ]
+  },
+  {
+    "name": "Flash-era Web",
+    "description": "Choreographed transitions, sound-led sequences and compact animated worlds give navigation the feel of an interactive title sequence.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "animated",
+      "immersive",
+      "web"
+    ],
+    "sources": [
+      {
+        "title": "Web Design Museum — historical website gallery",
+        "url": "https://www.webdesignmuseum.org/gallery"
+      }
+    ],
+    "referenceQueries": [
+      "Flash-era Web",
+      "Flash-era Web design",
+      "Flash-era Web aesthetics"
+    ]
+  },
+  {
+    "name": "Immersive 3D Web",
+    "description": "A navigable three-dimensional environment organizes the page, making camera position, lighting and spatial scale part of the interface.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "3d",
+      "immersive",
+      "spatial"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Windland: An Immersive Three.js Experience",
+        "url": "https://tympanus.net/codrops/2022/04/25/case-study-windland-an-immersive-three-js-experience/"
+      }
+    ],
+    "referenceQueries": [
+      "Immersive 3D Web",
+      "Immersive 3D Web design",
+      "Immersive 3D Web aesthetics"
+    ]
+  },
+  {
+    "name": "Holographic Spatial UI",
+    "description": "Translucent instruments and luminous control surfaces float in depth, forming layered interfaces around a scene or object.",
+    "group": "Experimental web",
+    "kind": "web aesthetic",
+    "tags": [
+      "holographic",
+      "spatial",
+      "interface"
+    ],
+    "sources": [
+      {
+        "title": "Territory Studio — Pacific Rim: Uprising holographic controls",
+        "url": "https://territorystudio.com/project/pacific-rim-uprising/"
+      }
+    ],
+    "referenceQueries": [
+      "Holographic Spatial UI",
+      "Holographic Spatial UI design",
+      "Holographic Spatial UI aesthetics"
+    ]
+  },
+  {
+    "name": "Terminal UI",
+    "description": "Monospaced text, command prompts and a restrained screen palette give the page the direct visual logic of a command line.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "monospace",
+      "terminal",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — screenshots of historical interfaces",
+        "url": "https://guidebookgallery.org/screenshots/"
+      }
+    ],
+    "referenceQueries": [
+      "Terminal UI",
+      "Terminal UI design",
+      "Terminal UI aesthetics"
+    ]
+  },
+  {
+    "name": "Text-mode UI",
+    "description": "Character-drawn borders, text menus and rectangular panels organize information as a complete graphical layout made from type.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "textmode",
+      "monospace",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — screenshots of historical interfaces",
+        "url": "https://guidebookgallery.org/screenshots/"
+      }
+    ],
+    "referenceQueries": [
+      "Text-mode UI",
+      "Text-mode UI design",
+      "Text-mode UI aesthetics"
+    ]
+  },
+  {
+    "name": "Classic Macintosh UI",
+    "description": "Compact bitmap icons, striped title bars and sharply outlined windows establish a crisp monochrome desktop language.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "bitmap",
+      "monochrome",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — screenshots of historical interfaces",
+        "url": "https://guidebookgallery.org/screenshots/"
+      }
+    ],
+    "referenceQueries": [
+      "Classic Macintosh UI",
+      "Classic Macintosh UI design",
+      "Classic Macintosh UI aesthetics"
+    ]
+  },
+  {
+    "name": "Windows 95 UI",
+    "description": "Beveled gray controls, inset fields and compact title bars make the page resemble a tactile desktop assembled from rectangular modules.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "beveled",
+      "desktop",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — Windows 95",
+        "url": "https://guidebookgallery.org/screenshots/win95"
+      }
+    ],
+    "referenceQueries": [
+      "Windows 95 UI",
+      "Windows 95 UI design",
+      "Windows 95 UI aesthetics"
+    ]
+  },
+  {
+    "name": "Windows XP Luna",
+    "description": "Rounded window chrome, glossy controls and strongly separated colored title bars bring an approachable consumer-software character to interfaces.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "rounded",
+      "glossy",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — screenshots of historical interfaces",
+        "url": "https://guidebookgallery.org/screenshots/"
+      }
+    ],
+    "referenceQueries": [
+      "Windows XP Luna",
+      "Windows XP Luna design",
+      "Windows XP Luna aesthetics"
+    ]
+  },
+  {
+    "name": "Mac OS X Aqua",
+    "description": "Translucent gel-like controls, polished gradients and softly shaded panels give the desktop the appearance of luminous physical objects.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "translucent",
+      "glossy",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — featured interfaces",
+        "url": "https://guidebookgallery.org/guis/featured"
+      }
+    ],
+    "referenceQueries": [
+      "Mac OS X Aqua",
+      "Mac OS X Aqua design",
+      "Mac OS X Aqua aesthetics"
+    ]
+  },
+  {
+    "name": "Windows Aero UI",
+    "description": "Transparent window frames, soft reflections and illuminated controls layer the desktop behind a glass-like interface shell.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "glass",
+      "desktop",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — screenshots of historical interfaces",
+        "url": "https://guidebookgallery.org/screenshots/"
+      }
+    ],
+    "referenceQueries": [
+      "Windows Aero UI",
+      "Windows Aero UI design",
+      "Windows Aero UI aesthetics"
+    ]
+  },
+  {
+    "name": "BeOS UI",
+    "description": "Short tab-shaped title bars, crisp beveled controls and detailed compact icons create a distinctive modular desktop rhythm.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "tabbed",
+      "desktop",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — featured interfaces",
+        "url": "https://guidebookgallery.org/guis/featured"
+      }
+    ],
+    "referenceQueries": [
+      "BeOS UI",
+      "BeOS UI design",
+      "BeOS UI aesthetics"
+    ]
+  },
+  {
+    "name": "NeXTSTEP UI",
+    "description": "Dark beveled title bars, square dock tiles and restrained grayscale surfaces give desktop controls a dense workstation character.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "workstation",
+      "beveled",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — screenshots of historical interfaces",
+        "url": "https://guidebookgallery.org/screenshots/"
+      }
+    ],
+    "referenceQueries": [
+      "NeXTSTEP UI",
+      "NeXTSTEP UI design",
+      "NeXTSTEP UI aesthetics"
+    ]
+  },
+  {
+    "name": "Amiga Workbench UI",
+    "description": "Angular bitmap controls, compact iconography and sharply segmented window furniture reflect the visual economy of early multimedia desktops.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "bitmap",
+      "desktop",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "GUIdebook — Amiga OS",
+        "url": "https://guidebookgallery.org/guis/amigaos/"
+      }
+    ],
+    "referenceQueries": [
+      "Amiga Workbench UI",
+      "Amiga Workbench UI design",
+      "Amiga Workbench UI aesthetics"
+    ]
+  },
+  {
+    "name": "ANSI Art",
+    "description": "Colored character blocks and box-drawing symbols form dense illustrations, lettering and menus within a fixed text grid.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "textmode",
+      "blocks",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Sixteen Colors — ANSI and ASCII art archive",
+        "url": "https://16colo.rs/"
+      }
+    ],
+    "referenceQueries": [
+      "ANSI Art",
+      "ANSI Art design",
+      "ANSI Art aesthetics"
+    ]
+  },
+  {
+    "name": "Teletext Art",
+    "description": "Large mosaic cells, limited colors and rigid character grids turn screen constraints into bold geometric pictures and text.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "mosaic",
+      "textmode",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Dragan Espenschied — teletext and web art",
+        "url": "http://1x-upon.com/~despens/"
+      }
+    ],
+    "referenceQueries": [
+      "Teletext Art",
+      "Teletext Art design",
+      "Teletext Art aesthetics"
+    ]
+  },
+  {
+    "name": "Winamp Skinning",
+    "description": "Custom bitmap panels, miniature instruments and heavily styled controls transform a media-player window into a compact graphic object.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "skinned",
+      "bitmap",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Skin Museum — history of Winamp skins",
+        "url": "https://prandor.com/skins/about.html"
+      }
+    ],
+    "referenceQueries": [
+      "Winamp Skinning",
+      "Winamp Skinning design",
+      "Winamp Skinning aesthetics"
+    ]
+  },
+  {
+    "name": "CRT Display",
+    "description": "Scan lines, phosphor glow and visible color cells give digital content the luminous texture of a cathode-ray screen.",
+    "group": "Retro interfaces",
+    "kind": "interface language",
+    "tags": [
+      "scanlines",
+      "phosphor",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Maxime Heckel — The Art of Dithering and Retro Shading for the Web",
+        "url": "https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/"
+      }
+    ],
+    "referenceQueries": [
+      "CRT Display",
+      "CRT Display design",
+      "CRT Display aesthetics"
+    ]
+  },
+  {
+    "name": "Y2K Futurism",
+    "description": "Chrome surfaces, translucent plastics and streamlined digital forms express the technological optimism surrounding the turn of the millennium.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "chrome",
+      "futuristic",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Y2K Aesthetic",
+        "url": "https://cari.institute/aesthetics/y2k-aesthetic"
+      }
+    ],
+    "referenceQueries": [
+      "Y2K Futurism",
+      "Y2K Futurism design",
+      "Y2K Futurism aesthetics"
+    ]
+  },
+  {
+    "name": "Metalheart",
+    "description": "Intricate abstract three-dimensional structures, layered technical marks and compressed detail create a dense technological image.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "3d",
+      "technical",
+      "layered"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Metalheart",
+        "url": "https://cari.institute/aesthetics/metalheart"
+      }
+    ],
+    "referenceQueries": [
+      "Metalheart",
+      "Metalheart design",
+      "Metalheart aesthetics"
+    ]
+  },
+  {
+    "name": "Vectorheart",
+    "description": "Sharp vector forms, industrial symbols and forceful typography create a fast, highly organized version of millennial futurism.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "vector",
+      "industrial",
+      "technical"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Vectorheart",
+        "url": "https://cari.institute/aesthetics/vectorheart"
+      }
+    ],
+    "referenceQueries": [
+      "Vectorheart",
+      "Vectorheart design",
+      "Vectorheart aesthetics"
+    ]
+  },
+  {
+    "name": "Corporate Cyberspace",
+    "description": "Layered photographs, motion blur and experimental type translate early digital culture into energetic commercial graphics.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "layered",
+      "blurred",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Corporate Cyberspace",
+        "url": "https://cari.institute/aesthetics/corporate-cyberspace"
+      }
+    ],
+    "referenceQueries": [
+      "Corporate Cyberspace",
+      "Corporate Cyberspace design",
+      "Corporate Cyberspace aesthetics"
+    ]
+  },
+  {
+    "name": "Gen X Soft Club",
+    "description": "Muted urban imagery, natural textures and restrained modern type combine a minimal graphic structure with an understated organic mood.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "muted",
+      "urban",
+      "organic"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Gen X Soft Club",
+        "url": "https://cari.institute/aesthetics/gen-x-soft-club"
+      }
+    ],
+    "referenceQueries": [
+      "Gen X Soft Club",
+      "Gen X Soft Club design",
+      "Gen X Soft Club aesthetics"
+    ]
+  },
+  {
+    "name": "Frutiger Aero",
+    "description": "Glossy interface imagery joins bright skies, water and greenery in an optimistic vision of technology integrated with nature.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "glossy",
+      "nature",
+      "optimistic"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Frutiger Aero",
+        "url": "https://cari.institute/aesthetics/frutiger-aero"
+      }
+    ],
+    "referenceQueries": [
+      "Frutiger Aero",
+      "Frutiger Aero design",
+      "Frutiger Aero aesthetics"
+    ]
+  },
+  {
+    "name": "Acidgrafix",
+    "description": "Distorted lettering, chrome forms and unusual textures fill compositions with deliberately unstable, densely layered visual energy.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "distorted",
+      "maximal",
+      "texture"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Acidgrafix",
+        "url": "https://cari.institute/aesthetics/acidgrafix"
+      }
+    ],
+    "referenceQueries": [
+      "Acidgrafix",
+      "Acidgrafix design",
+      "Acidgrafix aesthetics"
+    ]
+  },
+  {
+    "name": "Hexatron",
+    "description": "Angular technology, hexagonal grids and luminous instrumentation create a sharply segmented science-fiction visual language.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "angular",
+      "technical",
+      "futuristic"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Hexatron",
+        "url": "https://cari.institute/aesthetics/hexatron"
+      }
+    ],
+    "referenceQueries": [
+      "Hexatron",
+      "Hexatron design",
+      "Hexatron aesthetics"
+    ]
+  },
+  {
+    "name": "Cyberbougie",
+    "description": "Dark surfaces, monospaced details and luminous gradients give technology branding a sleek, computational character.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "dark",
+      "gradient",
+      "technical"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Cyberbougie",
+        "url": "https://cari.institute/aesthetics/cyberbougie"
+      }
+    ],
+    "referenceQueries": [
+      "Cyberbougie",
+      "Cyberbougie design",
+      "Cyberbougie aesthetics"
+    ]
+  },
+  {
+    "name": "Blob World",
+    "description": "Elaborate soft-body renders and uncanny textures arrange playful objects into surreal three-dimensional compositions.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "surreal",
+      "3d",
+      "soft"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Blob World",
+        "url": "https://cari.institute/aesthetics/blob-world"
+      }
+    ],
+    "referenceQueries": [
+      "Blob World",
+      "Blob World design",
+      "Blob World aesthetics"
+    ]
+  },
+  {
+    "name": "McBling",
+    "description": "Rhinestones, metallic shine and conspicuous decorative excess turn early-2000s consumer imagery into a maximal graphic surface.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "sparkle",
+      "maximal",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — McBling",
+        "url": "https://cari.institute/aesthetics/mcbling"
+      }
+    ],
+    "referenceQueries": [
+      "McBling",
+      "McBling design",
+      "McBling aesthetics"
+    ]
+  },
+  {
+    "name": "Cyberdelia",
+    "description": "Fractal forms, kaleidoscopic color and early computer graphics combine electronic technology with psychedelic imagery.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "psychedelic",
+      "fractal",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Cyberdelia",
+        "url": "https://cari.institute/aesthetics/cyberdelia"
+      }
+    ],
+    "referenceQueries": [
+      "Cyberdelia",
+      "Cyberdelia design",
+      "Cyberdelia aesthetics"
+    ]
+  },
+  {
+    "name": "Early Cyber",
+    "description": "Rough pixel imagery, digitally warped lettering and desktop-publishing experiments expose the first wave of computer-generated graphic expression.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "pixel",
+      "experimental",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Early Cyber",
+        "url": "https://cari.institute/aesthetics/early-cyber"
+      }
+    ],
+    "referenceQueries": [
+      "Early Cyber",
+      "Early Cyber design",
+      "Early Cyber aesthetics"
+    ]
+  },
+  {
+    "name": "Silicon Dreams",
+    "description": "Surreal spaces, primitive geometric objects and conspicuous computer rendering recall the visual imagination of early 3D animation.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "surreal",
+      "3d",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Silicon Dreams",
+        "url": "https://cari.institute/aesthetics/silicon-dreams"
+      }
+    ],
+    "referenceQueries": [
+      "Silicon Dreams",
+      "Silicon Dreams design",
+      "Silicon Dreams aesthetics"
+    ]
+  },
+  {
+    "name": "Laser Grid",
+    "description": "Perspective grids, glowing lines and reflective surfaces turn 1980s high-technology imagery into a structured futuristic stage.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "grid",
+      "neon",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Laser Grid",
+        "url": "https://cari.institute/aesthetics/laser-grid"
+      }
+    ],
+    "referenceQueries": [
+      "Laser Grid",
+      "Laser Grid design",
+      "Laser Grid aesthetics"
+    ]
+  },
+  {
+    "name": "Vaporwave",
+    "description": "Outdated consumer graphics, early digital imagery and displaced cultural fragments create an uneasy nostalgia for commercial futures.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "nostalgic",
+      "collage",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "Xiaolong Zhang — What is visual Vaporwave?",
+        "url": "https://mutualimages-journal.org/index.php/mi/article/view/111"
+      }
+    ],
+    "referenceQueries": [
+      "Vaporwave",
+      "Vaporwave design",
+      "Vaporwave aesthetics"
+    ]
+  },
+  {
+    "name": "Webcore",
+    "description": "Old browser windows, error messages and pixel graphics are remixed into surreal scenes rooted in early internet experience.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "browser",
+      "surreal",
+      "nostalgic"
+    ],
+    "sources": [
+      {
+        "title": "Aesthetics Wiki — Webcore",
+        "url": "https://aesthetics.fandom.com/wiki/Webcore"
+      }
+    ],
+    "referenceQueries": [
+      "Webcore",
+      "Webcore design",
+      "Webcore aesthetics"
+    ]
+  },
+  {
+    "name": "Weirdcore",
+    "description": "Familiar low-fidelity images and disorienting text are combined to make ordinary digital spaces feel inexplicably unsettling.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "uncanny",
+      "lofi",
+      "surreal"
+    ],
+    "sources": [
+      {
+        "title": "Lampoon — Internet aesthetics, Weirdcore and Dreamcore",
+        "url": "https://lampoonmagazine.com/internet-aesthetics-web-hypnosis-traumacore-weirdcore-vaporwave-dreamcore-backrooms/"
+      }
+    ],
+    "referenceQueries": [
+      "Weirdcore",
+      "Weirdcore design",
+      "Weirdcore aesthetics"
+    ]
+  },
+  {
+    "name": "Dreamcore",
+    "description": "Soft, dreamlike imagery and improbable spaces form a nostalgic visual world that follows emotional association over physical logic.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "dreamlike",
+      "surreal",
+      "nostalgic"
+    ],
+    "sources": [
+      {
+        "title": "Lampoon — Internet aesthetics, Weirdcore and Dreamcore",
+        "url": "https://lampoonmagazine.com/internet-aesthetics-web-hypnosis-traumacore-weirdcore-vaporwave-dreamcore-backrooms/"
+      }
+    ],
+    "referenceQueries": [
+      "Dreamcore",
+      "Dreamcore design",
+      "Dreamcore aesthetics"
+    ]
+  },
+  {
+    "name": "Cybersigilism",
+    "description": "Spiked, branching linework fuses symbol-like forms with a digital sensibility, often becoming graphic emblems or ornamental interfaces.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "spiked",
+      "symbolic",
+      "linework"
+    ],
+    "sources": [
+      {
+        "title": "032c — Cybersigilism: the Forever Trend",
+        "url": "https://magazine.032c.com/magazine/cybersigilism-the-forever-trend"
+      }
+    ],
+    "referenceQueries": [
+      "Cybersigilism",
+      "Cybersigilism design",
+      "Cybersigilism aesthetics"
+    ]
+  },
+  {
+    "name": "Cassette Futurism",
+    "description": "Bulky controls, angular hardware and analog display cues imagine advanced technology through the physical language of 1970s and 1980s equipment.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "hardware",
+      "analog",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Cassette Futurism",
+        "url": "https://cari.institute/aesthetics/cassette-futurism"
+      }
+    ],
+    "referenceQueries": [
+      "Cassette Futurism",
+      "Cassette Futurism design",
+      "Cassette Futurism aesthetics"
+    ]
+  },
+  {
+    "name": "Fictional User Interface",
+    "description": "Dense readouts, diagrams and animated instruments give invented technology a coherent visual system for a fictional world.",
+    "group": "Digital cultures",
+    "kind": "internet aesthetic",
+    "tags": [
+      "technical",
+      "instrumentation",
+      "futuristic"
+    ],
+    "sources": [
+      {
+        "title": "Territory Studio — Prometheus screen graphics",
+        "url": "https://territorystudio.com/project/prometheus/"
+      }
+    ],
+    "referenceQueries": [
+      "Fictional User Interface",
+      "Fictional User Interface design",
+      "Fictional User Interface aesthetics"
+    ]
+  },
+  {
+    "name": "Voxel Art",
+    "description": "Visible cubic units build objects and scenes, giving three-dimensional imagery the ordered block structure of a pixel grid.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "voxel",
+      "blocks",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Turning 3D Models to Voxel Art with Three.js",
+        "url": "https://tympanus.net/codrops/2023/03/28/turning-3d-models-to-voxel-art-with-three-js/"
+      }
+    ],
+    "referenceQueries": [
+      "Voxel Art",
+      "Voxel Art design",
+      "Voxel Art aesthetics"
+    ]
+  },
+  {
+    "name": "Low-poly Rendering",
+    "description": "A small number of visible facets simplifies objects into angular silhouettes and broad planes of light.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "faceted",
+      "angular",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Windland: An Immersive Three.js Experience",
+        "url": "https://tympanus.net/codrops/2022/04/25/case-study-windland-an-immersive-three-js-experience/"
+      }
+    ],
+    "referenceQueries": [
+      "Low-poly Rendering",
+      "Low-poly Rendering design",
+      "Low-poly Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "PS1-era 3D",
+    "description": "Low-resolution textures, unstable polygon edges and coarse shading reproduce the characteristic visual limitations of early console rendering.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "lofi",
+      "polygonal",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — PS1-Inspired Jitter Shader",
+        "url": "https://tympanus.net/codrops/2024/09/03/how-to-create-a-ps1-inspired-jitter-shader-with-react-three-fiber/"
+      }
+    ],
+    "referenceQueries": [
+      "PS1-era 3D",
+      "PS1-era 3D design",
+      "PS1-era 3D aesthetics"
+    ]
+  },
+  {
+    "name": "Cel Shading",
+    "description": "Discrete bands of light and shadow flatten three-dimensional forms into a graphic image resembling painted animation cels.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "toon",
+      "graphic",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Blender Manual — Toon BSDF",
+        "url": "https://docs.blender.org/manual/en/5.2/render/shader_nodes/shader/toon.html"
+      }
+    ],
+    "referenceQueries": [
+      "Cel Shading",
+      "Cel Shading design",
+      "Cel Shading aesthetics"
+    ]
+  },
+  {
+    "name": "Wireframe Rendering",
+    "description": "Visible mesh edges describe form while leaving surfaces open, emphasizing digital construction and geometric structure.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "mesh",
+      "technical",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Three.js — Wireframe material example",
+        "url": "https://threejs.org/examples/webgl_materials_wireframe.html"
+      }
+    ],
+    "referenceQueries": [
+      "Wireframe Rendering",
+      "Wireframe Rendering design",
+      "Wireframe Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Point-cloud Rendering",
+    "description": "Dense collections of isolated points suggest surfaces and volumes, allowing objects to appear scanned, particulate or partially reconstructed.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "points",
+      "scanned",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "CacheFlowe — Creative Coding Notes",
+        "url": "https://cacheflowe.com/articles/creative-coding-notes"
+      }
+    ],
+    "referenceQueries": [
+      "Point-cloud Rendering",
+      "Point-cloud Rendering design",
+      "Point-cloud Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Gaussian Splatting",
+    "description": "Overlapping soft volumetric samples reconstruct photographed scenes with an unusually immediate, spatial photographic appearance.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "photographic",
+      "spatial",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — 3D Glass Portal with Gaussian Splatting",
+        "url": "https://tympanus.net/codrops/2023/11/29/3d-glass-portal-card-effect-with-react-three-fiber-and-gaussian-splatting/"
+      }
+    ],
+    "referenceQueries": [
+      "Gaussian Splatting",
+      "Gaussian Splatting design",
+      "Gaussian Splatting aesthetics"
+    ]
+  },
+  {
+    "name": "Photogrammetry",
+    "description": "Photographic detail is mapped onto reconstructed three-dimensional forms, retaining surface irregularities and the texture of real objects.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "scanned",
+      "photographic",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Blender and photogrammetry case studies",
+        "url": "https://tympanus.net/codrops/tag/blender/"
+      }
+    ],
+    "referenceQueries": [
+      "Photogrammetry",
+      "Photogrammetry design",
+      "Photogrammetry aesthetics"
+    ]
+  },
+  {
+    "name": "Photorealistic 3D",
+    "description": "Physically based materials and plausible lighting make rendered objects read as photographed surfaces rather than illustrated forms.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "realistic",
+      "material",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Blender — Rendering",
+        "url": "https://www.blender.org/features/rendering/"
+      }
+    ],
+    "referenceQueries": [
+      "Photorealistic 3D",
+      "Photorealistic 3D design",
+      "Photorealistic 3D aesthetics"
+    ]
+  },
+  {
+    "name": "Chrome Rendering",
+    "description": "Highly reflective metallic surfaces bend their surroundings into bright highlights and dark contours, emphasizing an object's liquid or sculptural shape.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "chrome",
+      "reflective",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Blender Manual — Principled BSDF",
+        "url": "https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html"
+      }
+    ],
+    "referenceQueries": [
+      "Chrome Rendering",
+      "Chrome Rendering design",
+      "Chrome Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Holographic Graphics",
+    "description": "Luminous lines, transparent layers and projected volumes make information appear suspended in space rather than printed on a surface.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "luminous",
+      "transparent",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "GMUNK — TRON Board Room",
+        "url": "https://gmunk.com/TRON-Board-Room"
+      }
+    ],
+    "referenceQueries": [
+      "Holographic Graphics",
+      "Holographic Graphics design",
+      "Holographic Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Isometric Rendering",
+    "description": "Parallel projection presents objects at a consistent angle, creating orderly scenes whose scale remains legible across depth.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "isometric",
+      "geometric",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "CacheFlowe — Creative Coding Notes",
+        "url": "https://cacheflowe.com/articles/creative-coding-notes"
+      }
+    ],
+    "referenceQueries": [
+      "Isometric Rendering",
+      "Isometric Rendering design",
+      "Isometric Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Anaglyph Graphics",
+    "description": "Offset color-channel views suggest stereoscopic depth and give edges a deliberately doubled, optically unstable appearance.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "stereo",
+      "offset",
+      "optical"
+    ],
+    "sources": [
+      {
+        "title": "Three.js — AnaglyphEffect",
+        "url": "https://threejs.org/docs/pages/AnaglyphEffect.html"
+      }
+    ],
+    "referenceQueries": [
+      "Anaglyph Graphics",
+      "Anaglyph Graphics design",
+      "Anaglyph Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Matcap Rendering",
+    "description": "A material-capture texture gives simple geometry a coherent sculptural surface, emphasizing form through stylized highlights and shading.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "sculptural",
+      "shaded",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Three.js — Matcap material example",
+        "url": "https://threejs.org/examples/webgl_materials_matcap.html"
+      }
+    ],
+    "referenceQueries": [
+      "Matcap Rendering",
+      "Matcap Rendering design",
+      "Matcap Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Line-rendered 3D",
+    "description": "Contours and selected mesh edges replace realistic shading, translating modeled objects into technical or hand-drawn-looking line images.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "contour",
+      "linework",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Blender Manual — Freestyle non-photorealistic rendering",
+        "url": "https://docs.blender.org/manual/en/latest/render/freestyle/introduction.html"
+      }
+    ],
+    "referenceQueries": [
+      "Line-rendered 3D",
+      "Line-rendered 3D design",
+      "Line-rendered 3D aesthetics"
+    ]
+  },
+  {
+    "name": "Volumetric Rendering",
+    "description": "Visible light, fog and semi-transparent density make space itself appear tangible, producing atmospheric depth around objects and type.",
+    "group": "3D and rendering",
+    "kind": "rendering language",
+    "tags": [
+      "atmospheric",
+      "light",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "CacheFlowe — Creative Coding Notes",
+        "url": "https://cacheflowe.com/articles/creative-coding-notes"
+      }
+    ],
+    "referenceQueries": [
+      "Volumetric Rendering",
+      "Volumetric Rendering design",
+      "Volumetric Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "ASCII Rendering",
+    "description": "Letters and punctuation replace pixels, describing light and detail through the density of a fixed character grid.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "characters",
+      "textmode",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Efecto: ASCII and Dithering with WebGL",
+        "url": "https://tympanus.net/codrops/2026/01/04/efecto-building-real-time-ascii-and-dithering-effects-with-webgl-shaders/"
+      }
+    ],
+    "referenceQueries": [
+      "ASCII Rendering",
+      "ASCII Rendering design",
+      "ASCII Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Pixel Art",
+    "description": "Deliberately arranged pixel clusters and limited palettes make each small unit of an image part of its visible construction.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "pixels",
+      "graphic",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Maxime Heckel — The Art of Dithering and Retro Shading for the Web",
+        "url": "https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/"
+      }
+    ],
+    "referenceQueries": [
+      "Pixel Art",
+      "Pixel Art design",
+      "Pixel Art aesthetics"
+    ]
+  },
+  {
+    "name": "Dithered Rendering",
+    "description": "Patterns of contrasting pixels simulate intermediate tones, producing a granular surface with a deliberately restricted color range.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "dither",
+      "texture",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Maxime Heckel — The Art of Dithering and Retro Shading for the Web",
+        "url": "https://blog.maximeheckel.com/posts/the-art-of-dithering-and-retro-shading-web/"
+      }
+    ],
+    "referenceQueries": [
+      "Dithered Rendering",
+      "Dithered Rendering design",
+      "Dithered Rendering aesthetics"
+    ]
+  },
+  {
+    "name": "Glitch Art",
+    "description": "Visible failures in digital encoding, display or transmission become the image's structure and material.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "error",
+      "fragmented",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "Rosa Menkman — A Vernacular of File Formats",
+        "url": "https://www.wausonline.com/files/glitch/Rosa%20Menkman%20-%20A%20Vernacular%20of%20File%20Formats.pdf"
+      }
+    ],
+    "referenceQueries": [
+      "Glitch Art",
+      "Glitch Art design",
+      "Glitch Art aesthetics"
+    ]
+  },
+  {
+    "name": "Datamoshing",
+    "description": "Video-compression structures are disrupted so that movement carries fragments and colors from one frame into another.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "compression",
+      "smear",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Carolyn L. Kane — Chroma Glitch: Data as Style",
+        "url": "https://doi.org/10.1515/9780520974494-008"
+      }
+    ],
+    "referenceQueries": [
+      "Datamoshing",
+      "Datamoshing design",
+      "Datamoshing aesthetics"
+    ]
+  },
+  {
+    "name": "Databending",
+    "description": "Image data is interpreted or altered through unintended processes, producing ruptured colors, bands and unpredictable structures.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "data",
+      "corruption",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "Rosa Menkman — A Vernacular of File Formats",
+        "url": "https://www.wausonline.com/files/glitch/Rosa%20Menkman%20-%20A%20Vernacular%20of%20File%20Formats.pdf"
+      }
+    ],
+    "referenceQueries": [
+      "Databending",
+      "Databending design",
+      "Databending aesthetics"
+    ]
+  },
+  {
+    "name": "Pixel Sorting",
+    "description": "Pixels are reordered by visual properties, stretching image areas into organized streaks while retaining traces of the source.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "streaked",
+      "algorithmic",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Pixel Sorting",
+        "url": "https://thecodingtrain.com/tracks/lang/all/topic/pixel-sorting"
+      }
+    ],
+    "referenceQueries": [
+      "Pixel Sorting",
+      "Pixel Sorting design",
+      "Pixel Sorting aesthetics"
+    ]
+  },
+  {
+    "name": "Slit-scan Imagery",
+    "description": "Narrow slices captured at different moments are assembled into one image, stretching movement into continuous ribbons and warped forms.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "time",
+      "stretched",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Slit-Scan Video",
+        "url": "https://thecodingtrain.com/tracks/pixels/pixels/slit-scan/"
+      }
+    ],
+    "referenceQueries": [
+      "Slit-scan Imagery",
+      "Slit-scan Imagery design",
+      "Slit-scan Imagery aesthetics"
+    ]
+  },
+  {
+    "name": "Video Feedback",
+    "description": "Repeatedly feeding an image back into itself creates recursive tunnels, trails and layered patterns that accumulate over time.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "recursive",
+      "analog",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Skip Sweeney — Video Feedback",
+        "url": "https://www.vasulka.org/archive/eigenwelt/pdf/148-149.pdf"
+      }
+    ],
+    "referenceQueries": [
+      "Video Feedback",
+      "Video Feedback design",
+      "Video Feedback aesthetics"
+    ]
+  },
+  {
+    "name": "VHS Texture",
+    "description": "Tracking bands, color bleed and unstable tape-like noise give images the worn appearance of analog video playback.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "tape",
+      "noise",
+      "retro"
+    ],
+    "sources": [
+      {
+        "title": "Roulette — VX Bliss: Audiovisual Arrangements by Ginny Benson",
+        "url": "https://roulette.org/event/vx-bliss-audiovisual-arrangements-by-ginny-benson/"
+      }
+    ],
+    "referenceQueries": [
+      "VHS Texture",
+      "VHS Texture design",
+      "VHS Texture aesthetics"
+    ]
+  },
+  {
+    "name": "Chromatic Aberration",
+    "description": "Color channels separate around edges, creating optical fringes that make an image feel refracted, unstable or lens-mediated.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "optical",
+      "fringed",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "V3KTR — optical channel separation and pixel sorting",
+        "url": "https://v3ktr.com/feed/glitch-family"
+      }
+    ],
+    "referenceQueries": [
+      "Chromatic Aberration",
+      "Chromatic Aberration design",
+      "Chromatic Aberration aesthetics"
+    ]
+  },
+  {
+    "name": "Thermographic Graphics",
+    "description": "False-color tonal bands replace natural color, turning bodies and objects into vivid fields that resemble heat or scientific imaging.",
+    "group": "Digital distortion",
+    "kind": "visual technique",
+    "tags": [
+      "falsecolor",
+      "technical",
+      "digital"
+    ],
+    "sources": [
+      {
+        "title": "CARI — Early Cyber",
+        "url": "https://cari.institute/aesthetics/early-cyber"
+      }
+    ],
+    "referenceQueries": [
+      "Thermographic Graphics",
+      "Thermographic Graphics design",
+      "Thermographic Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Flow-field Art",
+    "description": "Many small paths follow a shared directional field, building flowing, hair-like compositions from accumulated motion.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "flow",
+      "lines",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Perlin Noise Flow Field",
+        "url": "https://thecodingtrain.com/challenges/24-perlin-noise-flow-field"
+      }
+    ],
+    "referenceQueries": [
+      "Flow-field Art",
+      "Flow-field Art design",
+      "Flow-field Art aesthetics"
+    ]
+  },
+  {
+    "name": "Reaction-diffusion Patterns",
+    "description": "Simulated chemical interactions generate organic spots and maze-like bands that resemble naturally grown surface markings.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "organic",
+      "pattern",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Reaction Diffusion",
+        "url": "https://thecodingtrain.com/challenges/13-reaction-diffusion"
+      }
+    ],
+    "referenceQueries": [
+      "Reaction-diffusion Patterns",
+      "Reaction-diffusion Patterns design",
+      "Reaction-diffusion Patterns aesthetics"
+    ]
+  },
+  {
+    "name": "Cellular Automata",
+    "description": "Simple local rules update a grid of cells, creating intricate patterns from repeated small decisions.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "cells",
+      "grid",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Wolfram cellular automata",
+        "url": "https://thecodingtrain.com/challenges/lang/all/topic/reaction-diffusion"
+      }
+    ],
+    "referenceQueries": [
+      "Cellular Automata",
+      "Cellular Automata design",
+      "Cellular Automata aesthetics"
+    ]
+  },
+  {
+    "name": "Voronoi Tessellation",
+    "description": "Space divides into cells around scattered points, producing clustered mosaics with an organic but precise geometric structure.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "cells",
+      "mosaic",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Weighted Voronoi Stippling",
+        "url": "https://thecodingtrain.com/challenges/181-image-stippling"
+      }
+    ],
+    "referenceQueries": [
+      "Voronoi Tessellation",
+      "Voronoi Tessellation design",
+      "Voronoi Tessellation aesthetics"
+    ]
+  },
+  {
+    "name": "Truchet Patterns",
+    "description": "Repeated tiles rotate and combine into continuous curved paths or networks, creating complexity from a small visual vocabulary.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "tiles",
+      "curves",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "Brad Osgood — Generative art using Truchet tiles",
+        "url": "https://www.bosgood.com/projects/truchet-tiles"
+      }
+    ],
+    "referenceQueries": [
+      "Truchet Patterns",
+      "Truchet Patterns design",
+      "Truchet Patterns aesthetics"
+    ]
+  },
+  {
+    "name": "Moiré Patterns",
+    "description": "Overlapping repeated grids or lines create larger interference bands that appear to shift independently of their underlying marks.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "interference",
+      "optical",
+      "pattern"
+    ],
+    "sources": [
+      {
+        "title": "David Bihanic — Moiré Patterns",
+        "url": "https://www.davidbihanic.com/moire-patterns/"
+      }
+    ],
+    "referenceQueries": [
+      "Moiré Patterns",
+      "Moiré Patterns design",
+      "Moiré Patterns aesthetics"
+    ]
+  },
+  {
+    "name": "L-system Graphics",
+    "description": "Recursively rewritten drawing instructions generate branching structures with the visual rhythm of plants and other growing systems.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "branching",
+      "botanical",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — L-systems",
+        "url": "https://thecodingtrain.com/tracks/lang/all/topic/l-system/"
+      }
+    ],
+    "referenceQueries": [
+      "L-system Graphics",
+      "L-system Graphics design",
+      "L-system Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Fractal Graphics",
+    "description": "Repeated forms recur at progressively smaller scales, producing intricate images with persistent self-similar structure.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "recursive",
+      "selfsimilar",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Chaos Game",
+        "url": "https://thecodingtrain.com/challenges/123-chaos-game/"
+      }
+    ],
+    "referenceQueries": [
+      "Fractal Graphics",
+      "Fractal Graphics design",
+      "Fractal Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Strange-attractor Art",
+    "description": "Traced trajectories form dense looping structures whose apparent order emerges from a chaotic mathematical system.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "chaotic",
+      "looping",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Lorenz Attractor",
+        "url": "https://thecodingtrain.com/challenges/12-lorenz-attractor"
+      }
+    ],
+    "referenceQueries": [
+      "Strange-attractor Art",
+      "Strange-attractor Art design",
+      "Strange-attractor Art aesthetics"
+    ]
+  },
+  {
+    "name": "Particle-field Graphics",
+    "description": "Large numbers of moving points collectively describe surfaces, currents and shapes that remain visibly particulate.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "particles",
+      "field",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Particle Systems",
+        "url": "https://thecodingtrain.com/tracks/the-nature-of-code-2/noc/4-particles/1-particle-system/"
+      }
+    ],
+    "referenceQueries": [
+      "Particle-field Graphics",
+      "Particle-field Graphics design",
+      "Particle-field Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Flocking Graphics",
+    "description": "Many small agents align, separate and gather into coordinated streams, making collective behavior the primary visual subject.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "swarm",
+      "behavior",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Flocking Simulation",
+        "url": "https://thecodingtrain.com/challenges/124-flocking-simulation"
+      }
+    ],
+    "referenceQueries": [
+      "Flocking Graphics",
+      "Flocking Graphics design",
+      "Flocking Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Fluid-simulation Graphics",
+    "description": "Simulated currents stretch and fold color into swirling plumes, giving digital imagery the behavior of liquid or smoke.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "fluid",
+      "swirling",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Fluid Simulation",
+        "url": "https://thecodingtrain.com/challenges/132-fluid-simulation/"
+      }
+    ],
+    "referenceQueries": [
+      "Fluid-simulation Graphics",
+      "Fluid-simulation Graphics design",
+      "Fluid-simulation Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Metaball Graphics",
+    "description": "Soft fields merge into continuous rounded shapes, producing elastic forms that appear to fuse and separate like liquid.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "blobs",
+      "elastic",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Metaballs",
+        "url": "https://thecodingtrain.com/challenges/lang/all/topic/metaballs/"
+      }
+    ],
+    "referenceQueries": [
+      "Metaball Graphics",
+      "Metaball Graphics design",
+      "Metaball Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Plotter Art",
+    "description": "Continuous or repeated vector paths create drawings whose precision and accumulated marks reveal a rule-based process.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "pen",
+      "lines",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "CacheFlowe — Creative Coding Notes",
+        "url": "https://cacheflowe.com/articles/creative-coding-notes"
+      }
+    ],
+    "referenceQueries": [
+      "Plotter Art",
+      "Plotter Art design",
+      "Plotter Art aesthetics"
+    ]
+  },
+  {
+    "name": "Differential-growth Patterns",
+    "description": "Curves or surfaces expand at different rates, forming tightly packed folds and organic-looking ridges.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "growth",
+      "folded",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "CacheFlowe — Creative Coding Notes",
+        "url": "https://cacheflowe.com/articles/creative-coding-notes"
+      }
+    ],
+    "referenceQueries": [
+      "Differential-growth Patterns",
+      "Differential-growth Patterns design",
+      "Differential-growth Patterns aesthetics"
+    ]
+  },
+  {
+    "name": "Diffusion-limited Aggregation",
+    "description": "Randomly moving particles gather around a seed to create branching clusters reminiscent of crystals, frost and mineral growth.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "branching",
+      "cluster",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Diffusion-Limited Aggregation",
+        "url": "https://thecodingtrain.com/challenges/34-diffusion-limited-aggregation/"
+      }
+    ],
+    "referenceQueries": [
+      "Diffusion-limited Aggregation",
+      "Diffusion-limited Aggregation design",
+      "Diffusion-limited Aggregation aesthetics"
+    ]
+  },
+  {
+    "name": "Lissajous Figures",
+    "description": "Combined oscillations trace smooth looping curves whose changing ratios produce balanced and intricate geometric forms.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "oscillation",
+      "loops",
+      "generative"
+    ],
+    "sources": [
+      {
+        "title": "The Coding Train — Lissajous Curve Table",
+        "url": "https://thecodingtrain.com/challenges/116-lissajous-curve-table"
+      }
+    ],
+    "referenceQueries": [
+      "Lissajous Figures",
+      "Lissajous Figures design",
+      "Lissajous Figures aesthetics"
+    ]
+  },
+  {
+    "name": "Topographic Graphics",
+    "description": "Nested contour lines describe imaginary or real changes in elevation, turning a surface into a flowing diagram of depth.",
+    "group": "Generative graphics",
+    "kind": "computational visual language",
+    "tags": [
+      "contours",
+      "terrain",
+      "lines"
+    ],
+    "sources": [
+      {
+        "title": "React Bits — Topography",
+        "url": "https://reactbits.dev/backgrounds/topography"
+      }
+    ],
+    "referenceQueries": [
+      "Topographic Graphics",
+      "Topographic Graphics design",
+      "Topographic Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Kinetic Typography",
+    "description": "Type moves, rotates or changes scale as part of the composition, using timing and rhythm to organize visual attention.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "typography",
+      "rhythm",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Kinetic Typography with Three.js",
+        "url": "https://tympanus.net/Tutorials/codrops-kinetic-typo/"
+      }
+    ],
+    "referenceQueries": [
+      "Kinetic Typography",
+      "Kinetic Typography design",
+      "Kinetic Typography aesthetics"
+    ]
+  },
+  {
+    "name": "Distorted Typography",
+    "description": "Letterforms stretch, ripple and warp while remaining recognizable, treating text as a flexible visual material.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "typography",
+      "elastic",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Text Distortion Effects using Blotter.js",
+        "url": "https://tympanus.net/codrops/2019/02/06/text-distortion-effects-using-blotter-js/"
+      }
+    ],
+    "referenceQueries": [
+      "Distorted Typography",
+      "Distorted Typography design",
+      "Distorted Typography aesthetics"
+    ]
+  },
+  {
+    "name": "Motion-trail Graphics",
+    "description": "Repeated afterimages make a moving shape or word leave a visible path, translating time into layered spatial rhythm.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "trails",
+      "layered",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Typography Motion Trails",
+        "url": "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/"
+      }
+    ],
+    "referenceQueries": [
+      "Motion-trail Graphics",
+      "Motion-trail Graphics design",
+      "Motion-trail Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Aurora Graphics",
+    "description": "Soft luminous bands drift across a field, producing a diffuse atmosphere of changing light rather than discrete shapes.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "light",
+      "gradient",
+      "ambient"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Ambient Canvas Backgrounds",
+        "url": "https://tympanus.net/codrops/2018/12/13/ambient-canvas-backgrounds/"
+      }
+    ],
+    "referenceQueries": [
+      "Aurora Graphics",
+      "Aurora Graphics design",
+      "Aurora Graphics aesthetics"
+    ]
+  },
+  {
+    "name": "Grainy Gradients",
+    "description": "Fine noise breaks up smooth transitions between colors, giving a luminous digital surface a tactile and atmospheric texture.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "grain",
+      "gradient",
+      "texture"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Podium: Grain as a visual language",
+        "url": "https://tympanus.net/codrops/2026/06/23/podium-building-a-website-where-running-becomes-storytelling/"
+      }
+    ],
+    "referenceQueries": [
+      "Grainy Gradients",
+      "Grainy Gradients design",
+      "Grainy Gradients aesthetics"
+    ]
+  },
+  {
+    "name": "Liquid Distortion",
+    "description": "Images bend and flow as if seen through moving water, making the surface itself appear unstable and responsive.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "liquid",
+      "distortion",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Sine, Refraction and Serendipity",
+        "url": "https://tympanus.net/codrops/2025/10/25/dissecting-a-wavy-shader-sine-refraction-and-serendipity/"
+      }
+    ],
+    "referenceQueries": [
+      "Liquid Distortion",
+      "Liquid Distortion design",
+      "Liquid Distortion aesthetics"
+    ]
+  },
+  {
+    "name": "Particle Typography",
+    "description": "Many small objects or points assemble into letterforms, so the shape of text remains visible through a particulate structure.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "typography",
+      "particles",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — 3D Typing Effects with Three.js",
+        "url": "https://tympanus.net/codrops/2022/11/08/3d-typing-effects-with-three-js/"
+      }
+    ],
+    "referenceQueries": [
+      "Particle Typography",
+      "Particle Typography design",
+      "Particle Typography aesthetics"
+    ]
+  },
+  {
+    "name": "Dissolving Typography",
+    "description": "Letterforms break into dust or fragments, allowing disappearance and dispersal to become part of their visual expression.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "typography",
+      "fragment",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Dissolving Text into Dust and Petals",
+        "url": "https://tympanus.net/codrops/2026/01/28/webgpu-gommage-effect-dissolving-msdf-text-into-dust-and-petals-with-three-js-tsl/"
+      }
+    ],
+    "referenceQueries": [
+      "Dissolving Typography",
+      "Dissolving Typography design",
+      "Dissolving Typography aesthetics"
+    ]
+  },
+  {
+    "name": "Extruded Typography",
+    "description": "Visible thickness, perspective and lighting turn letters into sculptural objects that occupy the same space as other three-dimensional forms.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "typography",
+      "sculptural",
+      "3d"
+    ],
+    "sources": [
+      {
+        "title": "Codrops — Kinetic Typography with Three.js",
+        "url": "https://tympanus.net/Tutorials/codrops-kinetic-typo/"
+      }
+    ],
+    "referenceQueries": [
+      "Extruded Typography",
+      "Extruded Typography design",
+      "Extruded Typography aesthetics"
+    ]
+  },
+  {
+    "name": "Kaleidoscopic Graphics",
+    "description": "Repeated reflections and radial symmetry transform a small visual fragment into complex rotating fields and ornament.",
+    "group": "Motion and light",
+    "kind": "motion visual language",
+    "tags": [
+      "symmetry",
+      "reflective",
+      "motion"
+    ],
+    "sources": [
+      {
+        "title": "CacheFlowe — Creative Coding Notes",
+        "url": "https://cacheflowe.com/articles/creative-coding-notes"
+      }
+    ],
+    "referenceQueries": [
+      "Kaleidoscopic Graphics",
+      "Kaleidoscopic Graphics design",
+      "Kaleidoscopic Graphics aesthetics"
+    ]
+  }
+]

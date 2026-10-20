@@ -1,0 +1,748 @@
+{
+  "updatedAt": "2026-10-20T13:26:36.759Z",
+  "summary": {
+    "styles": 80,
+    "sourcePages": 397,
+    "discoveredSlots": 7684,
+    "distinctImageUrls": 7630,
+    "nativeHDCandidates": 800,
+    "reviewed": 800,
+    "approved": 475,
+    "rejected": 325,
+    "peopleReview": {
+      "noRealPeople": 450,
+      "posedModel": 25,
+      "unreviewed": 0,
+      "excludedForPeople": 37
+    },
+    "distinctApproved": 475,
+    "approvedBytes": 267298030,
+    "completeStyles": 20,
+    "partialStyles": 59,
+    "pendingStyles": 1,
+    "usableSlots": 430,
+    "remainingSlots": 210
+  },
+  "coverage": [
+    {
+      "name": "Art Nouveau",
+      "legacyId": 1,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 9
+    },
+    {
+      "name": "Art Deco",
+      "legacyId": 2,
+      "approved": 2,
+      "missing": 6,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 8
+    },
+    {
+      "name": "Polish School of Graphic Design",
+      "legacyId": 4,
+      "approved": 2,
+      "missing": 6,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 2
+    },
+    {
+      "name": "Japanese Modernism",
+      "legacyId": 5,
+      "approved": 0,
+      "missing": 8,
+      "status": "pending",
+      "sourcePages": 2,
+      "candidates": 1
+    },
+    {
+      "name": "Soviet Constructivism",
+      "legacyId": 6,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 8
+    },
+    {
+      "name": "Bauhaus",
+      "legacyId": 7,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 6
+    },
+    {
+      "name": "De Stijl",
+      "legacyId": 8,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 13
+    },
+    {
+      "name": "Psychedelic Graphics",
+      "legacyId": 9,
+      "approved": 12,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 4,
+      "candidates": 14
+    },
+    {
+      "name": "Punk Graphic Design",
+      "legacyId": 10,
+      "approved": 8,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 7,
+      "candidates": 13
+    },
+    {
+      "name": "New Wave Graphics",
+      "legacyId": 11,
+      "approved": 4,
+      "missing": 4,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 8
+    },
+    {
+      "name": "Memphis Design",
+      "legacyId": 12,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 5
+    },
+    {
+      "name": "Pop Art",
+      "legacyId": 13,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 7,
+      "candidates": 10
+    },
+    {
+      "name": "Dada",
+      "legacyId": 18,
+      "approved": 1,
+      "missing": 7,
+      "status": "partial",
+      "sourcePages": 7,
+      "candidates": 3
+    },
+    {
+      "name": "Futurism",
+      "legacyId": 19,
+      "approved": 2,
+      "missing": 6,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 2
+    },
+    {
+      "name": "Suprematism",
+      "legacyId": 20,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 8
+    },
+    {
+      "name": "Vorticism",
+      "legacyId": 21,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 7,
+      "candidates": 5
+    },
+    {
+      "name": "Orphism",
+      "legacyId": 22,
+      "approved": 4,
+      "missing": 4,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 4
+    },
+    {
+      "name": "Rayonism",
+      "legacyId": 23,
+      "approved": 1,
+      "missing": 7,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 5
+    },
+    {
+      "name": "Precisionism",
+      "legacyId": 24,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 12,
+      "candidates": 7
+    },
+    {
+      "name": "Op Art",
+      "legacyId": 25,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 10
+    },
+    {
+      "name": "Kinetic Art",
+      "legacyId": 26,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 4
+    },
+    {
+      "name": "Abstract Expressionism",
+      "legacyId": 27,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 9,
+      "candidates": 11
+    },
+    {
+      "name": "Hard-Edge Abstraction",
+      "legacyId": 28,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 11,
+      "candidates": 9
+    },
+    {
+      "name": "Color-Field Painting",
+      "legacyId": 29,
+      "approved": 10,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 4,
+      "candidates": 13
+    },
+    {
+      "name": "Lyrical Abstraction",
+      "legacyId": 30,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 6
+    },
+    {
+      "name": "Neo-Expressionism",
+      "legacyId": 31,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 5
+    },
+    {
+      "name": "Pop Surrealism",
+      "legacyId": 32,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 3
+    },
+    {
+      "name": "Fluxus Graphics",
+      "legacyId": 34,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 7
+    },
+    {
+      "name": "Situationist Graphics",
+      "legacyId": 35,
+      "approved": 2,
+      "missing": 6,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 3
+    },
+    {
+      "name": "Postmodern Graphic Design",
+      "legacyId": 36,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 12
+    },
+    {
+      "name": "Flat-vector illustration",
+      "legacyId": 131,
+      "approved": 13,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 10,
+      "candidates": 14
+    },
+    {
+      "name": "Minimal line illustration",
+      "legacyId": 133,
+      "approved": 11,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 4,
+      "candidates": 12
+    },
+    {
+      "name": "Doodle illustration",
+      "legacyId": 136,
+      "approved": 10,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 7,
+      "candidates": 12
+    },
+    {
+      "name": "Conceptual editorial illustration",
+      "legacyId": 139,
+      "approved": 18,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 4,
+      "candidates": 19
+    },
+    {
+      "name": "Anime visual style",
+      "legacyId": 142,
+      "approved": 8,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 9,
+      "candidates": 19
+    },
+    {
+      "name": "Manga visual style",
+      "legacyId": 143,
+      "approved": 10,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 5,
+      "candidates": 18
+    },
+    {
+      "name": "Chibi illustration",
+      "legacyId": 144,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 10,
+      "candidates": 12
+    },
+    {
+      "name": "Superflat illustration",
+      "legacyId": 145,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 9
+    },
+    {
+      "name": "Kawaii illustration",
+      "legacyId": 146,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 8
+    },
+    {
+      "name": "Ligne claire illustration",
+      "legacyId": 147,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 8
+    },
+    {
+      "name": "American comic-book art",
+      "legacyId": 149,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 4
+    },
+    {
+      "name": "Mid-century modern illustration",
+      "legacyId": 152,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 4
+    },
+    {
+      "name": "Airbrush illustration",
+      "legacyId": 156,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 7
+    },
+    {
+      "name": "Textured-vector illustration",
+      "legacyId": 167,
+      "approved": 2,
+      "missing": 6,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 12
+    },
+    {
+      "name": "Paper-cut illustration",
+      "legacyId": 168,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 6
+    },
+    {
+      "name": "Halftone illustration",
+      "legacyId": 170,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 16
+    },
+    {
+      "name": "Crosshatch drawing",
+      "legacyId": 175,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 8
+    },
+    {
+      "name": "Stipple illustration",
+      "legacyId": 176,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 7
+    },
+    {
+      "name": "Scratchboard illustration",
+      "legacyId": 177,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 5
+    },
+    {
+      "name": "Charcoal illustration",
+      "legacyId": 178,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 10
+    },
+    {
+      "name": "Colored-pencil illustration",
+      "legacyId": 179,
+      "approved": 9,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 6,
+      "candidates": 11
+    },
+    {
+      "name": "Marker illustration",
+      "legacyId": 180,
+      "approved": 8,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 3,
+      "candidates": 14
+    },
+    {
+      "name": "Screenprint aesthetic",
+      "legacyId": 181,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 12
+    },
+    {
+      "name": "Risograph print aesthetic",
+      "legacyId": 182,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 10
+    },
+    {
+      "name": "Letterpress aesthetic",
+      "legacyId": 183,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 7,
+      "candidates": 13
+    },
+    {
+      "name": "Woodcut print aesthetic",
+      "legacyId": 184,
+      "approved": 4,
+      "missing": 4,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 6
+    },
+    {
+      "name": "Linocut print aesthetic",
+      "legacyId": 185,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 11
+    },
+    {
+      "name": "Etching print aesthetic",
+      "legacyId": 186,
+      "approved": 14,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 5,
+      "candidates": 17
+    },
+    {
+      "name": "Lithographic print aesthetic",
+      "legacyId": 187,
+      "approved": 3,
+      "missing": 5,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 11
+    },
+    {
+      "name": "Monotype print aesthetic",
+      "legacyId": 188,
+      "approved": 10,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 3,
+      "candidates": 13
+    },
+    {
+      "name": "Cyanotype aesthetic",
+      "legacyId": 189,
+      "approved": 9,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 3,
+      "candidates": 11
+    },
+    {
+      "name": "Photogram aesthetic",
+      "legacyId": 190,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 10,
+      "candidates": 7
+    },
+    {
+      "name": "Paper-ephemera collage",
+      "legacyId": 194,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 15
+    },
+    {
+      "name": "Xerox copy-art",
+      "legacyId": 195,
+      "approved": 1,
+      "missing": 7,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 7
+    },
+    {
+      "name": "Zine aesthetic",
+      "legacyId": 196,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 17
+    },
+    {
+      "name": "Stencil aesthetic",
+      "legacyId": 197,
+      "approved": 5,
+      "missing": 3,
+      "status": "partial",
+      "sourcePages": 3,
+      "candidates": 8
+    },
+    {
+      "name": "Paste-up aesthetic",
+      "legacyId": 198,
+      "approved": 1,
+      "missing": 7,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 7
+    },
+    {
+      "name": "Decoupage aesthetic",
+      "legacyId": 199,
+      "approved": 8,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 8,
+      "candidates": 31
+    },
+    {
+      "name": "Mixed-media assemblage",
+      "legacyId": 200,
+      "approved": 8,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 4,
+      "candidates": 12
+    },
+    {
+      "name": "Ink-wash aesthetic",
+      "legacyId": 201,
+      "approved": 12,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 3,
+      "candidates": 12
+    },
+    {
+      "name": "Gouache aesthetic",
+      "legacyId": 202,
+      "approved": 10,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 4,
+      "candidates": 18
+    },
+    {
+      "name": "Watercolor-wash aesthetic",
+      "legacyId": 203,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 2,
+      "candidates": 8
+    },
+    {
+      "name": "Impasto painting",
+      "legacyId": 204,
+      "approved": 4,
+      "missing": 4,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 7
+    },
+    {
+      "name": "Pastel drawing",
+      "legacyId": 207,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 8,
+      "candidates": 8
+    },
+    {
+      "name": "Fresco-mural aesthetic",
+      "legacyId": 206,
+      "approved": 6,
+      "missing": 2,
+      "status": "partial",
+      "sourcePages": 4,
+      "candidates": 11
+    },
+    {
+      "name": "Embroidery illustration",
+      "legacyId": 211,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 12
+    },
+    {
+      "name": "Quilted-collage aesthetic",
+      "legacyId": 212,
+      "approved": 8,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 3,
+      "candidates": 18
+    },
+    {
+      "name": "Beadwork graphic aesthetic",
+      "legacyId": 213,
+      "approved": 4,
+      "missing": 4,
+      "status": "partial",
+      "sourcePages": 6,
+      "candidates": 21
+    },
+    {
+      "name": "Tapestry-inspired graphic style",
+      "legacyId": 214,
+      "approved": 7,
+      "missing": 1,
+      "status": "partial",
+      "sourcePages": 5,
+      "candidates": 14
+    },
+    {
+      "name": "Mosaic illustration",
+      "legacyId": 215,
+      "approved": 9,
+      "missing": 0,
+      "status": "complete",
+      "sourcePages": 5,
+      "candidates": 14
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import { readFile, writeFile, readdir, mkdir } from 'node:fs/promises';
 import { parseCSV } from '../lib/handbook.js';
+import { compileCatalog } from './compile-catalog.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = name => readFile(new URL(name, root), 'utf8');
@@ -12,6 +13,10 @@ const isPinterest = value => {
 };
 
 export async function compileContent() {
+  try {
+    await read('data/catalog.json');
+    return compileCatalog();
+  } catch (error) { if (error.code !== 'ENOENT') throw error; }
   const original = parseCSV(await read('pinterest-examples.csv'));
   const notes = await read('artstyles-300.md');
   const names = new Map([...notes.matchAll(/^(\d+)\. \*\*(.+?)\*\* — (.+)$/gm)].map(m => [+m[1], m[2]]));

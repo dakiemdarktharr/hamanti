@@ -1,0 +1,3206 @@
+[
+  {
+    "styleName": "Flat Design",
+    "imageUrl": "https://i.pinimg.com/originals/2a/e4/61/2ae46107dd91077feafd70b6ac5417d9.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Small photographic avatar does not clearly show a deliberately posed model or editorial portrait.",
+    "priorAestheticReviewStatus": "approved",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Small photographic avatar does not clearly show a deliberately posed model or editorial portrait."
+  },
+  {
+    "styleName": "Flat Design",
+    "imageUrl": "https://i.pinimg.com/originals/18/3b/24/183b2454cba01857e6cdd59199bd2942.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Flat color fields, simple type and crisp two-dimensional interface forms are clearly visible.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Flat Design",
+    "imageUrl": "https://i.pinimg.com/originals/2e/62/d4/2e62d4231f165c2de9ead086fdbcc514.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Flat color fields, simple type and crisp two-dimensional interface forms are clearly visible.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Flat Design",
+    "imageUrl": "https://i.pinimg.com/originals/b5/d0/3d/b5d03d2769cceee283c62e2ef485c882.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Flat color fields, simple type and crisp two-dimensional interface forms are clearly visible.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Flat Design",
+    "imageUrl": "https://i.pinimg.com/originals/77/cb/06/77cb06c73e3cb3700180539d7f076393.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Flat 2.0",
+    "imageUrl": "https://i.pinimg.com/originals/f6/35/95/f635958a29498a6688bde709352112e3.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained shadows give otherwise flat forms controlled depth.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Flat 2.0",
+    "imageUrl": "https://i.pinimg.com/originals/18/7b/70/187b70e13098dfa7044d5bf5cd4aaf78.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained shadows give otherwise flat forms controlled depth.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Skeuomorphism",
+    "imageUrl": "https://i.pinimg.com/originals/98/d6/da/98d6da1408f64092b869f8da3004efc3.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Physical book or wooden-control metaphors visibly structure the digital interface.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Skeuomorphism",
+    "imageUrl": "https://i.pinimg.com/originals/22/30/19/22301952e0a24e3ca06a9fd08a94b16c.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Physical book or wooden-control metaphors visibly structure the digital interface.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Skeuomorphism",
+    "imageUrl": "https://i.pinimg.com/originals/00/50/b0/0050b04dfcdb3a952362b31d776d5d29.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Physical book or wooden-control metaphors visibly structure the digital interface.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Material Realism",
+    "imageUrl": "https://i.pinimg.com/originals/fc/51/41/fc5141a240ec711ca69f65a49178d6e8.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Material Realism",
+    "imageUrl": "https://i.pinimg.com/originals/7d/05/58/7d0558f260a76d1f6a942549b0e37f3d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Rendered material, edge lighting and translucent surfaces create physical depth.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Material Realism",
+    "imageUrl": "https://i.pinimg.com/originals/25/55/18/255518a6ec517e5da43916093dd59cb6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Rendered material, edge lighting and translucent surfaces create physical depth.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neumorphism",
+    "imageUrl": "https://i.pinimg.com/originals/c1/33/54/c1335491e362fe6f0fa2fb7c2c991341.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Paired light and dark shadows make same-color controls appear pressed into or raised from their background.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neumorphism",
+    "imageUrl": "https://i.pinimg.com/originals/b5/18/82/b518823b872f0fd944594ae5d49d586b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Paired light and dark shadows make same-color controls appear pressed into or raised from their background.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neumorphism",
+    "imageUrl": "https://i.pinimg.com/originals/58/ef/a7/58efa71f9a5bdb3011c6a74052815f71.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Paired light and dark shadows make same-color controls appear pressed into or raised from their background.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neumorphism",
+    "imageUrl": "https://i.pinimg.com/originals/5a/64/92/5a649206f828f4a5604ae25abb8be1d1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Paired light and dark shadows make same-color controls appear pressed into or raised from their background.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neumorphism",
+    "imageUrl": "https://i.pinimg.com/originals/b5/d5/67/b5d56777d8ae6dee6b613561e287be14.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Glassmorphism",
+    "imageUrl": "https://i.pinimg.com/originals/bd/20/0e/bd200e6d724d30d639e0b8b7c5690799.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Translucent blurred panels visibly separate foreground controls from imagery behind them.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Glassmorphism",
+    "imageUrl": "https://i.pinimg.com/originals/69/cb/b4/69cbb4d4e417201304537de0ab92d736.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Translucent blurred panels visibly separate foreground controls from imagery behind them.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Glassmorphism",
+    "imageUrl": "https://i.pinimg.com/originals/e5/79/72/e57972d55027fa349814483fb9bea675.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Translucent blurred panels visibly separate foreground controls from imagery behind them.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Glassmorphism",
+    "imageUrl": "https://i.pinimg.com/originals/66/63/b1/6663b15de25c8f24a0a28ab456f390e2.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Glassmorphism",
+    "imageUrl": "https://i.pinimg.com/originals/c3/ea/32/c3ea32468e9e3c56a370f1d0c4a822b7.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Translucent blurred panels visibly separate foreground controls from imagery behind them.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/18/ba/ad/18baad512468216e51b6495af73f1469.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded, softly shaded forms have a tactile modeled-clay appearance.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/79/2a/30/792a304dce5b45b1579856bb4a0118b6.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded, softly shaded forms have a tactile modeled-clay appearance.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/c5/0b/5a/c50b5aaf77ea266381ace629f74dc1e4.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/bf/f5/cd/bff5cd870034af6479f32db148203202.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded, softly shaded forms have a tactile modeled-clay appearance.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/eb/72/22/eb72225bececcd8ab96325428033478b.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/1d/99/86/1d998662f9daf103b13bbc73fe2b2271.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/83/1d/52/831d52f880c928f0e94f487def97ddc0.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/5e/d3/9b/5ed39b9ec2bc7193e76a39c36a3fdbd0.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Claymorphism",
+    "imageUrl": "https://i.pinimg.com/originals/53/8f/09/538f091349c52549fa3b6a05b1e6c171.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/dd/2e/9f/dd2e9f79055e82916aa81229d9260dc3.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/02/f2/98/02f2989c02202a2fd7beddcbaa896fc9.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/39/9f/e2/399fe271f9e8e1df851369ff2b3c39ea.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/01/52/e3/0152e3d8fd91eca574ae227cd184a9e9.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained typography, open space and reduced composition establish a clear minimalist visual direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/f3/9a/9d/f39a9de9a6cbaefc15d39537fc7f55e2.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained typography, open space and reduced composition establish a clear minimalist visual direction.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/3b/4f/59/3b4f59e3122a15497ebeeebe8c79d27f.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/16/70/f0/1670f0f39b6e8b5433b541fdffdad59b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/31/97/8b/31978b73f42ed9efc5e94b170903ab2a.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/7f/05/35/7f05353350ee8164fe8aa72753217e11.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained typography, open space and reduced composition establish a clear minimalist visual direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/1f/82/92/1f8292fb02f703c4a4c3ea58b4d1b694.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Web layout includes casual cafe and social-media photographs of people.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Web layout includes casual cafe and social-media photographs of people.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/20/8d/99/208d990efa2e5c26fc580c9801c8617b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained typography, open space and reduced composition establish a clear minimalist visual direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/6e/eb/8c/6eeb8cd127a9dd6a8f941d57443f201f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Restrained typography, open space and reduced composition establish a clear minimalist visual direction.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Organic Design",
+    "imageUrl": "https://i.pinimg.com/originals/42/6a/7d/426a7d46aacb695c9a6ab54ecdfd5a22.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Organic Design",
+    "imageUrl": "https://i.pinimg.com/originals/8f/ba/7e/8fba7ea099027d649fe03387ae4bee6c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/17/b0/7b/17b07b93544b68989ddbf9763f495598.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/1b/31/0a/1b310a219fbd1ee601a280bf0bdeeb56.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/07/a8/78/07a878969c2b41427243203ea11c3b27.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/b2/07/e4/b207e4f961c5273890a3567e195bd30c.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/54/b2/74/54b274df2e2c7df5ce15a7ac2cde35fd.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/0e/c7/0b/0ec70bca8ead35342c36ae1dd7e4e224.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Embedded tutorial presenter thumbnail.",
+    "priorAestheticReviewStatus": "approved",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Embedded tutorial presenter thumbnail."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/e2/1f/f3/e21ff3fd7922faef92427c7c0da5ce4d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hand-Drawn Design",
+    "imageUrl": "https://i.pinimg.com/originals/c1/02/49/c1024925022f7b3d8253524891b28e91.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Irregular drawn outlines, lettering or illustrative marks visibly shape the graphic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Swiss International Style",
+    "imageUrl": "https://i.pinimg.com/originals/45/fb/23/45fb23321e3b593d54aeb63ca0010cab.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Sans-serif type, asymmetric visual balance and disciplined graphic reduction show the Swiss modernist direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Swiss International Style",
+    "imageUrl": "https://i.pinimg.com/originals/6b/64/77/6b6477da14b1b8bb40f040a68a6c413b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Sans-serif type, asymmetric visual balance and disciplined graphic reduction show the Swiss modernist direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Swiss International Style",
+    "imageUrl": "https://i.pinimg.com/originals/8c/8b/5a/8c8b5a6f0dacfc66b4ce150da6533ba6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Sans-serif type, asymmetric visual balance and disciplined graphic reduction show the Swiss modernist direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Swiss International Style",
+    "imageUrl": "https://i.pinimg.com/originals/5d/af/a3/5dafa380c87270545cafb2dabe4b5b7f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Sans-serif type, asymmetric visual balance and disciplined graphic reduction show the Swiss modernist direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "New Typography",
+    "imageUrl": "https://i.pinimg.com/originals/24/2f/63/242f63940f276434f36a8eba6529bd8c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "New Typography",
+    "imageUrl": "https://i.pinimg.com/originals/00/1a/1b/001a1b72efcc3ee1eb72676596332d35.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "New Typography",
+    "imageUrl": "https://i.pinimg.com/originals/41/da/ae/41daae2c115a41b3df089af8a640e03f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Asymmetric type placement and constructed diagonal geometry demonstrate the modernist typographic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/a0/1b/17/a01b170cd3aca8b756264e6bd2c35ac6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/fd/1d/79/fd1d79bbccd310e1439a94c7395562fa.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/92/a0/ad/92a0ada6656a5bcddbbb989eaa7c990e.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/64/4a/4d/644a4d9d2c103505521d34064eb28758.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Type and imagery align to repeated vertical divisions in a finished graphic composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/36/ab/09/36ab090fc0d639ab17510c9cd642a83c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Layout includes candid street photography of people.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Layout includes candid street photography of people.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/5e/8f/ee/5e8feeafedc3f5f21d961bfc6605ae58.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/e4/ea/01/e4ea019e7b3327cc0ed1a1e21a37008c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/d5/ed/ed/d5eded0628a42bae634985d5a204d66c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Column Grid",
+    "imageUrl": "https://i.pinimg.com/originals/f8/12/a8/f812a83337cdafc3ffa6bc10e901f385.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Modular Grid",
+    "imageUrl": "https://i.pinimg.com/originals/a0/1b/17/a01b170cd3aca8b756264e6bd2c35ac6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Modular Grid",
+    "imageUrl": "https://i.pinimg.com/originals/94/3f/77/943f775a7c9b94f0b8fc841e937b122d.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Modular Grid",
+    "imageUrl": "https://i.pinimg.com/originals/3e/04/68/3e046898ce84818bb4c89376eb79a8f2.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Both rows and columns align text and imagery into a visible modular composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Modular Grid",
+    "imageUrl": "https://i.pinimg.com/originals/f4/85/8f/f4858fc14c51bd54d138fb8f9dc5b644.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Modular Grid",
+    "imageUrl": "https://i.pinimg.com/originals/9d/ba/0f/9dba0f490a52d0f58fb9c78db0ae3499.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Both rows and columns align text and imagery into a visible modular composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Modular Grid",
+    "imageUrl": "https://i.pinimg.com/originals/33/86/b1/3386b17bf1cb6035c19681304d7dcb36.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Both rows and columns align text and imagery into a visible modular composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hierarchical Grid",
+    "imageUrl": "https://i.pinimg.com/originals/a0/1b/17/a01b170cd3aca8b756264e6bd2c35ac6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Hierarchical Grid",
+    "imageUrl": "https://i.pinimg.com/originals/d0/2b/64/d02b644786392a4870c6905937bc27e4.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Layout includes documentary photographs of soldiers and civilian activity.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Layout includes documentary photographs of soldiers and civilian activity.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Hierarchical Grid",
+    "imageUrl": "https://i.pinimg.com/originals/34/8c/8d/348c8d67daaea7280de1800e546b519b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal content zones establish a deliberately ranked visual hierarchy.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Hierarchical Grid",
+    "imageUrl": "https://i.pinimg.com/originals/3e/45/49/3e4549d45344354b5e7360b58e7f6641.webp",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/0e/46/61/0e466191732478b2912041d14a00528e.webp",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/c8/a7/d1/c8a7d151194331d608e4d053be57e87c.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/b0/1b/ef/b01befbcafcd80a25776b8c9b0c50993.webp",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/f9/a3/80/f9a380fbca33c34f73722aa370bd0bf7.webp",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/35/e8/4e/35e84e3e206be557a8ed3a8a5ce43da1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/c2/17/96/c217962a34978c4c4e35fdaa866a76c8.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Bento Grid",
+    "imageUrl": "https://i.pinimg.com/originals/09/27/a5/0927a5d764a9c2e06b2a7ce902ffefd1.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Unequal rounded rectangular compartments form one tightly aligned bento composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/1f/97/90/1f97906d2d02c25234393915ec4a1f7d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Self-contained rectangular units group an image, text and actions into repeated cards.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/50/9e/aa/509eaa1e04013e5d47e8a87330cf3f5b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Self-contained rectangular units group an image, text and actions into repeated cards.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/b3/9b/a3/b39ba39e93921902f71edf91b5a994b5.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Self-contained rectangular units group an image, text and actions into repeated cards.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/f6/8a/c8/f68ac8567d46bdc368416639d4e78d6d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Self-contained rectangular units group an image, text and actions into repeated cards.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/2d/13/2c/2d132c08187d025acb0abe7a200648f8.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Embedded tutorial/presenter footage and small casual avatar photographs.",
+    "priorAestheticReviewStatus": "approved",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Embedded tutorial/presenter footage and small casual avatar photographs."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/e0/9a/14/e09a14a5744fde4612538912aa401e4f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Self-contained rectangular units group an image, text and actions into repeated cards.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/36/62/7d/36627df7070e73c418c398b041bb6fd5.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Self-contained rectangular units group an image, text and actions into repeated cards.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/d0/3a/12/d03a125ed29c43eff4e0aa2d0daad3c5.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Small photographic avatars do not clearly show a deliberate model or editorial shoot.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Small photographic avatars do not clearly show a deliberate model or editorial shoot.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Card-Based Design",
+    "imageUrl": "https://i.pinimg.com/originals/71/48/f9/7148f97e185d46c91b5f89020f26ca7a.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Editorial Design",
+    "imageUrl": "https://i.pinimg.com/originals/17/dc/07/17dc074fd8c9993b0379f146b50a473b.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Image pacing, display typography and generous text-image relationships create an editorial composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Editorial Design",
+    "imageUrl": "https://i.pinimg.com/originals/01/8e/86/018e86354114ddcb14a47deb6069353a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Image pacing, display typography and generous text-image relationships create an editorial composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/c9/b4/c1/c9b4c14da8a9022ad7ae6ad5a021c702.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Newspaper contains documentary and casual group photographs.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Newspaper contains documentary and casual group photographs.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/1b/ea/c8/1beac81d5ced4b86a52dd9b90097dd4d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Narrow text columns, large headlines and article hierarchy clearly reference newspaper layout.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/56/13/77/56137778ad210cf7e64b1c3a82764b30.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Newspaper contains sports action photographs.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Newspaper contains sports action photographs.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/78/28/53/78285394d72a5f4f23c64ffc71297f6f.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Newspaper contains candid school and classroom photographs.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Newspaper contains candid school and classroom photographs.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/90/47/c6/9047c68d4c280f07195061d8ee97dcc2.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Newspaper contains casual school group photographs.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Newspaper contains casual school group photographs.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/55/3a/9c/553a9cde76b06227159e36a8de4768a4.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Newspaper contains candid news-event photographs.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Newspaper contains candid news-event photographs.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/67/c2/a9/67c2a9d42388733f51bd5b17a2b232e6.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Newspaper Design",
+    "imageUrl": "https://i.pinimg.com/originals/d4/24/73/d42473e2dbb5aa3f784023a28bccd9f9.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Newspaper contains classroom and group photographs.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Newspaper contains classroom and group photographs.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Maximalism",
+    "imageUrl": "https://i.pinimg.com/originals/74/b3/9b/74b39bbd252d9c820acbadccb69f30f9.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Dense collaged graphics, competing colors and overlapping typography visibly demonstrate maximalist composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Duotone",
+    "imageUrl": "https://i.pinimg.com/originals/56/d5/e7/56d5e7eb0e384a4417a6167886271aa7.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Two-tone photographic mapping unifies the image and surrounding graphics.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Duotone",
+    "imageUrl": "https://i.pinimg.com/originals/a9/cb/60/a9cb6063e951684a2aac03274b659e86.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Neo Geo",
+    "imageUrl": "https://i.pinimg.com/originals/f1/a0/9a/f1a09a74ab394a57624f9eed7cb71ddf.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Neo Geo",
+    "imageUrl": "https://i.pinimg.com/originals/0d/eb/e2/0debe26278ce14b88bc35d68e7f83f52.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Corporate Memphis",
+    "imageUrl": "https://i.pinimg.com/originals/03/59/52/0359523fa502e1d716197f626a892de2.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Simplified geometric people with elastic proportions demonstrate the corporate illustration vernacular.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectordelia",
+    "imageUrl": "https://i.pinimg.com/originals/68/8a/34/688a34b1cc13fc16b8fc499914b99bf9.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Crisp vector flourishes, silhouettes, circular motifs and saturated gradients demonstrate Vectordelia.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectordelia",
+    "imageUrl": "https://i.pinimg.com/originals/c7/e2/29/c7e229ba04484c2cc0c0b4ecef10f3d7.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Crisp vector flourishes, silhouettes, circular motifs and saturated gradients demonstrate Vectordelia.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/21/c0/c0/21c0c0ef9fa70ca4e1ce9f0af17ebd44.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/02/97/23/02972342d70abf4f92f953b986d59345.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/bc/0f/c3/bc0fc3aaf34b3d56d478491729129c67.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/e2/40/85/e24085c1b31586c2d17e4364a46f5d36.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/e5/7a/1e/e57a1ed315006924b906ab6d6fce8949.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/b8/2a/5f/b82a5f311987a6a621eb0a09f3be7850.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/bd/26/44/bd2644c3114855c593aa84bd8c2cc663.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/2c/70/44/2c70447d606206bd40d6904273f9b993.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Floral vectors, curling botanical forms and luminous gradients demonstrate the digital garden aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vectorgarden",
+    "imageUrl": "https://i.pinimg.com/originals/f4/b9/43/f4b943b675b881f57423f5432b7b0025.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Technozen",
+    "imageUrl": "https://i.pinimg.com/originals/8a/fe/fb/8afefbefa19ccc48983965d021c63b06.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Arts and Crafts",
+    "imageUrl": "https://i.pinimg.com/originals/59/5b/24/595b24462d2db72a16f939c4319db0e3.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Synthwave",
+    "imageUrl": "https://i.pinimg.com/originals/11/0a/95/110a95ce2d8e1dd450b37ddfbe596a3b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Neon sunsets and retro electronic geometry make the 1980s-inspired visual direction explicit.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Synthwave",
+    "imageUrl": "https://i.pinimg.com/originals/31/f8/ae/31f8ae3647c09281d64005a9bb51d768.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Synthwave",
+    "imageUrl": "https://i.pinimg.com/originals/d4/ec/86/d4ec866420e18937d4d7c0b314b74ff4.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Neon sunsets and retro electronic geometry make the 1980s-inspired visual direction explicit.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/d4/fd/01/d4fd01ccf3ae6f1b1c761cecd8b8f68b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Electronic overlays, artificial light and industrial or dystopian imagery establish cyberpunk visual character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/e4/2f/89/e42f899f552b6aca0dc6027fc84a2b3a.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Electronic overlays, artificial light and industrial or dystopian imagery establish cyberpunk visual character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/a7/95/d1/a795d13355b77b858e355a898f197454.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Poster includes a halftone candid street photograph with pedestrians.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Poster includes a halftone candid street photograph with pedestrians.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/17/ae/79/17ae79a54bd035727f28aba6e17b74ec.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/91/15/9e/91159e53f5e71516b1da89d8f128e1c1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Electronic overlays, artificial light and industrial or dystopian imagery establish cyberpunk visual character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/1b/e4/84/1be484ca5aa981e63d1c7adc88564e6a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Electronic overlays, artificial light and industrial or dystopian imagery establish cyberpunk visual character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cyberpunk",
+    "imageUrl": "https://i.pinimg.com/originals/cc/6a/ea/cc6aeaaa4ea4f1954e11be128e724965.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Hyperpop",
+    "imageUrl": "https://i.pinimg.com/originals/dd/7e/9a/dd7e9a40e980d55cd672527b3c7ef854.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Saturated synthetic pop imagery, chrome-like accents and intentionally excessive collage show the hyperpop direction.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Hyperpop",
+    "imageUrl": "https://i.pinimg.com/originals/d3/e5/0f/d3e50fbce4cd691eb898fa05d73b817a.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Hyperpop",
+    "imageUrl": "https://i.pinimg.com/originals/a5/96/ef/a596ef4d80153380c61b71f29db1e000.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/ea/58/6d/ea586de57e1f9ae2d2e37a0ff79e663e.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Illustrated or rendered speculative environments integrate lush nature with optimistic future technology.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/0a/c0/cf/0ac0cf75401ba4d81394958e61d16c5a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Illustrated or rendered speculative environments integrate lush nature with optimistic future technology.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/ac/59/36/ac5936726b46d63ea9f4a9d1fb86571a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Illustrated or rendered speculative environments integrate lush nature with optimistic future technology.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/48/ee/a2/48eea276fef142b318fcd48a7e71ed7e.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Illustrated or rendered speculative environments integrate lush nature with optimistic future technology.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/a0/27/b5/a027b5576b7f1142787a51113766c1a7.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/ec/7b/bf/ec7bbfb2a44544e902a766b71458c379.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Solarpunk",
+    "imageUrl": "https://i.pinimg.com/originals/2b/ad/ef/2badef94eef6519d5327b5fb2bed7679.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Illustrated or rendered speculative environments integrate lush nature with optimistic future technology.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Frasurbane",
+    "imageUrl": "https://i.pinimg.com/originals/73/00/25/730025d5e67b61a1a93b1bd21cc21216.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Frasurbane",
+    "imageUrl": "https://i.pinimg.com/originals/1c/fd/74/1cfd7474d6dafd491d6b00788b88c6c7.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Warm commercial imagery and cultivated classical serif treatment match the adult consumer graphic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Corporate Grunge",
+    "imageUrl": "https://i.pinimg.com/originals/ef/52/94/ef529417ee322124998e732baebeaf4c.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Distressed display type and layered rough reproduction create a commercial grunge composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Corporate Grunge",
+    "imageUrl": "https://i.pinimg.com/originals/fa/99/33/fa9933d267aa6e1a146dfde8d6203a2a.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Distressed display type and layered rough reproduction create a commercial grunge composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Corporate Grunge",
+    "imageUrl": "https://i.pinimg.com/originals/25/85/c1/2585c14ed969307d33416f1b0dfcc209.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Corporate Grunge",
+    "imageUrl": "https://i.pinimg.com/originals/02/d0/8a/02d08a3b92bbc34ce0f1eb1f6addf2e5.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Distressed display type and layered rough reproduction create a commercial grunge composition.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Utopian Scholastic",
+    "imageUrl": "https://i.pinimg.com/originals/b3/f1/d6/b3f1d6bc0eb1326f1254ba3564607649.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Dollar Store Vernacular",
+    "imageUrl": "https://i.pinimg.com/originals/f1/a3/e8/f1a3e8ccec2d448688e5ec491efd38dd.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Dollar Store Vernacular",
+    "imageUrl": "https://i.pinimg.com/originals/bb/9d/b2/bb9db2a2f26d91ceaa411be34383c660.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Hipness Purgatory",
+    "imageUrl": "https://i.pinimg.com/originals/f9/1f/87/f91f8758b0b9074db3555cde957b9198.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Casual photograph of a person holding a sketchbook; no clear deliberate model shoot.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Casual photograph of a person holding a sketchbook; no clear deliberate model shoot.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Hipness Purgatory",
+    "imageUrl": "https://i.pinimg.com/originals/22/d7/97/22d7973abae6ad930a1e9e8af262ae0b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/96/9c/8c/969c8c93c922da79df792fa94cb99959.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Collaged folk motifs and assembled ornamental textures clearly show the handmade revival aesthetic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/77/9a/dc/779adc85f74c2cdd774d3ca90cdc9b04.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Moodboard includes casual indoor photographs of people.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Moodboard includes casual indoor photographs of people.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/42/8e/ed/428eed06163b19671de62cf5bef8a281.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Collaged folk motifs and assembled ornamental textures clearly show the handmade revival aesthetic.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/f1/43/01/f143016e3b22872e19883ec20b88b660.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/05/9d/d9/059dd96f3d708776832dcb362070bf45.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/fd/56/ea/fd56ea8a35f2845c7c745f131b577545.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Whimsicraft",
+    "imageUrl": "https://i.pinimg.com/originals/40/3e/ee/403eeec3f011824b95e3b4236f14570d.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Factory Pomo",
+    "imageUrl": "https://i.pinimg.com/originals/9c/c1/c8/9cc1c868bf583ab585deb1144d393a7d.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Factory Pomo",
+    "imageUrl": "https://i.pinimg.com/originals/a0/43/f9/a043f932daf71e7415f46c9ad9669cbb.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Factory Pomo",
+    "imageUrl": "https://i.pinimg.com/originals/52/af/ac/52afac1df84bc7ef652fec884aae1bc9.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Factory Pomo",
+    "imageUrl": "https://i.pinimg.com/originals/a5/aa/5f/a5aa5fa81aa503beb17b64777109d43c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Factory Pomo",
+    "imageUrl": "https://i.pinimg.com/originals/54/b5/34/54b5342593eca32e6bb0295a3b86d4fe.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Constructed industrial symbols and geometric postmodern composition show the late-1980s graphic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Factory Pomo",
+    "imageUrl": "https://i.pinimg.com/originals/10/a7/f6/10a7f6e42d5efb5bf937d41da04f7927.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Supergraphic Ultramodern",
+    "imageUrl": "https://i.pinimg.com/originals/7e/73/60/7e7360140b32c75bf4b7bcefcc665306.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Supergraphic Ultramodern",
+    "imageUrl": "https://i.pinimg.com/originals/b8/b5/b3/b8b5b3a80cdc49021844b1cef3170627.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Oversized rounded stripes and synthetic geometric color bands show the supergraphic language.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Steampunk",
+    "imageUrl": "https://i.pinimg.com/originals/f8/4c/f0/f84cf0dae34086e9971cd659b1aa02c6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Afrofuturism",
+    "imageUrl": "https://i.pinimg.com/originals/3f/4b/e2/3f4be268c3cbf1051b135c18559796f6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Impressionism",
+    "imageUrl": "https://i.pinimg.com/originals/2a/47/64/2a4764e90f6ef7e742c1a0e8d2b4b7a7.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Broken color, visible brush marks and shifting outdoor light establish an Impressionist visual treatment.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Impressionism",
+    "imageUrl": "https://i.pinimg.com/originals/c6/38/c1/c638c1b4833a44a65d00f886b37a9cc8.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Broken color, visible brush marks and shifting outdoor light establish an Impressionist visual treatment.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Post-Internet Aesthetic",
+    "imageUrl": "https://i.pinimg.com/originals/ba/cf/d7/bacfd7f3e5fe12ee22fad0d23c9af027.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Post-Internet Aesthetic",
+    "imageUrl": "https://i.pinimg.com/originals/50/e5/f1/50e5f16d8a9a93815eafc07e57622dea.png",
+    "reviewStatus": "approved",
+    "reviewNote": "A recontextualized physical-art image is combined with a digital interface artifact.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Corporate Hippie",
+    "imageUrl": "https://i.pinimg.com/originals/bc/e6/d0/bce6d0e3c87fe3839b4e47190f0aa213.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Approachable commercial graphics use colorful curving illustration and psychedelic ornament.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Corporate Hippie",
+    "imageUrl": "https://i.pinimg.com/originals/35/c1/5e/35c15e747a0151130b82d14feef13700.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Approachable commercial graphics use colorful curving illustration and psychedelic ornament.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Corporate Hippie",
+    "imageUrl": "https://i.pinimg.com/originals/7a/d2/8e/7ad28e8920102e672c6aa82ef9d17472.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Approachable commercial graphics use colorful curving illustration and psychedelic ornament.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/d2/94/01/d294010bf20ebc2d78bbb78369af6052.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/3b/7b/59/3b7b59b9960ca34051f050919d4ab478.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/11/ce/bd/11cebd73f273511d85e2641c90d2cff9.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/8d/58/e3/8d58e3514d0e7b630f5d753e12643917.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/25/fb/dd/25fbdd65b4dcf89ed9c9329cacc70fe8.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/27/23/a3/2723a3bd3fec65e75665ac239be04e29.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/e6/0c/7d/e60c7d1425e1761f8416274c574c9c86.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/0a/34/fe/0a34febfe74c117168b89cf98f2d56fc.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Whimsigothic",
+    "imageUrl": "https://i.pinimg.com/originals/6a/36/4b/6a364b70452d7ea4e8491abd5752daba.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Celestial symbols, eccentric curling ornament and rich dark color establish the whimsical gothic direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "New Aesthetic",
+    "imageUrl": "https://i.pinimg.com/originals/82/95/e1/8295e1a0995198eab133c91a211fbf84.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Machine-perception imagery and tracking overlays expose computational seeing as graphic material.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "New Aesthetic",
+    "imageUrl": "https://i.pinimg.com/originals/77/9e/88/779e8868f2087b809a514194ca5e34b4.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Thermal surveillance treatment of candid street pedestrians.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Thermal surveillance treatment of candid street pedestrians.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Warm Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/1e/ba/46/1eba46071764e8f173a781d890051da7.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Reduced composition, warm natural tones and tactile material cues establish warm minimalism.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Warm Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/2f/7e/ae/2f7eae22f608536f6964d7f67651d784.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Interior portfolio photo includes people in casual activity rather than a clear model shoot.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Interior portfolio photo includes people in casual activity rather than a clear model shoot.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Warm Minimalism",
+    "imageUrl": "https://i.pinimg.com/originals/b7/2e/b7/b72eb778da2baba1f62e4bc946df68b2.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Reduced composition, warm natural tones and tactile material cues establish warm minimalism.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Arts and Crafts",
+    "imageUrl": "https://i.pinimg.com/originals/0c/c6/f5/0cc6f572840e8e2d451238bd7b957cc1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Interlaced botanical ornament and a dense handcrafted repeat demonstrate the Arts and Crafts graphic tradition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cubism",
+    "imageUrl": "https://i.pinimg.com/originals/18/be/b8/18beb86dc70f50236963859ad33af74b.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fragmented planes reconstruct a figure through overlapping geometric viewpoints.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Cubism",
+    "imageUrl": "https://i.pinimg.com/originals/ac/f8/79/acf87997bc6a99ea00671580c9d960fb.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Cubism",
+    "imageUrl": "https://i.pinimg.com/originals/be/fe/b8/befeb86ada135f3caf8889689f4a2ca1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fragmented planes reconstruct a figure through overlapping geometric viewpoints.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Fauvism",
+    "imageUrl": "https://i.pinimg.com/originals/ad/8f/97/ad8f977650ed8c4199fdbfccfc4ed417.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Strong non-naturalistic color and simplified expressive brushwork organize the image.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Fauvism",
+    "imageUrl": "https://i.pinimg.com/originals/55/54/81/555481d6e7efadb975b2608881df817c.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Strong non-naturalistic color and simplified expressive brushwork organize the image.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/ef/29/72/ef2972bd3843bca2c97ead2a79d8f8f9.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/6e/cc/30/6ecc3064b71b653d3e8942933a273ea9.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/de/c6/22/dec622434012ece8adf4f23915318a74.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/b3/64/d5/b364d59b2b7ace47ea6e54b03e044c81.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/d9/89/c7/d989c7960ece1bcf33b5d08fb1495ae0.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/50/0f/e1/500fe1cb0aeef7e9d581e543ed05c266.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/9b/91/39/9b91395fda70877837607ebabb529bb9.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/3d/b7/f0/3db7f0b323c8985c56b9220d524de42a.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/18/05/85/180585b2be693aa96cfe15cc64e4ece4.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/3e/90/f9/3e90f992844063d85e6b2cecbe4487ff.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/54/63/86/546386ada4ec2bfe24cd336fde61ee58.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Circular bowls, repeated geometric construction and low-contrast sans-serif forms visibly define the type.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/7a/81/b9/7a81b9271ffbec0ebea48fe33b061fe7.png",
+    "reviewStatus": "approved",
+    "reviewNote": "The sans-serif specimen retains visibly eccentric letter proportions and forms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/9c/2e/a8/9c2ea8a5593c63bedd09c084a8926238.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/7e/59/fc/7e59fc5c50aa8579540541462584d7c4.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Neo-grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/b3/64/d5/b364d59b2b7ace47ea6e54b03e044c81.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Neo-grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/5e/fd/b2/5efdb21e12c7ed89926dfe29a2408827.gif",
+    "reviewStatus": "approved",
+    "reviewNote": "Regularized sans-serif proportions and coordinated neutral forms demonstrate the modern grotesque direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neo-grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/b1/3d/1c/b13d1c7bf5f03c1bb876b2a14a4dcd87.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Regularized sans-serif proportions and coordinated neutral forms demonstrate the modern grotesque direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Neo-grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/1a/3a/d0/1a3ad057a4be79313b9e65b4e65281b8.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Neo-grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/0e/a3/35/0ea335601ac4cce46b46383b6c47228b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Neo-grotesque typography",
+    "imageUrl": "https://i.pinimg.com/originals/a5/e7/6c/a5e76cfd6961f671744c40d723c7e6d6.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Regularized sans-serif proportions and coordinated neutral forms demonstrate the modern grotesque direction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Humanist sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/1a/3a/d0/1a3ad057a4be79313b9e65b4e65281b8.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Open, varied letterforms and approachable proportions show a humanist sans-serif character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Humanist sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/68/05/09/680509fe62f3eb244ae07126ab447c0a.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Open, varied letterforms and approachable proportions show a humanist sans-serif character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Humanist sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/0d/21/1f/0d211fce7a0d344879167e17d49a0b1b.webp",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/90/1c/09/901c0997463eee13fef6ff87946b57cc.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/74/0c/52/740c5212aa71c32be3d31f40a0447719.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Rounded sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/b3/64/d5/b364d59b2b7ace47ea6e54b03e044c81.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Rounded sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/3e/90/f9/3e90f992844063d85e6b2cecbe4487ff.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Softly rounded sans-serif forms and terminals are the specimen’s dominant characteristic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Rounded sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/85/91/99/859199e0e5cbfb4554a83e0398f9cc88.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Rounded sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/43/9f/30/439f3070db107e9c2e9810ad2c9e9a3e.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Softly rounded sans-serif forms and terminals are the specimen’s dominant characteristic.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Rounded sans-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/b9/39/a4/b939a4156e6d1461d198b0f2eeecd902.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/0d/21/1f/0d211fce7a0d344879167e17d49a0b1b.webp",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/90/1c/09/901c0997463eee13fef6ff87946b57cc.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/20/bd/19/20bd195e237237d4974315152dc53f4f.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/a4/55/e8/a455e89162e57d34643e82c968701ab5.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/da/5b/b2/da5bb2a3a1f7ab3012f023aff7325454.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Humanist serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/6c/43/96/6c4396d562bac1071958e5054889b7d0.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/61/86/b4/6186b4e88af07bd4455e2106da69bd50.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/65/1e/3b/651e3bae48c0adb7a30b65f45ca576ff.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/af/b4/d7/afb4d76ad0c84f8b8de7b8a36e3f436f.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/8b/27/d0/8b27d04189018a8c333ecadb8cadfdac.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/4d/db/53/4ddb536090347d5fffe14c24dcca03c5.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/80/1a/15/801a15b62b6ad9a768fd3ece08ff002e.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/00/8f/e7/008fe7b569b49887e5dc9e0cab2d7611.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Transitional serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/12/fc/e0/12fce065d2dd8c5ef79553ac76ca260a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "The serif specimen shows the balanced stroke contrast and bracketed structure of transitional types.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Didone typography",
+    "imageUrl": "https://i.pinimg.com/originals/04/2b/a0/042ba0a1f0ce5814f211775925360f74.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Very strong thick-thin contrast and fine hairlines define the Didone letterforms.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Didone typography",
+    "imageUrl": "https://i.pinimg.com/originals/29/a1/27/29a1276dd7f8b4c6a54f18667d3359fc.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Very strong thick-thin contrast and fine hairlines define the Didone letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Didone typography",
+    "imageUrl": "https://i.pinimg.com/originals/c3/16/86/c3168692c80bb3eb29753562101fe702.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Very strong thick-thin contrast and fine hairlines define the Didone letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Didone typography",
+    "imageUrl": "https://i.pinimg.com/originals/a6/a5/06/a6a506ac35aee4bf50dd9d755854dec2.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Fat-face typography",
+    "imageUrl": "https://i.pinimg.com/originals/2d/c6/26/2dc626ceecf48707a59c84f28749b2f3.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Fat-face typography",
+    "imageUrl": "https://i.pinimg.com/originals/b5/51/af/b551af5f239ec22a524922e815120dc1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Broad heavy stems contrast with thin serif details in an assertive display face.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Scotch Roman typography",
+    "imageUrl": "https://i.pinimg.com/originals/34/d4/a9/34d4a943db72ef86a5afe18fa4303671.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Scotch Roman typography",
+    "imageUrl": "https://i.pinimg.com/originals/35/bd/b6/35bdb6674ebdd53bb3850b8a5526162f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "The specimens explicitly show Scotch Roman/display forms with bracketed serifs and vertical contrast.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Scotch Roman typography",
+    "imageUrl": "https://i.pinimg.com/originals/65/69/89/6569895ee7cf910179158f9d5adc9fa6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Scotch Roman typography",
+    "imageUrl": "https://i.pinimg.com/originals/13/41/1f/13411fe397f1f58c106c39e82ffe1289.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "The specimens explicitly show Scotch Roman/display forms with bracketed serifs and vertical contrast.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/b3/64/d5/b364d59b2b7ace47ea6e54b03e044c81.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/a4/55/e8/a455e89162e57d34643e82c968701ab5.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/80/1a/15/801a15b62b6ad9a768fd3ece08ff002e.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/f4/76/d2/f476d22230cd4a283a618e1d010d1005.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/cd/14/6d/cd146ddc628905c7810e3a8e28dee350.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Heavy slab terminals and constructed block-like letterforms define the specimen.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/20/1f/2f/201f2f835af04aa36d936e9076561f10.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Geometric slab-serif typography",
+    "imageUrl": "https://i.pinimg.com/originals/34/af/c4/34afc4a75b83fe9106ec0e12559cc2a2.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Clarendon typography",
+    "imageUrl": "https://i.pinimg.com/originals/ae/a5/42/aea542441b2ece8eebdc04d08e27effc.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Bold bracketed serifs and Clarendon letterforms are explicitly demonstrated.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Glyphic typography",
+    "imageUrl": "https://i.pinimg.com/originals/58/e2/54/58e254783d6ca062d6f945e847f29f7f.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Glyphic typography",
+    "imageUrl": "https://i.pinimg.com/originals/8b/35/2b/8b352b40b20d8ccdf6399f4b5bd98962.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Flared incised-looking terminals give the letterforms a carved character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Glyphic typography",
+    "imageUrl": "https://i.pinimg.com/originals/b2/5c/f6/b25cf6c11c5299d6bb08180c00d556a3.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Flared incised-looking terminals give the letterforms a carved character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Glyphic typography",
+    "imageUrl": "https://i.pinimg.com/originals/97/a7/a8/97a7a80669018dd92b705b2bf9d74ae3.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Upright script typography",
+    "imageUrl": "https://i.pinimg.com/originals/7c/12/bc/7c12bccc4acf02f16fd0c9be999f1924.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Upright script typography",
+    "imageUrl": "https://i.pinimg.com/originals/cd/2c/e7/cd2ce7c0d8de9ce5703a5d7020288d6e.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Stencil typography",
+    "imageUrl": "https://i.pinimg.com/originals/15/31/de/1531dedfc00ade2d64a15836a09dd074.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Interrupted strokes and structural bridges clearly demonstrate stencil letter construction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Stencil typography",
+    "imageUrl": "https://i.pinimg.com/originals/3e/f2/75/3ef275f0c25a9ce66713be2b4a89091d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Interrupted strokes and structural bridges clearly demonstrate stencil letter construction.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Stencil typography",
+    "imageUrl": "https://i.pinimg.com/originals/6f/f2/9c/6ff29c46920ff02c7dfaf7192e75f7a1.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Wood-type typography",
+    "imageUrl": "https://i.pinimg.com/originals/7b/fd/8b/7bfd8b6a8dbed34cc34d69ddcf40ffbb.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Historic display letterforms and printed specimen texture demonstrate wood-type typography.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Wood-type typography",
+    "imageUrl": "https://i.pinimg.com/originals/79/52/1b/79521be530382b6d4eccd3761cd30483.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Historic display letterforms and printed specimen texture demonstrate wood-type typography.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Wood-type typography",
+    "imageUrl": "https://i.pinimg.com/originals/1c/f4/51/1cf4512d898da36780811be8666e8d0c.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Historic display letterforms and printed specimen texture demonstrate wood-type typography.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Tuscan typography",
+    "imageUrl": "https://i.pinimg.com/originals/b0/f4/5b/b0f45bbea9532766b05e56a791bfae2a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Decorative split or bifurcated terminals give the display lettering a Tuscan character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Tuscan typography",
+    "imageUrl": "https://i.pinimg.com/originals/1f/ef/3a/1fef3abcf9a0955b752bfbabbdf0c7b2.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Tuscan typography",
+    "imageUrl": "https://i.pinimg.com/originals/0c/0e/14/0c0e14126d391ac1ac596651587b4571.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Decorative split or bifurcated terminals give the display lettering a Tuscan character.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Tuscan typography",
+    "imageUrl": "https://i.pinimg.com/originals/f0/98/f2/f098f2bccb2c9dc2e776acf3043c684b.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Decorative split or bifurcated terminals give the display lettering a Tuscan character.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Handwritten typography",
+    "imageUrl": "https://i.pinimg.com/originals/f1/77/33/f177338944a004af7a0a6430267fb780.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fluid irregular pen-like lettering visibly imitates personal handwriting.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/ba/a5/29/baa529aff6a0d7840b2216918368a195.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/29/6d/a4/296da4447d304ccde0f39e6f9ae436c8.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fractured strokes, dense texture and decorative Gothic letter construction dominate the design.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/05/d6/15/05d615f2f41f6b5beaca8feacac1c8ed.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Type specimen includes a candid tattooing-process photograph.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Type specimen includes a candid tattooing-process photograph.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/48/b0/d6/48b0d64ee38cb334f22cb9e162decc81.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/ed/11/08/ed11081b232875e16c79d35238356ac7.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/b9/cf/b5/b9cfb53dc73c449c1d4b0f201c65a229.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Type specimen includes a candid surfing photograph.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Type specimen includes a candid surfing photograph.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/d0/0a/d3/d00ad3f22aa4562b04c0cac0accc49ac.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fractured strokes, dense texture and decorative Gothic letter construction dominate the design.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/e9/54/33/e95433de8491e083b01a5b455ef334c9.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Type specimen includes a photographed concert crowd.",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Type specimen includes a photographed concert crowd.",
+    "priorAestheticReviewStatus": "approved"
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/d0/3d/7e/d03d7e3e537ee0736aa94e1f057d36ac.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/70/d7/a2/70d7a2cd404e8a9b6282a0e0a91a0b50.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/bb/eb/6f/bbeb6f9c8131ab0a0d7be0d0fb6b8603.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fractured strokes, dense texture and decorative Gothic letter construction dominate the design.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/f1/06/13/f10613851ccbc2e521ae792b73d2570e.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/c5/99/64/c59964ec49c08aad94680da0b880fae3.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/c2/9d/07/c29d0713bdf01c913e2eaa81613f7331.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Fractured strokes, dense texture and decorative Gothic letter construction dominate the design.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/b8/8e/78/b88e78f2d09c55d5c03e3637634f6d8d.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/d5/2b/2b/d52b2bc2edb6987df8616b967ffda4f2.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Fractured strokes, dense texture and decorative Gothic letter construction dominate the design.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/a5/86/b7/a586b7fe116c950867c50a990c774388.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/32/ff/b2/32ffb2d23fbc028844a58604a000a150.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/08/e8/f1/08e8f1d9cb19c7428463759154422163.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/38/7e/4a/387e4ac25869410d1bd2814c93fc573b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/45/34/f0/4534f0de79f4882ad55784accd8915ba.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/6b/a0/03/6ba0037e1945d04976915f8520529443.webp",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/d0/00/bb/d000bb7f08b6a720daf6c94e31c8be5c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/ba/1b/95/ba1b95192921b357c8e2e217122cfedf.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/fd/92/fb/fd92fbbdabb1281c7bdb48770ccb317c.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/54/57/73/5457730911220acc5d5fde259353fd6a.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/12/91/34/12913405ee21e7b4dfc80e3afadb4b5c.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/6f/34/41/6f34415aff7a98a408f1b2f544f944ef.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/03/f4/3a/03f43af2187fd0650aceab565a483f62.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Formal script typography",
+    "imageUrl": "https://i.pinimg.com/originals/07/2f/63/072f63a20d38772b88660c884cb021f2.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Controlled slant, connected calligraphic strokes and formal flourishes define the lettering.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Inline typography",
+    "imageUrl": "https://i.pinimg.com/originals/c2/97/21/c2972168d6af1d456041764f6d8cb2ec.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Interior strokes add a repeated inline detail inside the main letter shape.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Inline typography",
+    "imageUrl": "https://i.pinimg.com/originals/c3/44/39/c34439134c76a861adaf3c5fe38eab46.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Interior strokes add a repeated inline detail inside the main letter shape.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Inline typography",
+    "imageUrl": "https://i.pinimg.com/originals/5f/78/47/5f7847c47cec4599d306dfe18e05f565.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Interior strokes add a repeated inline detail inside the main letter shape.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Outline typography",
+    "imageUrl": "https://i.pinimg.com/originals/fd/d3/dd/fdd3dd2ca80fd6729913470351f0ad60.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Hollow letter contours are an explicit compositional device.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Outline typography",
+    "imageUrl": "https://i.pinimg.com/originals/1b/5c/c8/1b5cc88f6db849994f38ec316ad20837.webp",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Outline typography",
+    "imageUrl": "https://i.pinimg.com/originals/5b/56/ab/5b56abc864af9b8c2ecb885c57bdc9f3.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Hollow letter contours are an explicit compositional device.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Outline typography",
+    "imageUrl": "https://i.pinimg.com/originals/76/a0/3a/76a03a28fd4577ee9677ce25108b1067.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Hollow letter contours are an explicit compositional device.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Outline typography",
+    "imageUrl": "https://i.pinimg.com/originals/8b/65/43/8b6543b054f353bc1082c27758e4fe5c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/59/b1/dd/59b1dda7abe254688f8db08f6ea02eb6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Cast or drawn shadows visibly extend the letterforms and define the composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/08/38/8f/08388f8d74b48980e838e43ea835a3ad.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Cast or drawn shadows visibly extend the letterforms and define the composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/be/75/2b/be752b78c29ebd7ec40759d13c600d54.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Cast or drawn shadows visibly extend the letterforms and define the composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/cb/64/44/cb6444a2dccc68461f637e5bfec8f8d6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Cast or drawn shadows visibly extend the letterforms and define the composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/d4/6e/a0/d46ea032854db94880cc59a288508348.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Cast or drawn shadows visibly extend the letterforms and define the composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/0a/23/07/0a23072959de58fd9b096b467f90b816.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Shadow typography",
+    "imageUrl": "https://i.pinimg.com/originals/9e/36/e1/9e36e19fce2bd2301e3207b01d5cf3e1.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Cast or drawn shadows visibly extend the letterforms and define the composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Chromatic typography",
+    "imageUrl": "https://i.pinimg.com/originals/e8/c3/00/e8c300157af117a889aa9abebb905264.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Chromatic typography",
+    "imageUrl": "https://i.pinimg.com/originals/8f/9c/56/8f9c5629d4e24474d78a23dde8c50cf8.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Chromatic typography",
+    "imageUrl": "https://i.pinimg.com/originals/f4/49/c3/f449c3c4203b7f44a242f684eeec1690.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Chromatic typography",
+    "imageUrl": "https://i.pinimg.com/originals/88/cb/1a/88cb1ae7840b065f546f91e0e3fe7c1b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Chromatic typography",
+    "imageUrl": "https://i.pinimg.com/originals/47/2d/64/472d6416767fa4dd40055120d404d67d.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/7e/59/fc/7e59fc5c50aa8579540541462584d7c4.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/90/1c/09/901c0997463eee13fef6ff87946b57cc.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/58/e2/54/58e254783d6ca062d6f945e847f29f7f.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/e9/12/1e/e9121ef3a4d007c1b5d2697bb4c0e948.gif",
+    "reviewStatus": "approved",
+    "reviewNote": "Visibly wide letter proportions create an extended typographic rhythm.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/59/48/b6/5948b6cb1eaed5bbd1b570e525e25f1e.gif",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/15/4a/d0/154ad0c076defa35b82daa6d6881a909.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Extended typography",
+    "imageUrl": "https://i.pinimg.com/originals/07/6d/90/076d90525b9a7d1adb11cbdc441b0d0e.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Visibly wide letter proportions create an extended typographic rhythm.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Condensed typography",
+    "imageUrl": "https://i.pinimg.com/originals/23/be/b2/23beb2a20cc6243c7f0a2a52b9478ae4.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Narrow letter widths and tall proportions dominate the typographic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Condensed typography",
+    "imageUrl": "https://i.pinimg.com/originals/c9/32/7e/c9327e6ea492fbdcbd8f6fd63ad18875.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Narrow letter widths and tall proportions dominate the typographic composition.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Reverse-contrast typography",
+    "imageUrl": "https://i.pinimg.com/originals/cb/d9/8c/cbd98cc2d0e3481847ab3fc804d99b8d.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Horizontal strokes or upper/lower curves carry more weight than vertical stems.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Reverse-contrast typography",
+    "imageUrl": "https://i.pinimg.com/originals/66/1d/3b/661d3b36298c715e9518a82bce737c32.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Horizontal strokes or upper/lower curves carry more weight than vertical stems.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Reverse-contrast typography",
+    "imageUrl": "https://i.pinimg.com/originals/52/65/7a/52657aeb9ce3fe82da6fc8917c9a1539.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Horizontal strokes or upper/lower curves carry more weight than vertical stems.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Reverse-contrast typography",
+    "imageUrl": "https://i.pinimg.com/originals/8b/c4/b1/8bc4b127d06e21cd12b8bb46a88776da.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Horizontal strokes or upper/lower curves carry more weight than vertical stems.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/a6/75/e1/a675e1e87fe02f15474194a2084f87fd.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/96/2b/6b/962b6bc074e1e0b7d7d220a456277080.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/e7/50/b2/e750b2bf055303d10f88a2893bf74412.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/0c/a5/ff/0ca5ffa3745a1f755f9d176adf54693d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/e2/eb/d7/e2ebd7ea9e065126a1d540a331c8c34f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/76/a0/88/76a088ae5aef6e421996402b51bc72a6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/90/55/95/9055957d67203530296526422b14d76c.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/19/86/8c/19868c2ab6fc694c51bcf9c099c11a23.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Modular typography",
+    "imageUrl": "https://i.pinimg.com/originals/20/c7/67/20c7673a527def5ec51b9cc7b92d56b6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated geometric units visibly construct the letterforms.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Oversized typography",
+    "imageUrl": "https://i.pinimg.com/originals/43/b8/d0/43b8d07eca39e6546b87b89dad8e67ee.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Very large letterforms dominate the image and establish its hierarchy.",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate model/editorial/product posing; no casual group, selfie or tutorial-presenter imagery."
+  },
+  {
+    "styleName": "Oversized typography",
+    "imageUrl": "https://i.pinimg.com/originals/bf/3f/1a/bf3f1a5e5f6908639a5436f4eaa0308f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Very large letterforms dominate the image and establish its hierarchy.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Oversized typography",
+    "imageUrl": "https://i.pinimg.com/originals/22/10/27/221027c2e862a110f793c0613b025990.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Very large letterforms dominate the image and establish its hierarchy.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Oversized typography",
+    "imageUrl": "https://i.pinimg.com/originals/4f/b4/e1/4fb4e163f68a91e6274a9d966d4c34b0.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Very large letterforms dominate the image and establish its hierarchy.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Type-specimen design",
+    "imageUrl": "https://i.pinimg.com/originals/8f/c5/15/8fc515dea038a55741c9d45d585e49c6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "The composition presents letterforms themselves as the primary designed subject.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Type-specimen design",
+    "imageUrl": "https://i.pinimg.com/originals/9f/a2/37/9fa237144c9f418e12b8173f4ff802c6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "The composition presents letterforms themselves as the primary designed subject.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Mincho typography",
+    "imageUrl": "https://i.pinimg.com/originals/61/ab/91/61ab912f3e6915e7ce4c7fa796996547.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Mincho typography",
+    "imageUrl": "https://i.pinimg.com/originals/ab/42/25/ab4225410673afe6fe24ce6f462776dd.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Mincho typography",
+    "imageUrl": "https://i.pinimg.com/originals/81/a7/c9/81a7c96531d35951da01febc1d5b499f.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Strong vertical-horizontal contrast and sharp serif-like terminals show an expressive Mincho-derived display treatment.",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Mincho typography",
+    "imageUrl": "https://i.pinimg.com/originals/70/6d/50/706d506a4fb2456431550b31605af811.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Mincho typography",
+    "imageUrl": "https://i.pinimg.com/originals/10/84/cf/1084cf3efe16425b4730981b5da43e5f.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Does not clearly demonstrate the defining visual direction."
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/c6/77/7f/c6777f77d4c782c57fbd1d29c6a0361d.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded connected Arabic forms, balanced baseline and modulated strokes demonstrate Naskh.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/5f/33/aa/5f33aac8bda278b5912194a23a789e87.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Sweeping connected forms and descending diagonal arrangements demonstrate Nastaliq.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/5c/36/4b/5c364b0a04f33dc93a732da9fd2f21f3.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded connected Arabic forms, balanced baseline and modulated strokes demonstrate Naskh.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/10/c1/5d/10c15d0e340de97c8f55856cf9cd7680.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded connected Arabic forms, balanced baseline and modulated strokes demonstrate Naskh.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/24/c3/f2/24c3f22dddbeca238c14c1c41c738d37.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Rounded connected Arabic forms, balanced baseline and modulated strokes demonstrate Naskh.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Kufic-inspired typography",
+    "imageUrl": "https://i.pinimg.com/originals/32/30/96/3230964b4511d90d1d4237d993be090f.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Angular and geometric Arabic lettering demonstrates Kufic-derived construction.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Kufic-inspired typography",
+    "imageUrl": "https://i.pinimg.com/originals/ba/2c/14/ba2c1487acd06f84866cd97a8c33bea9.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Angular and geometric Arabic lettering demonstrates Kufic-derived construction.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/61/ca/86/61ca86c4cf7fa47481770751134f3125.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Sweeping connected forms and descending diagonal arrangements demonstrate Nastaliq.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/5b/70/ac/5b70acc9ff5f88b152cdccea17482f2c.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Sweeping connected forms and descending diagonal arrangements demonstrate Nastaliq.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/37/f1/63/37f16310614142e73fa2238922fb308a.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Sweeping connected forms and descending diagonal arrangements demonstrate Nastaliq.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Blackletter typography",
+    "imageUrl": "https://i.pinimg.com/originals/b7/62/57/b76257e03bd180ce35609b69aa0e11ef.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Angular broken strokes, thick verticals and pointed Gothic forms are clearly shown.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate posed portrait studies or editorial headshot."
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/5f/33/aa/5f33aac8bda278b5912194a23a789e87.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Nastaliq specimen, not Naskh; the same source is reviewed under Nastaliq.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/65/eb/6a/65eb6a47e30de92cdd44de000326ca63.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Practice lettering does not clearly establish the defining Naskh typographic character.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/cd/f4/64/cdf464dbc96b960de1c904c1664be564.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Angular geometric Arabic lettering does not demonstrate Naskh.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Naskh typography",
+    "imageUrl": "https://i.pinimg.com/originals/aa/9e/92/aa9e9251439db4895a14435824b509c4.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Dense ornamental calligraphic composition does not clearly demonstrate Naskh text forms.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Nastaliq typography",
+    "imageUrl": "https://i.pinimg.com/originals/f6/be/01/f6be01756f0dcbdfc7b7694a86611c89.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Angular geometric composition does not demonstrate the sloping connected character of Nastaliq.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/da/a1/d3/daa1d39f4e0fb91c1aa8863f5f6009c8.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Pencil signpost drawing, not sign-painted lettering.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/9f/13/f1/9f13f1da1d583828bd64af05337ca03a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Painted display letters, brush curves and signwriting flourishes are clearly shown.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/35/ff/a9/35ffa9ecab45cffadb2de79e93f84866.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Painted display letters, brush curves and signwriting flourishes are clearly shown.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Typographic Index",
+    "imageUrl": "https://i.pinimg.com/originals/62/72/3f/62723f7757702036db96d6d4d9c49f8d.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Repeated numbered sections form a readable typographic index.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/c0/ab/90/c0ab905ecb7ac67ed7a41c118ac0c2c2.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "A sequence of small framed images is organized into repeated rows for comparison.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "posed-model",
+    "peopleReviewNote": "Visually reviewed: deliberate posed portrait studies or editorial headshot."
+  },
+  {
+    "styleName": "Sign-painted lettering",
+    "imageUrl": "https://i.pinimg.com/originals/54/f3/e4/54f3e49bda06fe0b4ba21cf25a6338fc.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Candid photograph of a person painting a sign, not a deliberately posed model shoot.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Candid photograph of a person painting a sign, not a deliberately posed model shoot."
+  },
+  {
+    "styleName": "Typographic Index",
+    "imageUrl": "https://i.pinimg.com/originals/2d/ea/54/2dea54941d1ae035e6c341f61d38e10f.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Casual hand-held page demonstration photograph.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Casual hand-held page demonstration photograph."
+  },
+  {
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/cc/0d/15/cc0d157aab9223c2b6dc85a803553b4c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Contact sheet includes candid street and casual portrait photographs.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Contact sheet includes candid street and casual portrait photographs."
+  },
+  {
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/55/88/e0/5588e0e139390ddc341cde94a65b6c7b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Casual hand-held contact-sheet snapshot, not a deliberate model shoot.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Casual hand-held contact-sheet snapshot, not a deliberate model shoot."
+  },
+  {
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/72/4d/93/724d9317f616289883ead507ce16f14c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Tutorial worksheet is dominated by instructions; the small embedded contact sheet is not a clear standalone reference.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/a6/b8/fa/a6b8fa0f8676c0e7c65b05545fb5d5ce.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/a1/2b/3c/a12b3c9ee8b4c459ffe540928ff7c840.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/71/db/40/71db408b6e5cb9c7273f2803091c0553.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/66/71/34/667134d97069daed1a35a7aba09b7a26.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/3c/8c/62/3c8c622dd4666c3ea463ba91ba132d6c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/ef/21/d7/ef21d78bb24206ecd6351a3259456f2c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/54/8a/a9/548aa9fbdd207fa448b3afc62dda5ad8.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Name-keyword result or ornamental wordmark does not establish the compact connected handwriting of Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z"
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/dd/d7/20/ddd720359934b3f4b33b0aa8e0385bb2.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Compact simplified Arabic letterforms demonstrate Ruq’ah.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/52/38/89/523889dab1d0969e8808145117ffe9aa.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Japanese text reads in vertical columns with Japanese characters and kana.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/87/82/c4/8782c4c88b924ca35e7c0707d0f980a7.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Japanese text reads in vertical columns with Japanese characters and kana.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Monospaced editorial typography",
+    "imageUrl": "https://i.pinimg.com/originals/f3/f4/72/f3f472f49a0fc4dfb36e1054318839ff.webp",
+    "reviewStatus": "approved",
+    "reviewNote": "Equal-width character spacing structures the editorial type composition.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Monospaced editorial typography",
+    "imageUrl": "https://i.pinimg.com/originals/ae/61/73/ae6173707e2e213598d356123555493a.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Equal-width character spacing structures the editorial type composition.",
+    "reviewedAt": "2026-10-20T13:30:20.064Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/a6/90/74/a69074959c00e330d962a85fcc20d2de.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/71/46/41/714641d7ae35849dfb1d441f8b66fe0c.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Ruq’ah typography",
+    "imageUrl": "https://i.pinimg.com/originals/ff/34/66/ff34660a1f1b20ba306edd3b2351fcf8.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Decorative Latin initial is not Ruq’ah typography.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/67/17/b1/6717b1b5d28ca76514a63b22ba06f07c.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Chinese calligraphy example does not establish Japanese vertical typesetting.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/9a/fb/4c/9afb4ce1f7b9d0420cbfe4b2ec8cba7e.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Chinese idiomatic calligraphy does not establish Japanese vertical typesetting.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/41/3a/b2/413ab2328779b3c331dba2158075ab62.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Chinese text set vertically is not a Japanese typesetting reference.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Vertical Japanese typography",
+    "imageUrl": "https://i.pinimg.com/originals/63/ca/5d/63ca5d5641bf6b7146e720dc8ad5b7c1.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Isolated kanji words with English translations do not clearly demonstrate Japanese vertical typesetting.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/c9/4d/f6/c94df66f5c7a7532662b53af73cd7c5b.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Soft irregular alternate glyphs do not clearly demonstrate worn, damaged or distressed letter surfaces.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/b1/cb/73/b1cb7376b1003a566ae04c2bda1311bf.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Conventional serif branding specimen lacks a defining distressed type treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/e6/5b/90/e65b9020bcaef7544f6d1d70d9986180.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Includes candid basketball action photographs.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Includes candid basketball action photographs."
+  },
+  {
+    "styleName": "Kufic-inspired typography",
+    "imageUrl": "https://i.pinimg.com/originals/1b/d4/53/1bd4534ce8ae4a12ff5a66026e0a385e.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Angular and geometric Arabic lettering demonstrates Kufic-derived construction.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/41/bc/a9/41bca9136d59c90965afb32c550e2e75.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "A sequence of small framed images is organized into repeated rows for comparison.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/ac/68/ac/ac68acd891bf119b68ebcb5caa7c571f.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/d3/71/90/d37190686d52c8a10a4b091ac465c3c7.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/e9/a5/97/e9a597e8d10f852c1047631f1e0066a9.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/7f/78/2e/7f782ef52d664e91455128000ea1b26b.png",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/5a/77/94/5a7794127654e8b9b03cc36e93bf03bc.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/57/df/a7/57dfa7d5f6d51216d3d8c2e5685695d6.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "Worn, scratched, broken, unevenly inked or eroded letter surfaces define the treatment.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/28/8f/08/288f083e77a36b3299a35199ddae4a7a.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/e5/36/70/e53670abc5dba45aff72748f454b9140.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/03/16/a7/0316a731f3c013f28243a3748d6b0eb4.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/99/ce/47/99ce474459293b02138db3ba23906dd4.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/56/8c/6d/568c6dba7ea50965b1549d61c861501b.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/ea/66/c1/ea66c16463901505b7e446e2c225b0ef.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/4d/90/4c/4d904c77b8dba22c07a86eb15d55ee6b.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/c8/fb/57/c8fb57bacc98e5e198dc9c5c18e3c153.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/86/01/0c/86010ca61452cc723513295939398ef1.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/3d/47/32/3d4732b38f827ac49ef4b297750c56e6.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/05/fc/fb/05fcfbf108a13974a8849fb66cf58dbd.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/2b/44/dd/2b44ddee9f450d8eafa1460a09477465.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Not selected after visual review; the eight retained examples demonstrate more distinct worn, scratched, inked or eroded letter treatments.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/b5/e3/cd/b5e3cd475ee36fb50835849f8ab77706.jpg",
+    "reviewStatus": "rejected",
+    "reviewNote": "Visually duplicates another collected Hoax specimen; not selected.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z"
+  },
+  {
+    "styleName": "Distressed typography",
+    "imageUrl": "https://i.pinimg.com/originals/36/72/17/367217e00787350bc840aea8cd64a37e.png",
+    "reviewStatus": "rejected",
+    "reviewNote": "Photocopy-type specimen includes a blurred candid street photograph with people.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "excluded-photo",
+    "peopleReviewNote": "Photocopy-type specimen includes a blurred candid street photograph with people."
+  },
+  {
+    "styleName": "Contact Sheet",
+    "imageUrl": "https://i.pinimg.com/originals/64/4d/1a/644d1a1bface2e9f49016d07f8d33351.jpg",
+    "reviewStatus": "approved",
+    "reviewNote": "A sequence of small framed images is organized into repeated rows for comparison.",
+    "reviewedAt": "2026-10-20T13:30:20.065Z",
+    "peopleReview": "no-real-people",
+    "peopleReviewNote": "Visually reviewed: no photographed real people; illustrated or rendered figures may be present."
+  }
+]

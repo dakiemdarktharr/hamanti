@@ -1,0 +1,367 @@
+{
+  "startedAt": "2026-10-20T12:08:22.277Z",
+  "discovered": 7684,
+  "uniqueFiles": 7630,
+  "downloaded": 256,
+  "previouslyMeasured": 4683,
+  "belowHD": 4906,
+  "qualifying": 795,
+  "failures": [
+    {
+      "imageUrl": "https://i.pinimg.com/originals/13/63/51/136351d62f7e7537d65ab8f724d1b6c3.heic",
+      "error": "source: bad seek to 2234346\nsource: bad seek to 2234329\nsource: bad seek to 2234320\nsource: bad seek to 2234316\nsource: bad seek to 2234315\nheif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/2e/e4/e7/2ee4e7e11d95142fec243a89c78f6873.heic",
+      "error": "heif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)\nheif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/25/41/dd/2541ddd53e92166e20ddee6b8e6f5e18.heic",
+      "error": "Warning treated as error due to failOn setting"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/f1/87/4c/f1874cd8a9dd376213a353051e60cb18.heic",
+      "error": "heif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/5f/70/b1/5f70b1698e73b6e53b6649cff2344244.jpg",
+      "error": "Input image exceeds pixel limit"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/c8/22/aa/c822aa5df9ffbe12372cd5008970dd38.heic",
+      "error": "heif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/85/89/59/8589590d9c34ee23f07b0629acd568d5.heic",
+      "error": "heif: Error while loading plugin: Support for this compression format has not been built in: HEVC (a suitable decoder plugin is libde265) (11.6003)"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/30/76/15/30761527a1ccef0b2595996b700d1129.jpg",
+      "error": "Input image exceeds pixel limit"
+    }
+  ],
+  "finishedAt": "2026-10-20T12:09:07.221Z",
+  "cachedBytes": 796717554,
+  "styleCoverage": [
+    {
+      "styleName": "Art Nouveau",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Art Deco",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Stipple illustration",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Scratchboard illustration",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Charcoal illustration",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Colored-pencil illustration",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Marker illustration",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Screenprint aesthetic",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Risograph print aesthetic",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Letterpress aesthetic",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Woodcut print aesthetic",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Linocut print aesthetic",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Etching print aesthetic",
+      "qualifying": 17
+    },
+    {
+      "styleName": "Lithographic print aesthetic",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Bauhaus",
+      "qualifying": 6
+    },
+    {
+      "styleName": "De Stijl",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Psychedelic Graphics",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Monotype print aesthetic",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Cyanotype aesthetic",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Photogram aesthetic",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Paper-ephemera collage",
+      "qualifying": 15
+    },
+    {
+      "styleName": "Xerox copy-art",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Zine aesthetic",
+      "qualifying": 17
+    },
+    {
+      "styleName": "Stencil aesthetic",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Paste-up aesthetic",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Decoupage aesthetic",
+      "qualifying": 31
+    },
+    {
+      "styleName": "Mixed-media assemblage",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Ink-wash aesthetic",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Gouache aesthetic",
+      "qualifying": 18
+    },
+    {
+      "styleName": "Watercolor-wash aesthetic",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Impasto painting",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Pastel drawing",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Fresco-mural aesthetic",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Embroidery illustration",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Quilted-collage aesthetic",
+      "qualifying": 18
+    },
+    {
+      "styleName": "Beadwork graphic aesthetic",
+      "qualifying": 21
+    },
+    {
+      "styleName": "Tapestry-inspired graphic style",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Punk Graphic Design",
+      "qualifying": 13
+    },
+    {
+      "styleName": "New Wave Graphics",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Mosaic illustration",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Memphis Design",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Pop Art",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Dada",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Futurism",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Suprematism",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Vorticism",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Orphism",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Rayonism",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Precisionism",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Polish School of Graphic Design",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Japanese Modernism",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Op Art",
+      "qualifying": 10
+    },
+    {
+      "styleName": "Kinetic Art",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Abstract Expressionism",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Hard-Edge Abstraction",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Color-Field Painting",
+      "qualifying": 13
+    },
+    {
+      "styleName": "Lyrical Abstraction",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Neo-Expressionism",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Pop Surrealism",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Fluxus Graphics",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Situationist Graphics",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Postmodern Graphic Design",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Flat-vector illustration",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Minimal line illustration",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Doodle illustration",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Conceptual editorial illustration",
+      "qualifying": 19
+    },
+    {
+      "styleName": "Anime visual style",
+      "qualifying": 19
+    },
+    {
+      "styleName": "Manga visual style",
+      "qualifying": 18
+    },
+    {
+      "styleName": "Chibi illustration",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Superflat illustration",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Soviet Constructivism",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Kawaii illustration",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Ligne claire illustration",
+      "qualifying": 8
+    },
+    {
+      "styleName": "American comic-book art",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Mid-century modern illustration",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Airbrush illustration",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Textured-vector illustration",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Paper-cut illustration",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Halftone illustration",
+      "qualifying": 16
+    },
+    {
+      "styleName": "Crosshatch drawing",
+      "qualifying": 8
+    }
+  ]
+}

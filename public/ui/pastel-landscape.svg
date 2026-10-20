@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="brush" x="-12%" y="-25%" width="124%" height="150%">
+      <feTurbulence type="fractalNoise" baseFrequency=".014 .09" numOctaves="2" seed="31" result="grain"/>
+      <feDisplacementMap in="SourceGraphic" in2="grain" scale="24" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="chalk" x="-10%" y="-20%" width="120%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".24 .62" numOctaves="2" seed="7" result="tooth"/>
+      <feColorMatrix in="tooth" type="matrix" values="0 0 0 0 .93 0 0 0 0 .92 0 0 0 0 .84 0 0 0 .24 0"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+  <g filter="url(#brush)" stroke-linecap="round">
+    <g opacity=".55" stroke="#b9ccd1">
+      <path d="M-80 144 Q230 54 506 139 T1120 136 T1700 70" stroke-width="105"/>
+      <path d="M-75 215 Q201 132 458 220 T970 194 T1700 180" stroke-width="42" opacity=".55"/>
+    </g>
+    <g opacity=".65" stroke="#efe2c9">
+      <path d="M-90 282 Q237 192 580 293 T1260 242 T1700 277" stroke-width="91"/>
+      <path d="M110 211 Q338 142 592 218 M1080 155 Q1310 115 1640 185" stroke-width="34"/>
+    </g>
+    <g opacity=".32" stroke="#c5b5d0">
+      <path d="M-130 408 Q164 304 425 415 M1120 357 Q1410 285 1700 398" stroke-width="77"/>
+      <path d="M-90 457 Q182 361 404 441 M1190 405 Q1440 345 1670 452" stroke-width="23"/>
+    </g>
+    <g opacity=".55" stroke="#a7b99c">
+      <path d="M-100 712 Q105 414 360 633 M1135 634 Q1432 417 1700 656" stroke-width="163"/>
+      <path d="M-100 866 Q157 599 451 794 M1070 820 Q1424 598 1680 764" stroke-width="113"/>
+    </g>
+    <g opacity=".48" stroke="#83a791">
+      <path d="M-95 788 Q113 614 270 749 M1360 735 Q1510 607 1680 740" stroke-width="75"/>
+      <path d="M-50 946 Q171 740 392 922 M1240 945 Q1454 761 1660 871" stroke-width="123"/>
+    </g>
+    <g opacity=".4" stroke="#deb29e">
+      <path d="M-50 947 Q179 848 351 963 M1310 902 Q1462 828 1640 920" stroke-width="52"/>
+      <path d="M-80 597 Q33 526 151 583 M1470 531 Q1573 484 1700 562" stroke-width="32"/>
+    </g>
+  </g>
+  <g filter="url(#chalk)" stroke-linecap="square" opacity=".36">
+    <path d="M-30 143 Q213 75 430 133 M1110 139 Q1370 77 1630 94" stroke="#e7e9e4" stroke-width="21"/>
+    <path d="M-25 648 Q90 528 213 590 M1388 582 Q1510 482 1640 551" stroke="#d4d7b7" stroke-width="25"/>
+    <path d="M-40 788 Q102 669 230 741 M1370 785 Q1524 674 1640 738" stroke="#bfcba8" stroke-width="17"/>
+    <path d="M-20 911 Q111 819 266 906 M1390 930 Q1533 823 1650 876" stroke="#e3ccad" stroke-width="13"/>
+  </g>
+</svg>

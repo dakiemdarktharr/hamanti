@@ -1,0 +1,422 @@
+{
+  "startedAt": "2026-10-20T12:04:38.129Z",
+  "discovered": 3439,
+  "uniqueFiles": 3207,
+  "downloaded": 252,
+  "belowHD": 2784,
+  "qualifying": 418,
+  "failures": [
+    {
+      "imageUrl": "https://i.pinimg.com/originals/38/56/4b/38564bf155b9fee25bb5001cd79f8c9e.png",
+      "error": "HTTP 403"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/f8/7f/eb/f87feb99f8c2ed26ac950c681cbad82a.png",
+      "error": "HTTP 403"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/23/26/87/2326871d85f052fd938c674bb56f7b12.jpg",
+      "error": "Input image exceeds pixel limit"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/ab/3e/8e/ab3e8ea0a16d92d546726978db7db1cb.png",
+      "error": "Input image exceeds pixel limit"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/29/d9/fd/29d9fdd50faae97f0923a1cba6f54910.jpg",
+      "error": "Input buffer contains unsupported image format"
+    }
+  ],
+  "finishedAt": "2026-10-20T12:05:35.588Z",
+  "cachedBytes": 743462054,
+  "styleCoverage": [
+    {
+      "styleName": "Flat Design",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Flat 2.0",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Skeuomorphism",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Material Realism",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Neumorphism",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Glassmorphism",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Claymorphism",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Minimalism",
+      "qualifying": 12
+    },
+    {
+      "styleName": "Organic Design",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Hand-Drawn Design",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Swiss International Style",
+      "qualifying": 4
+    },
+    {
+      "styleName": "New Typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Column Grid",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Modular Grid",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Hierarchical Grid",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Bento Grid",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Card-Based Design",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Editorial Design",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Newspaper Design",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Maximalism",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Duotone",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Neo Geo",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Corporate Memphis",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Vectordelia",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Vectorgarden",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Technozen",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Arts and Crafts",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Synthwave",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Cyberpunk",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Hyperpop",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Solarpunk",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Frasurbane",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Global Village Coffeehouse",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Corporate Grunge",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Whimsicraft",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Factory Pomo",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Utopian Scholastic",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Dollar Store Vernacular",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Plakatstil",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Hipness Purgatory",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Supergraphic Ultramodern",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Steampunk",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Afrofuturism",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Impressionism",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Post-Internet Aesthetic",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Art Brut",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Surrealism",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Corporate Hippie",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Whimsigothic",
+      "qualifying": 9
+    },
+    {
+      "styleName": "New Aesthetic",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Cubism",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Fauvism",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Photomontage",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Warm Minimalism",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Geometric sans-serif typography",
+      "qualifying": 11
+    },
+    {
+      "styleName": "Grotesque typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Neo-grotesque typography",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Humanist sans-serif typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Rounded sans-serif typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Humanist serif typography",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Transitional serif typography",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Didone typography",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Fat-face typography",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Scotch Roman typography",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Geometric slab-serif typography",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Clarendon typography",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Glyphic typography",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Upright script typography",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Stencil typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Wood-type typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Tuscan typography",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Blackletter typography",
+      "qualifying": 17
+    },
+    {
+      "styleName": "Formal script typography",
+      "qualifying": 14
+    },
+    {
+      "styleName": "Brush-script typography",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Handwritten typography",
+      "qualifying": 1
+    },
+    {
+      "styleName": "Inline typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Outline typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Shadow typography",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Chromatic typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Condensed typography",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Extended typography",
+      "qualifying": 7
+    },
+    {
+      "styleName": "Reverse-contrast typography",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Modular typography",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Oversized typography",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Type-specimen design",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Mincho typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Naskh typography",
+      "qualifying": 8
+    },
+    {
+      "styleName": "Kufic-inspired typography",
+      "qualifying": 3
+    },
+    {
+      "styleName": "Nastaliq typography",
+      "qualifying": 5
+    },
+    {
+      "styleName": "Sign-painted lettering",
+      "qualifying": 4
+    },
+    {
+      "styleName": "Typographic Index",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Contact Sheet",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Overlapping Layout",
+      "qualifying": 0
+    },
+    {
+      "styleName": "Ruq’ah typography",
+      "qualifying": 9
+    },
+    {
+      "styleName": "Vertical Japanese typography",
+      "qualifying": 6
+    },
+    {
+      "styleName": "Monospaced editorial typography",
+      "qualifying": 2
+    },
+    {
+      "styleName": "Distressed typography",
+      "qualifying": 25
+    }
+  ]
+}

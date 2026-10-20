@@ -1,0 +1,1867 @@
+[
+  {
+    "legacyId": 1,
+    "name": "Art Nouveau",
+    "description": "Organic line, botanical forms, and decorative letterforms create a flowing, ornamental visual language.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "botanical",
+      "ornament",
+      "flowing line"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "An Introduction to the History of Graphic Design",
+        "url": "https://www.designhistory.org/"
+      }
+    ],
+    "referenceQueries": [
+      "Art Nouveau",
+      "Art Nouveau design",
+      "Art Nouveau aesthetics"
+    ]
+  },
+  {
+    "legacyId": 2,
+    "name": "Art Deco",
+    "description": "Geometric symmetry, stepped forms, streamlined ornament, and polished contrast evoke machine-age glamour.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "geometric",
+      "symmetry",
+      "ornament"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Art Deco",
+      "Art Deco design",
+      "Art Deco aesthetics"
+    ]
+  },
+  {
+    "legacyId": 4,
+    "name": "Polish School of Graphic Design",
+    "description": "Metaphorical imagery, expressive lettering, painterly color, and surreal visual compression.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "metaphor",
+      "expressive lettering",
+      "painterly"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Polish School of Graphic Design",
+      "Polish School of Graphic Design design",
+      "Polish School of Graphic Design aesthetics"
+    ]
+  },
+  {
+    "legacyId": 5,
+    "name": "Japanese Modernism",
+    "description": "Distilled symbols, precise typography, asymmetry, and generous open space.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "symbols",
+      "asymmetry",
+      "open space"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Japanese Modernism",
+      "Japanese Modernism design",
+      "Japanese Modernism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 6,
+    "name": "Soviet Constructivism",
+    "description": "Geometric forms, photomontage, diagonal energy, and utilitarian communication.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "geometry",
+      "diagonal",
+      "photomontage"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      },
+      {
+        "title": "An Introduction to the History of Graphic Design",
+        "url": "https://www.designhistory.org/"
+      }
+    ],
+    "referenceQueries": [
+      "Soviet Constructivism",
+      "Soviet Constructivism design",
+      "Soviet Constructivism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 7,
+    "name": "Bauhaus",
+    "description": "Functional geometry, primary colors, clear typography, and reduced forms.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "primary colors",
+      "functional",
+      "geometry"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      },
+      {
+        "title": "An Introduction to the History of Graphic Design",
+        "url": "https://www.designhistory.org/"
+      }
+    ],
+    "referenceQueries": [
+      "Bauhaus",
+      "Bauhaus design",
+      "Bauhaus aesthetics"
+    ]
+  },
+  {
+    "legacyId": 8,
+    "name": "De Stijl",
+    "description": "Rectilinear geometry, primary colors, and disciplined horizontal and vertical structure.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "rectilinear",
+      "primary colors",
+      "grid"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      },
+      {
+        "title": "An Introduction to the History of Graphic Design",
+        "url": "https://www.designhistory.org/"
+      }
+    ],
+    "referenceQueries": [
+      "De Stijl",
+      "De Stijl design",
+      "De Stijl aesthetics"
+    ]
+  },
+  {
+    "legacyId": 9,
+    "name": "Psychedelic Graphics",
+    "description": "Vibrating outlines, dense ornament, fluid lettering, and saturated color.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "saturated",
+      "fluid lettering",
+      "optical"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Psychedelic Graphics",
+      "Psychedelic Graphics design",
+      "Psychedelic Graphics aesthetics"
+    ]
+  },
+  {
+    "legacyId": 10,
+    "name": "Punk Graphic Design",
+    "description": "Cut-and-paste textures, defiant typography, rough reproduction, and stark contrast.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "DIY",
+      "cut-and-paste",
+      "rough type"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "An Introduction to the History of Graphic Design",
+        "url": "https://www.designhistory.org/"
+      }
+    ],
+    "referenceQueries": [
+      "Punk Graphic Design",
+      "Punk Graphic Design design",
+      "Punk Graphic Design aesthetics"
+    ]
+  },
+  {
+    "legacyId": 11,
+    "name": "New Wave Graphics",
+    "description": "Layered grids, fragmented typography, sharp color, and playful visual disruption.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "broken grid",
+      "layered type",
+      "Swiss Punk"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "Design History: The New Wave of Graphic Design",
+        "url": "https://www.designhistory.org/PostModern_pages/NewWave.html"
+      }
+    ],
+    "referenceQueries": [
+      "New Wave Graphics",
+      "New Wave Graphics design",
+      "New Wave Graphics aesthetics"
+    ],
+    "aliases": [
+      "Swiss Punk"
+    ]
+  },
+  {
+    "legacyId": 12,
+    "name": "Memphis Design",
+    "description": "Playful geometry, squiggles, pattern clashes, and bright, pastel, or primary palettes.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "squiggles",
+      "pattern",
+      "playful geometry"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Memphis Design",
+      "Memphis Design design",
+      "Memphis Design aesthetics"
+    ]
+  },
+  {
+    "legacyId": 13,
+    "name": "Pop Art",
+    "description": "Mass-media imagery, bold outlines, repetition, and commercial color.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "mass media",
+      "repetition",
+      "bold outlines"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Pop Art",
+      "Pop Art design",
+      "Pop Art aesthetics"
+    ]
+  },
+  {
+    "legacyId": 18,
+    "name": "Dada",
+    "description": "Chance composition, collage, absurd juxtapositions, and anti-rational expression.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "chance",
+      "collage",
+      "absurd"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      }
+    ],
+    "referenceQueries": [
+      "Dada",
+      "Dada design",
+      "Dada aesthetics"
+    ]
+  },
+  {
+    "legacyId": 19,
+    "name": "Futurism",
+    "description": "Directional motion, dynamic diagonals, machine energy, and fragmented rhythm.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "motion",
+      "diagonal",
+      "fragmentation"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      }
+    ],
+    "referenceQueries": [
+      "Futurism",
+      "Futurism design",
+      "Futurism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 20,
+    "name": "Suprematism",
+    "description": "Floating geometric forms, pure color fields, and non-representational composition.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "geometry",
+      "pure color",
+      "abstraction"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Suprematism",
+      "Suprematism design",
+      "Suprematism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 21,
+    "name": "Vorticism",
+    "description": "Angular abstraction, compressed movement, and industrial energy.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "angular",
+      "industrial",
+      "movement"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Vorticism",
+      "Vorticism design",
+      "Vorticism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 22,
+    "name": "Orphism",
+    "description": "Rhythmic circles, luminous color, and musical abstraction.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "circles",
+      "luminous color",
+      "rhythm"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Orphism",
+      "Orphism design",
+      "Orphism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 23,
+    "name": "Rayonism",
+    "description": "Intersecting rays and translucent planes suggest motion and fractured light.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "rays",
+      "translucent",
+      "fractured light"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Rayonism",
+      "Rayonism design",
+      "Rayonism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 24,
+    "name": "Precisionism",
+    "description": "Crisp industrial forms, simplified urban geometry, and clean edges.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "crisp edges",
+      "industrial",
+      "geometry"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Precisionism",
+      "Precisionism design",
+      "Precisionism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 25,
+    "name": "Op Art",
+    "description": "Optical patterns and calculated contrast create perceptual movement.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "optical",
+      "pattern",
+      "contrast"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Op Art",
+      "Op Art design",
+      "Op Art aesthetics"
+    ]
+  },
+  {
+    "legacyId": 26,
+    "name": "Kinetic Art",
+    "description": "Repeated forms and visual rhythm imply or produce movement.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "movement",
+      "rhythm",
+      "repetition"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Kinetic Art",
+      "Kinetic Art design",
+      "Kinetic Art aesthetics"
+    ]
+  },
+  {
+    "legacyId": 27,
+    "name": "Abstract Expressionism",
+    "description": "Gestural marks, open composition, and emotionally charged color.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "gesture",
+      "marks",
+      "expressive color"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      }
+    ],
+    "referenceQueries": [
+      "Abstract Expressionism",
+      "Abstract Expressionism design",
+      "Abstract Expressionism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 28,
+    "name": "Hard-Edge Abstraction",
+    "description": "Flat color planes with sharply defined boundaries and little visible brushwork.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "flat color",
+      "sharp edges",
+      "abstraction"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Hard-Edge Abstraction",
+      "Hard-Edge Abstraction design",
+      "Hard-Edge Abstraction aesthetics"
+    ]
+  },
+  {
+    "legacyId": 29,
+    "name": "Color-Field Painting",
+    "description": "Broad expanses of color create quiet, immersive compositions.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "color fields",
+      "immersive",
+      "quiet"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      }
+    ],
+    "referenceQueries": [
+      "Color-Field Painting",
+      "Color-Field Painting design",
+      "Color-Field Painting aesthetics"
+    ]
+  },
+  {
+    "legacyId": 30,
+    "name": "Lyrical Abstraction",
+    "description": "Fluid marks, intuitive gestures, and flowing color relationships.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "fluid",
+      "gesture",
+      "flowing color"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Lyrical Abstraction",
+      "Lyrical Abstraction design",
+      "Lyrical Abstraction aesthetics"
+    ]
+  },
+  {
+    "legacyId": 31,
+    "name": "Neo-Expressionism",
+    "description": "Raw imagery, assertive mark-making, and clashing or intense color.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "raw imagery",
+      "marks",
+      "intense color"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Neo-Expressionism",
+      "Neo-Expressionism design",
+      "Neo-Expressionism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 32,
+    "name": "Pop Surrealism",
+    "description": "Polished fantasy imagery combines whimsical, uncanny, and pop-cultural motifs.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "fantasy",
+      "uncanny",
+      "pop culture"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Pop Surrealism",
+      "Pop Surrealism design",
+      "Pop Surrealism aesthetics"
+    ]
+  },
+  {
+    "legacyId": 34,
+    "name": "Fluxus Graphics",
+    "description": "Playful instructions, everyday objects, and anti-hierarchical presentation.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "instructions",
+      "everyday",
+      "conceptual"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "IMMA: Glossary of Art Terms",
+        "url": "https://imma.ie/what-is-art/glossary-of-art-terms/"
+      }
+    ],
+    "referenceQueries": [
+      "Fluxus Graphics",
+      "Fluxus Graphics design",
+      "Fluxus Graphics aesthetics"
+    ]
+  },
+  {
+    "legacyId": 35,
+    "name": "Situationist Graphics",
+    "description": "Détourned mass imagery and disrupted commercial signs carry critical intent.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "appropriation",
+      "critical",
+      "mass imagery"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Situationist Graphics",
+      "Situationist Graphics design",
+      "Situationist Graphics aesthetics"
+    ]
+  },
+  {
+    "legacyId": 36,
+    "name": "Postmodern Graphic Design",
+    "description": "Historical quotation, layered references, and playful typography.",
+    "group": "Art & graphic movements",
+    "tags": [
+      "quotation",
+      "layered references",
+      "playful type"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "An Introduction to the History of Graphic Design",
+        "url": "https://www.designhistory.org/"
+      }
+    ],
+    "referenceQueries": [
+      "Postmodern Graphic Design",
+      "Postmodern Graphic Design design",
+      "Postmodern Graphic Design aesthetics"
+    ]
+  },
+  {
+    "legacyId": 131,
+    "name": "Flat-vector illustration",
+    "description": "Crisp filled shapes and limited shading create a clean digital image.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "vector",
+      "flat fills",
+      "clean"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Flat-vector illustration",
+      "Flat-vector illustration design",
+      "Flat-vector illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 133,
+    "name": "Minimal line illustration",
+    "description": "Sparse contours suggest form with very few marks.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "line",
+      "sparse",
+      "contour"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Minimal line illustration",
+      "Minimal line illustration design",
+      "Minimal line illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 136,
+    "name": "Doodle illustration",
+    "description": "Casual drawn marks and simplified figures feel spontaneous.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "hand drawn",
+      "casual",
+      "spontaneous"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Doodle illustration",
+      "Doodle illustration design",
+      "Doodle illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 139,
+    "name": "Conceptual editorial illustration",
+    "description": "A metaphorical image makes an abstract subject immediately legible.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "metaphor",
+      "editorial",
+      "conceptual"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Conceptual editorial illustration",
+      "Conceptual editorial illustration design",
+      "Conceptual editorial illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 142,
+    "name": "Anime visual style",
+    "description": "Stylized characters, expressive eyes, and graphic color shape Japanese animation.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "animation",
+      "characters",
+      "graphic color"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Anime visual style",
+      "Anime visual style design",
+      "Anime visual style aesthetics"
+    ]
+  },
+  {
+    "legacyId": 143,
+    "name": "Manga visual style",
+    "description": "Sequential storytelling, varied linework, and expressive character shorthand.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "comics",
+      "linework",
+      "sequential"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Manga visual style",
+      "Manga visual style design",
+      "Manga visual style aesthetics"
+    ]
+  },
+  {
+    "legacyId": 144,
+    "name": "Chibi illustration",
+    "description": "Small bodies and oversized heads exaggerate cute character expression.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "oversized heads",
+      "cute",
+      "characters"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Chibi illustration",
+      "Chibi illustration design",
+      "Chibi illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 145,
+    "name": "Superflat illustration",
+    "description": "Flat space and bold outlines connect pop imagery with graphic painting.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "flat space",
+      "bold outlines",
+      "pop"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Superflat illustration",
+      "Superflat illustration design",
+      "Superflat illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 146,
+    "name": "Kawaii illustration",
+    "description": "Rounded forms, simplified faces, and sweet color express cuteness.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "rounded",
+      "cute",
+      "simplified faces"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Kawaii illustration",
+      "Kawaii illustration design",
+      "Kawaii illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 147,
+    "name": "Ligne claire illustration",
+    "description": "Clean outlines, flat color, and legible comic staging.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "clean line",
+      "flat color",
+      "comics"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Ligne claire illustration",
+      "Ligne claire illustration design",
+      "Ligne claire illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 149,
+    "name": "American comic-book art",
+    "description": "Dynamic anatomy, ink contours, and sequential action.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "ink contours",
+      "action",
+      "comics"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "American comic-book art",
+      "American comic-book art design",
+      "American comic-book art aesthetics"
+    ]
+  },
+  {
+    "legacyId": 152,
+    "name": "Mid-century modern illustration",
+    "description": "Simplified shapes, limited palettes, and playful retro figures.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "retro",
+      "limited palette",
+      "simple shapes"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Mid-century modern illustration",
+      "Mid-century modern illustration design",
+      "Mid-century modern illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 156,
+    "name": "Airbrush illustration",
+    "description": "Smooth gradients and seamless blending create glossy, dreamlike surfaces.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "smooth gradients",
+      "glossy",
+      "blended"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Airbrush illustration",
+      "Airbrush illustration design",
+      "Airbrush illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 167,
+    "name": "Textured-vector illustration",
+    "description": "Clean vector forms gain grain, paper, or brush texture.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "vector",
+      "grain",
+      "paper"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Textured-vector illustration",
+      "Textured-vector illustration design",
+      "Textured-vector illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 168,
+    "name": "Paper-cut illustration",
+    "description": "Layered silhouettes and cast shadows imitate cut and stacked paper.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "silhouette",
+      "layers",
+      "cast shadows"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Paper-cut illustration",
+      "Paper-cut illustration design",
+      "Paper-cut illustration aesthetics"
+    ],
+    "aliases": [
+      "Cut-paper collage"
+    ]
+  },
+  {
+    "legacyId": 170,
+    "name": "Halftone illustration",
+    "description": "Dots and screens create tonal pattern and print-like texture.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "dots",
+      "screens",
+      "print texture"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Halftone illustration",
+      "Halftone illustration design",
+      "Halftone illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 175,
+    "name": "Crosshatch drawing",
+    "description": "Intersecting lines model shadow, volume, and texture.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "hatching",
+      "line",
+      "tone"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Crosshatch drawing",
+      "Crosshatch drawing design",
+      "Crosshatch drawing aesthetics"
+    ]
+  },
+  {
+    "legacyId": 176,
+    "name": "Stipple illustration",
+    "description": "Dots of varying density create tone and detail.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "dots",
+      "density",
+      "tone"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Stipple illustration",
+      "Stipple illustration design",
+      "Stipple illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 177,
+    "name": "Scratchboard illustration",
+    "description": "Scraped highlights cut through dark surfaces to define form.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "scraped",
+      "highlights",
+      "dark surface"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Scratchboard illustration",
+      "Scratchboard illustration design",
+      "Scratchboard illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 178,
+    "name": "Charcoal illustration",
+    "description": "Smudged dark masses and soft marks create dramatic tonal range.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "smudged",
+      "soft marks",
+      "tonal"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Charcoal illustration",
+      "Charcoal illustration design",
+      "Charcoal illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 179,
+    "name": "Colored-pencil illustration",
+    "description": "Layered strokes and visible pigment give drawings a tactile finish.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "pigment",
+      "layered strokes",
+      "tactile"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Colored-pencil illustration",
+      "Colored-pencil illustration design",
+      "Colored-pencil illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 180,
+    "name": "Marker illustration",
+    "description": "Broad saturated strokes create clean, fast, graphic color.",
+    "group": "Illustration & drawing",
+    "tags": [
+      "broad strokes",
+      "saturated",
+      "graphic"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Marker illustration",
+      "Marker illustration design",
+      "Marker illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 181,
+    "name": "Screenprint aesthetic",
+    "description": "Flat ink layers, visible overlaps, and constrained color separations.",
+    "group": "Printmaking",
+    "tags": [
+      "ink layers",
+      "spot colors",
+      "overlap"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "V&A: What is print?",
+        "url": "https://www.vam.ac.uk/articles/what-is-print"
+      }
+    ],
+    "referenceQueries": [
+      "Screenprint aesthetic",
+      "Screenprint aesthetic design",
+      "Screenprint aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 182,
+    "name": "Risograph print aesthetic",
+    "description": "Grain, vivid spot colors, and slight registration shifts.",
+    "group": "Printmaking",
+    "tags": [
+      "grain",
+      "spot colors",
+      "misregistration"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Risograph print aesthetic",
+      "Risograph print aesthetic design",
+      "Risograph print aesthetic aesthetics"
+    ],
+    "aliases": [
+      "Risograph-style illustration"
+    ]
+  },
+  {
+    "legacyId": 183,
+    "name": "Letterpress aesthetic",
+    "description": "Pressed type, raised ink, and textured paper.",
+    "group": "Printmaking",
+    "tags": [
+      "pressed type",
+      "ink",
+      "paper"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Letterpress aesthetic",
+      "Letterpress aesthetic design",
+      "Letterpress aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 184,
+    "name": "Woodcut print aesthetic",
+    "description": "Carved contours and bold light-dark contrast.",
+    "group": "Printmaking",
+    "tags": [
+      "carved",
+      "relief",
+      "contrast"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "V&A: What is print?",
+        "url": "https://www.vam.ac.uk/articles/what-is-print"
+      }
+    ],
+    "referenceQueries": [
+      "Woodcut print aesthetic",
+      "Woodcut print aesthetic design",
+      "Woodcut print aesthetic aesthetics"
+    ],
+    "aliases": [
+      "Woodcut illustration"
+    ]
+  },
+  {
+    "legacyId": 185,
+    "name": "Linocut print aesthetic",
+    "description": "Smooth cut marks and simplified relief shapes.",
+    "group": "Printmaking",
+    "tags": [
+      "cut shapes",
+      "relief",
+      "negative space"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "V&A: What is print?",
+        "url": "https://www.vam.ac.uk/articles/what-is-print"
+      }
+    ],
+    "referenceQueries": [
+      "Linocut print aesthetic",
+      "Linocut print aesthetic design",
+      "Linocut print aesthetic aesthetics"
+    ],
+    "aliases": [
+      "Linocut illustration"
+    ]
+  },
+  {
+    "legacyId": 186,
+    "name": "Etching print aesthetic",
+    "description": "Fine incised lines and crosshatching build tonal depth.",
+    "group": "Printmaking",
+    "tags": [
+      "fine line",
+      "intaglio",
+      "crosshatching"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "V&A: What is print?",
+        "url": "https://www.vam.ac.uk/articles/what-is-print"
+      }
+    ],
+    "referenceQueries": [
+      "Etching print aesthetic",
+      "Etching print aesthetic design",
+      "Etching print aesthetic aesthetics"
+    ],
+    "aliases": [
+      "Etching illustration"
+    ]
+  },
+  {
+    "legacyId": 187,
+    "name": "Lithographic print aesthetic",
+    "description": "Crayon-like marks and tonal washes transfer to paper.",
+    "group": "Printmaking",
+    "tags": [
+      "crayon marks",
+      "wash",
+      "print"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      },
+      {
+        "title": "V&A: What is print?",
+        "url": "https://www.vam.ac.uk/articles/what-is-print"
+      }
+    ],
+    "referenceQueries": [
+      "Lithographic print aesthetic",
+      "Lithographic print aesthetic design",
+      "Lithographic print aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 188,
+    "name": "Monotype print aesthetic",
+    "description": "Singular, painterly impressions retain chance marks.",
+    "group": "Printmaking",
+    "tags": [
+      "painterly",
+      "chance",
+      "print"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Monotype print aesthetic",
+      "Monotype print aesthetic design",
+      "Monotype print aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 189,
+    "name": "Cyanotype aesthetic",
+    "description": "Prussian-blue imagery and white silhouettes create a distinctive print.",
+    "group": "Printmaking",
+    "tags": [
+      "Prussian blue",
+      "silhouette",
+      "photographic print"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Cyanotype aesthetic",
+      "Cyanotype aesthetic design",
+      "Cyanotype aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 190,
+    "name": "Photogram aesthetic",
+    "description": "Objects placed on light-sensitive paper create direct shadows and shapes.",
+    "group": "Printmaking",
+    "tags": [
+      "shadow",
+      "light-sensitive",
+      "camera-less"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Photogram aesthetic",
+      "Photogram aesthetic design",
+      "Photogram aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 194,
+    "name": "Paper-ephemera collage",
+    "description": "Tickets, labels, letters, and found scraps form an archival image.",
+    "group": "Collage & DIY",
+    "tags": [
+      "ephemera",
+      "archival",
+      "found paper"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Paper-ephemera collage",
+      "Paper-ephemera collage design",
+      "Paper-ephemera collage aesthetics"
+    ]
+  },
+  {
+    "legacyId": 195,
+    "name": "Xerox copy-art",
+    "description": "High-contrast photocopy marks, noise, and repeated generations.",
+    "group": "Collage & DIY",
+    "tags": [
+      "photocopy",
+      "noise",
+      "contrast"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Xerox copy-art",
+      "Xerox copy-art design",
+      "Xerox copy-art aesthetics"
+    ]
+  },
+  {
+    "legacyId": 196,
+    "name": "Zine aesthetic",
+    "description": "Handmade layout, photocopy grain, and direct personal voice.",
+    "group": "Collage & DIY",
+    "tags": [
+      "DIY",
+      "photocopy",
+      "handmade"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Zine aesthetic",
+      "Zine aesthetic design",
+      "Zine aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 197,
+    "name": "Stencil aesthetic",
+    "description": "Repeated cut shapes and overspray create a street-print look.",
+    "group": "Collage & DIY",
+    "tags": [
+      "stencil",
+      "overspray",
+      "street"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Stencil aesthetic",
+      "Stencil aesthetic design",
+      "Stencil aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 198,
+    "name": "Paste-up aesthetic",
+    "description": "Layered paper images and torn edges suggest public wall culture.",
+    "group": "Collage & DIY",
+    "tags": [
+      "torn paper",
+      "layered",
+      "street"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Paste-up aesthetic",
+      "Paste-up aesthetic design",
+      "Paste-up aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 199,
+    "name": "Decoupage aesthetic",
+    "description": "Decorative cutouts cover objects or surfaces in layered motifs.",
+    "group": "Collage & DIY",
+    "tags": [
+      "cutouts",
+      "decorative",
+      "layered"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Decoupage aesthetic",
+      "Decoupage aesthetic design",
+      "Decoupage aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 200,
+    "name": "Mixed-media assemblage",
+    "description": "Found materials and image fragments are physically combined.",
+    "group": "Collage & DIY",
+    "tags": [
+      "found materials",
+      "assemblage",
+      "physical"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Mixed-media assemblage",
+      "Mixed-media assemblage design",
+      "Mixed-media assemblage aesthetics"
+    ]
+  },
+  {
+    "legacyId": 201,
+    "name": "Ink-wash aesthetic",
+    "description": "Fluid diluted ink and dry-brush marks balance softness and precision.",
+    "group": "Paint & pigment",
+    "tags": [
+      "ink",
+      "wash",
+      "dry brush"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Ink-wash aesthetic",
+      "Ink-wash aesthetic design",
+      "Ink-wash aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 202,
+    "name": "Gouache aesthetic",
+    "description": "Opaque, matte color and crisp edges create a hand-painted illustration.",
+    "group": "Paint & pigment",
+    "tags": [
+      "matte",
+      "opaque",
+      "painted"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Gouache aesthetic",
+      "Gouache aesthetic design",
+      "Gouache aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 203,
+    "name": "Watercolor-wash aesthetic",
+    "description": "Transparent pigments and flowing edges produce a light surface.",
+    "group": "Paint & pigment",
+    "tags": [
+      "transparent",
+      "wash",
+      "soft edges"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Watercolor-wash aesthetic",
+      "Watercolor-wash aesthetic design",
+      "Watercolor-wash aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 204,
+    "name": "Impasto painting",
+    "description": "Thick paint ridges and saturated strokes make texture visible.",
+    "group": "Paint & pigment",
+    "tags": [
+      "thick paint",
+      "ridges",
+      "brushwork"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Impasto painting",
+      "Impasto painting design",
+      "Impasto painting aesthetics"
+    ],
+    "aliases": [
+      "Acrylic-impasto aesthetic",
+      "Oil-impasto aesthetic"
+    ]
+  },
+  {
+    "legacyId": 207,
+    "name": "Pastel drawing",
+    "description": "Powdery color and soft blending produce luminous, velvety surfaces.",
+    "group": "Paint & pigment",
+    "tags": [
+      "powdery",
+      "soft blending",
+      "luminous"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Pastel drawing",
+      "Pastel drawing design",
+      "Pastel drawing aesthetics"
+    ],
+    "aliases": [
+      "Pastel aesthetic"
+    ]
+  },
+  {
+    "legacyId": 206,
+    "name": "Fresco-mural aesthetic",
+    "description": "Broad matte color and simplified forms suit large public images.",
+    "group": "Paint & pigment",
+    "tags": [
+      "matte",
+      "mural",
+      "simplified forms"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Fresco-mural aesthetic",
+      "Fresco-mural aesthetic design",
+      "Fresco-mural aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 211,
+    "name": "Embroidery illustration",
+    "description": "Stitches form contours, fills, and decorative image details.",
+    "group": "Textile & craft",
+    "tags": [
+      "stitches",
+      "contour",
+      "textile"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Embroidery illustration",
+      "Embroidery illustration design",
+      "Embroidery illustration aesthetics"
+    ]
+  },
+  {
+    "legacyId": 212,
+    "name": "Quilted-collage aesthetic",
+    "description": "Fabric blocks and seams organize image, color, and pattern.",
+    "group": "Textile & craft",
+    "tags": [
+      "fabric",
+      "seams",
+      "pattern"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Quilted-collage aesthetic",
+      "Quilted-collage aesthetic design",
+      "Quilted-collage aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 213,
+    "name": "Beadwork graphic aesthetic",
+    "description": "Tiny repeated units create ornamental motifs and sparkling surfaces.",
+    "group": "Textile & craft",
+    "tags": [
+      "beads",
+      "ornament",
+      "repeated units"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Beadwork graphic aesthetic",
+      "Beadwork graphic aesthetic design",
+      "Beadwork graphic aesthetic aesthetics"
+    ]
+  },
+  {
+    "legacyId": 214,
+    "name": "Tapestry-inspired graphic style",
+    "description": "Woven pattern, flattened scenes, and decorative borders.",
+    "group": "Textile & craft",
+    "tags": [
+      "woven",
+      "borders",
+      "flattened scenes"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Tapestry-inspired graphic style",
+      "Tapestry-inspired graphic style design",
+      "Tapestry-inspired graphic style aesthetics"
+    ]
+  },
+  {
+    "legacyId": 215,
+    "name": "Mosaic illustration",
+    "description": "Small repeated pieces build figures, icons, or patterned fields.",
+    "group": "Textile & craft",
+    "tags": [
+      "small pieces",
+      "pattern",
+      "tessellation"
+    ],
+    "sources": [
+      {
+        "title": "Original Obsidian handbook: artstyles-300.md",
+        "url": "https://github.com/dakiemdarktharr/hamanti/blob/main/artstyles-300.md"
+      }
+    ],
+    "referenceQueries": [
+      "Mosaic illustration",
+      "Mosaic illustration design",
+      "Mosaic illustration aesthetics"
+    ]
+  }
+]
