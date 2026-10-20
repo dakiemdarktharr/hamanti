@@ -3,6 +3,7 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { build } from 'esbuild';
 import { compileContent } from './compile-content.mjs';
+import { prepareShanShui } from './prepare-shanshui.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const output = resolve(root, 'dist');
@@ -23,7 +24,11 @@ for (const file of files) {
 }
 try { await copyFile(resolve(root, 'data/catalog.json'), resolve(output, 'data/catalog.json')); }
 catch (error) { if (error.code !== 'ENOENT') throw error; }
-await cp(resolve(root, 'public'), output, { recursive: true });
+await cp(resolve(root, 'public'), output, {
+  recursive: true,
+  filter: source => !source.startsWith(resolve(root,'public/models')) && source !== resolve(root,'public/ui/pastel-landscape.svg'),
+});
+await prepareShanShui(new URL('../dist/', import.meta.url));
 await build({
   absWorkingDir: root, entryPoints: ['app.js', 'sources.js'], outdir: resolve(output, 'assets'),
   bundle: true, splitting: true, format: 'esm', target: ['es2022'],

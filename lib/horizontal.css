@@ -1,0 +1,99 @@
+/* A horizontal handscroll: one native scroll surface, with readable cards above
+   Lingdong Huang's continuous SVG mountains. Detail pages retain their gallery. */
+.handbook-page { --masthead-height: 76px; }
+.handbook-page:not(.detail-mode) { height: 100svh; overflow: hidden; }
+.handbook-page:not(.detail-mode) #main { height: calc(100svh - var(--masthead-height)); background: transparent; isolation: isolate; }
+.horizontal-scroll { position: relative; z-index: 2; width: 100%; height: 100%; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: #65715d #e9ebe2; scroll-padding-inline: var(--gutter); }
+.horizontal-scroll:focus-visible { outline: 2px solid var(--moss); outline-offset: -3px; }
+.home-track { display: flex; align-items: stretch; width: max-content; min-width: 100%; height: 100%; }
+.home-track > section, .home-track > footer { flex-shrink: 0; }
+.home-track .hero { width: 100vw; height: 100%; min-height: 0; max-height: none; padding: 28px var(--gutter) 44px; background: var(--paper); border-right: 1px solid var(--line); }
+.home-track .hero h1 { font-size: 14.5vw; }
+.home-track .hero-baseline { display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: end; gap: 24px; }
+.home-track .hero-caption { position: static; margin: 0; justify-self: center; font-size: clamp(24px,2.3vw,37px); }
+.home-track .down-link { justify-self: end; flex-direction: row; gap: 24px; font-size: 27px; background: none; }
+.home-track .down-link svg { width: 65px; height: 34px; }
+.home-track .down-link:hover svg { transform: translateX(6px) rotate(-5deg); }
+.home-track .introduction { width: 86vw; height: 100%; min-height: 0; padding: 7vh 8vw; border-top: 0; display: flex; flex-direction: column; align-items: start; justify-content: center; gap: 35px; background: linear-gradient(90deg,var(--paper),#e9ebe2d9 70%,#e9ebe200); }
+.home-track .section-number { margin: 0; }
+.home-track .intro-copy { font-size: clamp(32px,4.4vw,70px); line-height: 1.1; max-width: 760px; }
+.home-track .intro-index { margin-top: 10px; }
+.home-track .explorer { position: relative; isolation: isolate; width: max-content; min-width: 100vw; height: 100%; padding: 30px var(--gutter) 55px; display: flex; flex-direction: column; gap: 16px; }
+.home-track .index-heading, .home-track .filter-bar, .home-track .index-navigation, .home-track .empty { position: sticky; left: var(--gutter); width: calc(100vw - 2 * var(--gutter)); flex-shrink: 0; }
+.home-track .index-heading { padding: 0; display: flex; align-items: end; justify-content: space-between; gap: 28px; text-shadow: 0 0 18px var(--paper), 0 0 9px var(--paper); }
+.home-track .index-heading > .mono { padding: 0; margin: 0; }
+.home-track .index-heading h2 { font-size: clamp(30px,3.8vw,58px); margin: 0 auto 0 6vw; }
+.home-track .index-heading h2 br { display: none; }
+.home-track .index-heading em { white-space: nowrap; }
+.home-track .index-heading .index-total { display: block; }
+.home-track .filter-bar { top: auto; box-shadow: 0 4px 0 #6c7e5a26; background: #e9ebe2f2; }
+.home-track .filter-bar .search input, .home-track .filter-bar .select select { height: 62px; }
+.home-track .filter-bar .search input { font-size: 30px; }
+.home-track .index-navigation { display: flex; align-items: center; gap: 28px; background: #e9ebe2c7; }
+.home-track .result-count { margin: 0; }
+.journey-hint { margin-left: auto; color: var(--muted); font-size: 10px; }
+.journey-buttons { display: flex; gap: 9px; }
+.journey-buttons button { width: 39px; height: 36px; border: 1px solid var(--line); font-size: 22px; line-height: 1; background: #e9ebe2b8; }
+.journey-buttons button:hover:not(:disabled) { background: var(--ink); color: var(--paper); }
+.home-track .journey { flex: 1; min-height: 0; overflow: visible; padding-top: 8px; }
+.home-track .style-index { max-width: none; width: max-content; height: 100%; margin: 0; }
+.home-track .style-grid { display: grid; grid-auto-flow: column; grid-template-rows: repeat(2,minmax(0,1fr)); grid-template-columns: none; grid-auto-columns: clamp(260px,27vw,390px); gap: 18px 24px; height: 100%; }
+.home-track .style-card { min-height: 0; height: 100%; width: 100%; margin: 0; padding: 19px 24px 35px; border: 1px solid #6e7a626e; background: #e9ebe2eb; display: flex; flex-direction: column; justify-content: center; }
+.home-track .style-card:hover, .home-track .style-card:focus-visible { background: #f4f0e5; border-color: var(--ink); }
+.home-track .style-card .card-label { margin: 0 0 auto; }
+.home-track .style-card .style-name { font-size: clamp(22px,2.05vw,34px); line-height: 1.1; margin-block: 15px 5px; }
+.home-track .style-card:nth-child(3n+2) .style-name { font-family: var(--serif); font-style: italic; font-size: clamp(28px,2.7vw,42px); font-weight: 400; }
+.home-track .style-picture { flex: 1; min-height: 0; width: 100%; aspect-ratio: auto; }
+.home-track .style-picture img { width: 100%; height: 100%; object-fit: cover; }
+.home-track .style-card .card-open { display: grid; bottom: 4px; right: 9px; width: 28px; height: 28px; font-size: 23px; }
+.home-track .style-coverage { display: block; font-size: 9px; }
+.home-track .empty { min-height: 0; margin: auto 0; font-size: 35px; }
+.home-track .footer { width: 100vw; height: 100%; min-height: 0; margin-left: var(--gutter); padding: 6vh var(--gutter) 30px; }
+.home-track .footer-inner { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+.home-track .footer-wordmark { margin: auto 0; font-size: 13.4vw; }
+.handbook-page .landscape { position: fixed; inset: var(--masthead-height) 0 0; overflow: hidden; z-index: 0; opacity: 0; transition: opacity .7s; pointer-events: none; }
+.handbook-page .landscape.landscape-ready { opacity: .85; }
+.handbook-page .shan-shui-scroll { display: block; width: 100%; height: 100%; }
+.handbook-page.detail-mode .landscape { display: none; }
+
+@media(max-width:700px) {
+  .handbook-page { --masthead-height: 65px; }
+  .home-track .hero { padding-top: 26px; padding-bottom: 40px; }
+  .home-track .hero-baseline { grid-template-columns: 1fr 1fr; row-gap: 42px; }
+  .home-track .hero-caption { grid-column: 1/-1; grid-row: 1; justify-self: start; font-size: 28px; }
+  .home-track .etymology { font-size: 18px; }
+  .home-track .etymology i { font-size: 25px; }
+  .home-track .down-link { font-size: 22px; gap: 10px; }
+  .home-track .down-link svg { width: 40px; }
+  .home-track .introduction { width: 100vw; gap: 25px; padding: 40px 8vw; }
+  .home-track .intro-copy { font-size: clamp(31px,7.5vw,46px); }
+  .home-track .explorer { padding-top: 24px; padding-bottom: 35px; gap: 14px; }
+  .home-track .index-heading { align-items: start; gap: 12px; }
+  .home-track .index-heading > .mono { display: none; }
+  .home-track .index-heading h2 { margin: 0; max-width: 75%; font-size: 34px; line-height: 1; }
+  .home-track .index-heading em { white-space: normal; }
+  .home-track .index-total { font-size: 8px; }
+  .home-track .filter-bar .search input { font-size: 24px; }
+  .home-track .filter-bar .select select, .home-track .filter-bar .search input { height: 56px; }
+  .home-track .index-navigation { gap: 10px; }
+  .home-track .result-count { font-size: 8px; }
+  .journey-hint { display: none; }
+  .journey-buttons { margin-left: auto; }
+  .home-track .style-grid { grid-auto-columns: 76vw; gap: 16px; }
+  .home-track .style-card { padding: 18px 20px 33px; }
+  .home-track .style-card .style-name { font-size: 27px; }
+  .home-track .style-card:nth-child(3n+2) .style-name { font-size: 36px; }
+  .home-track .footer-top { display: block; }
+  .home-track .footer-top > p { font-size: 44px; }
+  .home-track .footer-notes { margin-top: 35px; }
+  .home-track .footer-bottom { flex-wrap: wrap; }
+}
+@media(max-height:580px) {
+  .home-track .explorer { padding-block: 15px 25px; gap: 8px; }
+  .home-track .index-heading h2 { font-size: 29px; }
+  .home-track .filter-bar .search input, .home-track .filter-bar .select select { height: 45px; }
+  .home-track .style-grid { grid-template-rows: minmax(0,1fr); }
+  .home-track .introduction { padding-block: 24px; gap: 15px; }
+  .home-track .intro-copy { font-size: clamp(24px,3.2vw,40px); }
+  .home-track .hero-baseline { row-gap: 15px; }
+}

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/app.css">
     <script type="module" src="./assets/app.js"></script>
   </head>
-  <body>
+  <body class="handbook-page">
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="masthead">
       <a class="wordmark" href="#/" data-home aria-label="hamanti home"><svg class="wordmark-mark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g fill="#222a20"><path transform="translate(4.3333 58) scale(0.066667 -0.066667)" d="M723 0V182Q723 227 705.0 258.0Q687 289 641.5 304.5Q596 320 513 320Q466 320 421.5 311.5Q377 303 341.5 291.0Q306 279 285 267L283 315Q287 330 310.5 360.5Q334 391 379.0 424.5Q424 458 492.5 481.5Q561 505 655 505Q714 505 769.0 494.0Q824 483 867.5 457.5Q911 432 937.0 389.0Q963 346 963 282V0ZM55 0V690H295V0Z"/><path transform="translate(25 0) scale(.71)" d="M29 1 27 22 41 19 32 27 38 31 27 31 30 43 20 32 8 38 14 29 1 20 19 23 16 15 23 21Z"/></g></svg>
@@ -21,28 +21,30 @@
     <main id="main" tabindex="-1">
       <p id="loading" class="loading" role="status">Opening the handbook…</p>
       <div id="error" class="error" hidden></div>
-      <div id="home-page" hidden>
+      <div id="landscape" class="landscape" aria-hidden="true"></div>
+      <div id="home-page" class="horizontal-scroll" tabindex="0" aria-label="Horizontal handbook" hidden>
+       <div id="home-track" class="home-track">
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-top mono"><span>Independent by nature.</span><span>001 — 300</span></div>
           <h1 id="hero-title" aria-label="hamanti"><span id="type-title" aria-hidden="true">hamanti</span><span class="type-caret" aria-hidden="true"></span></h1>
-          <div class="hero-baseline"><span class="etymology"><i>anti</i> + homogenous</span><span class="hero-caption">Follow what<br>catches your eye.</span><a href="#/index" class="down-link"><span>Start wandering</span><svg viewBox="0 0 48 65" aria-hidden="true"><path d="M19 4C3 24 38 28 24 55M12 43l11 15 15-12"/></svg></a></div>
-          <button class="hero-garden" id="hero-garden" aria-label="Grow a different little garden"><span class="garden-art" id="garden-art" aria-hidden="true"></span><span class="garden-hint">a little room to grow ↻</span></button>
-          <span id="garden-status" class="sr-only" role="status"></span>
+          <div class="hero-baseline"><span class="etymology"><i>anti</i> + homogenous</span><span class="hero-caption">Follow what<br>catches your eye.</span><a href="#/about" class="down-link"><span>Wander right</span><svg class="trail-arrow" viewBox="0 0 65 32" aria-hidden="true"><path d="M3 22C15 5 25 29 40 15L57 11M47 3l12 8-8 13"/></svg></a></div>
         </section>
-        <section class="introduction" aria-label="About hamanti">
+        <section class="introduction" id="about" aria-label="About hamanti">
           <span class="mono section-number" aria-hidden="true">( field notes )</span>
           <p class="intro-copy" id="intro-copy">A visual guide to web design, interfaces, and the art that shapes them. Find your own way of seeing.</p>
+          <a href="#/index" class="intro-index text-button">Into the index ↗</a>
         </section>
         <section class="explorer" id="index" aria-labelledby="index-heading">
-          <div class="index-heading"><span class="mono">( the index )</span><h2 id="index-heading">Find your<br><em>own language.</em></h2><span class="index-total mono">300 directions<br>A — Z</span></div>
+          <div class="index-heading"><span class="mono">( the index )</span><h2 id="index-heading">Find your <br><em>own language.</em></h2><span class="index-total mono">300 directions<br>A — Z</span></div>
           <div class="filter-bar">
             <div class="search"><label for="search" class="sr-only">Search styles, descriptions and tags</label><span class="search-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m15 15 6 6" stroke="currentColor" stroke-width="1.5"/></svg></span><input type="search" id="search" placeholder="Find a style…" autocomplete="off" spellcheck="false" aria-controls="style-index"><button id="search-clear" aria-label="Clear search" hidden>×</button><kbd aria-hidden="true">/</kbd></div>
             <label class="select alphabet-select"><span class="sr-only">Filter by first letter</span><select id="letter-filter"><option value="all">All A–Z</option></select></label>
           </div>
-          <p id="result-count" class="result-count mono" role="status" aria-live="polite" aria-atomic="true"></p>
-          <div class="journey"><div id="landscape" class="landscape" aria-hidden="true"></div><div id="style-index" class="style-index"></div></div>
+          <div class="index-navigation"><p id="result-count" class="result-count mono" role="status" aria-live="polite" aria-atomic="true"></p><span class="journey-hint mono">Scroll or swipe to wander</span><div class="journey-buttons"><button id="index-prev" aria-label="Previous styles">←</button><button id="index-next" aria-label="Next styles">→</button></div></div>
+          <div class="journey"><div id="style-index" class="style-index"></div></div>
           <div id="empty" class="empty" hidden><p>No styles found.</p><button id="clear-filters" class="text-button">Clear filters ↗</button></div>
         </section>
+       </div>
       </div>
       <div id="detail-page" hidden></div>
     </main>

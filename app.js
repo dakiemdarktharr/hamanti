@@ -1,8 +1,8 @@
 import './styles.css';
+import './lib/horizontal.css';
 import { animate, hover, press, stagger } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
-import { growGarden } from './lib/garden.js';
 import { searchStyles } from './lib/search.js';
 
 const $ = selector => document.querySelector(selector);
@@ -15,23 +15,31 @@ const desktop = matchMedia('(min-width: 900px)');
 let savedPause = false;
 try { savedPause = localStorage.getItem('hamanti-motion') === 'paused'; } catch {}
 let paused = reduced.matches || savedPause;
-let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, forest, homeScroll = 0, lastStyleId;
+let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, landscape, homeScroll = 0, lastStyleId;
 let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest;
 const filters = { query: '', letter: 'all' };
 let frozenPalette;
 
 function smoothTo(target, options = {}) {
-  if (lenis && !paused) lenis.scrollTo(target, { duration: 1.1, force: options.immediate === true, ...options });
-  else window.scrollTo({ top: typeof target === 'number' ? target : target.getBoundingClientRect().top + scrollY, behavior: 'instant' });
+  const home = $('#home-page');
+  const value = typeof target === 'number' ? target : currentStyle
+    ? target.getBoundingClientRect().top + scrollY
+    : target.getBoundingClientRect().left - home.getBoundingClientRect().left + home.scrollLeft;
+  if (lenis && !paused) lenis.scrollTo(value, { duration: 1.1, force: options.immediate === true, ...options });
+  else if (currentStyle) window.scrollTo({ top:value, behavior:'instant' });
+  else home.scrollTo({left:value,behavior:'instant'});
 }
 function setupMotion() {
   lenis?.destroy();
-  lenis = !paused ? new Lenis({ autoRaf: true, duration: 1.1, smoothWheel: true, syncTouch: false, anchors: false }) : null;
+  lenis = !paused ? new Lenis({
+    autoRaf:true, duration:1.1, smoothWheel:true, syncTouch:false, anchors:false,
+    ...(!currentStyle ? {wrapper:$('#home-page'),content:$('#home-track'),orientation:'horizontal',gestureOrientation:'both'} : {}),
+  }) : null;
   document.body.classList.toggle('motion-paused', paused);
   $('#motion-toggle').textContent = paused ? 'Motion paused' : 'Pause motion';
   $('#motion-toggle').setAttribute('aria-pressed', String(paused));
   background?.pause(paused);
-  forest?.pause(paused);
+  landscape?.pause(paused);
   if (currentStyle) setupGallery();
   requestUpdate();
 }
@@ -83,13 +91,20 @@ function requestUpdate() {
       const words = [...document.querySelectorAll('.intro-word')];
       words.forEach(word => {
         const bounds = word.getBoundingClientRect();
-        // A word stays hidden until its own line reaches the centre.
-        const progress = clamp((innerHeight * .5 - (bounds.top + bounds.height / 2)) / 90);
+        // Reveal each word only after it passes the horizontal centre.
+        const progress = clamp((innerWidth * .5 - (bounds.left + bounds.width / 2)) / 90);
         word.style.opacity = paused ? 1 : progress;
       });
+      const home = $('#home-page'), index = $('#index').getBoundingClientRect();
+      const indexStart = index.left + home.scrollLeft;
+      $('#index-prev').disabled = home.scrollLeft <= indexStart + 2;
+      $('#index-next').disabled = index.right <= innerWidth + 2;
+      landscape?.update();
     } else galleryUpdate?.();
     const footer = $('#footer').getBoundingClientRect();
-    const footerProgress = clamp((innerHeight - footer.top) / Math.min(innerHeight, footer.height));
+    const footerProgress = currentStyle
+      ? clamp((innerHeight - footer.top) / Math.min(innerHeight, footer.height))
+      : clamp((innerWidth - footer.left) / Math.min(innerWidth,footer.width));
     $('.footer-inner').style.opacity = paused ? 1 : .4 + .6 * footerProgress;
     $('.footer-inner').style.transform = paused ? 'none' : `translateY(${(1 - footerProgress) * -90}px)`;
   });
@@ -241,16 +256,18 @@ function showRoute(hash, { returnToIndex = false, focus = true } = {}) {
   $('#lightbox').close();
   const match = hash.match(/^#\/style\/(\d+)$/), style = match && handbook.styles.find(item => item.id === Number(match[1]));
   const wasDetail = Boolean(currentStyle);
-  if (style && !wasDetail) homeScroll = scrollY;
+  if (style && !wasDetail) homeScroll = $('#home-page').scrollLeft;
   document.body.classList.toggle('detail-mode', Boolean(style));
   $('#home-page').hidden = Boolean(style); $('#detail-page').hidden = !style;
   if (style) {
-    renderDetail(style); lenis?.resize(); smoothTo(0, { immediate:true });
+    currentStyle = style; $('#main').after($('#footer'));
+    setupMotion(); renderDetail(style); lenis?.resize(); smoothTo(0, { immediate:true });
     if (focus) $('.detail-title').focus({preventScroll:true});
   } else {
     currentStyle = null; $('#detail-page').replaceChildren(); document.title = 'hamanti — 300 ways of seeing';
-    lenis?.resize();
-    const destination = hash.startsWith('#/index') ? returnToIndex && homeScroll ? homeScroll : $('#index') : 0;
+    $('#home-track').append($('#footer')); window.scrollTo({top:0,behavior:'instant'});
+    setupMotion();
+    const destination = hash.startsWith('#/index') ? returnToIndex && homeScroll ? homeScroll : $('#index') : hash === '#/about' ? $('#about') : 0;
     smoothTo(destination, { immediate:true });
     if (focus) {
       if (returnToIndex && lastStyleId) $(`[data-style="${lastStyleId}"]`)?.focus({preventScroll:true});
@@ -267,7 +284,9 @@ document.addEventListener('click', async event => {
   if (!link || event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0 || !handbook) return;
   event.preventDefault(); if (navigationBusy) return;
   const hash = link.getAttribute('href');
-  if (!currentStyle && hash === '#/index') { history.pushState(null,'',hash); smoothTo($('#index')); return; }
+  if (!currentStyle && ['#/index','#/about'].includes(hash)) {
+    history.pushState(null,'',hash); smoothTo($(hash === '#/about' ? '#about' : '#index')); return;
+  }
   navigationBusy = true;
   try {
     await cover(link.hasAttribute('data-home') ? 'curtains' : 'line', () => {
@@ -277,6 +296,14 @@ document.addEventListener('click', async event => {
 });
 addEventListener('popstate', () => { if (handbook) showRoute(location.hash, {returnToIndex:true}); });
 addEventListener('scroll', requestUpdate, {passive:true});
+$('#home-page').addEventListener('scroll',requestUpdate,{passive:true});
+// Native horizontal touch/trackpad scrolling stays available with motion off.
+$('#home-page').addEventListener('wheel',event => {
+  if (!paused || currentStyle || event.ctrlKey || event.target.closest('select')) return;
+  const delta = Math.abs(event.deltaX)>Math.abs(event.deltaY)?event.deltaX:event.deltaY;
+  event.preventDefault();
+  $('#home-page').scrollLeft += delta * (event.deltaMode===1 ? 16 : event.deltaMode===2 ? innerWidth : 1);
+},{passive:false});
 addEventListener('resize', () => { if (currentStyle) setupGallery(); requestUpdate(); }, {passive:true});
 $('#lightbox-close').addEventListener('click', () => $('#lightbox').close());
 $('#lightbox').addEventListener('close', () => lenis?.start());
@@ -290,7 +317,21 @@ $('#motion-toggle').addEventListener('click', () => {
 reduced.addEventListener('change', () => { paused = reduced.matches || savedPause; setupMotion(); });
 document.addEventListener('keydown', event => {
   if (event.key === '/' && !currentStyle && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { event.preventDefault(); $('#search').focus(); smoothTo($('#index')); }
+  if (currentStyle || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) || event.ctrlKey || event.metaKey || event.altKey) return;
+  const card = document.activeElement.closest('.style-card');
+  if (card && ['ArrowLeft','ArrowRight'].includes(event.key)) {
+    const cards = [...document.querySelectorAll('.style-card')], index = cards.indexOf(card);
+    const next = cards[Math.max(0,Math.min(cards.length-1,index+(event.key==='ArrowRight'?1:-1)))];
+    event.preventDefault(); next?.focus(); return;
+  }
+  const direction = ({ArrowRight:1,PageDown:1,ArrowLeft:-1,PageUp:-1})[event.key];
+  if (direction) { event.preventDefault(); smoothTo($('#home-page').scrollLeft + direction * innerWidth * .8); }
+  if (event.key==='Home' || event.key==='End') {
+    event.preventDefault(); smoothTo(event.key==='Home'?0:$('#home-page').scrollWidth);
+  }
 });
+$('#index-prev').addEventListener('click',()=>smoothTo(Math.max($('#index').offsetLeft,$('#home-page').scrollLeft-innerWidth*.8)));
+$('#index-next').addEventListener('click',()=>smoothTo($('#home-page').scrollLeft+innerWidth*.8));
 $('#search').addEventListener('keydown', event => {
   if (event.key === 'Escape') { event.preventDefault(); $('#search-clear').click(); }
   if (event.key === 'ArrowDown') { event.preventDefault(); $('.style-card')?.focus(); }
@@ -301,6 +342,7 @@ $('#search-clear').addEventListener('click', () => {
 for (const [id, key] of [['search','query'],['letter-filter','letter']]) {
   $(`#${id}`).addEventListener(id === 'search' ? 'input' : 'change', event => {
     filters[key] = event.target.value; renderIndex();
+    smoothTo($('#index'),{immediate:true});
     const params = new URLSearchParams();
     if (filters.query) params.set('q', filters.query);
     if (filters.letter !== 'all') params.set('letter', filters.letter);
@@ -310,7 +352,7 @@ for (const [id, key] of [['search','query'],['letter-filter','letter']]) {
 $('#clear-filters').addEventListener('click', () => {
   filters.query = ''; filters.letter = 'all';
   $('#search').value = ''; $('#letter-filter').value = 'all';
-  history.replaceState(null,'',`${location.pathname}#/index`); renderIndex(); $('#search').focus();
+  history.replaceState(null,'',`${location.pathname}#/index`); renderIndex(); smoothTo($('#index'),{immediate:true}); $('#search').focus();
 });
 try {
   handbook = await loadHandbook(); $('#loading').hidden = true;
@@ -324,14 +366,10 @@ try {
   $('#search').value = filters.query; $('#letter-filter').value = filters.letter;
   $('#footer-coverage').textContent = `${handbook.stats.examples.toLocaleString()} references`;
   $('.index-total').innerHTML = `${handbook.styles.length} directions<br>A — Z`;
-  growGarden($('#garden-art'));
-  $('#hero-garden').addEventListener('click', () => {
-    growGarden($('#garden-art')); $('#garden-status').textContent = 'A new little garden is growing.';
-  });
-  introWords(); renderIndex(); setupMotion(); showRoute(location.hash, {focus:false});
-  import('./lib/forest.js').then(({createForest}) => createForest($('#landscape'))).then(instance => {
-    forest = instance; forest.pause(paused);
-  }).catch(() => { $('#landscape').classList.add('forest-unavailable'); });
+  introWords(); renderIndex(); showRoute(location.hash, {focus:false});
+  import('./lib/shanshui.js').then(({createShanShui}) => {
+    landscape = createShanShui($('#landscape'),$('#home-page'));
+  }).catch(() => { $('#landscape').classList.add('landscape-unavailable'); });
 } catch (error) {
   $('#loading').hidden = true; $('#error').hidden = false;
   $('#error').innerHTML = `<p>The handbook could not open.</p><p>${escape(error.message)}</p><a href="./artstyles-300.md">Read the original notes ↗</a>`;

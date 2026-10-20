@@ -1,4 +1,25 @@
-# hamanti — manual collection revision, 20 October 2026
+# hamanti — horizontal shan shui revision
+
+- Removed the flower graphic and its garden code/styles from the home screen.
+- Changed the home page to a horizontal handscroll, from title and introduction through the A–Z index to credits. Wheel, trackpad, touch and keyboard navigation remain available; reduced-motion mode uses instant navigation.
+- Kept search and first-letter filtering visible while browsing horizontally. Search results, stable detail links and return positions are preserved.
+- Replaced the 3D forest with Lingdong Huang's `shan-shui-inf` SVG generator, pinned to commit `9f754d2b2e73495db7883d4d4055a7b0903b0454`. Its MIT license and upstream source are retained.
+- Isolated the generator in a Web Worker and bounded its terrain cache. The ink uses the logo's dark green, `#222a20`, on `#e9ebe2` paper. Old GLB models and the painted backdrop are excluded from the deployed site.
+- Left the manual image collection and its 300 folders unchanged.
+- Production build and manual desktop/mobile review of navigation, filtering, detail return and paused motion. No tests added or run.
+
+## Files changed in this revision
+
+- `app.js`, `index.html`, `styles.css`, `sources.html`
+- `lib/horizontal.css`, `lib/shanshui.js`; removed `lib/garden.js`
+- `public/shan-shui/worker.js`
+- `scripts/build.mjs`, `scripts/prepare-shanshui.mjs`
+- `vendor/shan-shui-inf/index.html`, `vendor/shan-shui-inf/LICENSE`, `vendor/shan-shui-inf/README.md`, `vendor/shan-shui-inf/ADAPTATION.md`
+- `README.md`, `CHANGES.md`
+
+---
+
+# Earlier manual collection revision — 20 October 2026
 
 - Removed all reference image documents from both hamanti MongoDB archives and cleared local collected downloads. The live catalog now contains zero reference images; retired image IDs return HTTP 410.
 - Stopped Pinterest collection and guarded the previous collectors/migrators against restoring the withdrawn archive.

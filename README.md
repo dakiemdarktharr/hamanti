@@ -16,19 +16,19 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:4173. The existing HTML, CSS, and browser JavaScript stack is bundled with esbuild. Motion and Lenis provide transitions and scrolling. A small React island hosts the official React Bits backgrounds. Three.js renders the Blender forest models and procedural terrain.
+Open http://localhost:4173. The existing HTML, CSS, and browser JavaScript stack is bundled with esbuild. Motion and Lenis provide transitions and scrolling. A small React island hosts the official React Bits detail backgrounds. Lingdong Huang's Shan Shui Inf generates the home page's SVG landscape.
 
 ## Interface
 
-The index is one alphabetical A–Z list, with three cards per desktop row, two on smaller screens, and one on narrow phones. There are no family sections. Empty cards show the style name and an honest “Images to come” state; descriptions stay in the detail view. The framed search bar uses a large serif input and a first-letter filter. Search includes names, aliases, descriptions and tags, tolerates a single-letter typo in longer words, and has a clear control, slash shortcut, and keyboard access to results. Stable style IDs preserve existing detail URLs; displayed numbers and next-style navigation follow alphabetical order.
+The home page is one horizontal handscroll: title, introduction, alphabetical A–Z index and closing credits. Wheel and trackpad gestures move sideways; touch uses native horizontal swiping. Arrow keys, Page Up/Down, Home/End and previous/next controls offer keyboard navigation. Reduced-motion mode keeps the same navigation without smoothing. The reference detail pages retain their readable vertical layout and gallery.
 
-The home screen invites readers to “Follow what catches your eye.” Hand-drawn SVG arrows lead into the index, and clicking or keyboard-activating the small SVG garden grows a different arrangement of flowers.
+The index uses two rows, ordered down each column and then to the right; short screens use one row. Search, first-letter filtering and navigation remain visible while moving through the list. There are no family sections. Empty cards show the style name and “Images to come”; descriptions stay in the detail view. Search includes names, aliases, descriptions and tags, tolerates a single-letter typo in longer words, and has a clear control and slash shortcut. Stable style IDs preserve existing detail URLs; displayed numbers and next-style navigation follow alphabetical order.
 
-The procedural forest recycles a viewport-sized scene with trees, ferns, rocks, birds, butterflies, clouds, foxes and deer. Each plant or rock sits on an irregular soil island with a winding path and grass. Ground animals follow a shared trail. Clouds are built at runtime from overlapping rounded volumes, varying their width, height, puff count and overall size. Sage foliage, clay wildlife and soft pale clouds have matte pastel pigment. A gently drifting SVG landscape adds broad, broken brush strokes behind them. Both layers stay behind readable cards, render only while the index is visible, and respect reduced motion and the pause control.
+The flower graphic and 3D woodland have been replaced. Hand-drawn arrows lead right through the page, while an SVG shan shui landscape extends behind the introduction and index. The generator is from https://github.com/LingDong-/shan-shui-inf, pinned at `9f754d2b2e73495db7883d4d4055a7b0903b0454`, with its MIT license and attribution retained. Its legacy globals and seeded random generator are isolated in a classic Web Worker. Terrain and planning data are pruned, generation requests are coalesced, and distant jumps generate only the requested area. All ink uses the logo's `#222a20`, with wash opacity preserved on `#e9ebe2` paper. Scenery follows scrolling; it does not move on its own.
 
-The introduction starts revealing only after each word's line reaches the viewport centre. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Detail backgrounds are chosen once per visit from Topography, Gradient ASCII, Pattern Waves, Beams, and Aero Shards (when WebGPU is available). The chosen pattern and palette stay fixed until leaving that style.
+The introduction starts revealing each word only after it passes the viewport's horizontal centre. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Detail backgrounds are chosen once per visit from Topography, Gradient ASCII, Pattern Waves, Beams, and Aero Shards (when WebGPU is available). The chosen pattern and palette stay fixed until leaving that style.
 
-All production logo, icon, button, and decorative UI artwork is SVG with vector paths or text. No raster is embedded in those SVGs. Reference photographs retain their native pixel dimensions in WebP delivery files; 3D meshes use GLB.
+All production logo, icon, button, and decorative landscape artwork is SVG with vector paths or text. No raster is embedded in those SVGs. The old GLB forest models and pastel backdrop are excluded from the published build.
 
 ## Content and provenance
 
@@ -81,7 +81,7 @@ Native dimensions are retained while delivery files are encoded as WebP. Files e
 
 `public/ui/` contains SVGs for the outlined Syne h, imperfect seven-point star, arrow, search icon, and button states. These implement the Canva component direction. The font glyph is preserved as an outline; the star has deliberately unequal points.
 
-`scripts/create-ui-vectors.py` regenerates the SVGs with Python, fontTools and Brotli. `scripts/create-forest-assets.py` regenerates the original GLB assets in Blender. Neither is required for normal website builds.
+`scripts/create-ui-vectors.py` regenerates the SVG controls with Python, fontTools and Brotli. Earlier Blender authoring files remain in the repository for history, but are not used by the current site. `scripts/prepare-shanshui.mjs` extracts the drawing algorithms from the preserved upstream source during each build and copies the license. `vendor/shan-shui-inf/ADAPTATION.md` documents the integration.
 
 ## Deployment
 
@@ -97,6 +97,6 @@ Keep `hamanti.vercel.app` attached as the Vercel production domain because the i
 
 ## Credits and verification
 
-Official React Bits components and their MIT + Commons Clause license are in `vendor/react-bits/`. Font licenses ship with the site. Motion example interactions are independently implemented; restricted Motion+ code is not included. Canva and Blender assets are interface decoration, never art-style reference examples.
+Official React Bits components and their MIT + Commons Clause license are in `vendor/react-bits/`. Shan Shui Inf and its MIT license are in `vendor/shan-shui-inf/`. Font licenses ship with the site. Motion example interactions are independently implemented; restricted Motion+ code is not included. Canva assets and the shan shui landscape are interface decoration, never art-style reference examples.
 
 Builds and manual browser inspection only. No tests were added or run, as requested.
