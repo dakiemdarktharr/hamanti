@@ -3,6 +3,7 @@
 - Single horizontal row with seven complete cards on desktop; perspective increases toward the sides. Tablets show five and phones show a readable card with a neighbouring preview.
 - Only the nearby cards receive transform updates. Offscreen contents skip painting.
 - The shan shui generator remains in a worker. Its output is decoded ahead of the viewport, moved as one image layer, and replaced only when the next view is ready. No live SVG path tree is repainted on each scroll.
+- Production HTML is not cached, so updated image-loading permissions take effect with deployments. Landscape failures now identify the failing stage.
 - Restored actual spaces between introduction words, increased line spacing and loosened the detail descriptions.
 - Improved single-image galleries, source-link handling, singular counts, numerical search, keyboard navigation and thumbnail delivery.
 - Two qualifying user images copied to MongoDB with original bytes and dimensions verified. All 118 original intake files retained. The newly authorized two-agent collection is separate and still in progress.
@@ -13,6 +14,7 @@
 - `app.js`
 - `lib/horizontal.css`
 - `lib/shanshui.js`
+- `public/shan-shui/worker.js`
 - `lib/search.js`
 - `lib/handbook.js`
 - `server.mjs`

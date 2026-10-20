@@ -34,7 +34,7 @@ self.onmessage = ({data}) => {
     chunkrender(x,x+width);
     self.postMessage({id,x,width,svg:greenInk(MEM.canv)});
     MEM.canv = '';
-  } catch {
-    self.postMessage({id:data.id,error:true});
+  } catch (error) {
+    self.postMessage({id:data.id,error:true,reason:error.name});
   }
 };
