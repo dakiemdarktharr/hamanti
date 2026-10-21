@@ -26,15 +26,15 @@ try {
   await client.connect();
   const db = client.db('hamanti'), images = db.collection('images');
   let totalBytes = Number((await db.command({dbStats:1})).dataSize);
-  async function store(bytes, id, dimensions, mime, original) {
+  async function store(bytes, id, dimensions, mime, original, archiveOnly = false) {
     const checksum = hash(bytes);
-    if (bytes.length > 4300000) throw new Error('Delivery size limit');
+    if (bytes.length > (archiveOnly ? 15000000 : 4300000)) throw new Error('Delivery size limit');
     const existing = await images.findOne({_id:id}, {projection:{_id:1}});
     if (!existing) {
       if (totalBytes + bytes.length > 4000e6) throw new Error('Storage capacity limit');
       await images.insertOne({_id:id,data:new Binary(bytes),mime,size:bytes.length,
         width:dimensions.width,height:dimensions.height,checksum,collectionVersion:4,
-        variant:original?'original':'thumbnail',nativeFullHD:original && isFullHD(dimensions),createdAt:new Date()});
+        variant:archiveOnly?'source-original':original?'original':'thumbnail',nativeFullHD:original && isFullHD(dimensions),createdAt:new Date()});
       totalBytes += bytes.length; report.bytesAdded += bytes.length; report.storedDocuments++;
     } else report.reusedDocuments++;
     const stored = await images.findOne({_id:id});
@@ -57,18 +57,24 @@ try {
       if (!isFullHD(meta)) throw new Error('Below native Full HD');
       const mime = {jpeg:'image/jpeg',png:'image/png',webp:'image/webp',avif:'image/avif'}[meta.format];
       if (!mime) throw new Error('Unsupported image format');
-      const stored = await store(original,hash(`manual-original-v1:${item.checksum}`),meta,mime,true);
+      const archiveOnly = original.length > 4300000;
+      const archived = await store(original,hash(`manual-original-v1:${item.checksum}`),meta,mime,true,archiveOnly);
+      // Preserve source bytes and native dimensions; use lossless encoding for oversized PNG delivery.
+      const stored = archiveOnly
+        ? await store(await sharp(original).webp({lossless:true}).toBuffer(),hash(`manual-lossless-v1:${item.checksum}`),meta,'image/webp',true)
+        : archived;
       const thumbnail = await sharp(original).rotate().resize(640,800,{fit:'inside',withoutEnlargement:true}).webp({quality:82}).toBuffer();
       const thumb = await store(thumbnail,hash(`manual-thumb-v1:${item.checksum}`),await sharp(thumbnail).metadata(),'image/webp',false);
       const {dominant} = await sharp(original).resize(48,48,{fit:'inside'}).stats();
       const rgb = [dominant.r,dominant.g,dominant.b];
       const hex = values => '#' + values.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
       const imageUrl = `manual:${item.checksum}`;
-      media[imageUrl] = {...stored,thumbnailId:thumb.id,sourceChecksum:item.checksum,
+      media[imageUrl] = {...stored,thumbnailId:thumb.id,sourceChecksum:item.checksum,sourceOriginalId:archived.id,
         palette:{background:hex(rgb.map(v=>12+v*.055)),accent:hex(rgb.map(v=>v*.65+255*.35)),method:'dominant color of selected reference'}};
       const entries = selection[item.style] ||= [];
       const entry = {imageUrl,title:item.title,url:item.url || null,width:meta.width,height:meta.height,
-        reviewStatus:'approved',peopleReview:item.peopleReview,provider:'User-supplied collection',collectedAt:report.date};
+        reviewStatus:'approved',peopleReview:item.peopleReview,provider:item.provider || 'User-supplied collection',
+        ...(item.sourceUrl ? {sourceUrl:item.sourceUrl} : {}),collectedAt:report.date};
       const previous = entries.findIndex(e=>e.imageUrl===imageUrl);
       if (previous>=0) entries[previous]=entry; else entries.push(entry);
       report.published++;

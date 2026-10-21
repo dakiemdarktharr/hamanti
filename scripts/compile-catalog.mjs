@@ -50,7 +50,8 @@ export async function compileCatalog() {
         image: `https://hamanti.vercel.app/api/images/${stored.id}`,
         ...(stored.thumbnailId ? { thumbnail: `https://hamanti.vercel.app/api/images/${stored.thumbnailId}` } : {}),
         originalImage: item.imageUrl, width: stored.width, height: stored.height,
-        kind: manual ? (item.url ? 'website' : 'upload') : /\/pin\//.test(new URL(item.url).pathname) ? 'pin' : 'board_or_idea',
+        kind: !item.url ? 'upload' : /^https:\/\/(?:www\.)?pinterest\.com\/pin\//.test(item.url)
+          ? 'pin' : manual ? 'website' : 'board_or_idea',
         query: item.query || style.name, storage: 'mongodb', provenance: item.provider || 'Pinterest via TinyFish',
         collected: item.collectedAt, nativeFullHD: true, peopleReview: item.peopleReview,
       };

@@ -1,12 +1,12 @@
 {
   "mode": "manual",
-  "status": "agent-assisted-collection-in-progress",
+  "status": "agents-stopped-partial-publication",
   "intakeDirectory": "D:\\3000 reference images",
   "minimumResolution": "1920x1080 or 1080x1920, native pixels",
   "minimumReferencesPerStyle": 6,
   "candidateBatchSize": 12,
   "peoplePolicy": "No casual people photos; deliberately posed models are allowed.",
-  "collectionStopped": "2026-10-20",
-  "uploadTrigger": "Two initial user images imported on 2026-10-21. Migrate the agent-collected batch after search and check finish all 300 folders.",
+  "collectionStopped": "2026-10-21",
+  "uploadTrigger": "User stopped search and check on 2026-10-21 and requested publication of saved approvals now. Publish only hash-verified, visually approved native Full HD files; unreviewed candidates remain unpublished.",
   "cleanupRule": "Keep the intake directory until the user says done, every accepted file is verified in MongoDB and published successfully, and rejected or failed files are resolved."
 }

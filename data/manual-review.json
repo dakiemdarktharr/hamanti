@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-10-21",
-  "scope": "Partial import requested while collection is in progress; preserve every intake file.",
+  "scope": "User stopped search/check and requested publication of saved approvals. Unreviewed candidates remain unpublished; intake is preserved.",
   "inventoryFiles": 118,
   "belowFullHD": 116,
   "approved": [
@@ -13,12 +13,753 @@
       "peopleReview": "no-real-people"
     },
     {
+      "style": "Claymorphism",
+      "folder": "Claymorphism",
+      "file": "347101b4bd5900b73cca1d55aef0c613_fullsize.png",
+      "checksum": "08ee451d71c6976a9b214fc94a1778ec619755a8455552d71bdaaf2c4528bd68",
+      "title": "Claymorphism — reference 1",
+      "url": "https://www.pinterest.com/pin/986640230888089488/",
+      "sourceUrl": "https://i.pinimg.com/originals/34/71/01/347101b4bd5900b73cca1d55aef0c613.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/986640230888089488/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A multi-example board shows unmistakably clay-like graphics: puffy modeled lettering, rounded sculpted shapes, soft matte surfaces, and gentle shadows. Several independent examples demonstrate the target treatment.",
+      "reviewedAt": "2026-10-21T10:22:02.2154619+07:00",
+      "dimensions": {
+        "width": 2160,
+        "height": 2880
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Claymorphism",
+      "folder": "Claymorphism",
+      "file": "332850d4b8ea684803e495cbb3f854ac_fullsize.png",
+      "checksum": "f8f6fa1219e1b59fad34faeed9cd600cc3b36c6ca823e947099fb5f1293bfad5",
+      "title": "Claymorphism — reference 2",
+      "url": "https://www.pinterest.com/pin/307018899610920807/",
+      "sourceUrl": "https://i.pinimg.com/originals/33/28/50/332850d4b8ea684803e495cbb3f854ac.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/307018899610920807/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The interface-symbol sheet uses colorful, inflated controls with rounded volume, soft highlights, and directional shadows, matching the clay-like object treatment directly.",
+      "reviewedAt": "2026-10-21T10:22:02.2154619+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Claymorphism",
+      "folder": "Claymorphism",
+      "file": "28f663d55f4494d34b0d0d2cc83c303f_fullsize.jpg",
+      "checksum": "93225aec527fb7c001dac37b54b7fe9a95773e76e5257d915d7d6feea04524f8",
+      "title": "Claymorphism — reference 3",
+      "url": "https://www.pinterest.com/pin/959900108153515503/",
+      "sourceUrl": "https://i.pinimg.com/originals/28/f6/63/28f663d55f4494d34b0d0d2cc83c303f.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/959900108153515503/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The UI portfolio uses raised rounded cards and tactile controls, with clay-like 3D floral and audio objects embedded throughout. It reads as a deliberate claymorphism interface rather than a generic flat layout.",
+      "reviewedAt": "2026-10-21T10:22:02.2154619+07:00",
+      "dimensions": {
+        "width": 1200,
+        "height": 2133
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "6f6f57df5a7e220ec1c9dd5faee279e4_fullsize.png",
+      "checksum": "59e837e42c10e0ca87fef00efeb2391951bf8cd1aed789ec85b89387222bb089",
+      "title": "ASCII Rendering — reference 1",
+      "url": "https://www.pinterest.com/pin/1130262837750121617/",
+      "sourceUrl": "https://i.pinimg.com/originals/6f/6f/57/6f6f57df5a7e220ec1c9dd5faee279e4.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/1130262837750121617/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A tutorial poster whose portrait and surrounding tonal shapes are formed from a dense grid of ASCII punctuation and symbols, with glyph density carrying light and shadow. This clearly demonstrates ASCII rendering.",
+      "reviewedAt": "2026-10-21T09:57:55.2315034+07:00",
+      "dimensions": {
+        "width": 2160,
+        "height": 2700
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "f77022aad1f3b6103d22a2716c8801a8_fullsize.jpg",
+      "checksum": "ead1fa6445abf5277ca0abb86e96c97ada3d88a0bfd4f4511fa55af6b1289170",
+      "title": "ASCII Rendering — reference 2",
+      "url": "https://www.pinterest.com/pin/169659110956598614/",
+      "sourceUrl": "https://i.pinimg.com/originals/f7/70/22/f77022aad1f3b6103d22a2716c8801a8.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/169659110956598614/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The fish forms are built from rows of characters, punctuation and repeated symbol textures whose density creates the silhouette and tonal variation. The small embedded pixel image does not overwhelm the clear ASCII treatment.",
+      "reviewedAt": "2026-10-21T09:57:55.2315034+07:00",
+      "dimensions": {
+        "width": 2048,
+        "height": 1466
+      },
+      "nativeFullHD": true,
+      "dimensionFlagCorrectedFromMeasuredPixels": true
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "f52c74c1df4b172fc263fdcc2387ac92_fullsize.jpg",
+      "checksum": "4da6e156c73695493acd84182cf675921f92b76779c5763bb2378e4109e49aa1",
+      "title": "ASCII Rendering — reference 3",
+      "url": "https://www.pinterest.com/pin/2181499817836060/",
+      "sourceUrl": "https://i.pinimg.com/originals/f5/2c/74/f52c74c1df4b172fc263fdcc2387ac92.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/2181499817836060/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A large fish-like image is structured from repeated letters and character strings across a tonal grid; their density and spacing form the main silhouette. A small pixelated hand-and-mouse inset is secondary, so this remains a clear ASCII-rendering example.",
+      "reviewedAt": "2026-10-21T09:57:55.2315034+07:00",
+      "dimensions": {
+        "width": 3187,
+        "height": 4096
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "ee1fd73cd2145c8d9769e52a71e5eb10_fullsize.jpg",
+      "checksum": "311e7e19c4ef6ace809bc23ba139ec4c2b05fdc08dd5a1e5eb4dd504adccea77",
+      "title": "ASCII Rendering — reference 4",
+      "url": "https://www.pinterest.com/pin/101682904081854021/",
+      "sourceUrl": "https://i.pinimg.com/originals/ee/1f/d7/ee1fd73cd2145c8d9769e52a71e5eb10.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/101682904081854021/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A text-mode map/interface constructed from fixed blocks of alphabetic strings, punctuation and symbols, with glyph patterns defining the map-like regions and interface details. It is a strong ASCII character-grid rendering.",
+      "reviewedAt": "2026-10-21T09:57:55.2315034+07:00",
+      "dimensions": {
+        "width": 1875,
+        "height": 2048
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "168e7b91ce020f608e05d1b277027018_fullsize.png",
+      "checksum": "523825966dbd8ca3f5fe33d2a7ce1c8fc176dc38fc29f7de8482e5d7d14dba00",
+      "title": "ASCII Rendering — reference 5",
+      "url": "https://www.pinterest.com/pin/883479651932518716/",
+      "sourceUrl": "https://i.pinimg.com/originals/16/8e/7b/168e7b91ce020f608e05d1b277027018.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/883479651932518716/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Green and purple rows of punctuation and keyboard symbols build a recognizable birdcage-like image on black. Character placement and density supply the forms and tonal structure, clearly matching ASCII rendering.",
+      "reviewedAt": "2026-10-21T09:57:55.2315034+07:00",
+      "dimensions": {
+        "width": 2480,
+        "height": 3508
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "9c5b2c25756025433963f566de644e3a_fullsize.png",
+      "checksum": "219036d4ae6a49b4fbd538b57eecbb24e5f0abd0a74e863f6db46f1374098ee2",
+      "title": "ASCII Rendering — reference 6",
+      "url": "https://www.pinterest.com/pin/762445411964689948/",
+      "sourceUrl": "https://i.pinimg.com/originals/9c/5b/2c/9c5b2c25756025433963f566de644e3a.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/762445411964689948/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A poster image built from a repeated character grid, with glyph density creating the figure and surrounding tonal forms. The bold headline is separate display text; the rendered image itself clearly uses text characters as pixels.",
+      "reviewedAt": "2026-10-21T09:57:55.2315034+07:00",
+      "dimensions": {
+        "width": 1800,
+        "height": 2400
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "ABCD_RASHIDI.2392.jpg",
+      "checksum": "c4f85cdd9be21077d27f2c01056e33817332786d4303a68520a57ec859a2c42f",
+      "title": "Art Brut — reference 1",
+      "url": "https://abcd-artbrut.net/collection/rashidi/",
+      "sourceUrl": "https://abcd-artbrut.net/wordpress/wp-content/uploads/2015/10/RASHIDI.2392.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A high-density, compulsive-feeling page of handwritten text and red-ink creature drawings; the page's spontaneous, idiosyncratic mark-making clearly fits Art Brut. Distinct from all five pre-existing images.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 1409
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "ABCD_RASHIDI.2396.jpg",
+      "checksum": "4ce6e317762ec124ad23a28f4c151b77a86689dc3318760281399fb6bcd7c7c3",
+      "title": "Art Brut — reference 2",
+      "url": "https://abcd-artbrut.net/collection/rashidi/",
+      "sourceUrl": "https://abcd-artbrut.net/wordpress/wp-content/uploads/2015/10/RASHIDI.2396.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A large blue-ink drawing of invented, distorted organic creatures, with persistent uneven pen marks and an unpolished personal quality characteristic of Art Brut. It is a separate work from the visually similar pre-existing Rashidi drawing.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 1412
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "ABCD_RASHIDI.2397.jpg",
+      "checksum": "75d79002091a1537b5fba008a8b43fb71f884f62d49d8959bfb7cf17b1c8865f",
+      "title": "Art Brut — reference 3",
+      "url": "https://abcd-artbrut.net/collection/rashidi/",
+      "sourceUrl": "https://abcd-artbrut.net/wordpress/wp-content/uploads/2015/10/RASHIDI.2397.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A distinct black-ink image of densely interwoven faces and creatures, built from repetitive spontaneous linework; it is a clear Art Brut exemplar and not a duplicate of the other Rashidi scans.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 1423
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "RAMIREZ-Aurie-4-scaled.jpg",
+      "checksum": "b84a052e3258206b2bc838ac7c278959c71c9d35b07b783e7802f66707314771",
+      "title": "Art Brut — reference 4",
+      "url": "https://abcd-artbrut.net/collection/ramirez-aurie/?from=collection",
+      "sourceUrl": "https://abcd-artbrut.net/wp-content/uploads/2026/03/RAMIREZ-Aurie-4-scaled.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Hand-drawn sketchbook page with a highly individual fantasy woman combining horns, bat wings, a tail and patterned scales; the awkwardly direct anatomy and personal creature design fit Art Brut rather than generic digital illustration. Visually distinct from the other submitted drawings.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2560,
+        "height": 1637
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "RAMIREZ-Aurie-11-scaled.jpg",
+      "checksum": "0d6e134b0b4e8889f159bd5a531c5b7391a11f9a0584857cd8e70ecd905e40df",
+      "title": "Art Brut — reference 5",
+      "url": "https://abcd-artbrut.net/collection/ramirez-aurie/?from=collection",
+      "sourceUrl": "https://abcd-artbrut.net/wp-content/uploads/2026/03/RAMIREZ-Aurie-11-scaled.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Hand-drawn surreal sketchbook study of repeated mask-like heads with an oversized feathered form, a rainbow arch and long supports. The recurring invented faces and idiosyncratic repetition are a strong personal Art Brut motif; visually distinct from the other submitted drawings.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2560,
+        "height": 1577
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "RAMIREZ-Aurie-6-scaled.jpg",
+      "checksum": "2e19fa439bb5733a06933cb4d359490edadceed397246fba0b5bb911fee28492",
+      "title": "Art Brut — reference 6",
+      "url": "https://abcd-artbrut.net/collection/ramirez-aurie/?from=collection",
+      "sourceUrl": "https://abcd-artbrut.net/wp-content/uploads/2026/03/RAMIREZ-Aurie-6-scaled.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A separate hand-drawn fantasy character with green skin, graphic stripes and unusual jewelry, shown in a direct sketchbook pose. Its deliberately idiosyncratic design and visible hand coloring support the Art Brut fit; it is not a real-person portrait or duplicate.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2560,
+        "height": 1667
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "RAMIREZ-Aurie-5-scaled.jpg",
+      "checksum": "25e63fcc766e41a6635362ed303e6d1079bfed6e5ac3b960c3890173843a8282",
+      "title": "Art Brut — reference 7",
+      "url": "https://abcd-artbrut.net/collection/ramirez-aurie/?from=collection",
+      "sourceUrl": "https://abcd-artbrut.net/wp-content/uploads/2026/03/RAMIREZ-Aurie-5-scaled.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A distinct hand-drawn fish-woman creature with repeated green scales, human legs and a small heart motif. The unusual hybrid anatomy and self-consistent personal fantasy imagery make this a clear Art Brut reference.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2560,
+        "height": 1625
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "RAMIREZ-Aurie-3-scaled.jpg",
+      "checksum": "2598a159b26a495f5e3b1120580e77554381485d202e571e3a41258c54e28da5",
+      "title": "Art Brut — reference 8",
+      "url": "https://abcd-artbrut.net/collection/ramirez-aurie/?from=collection",
+      "sourceUrl": "https://abcd-artbrut.net/wp-content/uploads/2026/03/RAMIREZ-Aurie-3-scaled.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Hand-drawn fashion-like figure with a stylized face, unusual proportions and scattered small heart forms. Despite the cleaner outline, the page is visibly a personal sketchbook drawing with idiosyncratic character design, not a generic stock illustration or photo.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2560,
+        "height": 1638
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "RAMIREZ-Aurie-2-scaled.jpg",
+      "checksum": "3ff855136b34e0c65fb7b2aa1fc90144502e7af3160589ce9c2d7c2afd88b567",
+      "title": "Art Brut — reference 9",
+      "url": "https://abcd-artbrut.net/collection/ramirez-aurie/?from=collection",
+      "sourceUrl": "https://abcd-artbrut.net/wp-content/uploads/2026/03/RAMIREZ-Aurie-2-scaled.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/728175833495936630/",
+      "provider": "ABCD Art Brut collection",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A hand-drawn figure beneath an oversized ribbed umbrella, with mirrored faces and a tightly patterned outfit. The surreal staging and odd, personal visual shorthand clearly align with the artist's Art Brut sketchbook series and differ from the other candidates.",
+      "reviewedAt": "2026-10-21T09:39:54.5932427+07:00",
+      "dimensions": {
+        "width": 2560,
+        "height": 1575
+      },
+      "nativeFullHD": true
+    },
+    {
       "style": "Art Nouveau",
       "folder": "Art Nouveau",
-      "file": "eb085fab5c74a21ae8aaf56e9400da5c.jpg",
-      "checksum": "682c93259ba501387140929b3319a4b50ffc7b9197c60084f26b1a551cf1c312",
-      "title": "Art Nouveau — botanical pattern study",
-      "peopleReview": "no-real-people"
+      "file": "11dbac047e86e5e8673e4f39a48dbda5_fullsize.jpg",
+      "checksum": "2fdaca6bd0647c0d7c19d47eef373a72d771fa16b428c3216766168a90f97b0b",
+      "title": "Art Nouveau — reference 1",
+      "url": "https://www.pinterest.com/pin/550213279504935418/",
+      "sourceUrl": "https://i.pinimg.com/originals/11/db/ac/11dbac047e86e5e8673e4f39a48dbda5.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/550213279504935418/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A deliberate ornamental poster centered on a peacock, with repeated sinuous feather forms, scrolling botanical tendrils and stylized lettering. The organic contours and decorative framing clearly fit Art Nouveau.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 2999
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "eb085fab5c74a21ae8aaf56e9400da5c_fullsize.jpg",
+      "checksum": "474b7a0973b5ce2fcbde3accb705e94c83cec3bbb33ef57221a2f2611583a14c",
+      "title": "Art Nouveau — reference 2",
+      "url": "https://www.pinterest.com/pin/320740804686158682/",
+      "sourceUrl": "https://i.pinimg.com/originals/eb/08/5f/eb085fab5c74a21ae8aaf56e9400da5c.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/320740804686158682/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A hand-colored botanical composition of lily pads and water lilies, with interlocking stems and simplified flowing outlines. The plant-driven decorative pattern is a strong Art Nouveau fit; the pre-existing lower-resolution copy was inspected and is the same artwork, so this high-resolution copy is its single accepted representation.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 2641,
+        "height": 4865
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "0dde804041ad60f494d75c2d14c92614_fullsize.jpg",
+      "checksum": "7678d82252d60775d5b73f739a6cf64ec1b1474e9a8fdf7d87cb3a3c06324bf8",
+      "title": "Art Nouveau — reference 3",
+      "url": "https://www.pinterest.com/pin/550213279505351094/",
+      "sourceUrl": "https://i.pinimg.com/originals/0d/de/80/0dde804041ad60f494d75c2d14c92614.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/550213279505351094/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A poster explicitly for the 1900 Art Nouveau exhibition, with a peacock, sweeping feather-like shapes, irregular curved frame and stylized display lettering. Its treatment is a clear historical Art Nouveau exemplar.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 2999
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "a11d01e948fa9217fe32412b1841112c_fullsize.jpg",
+      "checksum": "7a1bbf868f9023d4c2102789a4afbb279b3891ce14e14c38b4d585a1b9794d77",
+      "title": "Art Nouveau — reference 4",
+      "url": "https://www.pinterest.com/pin/696932111132589769/",
+      "sourceUrl": "https://i.pinimg.com/originals/a1/1d/01/a11d01e948fa9217fe32412b1841112c.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/696932111132589769/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A magazine cover with a stylized woman, peacock, plume-like foliage, flowers, curving hair and lettering arranged in an integrated ornamental composition. The flowing line and botanical decoration make this Art Nouveau despite the pin alt calling it Art Deco; the pre-existing smaller copy was visually confirmed as the same artwork.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 2999
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "2c4f451d264620f3851bf938358c1154_fullsize.jpg",
+      "checksum": "952d06aefe0270849af9eca12e901429db65963e58d64f207b547ff509284ee7",
+      "title": "Art Nouveau — reference 5",
+      "url": "https://www.pinterest.com/pin/550213279504491581/",
+      "sourceUrl": "https://i.pinimg.com/originals/2c/4f/45/2c4f451d264620f3851bf938358c1154.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/550213279504491581/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A decorative Brussels exposition poster built from symmetrical but clearly organic floral arabesques, curling stems, leaves and blossoms, plus period-style display lettering. Its botanical ornament and flowing line strongly match Art Nouveau.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 2000,
+        "height": 3000
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "f93991ebdd99110cd85486f743e250d9_fullsize.jpg",
+      "checksum": "102577d49b0be12390a28f7833676b6cbf5bf488bcf7879f3be844091a10ceef",
+      "title": "Art Nouveau — reference 6",
+      "url": "https://www.pinterest.com/pin/126523070776491173/",
+      "sourceUrl": "https://i.pinimg.com/originals/f9/39/91/f93991ebdd99110cd85486f743e250d9.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/126523070776491173/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A botanical plate-style composition combining a water lily, curling aquatic leaves, a round ornamental panel and a tall flowering stem, with insects and decorative lettering. Its flowing plant forms, integrated border and period poster design are clear Art Nouveau characteristics.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 1183,
+        "height": 2560
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "033594d275c10afe0716fc89ad76bbd4_fullsize.jpg",
+      "checksum": "b3e579d474723148fb77a6ee6c2173aa2175feb83cbe5e9fcfe6223ed74a0bdc",
+      "title": "Art Nouveau — reference 7",
+      "url": "https://www.pinterest.com/pin/443393525832037082/",
+      "sourceUrl": "https://i.pinimg.com/originals/03/35/94/033594d275c10afe0716fc89ad76bbd4.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/443393525832037082/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A highly stylized exhibition poster with a central flowering plant, curling stems, paired blossoms and large ornamental lettering. The strongly organic linework and integrated plant-based layout fit Art Nouveau despite its modern red-and-black palette.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 3500,
+        "height": 5250
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "8310a8172f58988837abb3b8fa558f5d_fullsize.jpg",
+      "checksum": "3252e25a1d674ded2d1e19c5cf5f6e69d0e033ebe3330f0c6d36cdf8d744ba54",
+      "title": "Art Nouveau — reference 8",
+      "url": "https://www.pinterest.com/pin/15410823722492504/",
+      "sourceUrl": "https://i.pinimg.com/originals/83/10/a8/8310a8172f58988837abb3b8fa558f5d.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/15410823722492504/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A botanical plate-style poster featuring foxgloves and daisies among ornate circular and curling foliage, with a beetle and decorative text. The natural subject and flowing ornamental arrangement clearly exemplify Art Nouveau.",
+      "reviewedAt": "2026-10-21T09:44:50.9359637+07:00",
+      "dimensions": {
+        "width": 1170,
+        "height": 2080
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Bento Grid",
+      "folder": "Bento Grid",
+      "file": "0319153bbb87427df7d20a73c761742d_fullsize.jpg",
+      "checksum": "d4314ee73e8e168c06130c644563021cfa364343dd132851e7fb79ada55eb5d9",
+      "title": "Bento Grid — reference 1",
+      "url": "https://www.pinterest.com/pin/635922409924445761/",
+      "sourceUrl": "https://i.pinimg.com/originals/03/19/15/0319153bbb87427df7d20a73c761742d.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/635922409924445761/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A clearly compartmentalized product infographic with a large mixer panel, smaller rating, promotion and specification cards, and distinct content in each module. The unequal card sizes and self-contained information blocks are a strong Bento Grid example.",
+      "reviewedAt": "2026-10-21T10:19:35.3870145+07:00",
+      "dimensions": {
+        "width": 1836,
+        "height": 3264
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Bento Grid",
+      "folder": "Bento Grid",
+      "file": "8c8c63379b58465a238f308bfa98042b_fullsize.jpg",
+      "checksum": "7d5dde636c811ad402b670ec2c2198f9ba651ea009d14a55ffe7bb7a78c6b904",
+      "title": "Bento Grid — reference 2",
+      "url": "https://www.pinterest.com/pin/254875660155850169/",
+      "sourceUrl": "https://i.pinimg.com/originals/8c/8c/63/8c8c63379b58465a238f308bfa98042b.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/254875660155850169/",
+      "provider": "Pinterest",
+      "peopleReview": "posed-model",
+      "reviewReason": "A dashboard-style composition uses a dominant central panel and several surrounding metric, team and service cards at varied sizes. The deliberately staged stock-model photo is integrated into one panel; this is a clear Bento Grid layout.",
+      "reviewedAt": "2026-10-21T10:19:35.3870145+07:00",
+      "dimensions": {
+        "width": 3200,
+        "height": 2400
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Bento Grid",
+      "folder": "Bento Grid",
+      "file": "c78de22885b9aeb04351e3ca0bd82147_fullsize.webp",
+      "checksum": "d178e5028e9d245563c8682c279253f8033fb002e72083c5291b41681967aaaa",
+      "title": "Bento Grid — reference 3",
+      "url": "https://www.pinterest.com/pin/883972233114151512/",
+      "sourceUrl": "https://i.pinimg.com/originals/c7/8d/e2/c78de22885b9aeb04351e3ca0bd82147.webp",
+      "discoveryUrl": "https://www.pinterest.com/pin/883972233114151512/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A product campaign arranged as distinct cards of varied proportions: a tall community panel, wide product panel, paired smaller content panels and a wide footwear panel. The separated modules form a strong Bento Grid composition.",
+      "reviewedAt": "2026-10-21T10:19:35.3870145+07:00",
+      "dimensions": {
+        "width": 2097,
+        "height": 2004
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Bento Grid",
+      "folder": "Bento Grid",
+      "file": "06731ddd1dbbaad9e7e2ae9ac2eabb07_fullsize.jpg",
+      "checksum": "b47a48d78fd66028f4c773c471721189c03c24eb4156f2dcd20f778f932927f2",
+      "title": "Bento Grid — reference 4",
+      "url": "https://www.pinterest.com/pin/1034913189388044662/",
+      "sourceUrl": "https://i.pinimg.com/originals/06/73/1d/06731ddd1dbbaad9e7e2ae9ac2eabb07.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/1034913189388044662/",
+      "provider": "Pinterest",
+      "peopleReview": "posed-model",
+      "reviewReason": "A modular profile/portfolio layout combines large and small separated cards for text, navigation, icons and a deliberately posed fashion-model portrait. The varied self-contained panels clearly match Bento Grid.",
+      "reviewedAt": "2026-10-21T10:19:35.3870145+07:00",
+      "dimensions": {
+        "width": 1836,
+        "height": 3264
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "8a4d13989696ec2a86e8461b84adf658_fullsize.jpg",
+      "checksum": "84be252bceba4703e3714ba798c0e1fe886dbe11ff7d8c6cd66e40fb67b28f07",
+      "title": "Blackletter typography — reference 1",
+      "url": "https://www.pinterest.com/pin/944489353377546310/",
+      "sourceUrl": "https://i.pinimg.com/originals/8a/4d/13/8a4d13989696ec2a86e8461b84adf658.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/944489353377546310/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A complete upper- and lowercase specimen shows strongly angular, fractured blackletter glyphs, with a large matching word sample and numerals. This is a direct, unmistakable typography reference.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "affa7d6b52869f7068278b1d9d853567_fullsize.jpg",
+      "checksum": "5fe39a34f76176058cf82646492f7212342507c2c84b3183bfd381fc3b22f665",
+      "title": "Blackletter typography — reference 2",
+      "url": "https://www.pinterest.com/pin/951878071264261836/",
+      "sourceUrl": "https://i.pinimg.com/originals/af/fa/7d/affa7d6b52869f7068278b1d9d853567.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/951878071264261836/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The poster centers on a blackletter family specimen: the title, explanatory paragraphs, and drop-cap examples all show dense angular strokes and characteristic broken curves.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "118ae07bafa6d1ee38f46ae12b19e0c2_fullsize.png",
+      "checksum": "256919ac963a66101268f1997fa6f55ed81f0d34faaf2238481ee56cc1557e5d",
+      "title": "Blackletter typography — reference 3",
+      "url": "https://www.pinterest.com/pin/1139410774505773024/",
+      "sourceUrl": "https://i.pinimg.com/originals/11/8a/e0/118ae07bafa6d1ee38f46ae12b19e0c2.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/1139410774505773024/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The typeface presentation includes blackletter alphabet rows and prominent decorative blackletter display examples. Although the poster also shows a contrasting Roman alphabet, the target style is plainly represented.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 2279
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "6d67e8a924a3ed78f1ec9f02ecfd606e_fullsize.png",
+      "checksum": "3c57b18ec8aabc06680535d52926fb0365f615458ceec35673a0dbc3133f9397",
+      "title": "Blackletter typography — reference 4",
+      "url": "https://www.pinterest.com/pin/1123788913305118386/",
+      "sourceUrl": "https://i.pinimg.com/originals/6d/67/e8/6d67e8a924a3ed78f1ec9f02ecfd606e.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/1123788913305118386/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "This is a dedicated blackletter font specimen with strongly angular, ornate letterforms across the headline, alphabet, numerals, and punctuation.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 2279
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "21597811f6f2d583b01d369c99ec6995_fullsize.png",
+      "checksum": "6fe1f1d4adb04412707bce29149892fe27c03f107ed23b7fbee3a088942ae6a4",
+      "title": "Blackletter typography — reference 5",
+      "url": "https://www.pinterest.com/pin/1096133996840412261/",
+      "sourceUrl": "https://i.pinimg.com/originals/21/59/78/21597811f6f2d583b01d369c99ec6995.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/1096133996840412261/",
+      "provider": "Pinterest",
+      "peopleReview": "posed-model",
+      "reviewReason": "A blackletter typeface specimen presents its name and several applications in dramatic, angular broken-stroke lettering. The embedded human portrait is deliberate editorial imagery, not a casual photo.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 2279
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "d2ace0400d8c84683de52ba2ae53daa7_fullsize.jpg",
+      "checksum": "a9fd0216051f675c681fce6d69d8bb8ddc5a825a1992215f244bcae758112f47",
+      "title": "Blackletter typography — reference 6",
+      "url": "https://www.pinterest.com/pin/951878071263829461/",
+      "sourceUrl": "https://i.pinimg.com/originals/d2/ac/e0/d2ace0400d8c84683de52ba2ae53daa7.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/951878071263829461/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "A complete modern blackletter family specimen displays uppercase, lowercase, numerals, punctuation, and a large word sample with unmistakable angular broken strokes.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "a3231575b0ef8a55c8e51f9ca5112147_fullsize.png",
+      "checksum": "d5220296dc071d96cec1e240244e89486b045e071c121aca66d035d2d256d96f",
+      "title": "Blackletter typography — reference 7",
+      "url": "https://www.pinterest.com/pin/1139410774507645424/",
+      "sourceUrl": "https://i.pinimg.com/originals/a3/23/15/a3231575b0ef8a55c8e51f9ca5112147.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/1139410774507645424/",
+      "provider": "Pinterest",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The typeface presentation uses clearly blackletter letterforms across several large display examples. Floral imagery is decorative context; the typography remains the dominant subject.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 2279
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "c1238c44f8fddf9b798f7bf4b76c9405_fullsize.jpg",
+      "checksum": "e563143872fad6abdc75c4d0d9114850c0fdac450c2a78afd44bb83d954cc648",
+      "title": "Blackletter typography — reference 8",
+      "url": "https://www.pinterest.com/pin/1066438386788910130/",
+      "sourceUrl": "https://i.pinimg.com/originals/c1/23/8c/c1238c44f8fddf9b798f7bf4b76c9405.jpg",
+      "discoveryUrl": "https://www.pinterest.com/pin/1066438386788910130/",
+      "provider": "Pinterest",
+      "peopleReview": "posed-model",
+      "reviewReason": "A blackletter font promotion includes prominent angular red letterforms, a complete alphabet specimen, and several applications. The included figures are posed fantasy/editorial imagery, not casual photography.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1820,
+        "height": 3642
+      },
+      "nativeFullHD": true
+    },
+    {
+      "style": "Blackletter typography",
+      "folder": "Blackletter typography",
+      "file": "3b92de048f04aab335ff55b1dcb11126_fullsize.png",
+      "checksum": "78fea5a263f85a7265561b88d8302d79f70bf65fce89b0fd715f8a8292d999ea",
+      "title": "Blackletter typography — reference 9",
+      "url": "https://www.pinterest.com/pin/1139410774507129506/",
+      "sourceUrl": "https://i.pinimg.com/originals/3b/92/de/3b92de048f04aab335ff55b1dcb11126.png",
+      "discoveryUrl": "https://www.pinterest.com/pin/1139410774507129506/",
+      "provider": "Pinterest",
+      "peopleReview": "posed-model",
+      "reviewReason": "This poster explicitly presents a blackletter typeface, and its title and lettering examples use dense angular medieval forms. The figure in the lower panel is staged illustrative/editorial imagery.",
+      "reviewedAt": "2026-10-21T10:16:52.8030381+07:00",
+      "dimensions": {
+        "width": 1080,
+        "height": 2274
+      },
+      "nativeFullHD": true
+    }
+  ],
+  "replacements": [
+    {
+      "style": "Art Nouveau",
+      "oldChecksum": "682c93259ba501387140929b3319a4b50ffc7b9197c60084f26b1a551cf1c312",
+      "newChecksum": "474b7a0973b5ce2fcbde3accb705e94c83cec3bbb33ef57221a2f2611583a14c"
     }
   ]
 }

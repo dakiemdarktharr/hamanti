@@ -13,7 +13,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 12,"Material Realism",6,0,0,deferred
 13,"Neumorphism",6,0,0,deferred
 14,"Glassmorphism",6,0,0,deferred
-15,"Claymorphism",6,0,0,deferred
+15,"Claymorphism",6,3,3,partial
 16,"Minimalism",6,0,0,deferred
 17,"Organic Design",6,0,0,deferred
 18,"Hand-Drawn Design",6,0,0,deferred
@@ -45,7 +45,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 44,"Column Grid",6,0,0,deferred
 45,"Modular Grid",6,0,0,deferred
 46,"Hierarchical Grid",6,0,0,deferred
-47,"Bento Grid",6,0,0,deferred
+47,"Bento Grid",6,4,4,partial
 48,"Card-Based Design",6,0,0,deferred
 49,"Masonry Layout",6,0,0,deferred
 50,"Justified Image Grid",6,0,0,deferred
@@ -87,7 +87,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 86,"Humanist slab-serif typography",6,0,0,deferred
 87,"Clarendon typography",6,0,0,deferred
 88,"Glyphic typography",6,0,0,deferred
-89,"Blackletter typography",6,0,0,deferred
+89,"Blackletter typography",6,9,9,complete
 90,"Formal script typography",6,0,0,deferred
 91,"Brush-script typography",6,0,0,deferred
 92,"Handwritten typography",6,0,0,deferred
@@ -168,7 +168,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 167,"Matcap Rendering",6,0,0,deferred
 168,"Line-rendered 3D",6,0,0,deferred
 169,"Volumetric Rendering",6,0,0,deferred
-170,"ASCII Rendering",6,0,0,deferred
+170,"ASCII Rendering",6,6,6,complete
 171,"Pixel Art",6,0,0,deferred
 172,"Dithered Rendering",6,0,0,deferred
 173,"Glitch Art",6,0,0,deferred
@@ -215,11 +215,11 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 214,"Impressionism",6,0,0,deferred
 215,"Post-Internet Aesthetic",6,0,0,deferred
 216,"New Aesthetic",6,0,0,deferred
-217,"Art Brut",6,0,0,deferred
+217,"Art Brut",6,9,0,complete
 218,"Surrealism",6,0,0,deferred
 219,"Cubism",6,0,0,deferred
 220,"Fauvism",6,0,0,deferred
-221,"Art Nouveau",6,1,0,partial
+221,"Art Nouveau",6,8,8,complete
 222,"Art Deco",6,0,0,deferred
 223,"Polish School of Graphic Design",6,0,0,deferred
 224,"Japanese Modernism",6,0,0,deferred

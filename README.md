@@ -62,7 +62,9 @@ The user subsequently authorized exactly two collection agents, `search` and `ch
 
 `D:\3000 reference images` contains 300 subfolders named for the current styles and a short `READ ME.txt`. `scripts/create-image-folders.mjs` creates this layout without overwriting existing files. Optional source links can be saved as `sources.csv` with `filename,url,title` columns inside each style folder.
 
-The full agent-collected batch is to be migrated after both agents finish the folder review. Their cumulative ready/review manifests and original folder audit are under `.tmp/collection-coordination/`. Preserve the source URL, checksum, measured dimensions and explicit people-photo decision when merging approvals into `data/manual-review.json`.
+On 2026-10-21 the user stopped both agents and requested publication of the saved approvals before the full collection was complete. `node scripts/prepare-reviewed-import.mjs` validates the saved checker decisions against the actual source bytes and folder mapping before merging them into `data/manual-review.json`. Only persisted approvals are published; unfinished reviews remain pending. The current merge adds 39 checker-approved images, replaces one lower-resolution copy with its larger original, and retains the original Abstract Expressionism reference: 40 published references across seven styles. Source links, people-photo decisions and review reasons are preserved. Neither agent is running.
+
+Their cumulative ready/review manifests and original folder audit remain under `.tmp/collection-coordination/`. The portable publication approvals are recorded in `data/manual-review.json`.
 
 `scripts/inspect-manual-images.mjs` makes a local dimension inventory and review contact sheets. `node --env-file=.env.local scripts/import-manual-images.mjs` imports only explicitly approved files whose checksum still matches, verifies MongoDB read-back, creates small index thumbnails and rebuilds the published reference data. It is repeatable and never removes intake files. Unattributed user-supplied images do not receive invented Pinterest links.
 
@@ -84,7 +86,7 @@ The `hamanti` database uses the already-existing `wfg` Flex cluster. At the user
 
 Store `MONGODB_URI` only in ignored `.env.local` and Vercel's server environment. The read-only `api/images/[id].js` endpoint rejects retired image IDs with HTTP 410 and no-store caching. The GitHub Pages site uses the same image API.
 
-The current manual import retains original bytes and dimensions, with separate WebP thumbnails for the index. Files exceeding the 4.3 MB delivery budget remain pending. The manual importer uses a 4,000 MB ceiling for `wfg`; historical migration tools default to a conservative 280 MB ceiling for older free clusters. Capacity failures remain pending instead of silently changing plans or removing older data.
+The current manual import retains original bytes and dimensions, with separate WebP thumbnails for the index. Originals exceeding the 4.3 MB delivery budget are archived separately and served through a lossless WebP variant at the same native dimensions. If even that variant exceeds the delivery budget, the reference remains pending. The manual importer uses a 4,000 MB ceiling for `wfg`; historical migration tools default to a conservative 280 MB ceiling for older free clusters. Capacity failures remain pending instead of silently changing plans or removing older data.
 
 ## Design assets
 
