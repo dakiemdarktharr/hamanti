@@ -25,7 +25,7 @@
     <main id="main" tabindex="-1" inert data-opening-inert aria-busy="true">
       <div id="error" class="error" hidden></div>
       <div id="landscape" class="landscape" aria-hidden="true"></div>
-      <div id="home-page" class="horizontal-scroll" tabindex="0" aria-label="Horizontal handbook" hidden>
+      <div id="home-page" class="horizontal-scroll" tabindex="0" aria-label="Horizontal handbook">
        <div id="home-track" class="home-track">
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-top mono"><span>Independent by nature.</span><span>001 — 300</span></div>
@@ -43,7 +43,8 @@
             <div class="search"><label for="search" class="sr-only">Search styles, descriptions and tags</label><span class="search-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m15 15 6 6" stroke="currentColor" stroke-width="1.5"/></svg></span><input type="search" id="search" placeholder="Find a style…" autocomplete="off" spellcheck="false" aria-controls="style-index"><button id="search-clear" aria-label="Clear search" hidden>×</button><kbd aria-hidden="true">/</kbd></div>
             <label class="select alphabet-select"><span class="sr-only">Filter by first letter</span><select id="letter-filter"><option value="all">All A–Z</option></select></label>
           </div>
-          <div class="index-navigation"><p id="result-count" class="result-count mono" role="status" aria-live="polite" aria-atomic="true"></p><span class="journey-hint mono">Scroll or swipe to wander</span><div class="journey-buttons"><button id="index-prev" aria-label="Previous styles">←</button><button id="index-next" aria-label="Next styles">→</button></div></div>
+          <div class="index-navigation"><p id="result-count" class="result-count mono" role="status" aria-live="polite" aria-atomic="true"></p><span id="index-position" class="journey-hint mono" aria-hidden="true"></span><div class="journey-buttons"><button id="index-prev" aria-label="Previous styles">←</button><button id="index-next" aria-label="Next styles">→</button></div></div>
+          <p id="route-notice" class="route-notice" role="status" hidden>That style isn’t in the index. Explore the collection below.</p>
           <div class="journey"><div id="style-index" class="style-index"></div></div>
           <div id="empty" class="empty" hidden><p>No styles found.</p><button id="clear-filters" class="text-button">Clear filters ↗</button></div>
         </section>
@@ -60,8 +61,8 @@
     </footer>
     <div class="transition" id="transition" aria-hidden="true"><div class="transition-line"></div><div class="home-wipe"></div><svg class="home-iris" aria-hidden="true"><circle class="iris-cover" fill="#222a20" r="0"/></svg></div>
     <dialog id="lightbox" aria-labelledby="lightbox-title" data-lenis-prevent>
-      <div class="lightbox-bar"><span id="lightbox-counter" class="mono"></span><button id="lightbox-close" aria-label="Close image">Close ×</button></div>
-      <div class="lightbox-image"><img id="lightbox-image" alt=""></div>
+      <div class="lightbox-bar"><span id="lightbox-counter" class="mono" role="status" aria-live="polite"></span><div class="lightbox-actions"><button id="lightbox-prev" aria-label="Previous image">←</button><button id="lightbox-next" aria-label="Next image">→</button><button id="lightbox-close" aria-label="Close image">Close ×</button></div></div>
+      <div class="lightbox-image"><img id="lightbox-image" alt=""><div class="lightbox-feedback"><p id="lightbox-status" role="status"></p><button id="lightbox-retry" class="text-button" hidden>Retry image ↗</button></div></div>
       <div class="lightbox-caption"><p id="lightbox-title"></p><a id="lightbox-source" target="_blank" rel="noopener">Pinterest source ↗</a></div>
     </dialog>
     <noscript><style>.opening-loader{display:none}</style><p class="error">JavaScript opens the visual handbook. You can also <a href="./artstyles-300.md">read all 300 styles here</a>.</p></noscript>

@@ -29,6 +29,8 @@ The landscape is decoded ahead of the viewport into a single SVG image layer and
 
 The introduction starts revealing each word only after it passes the viewport's horizontal centre. Spaces sit outside the word spans, with generous line spacing; geometry is read before opacity updates. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Single-image collections use the full gallery width. Detail backgrounds are chosen once per visit from small SVG topography, ASCII, wave, beam and flat-shard patterns. The pattern and palette stay fixed until leaving that style. Full-size gallery images load around the active reference; distant cards use thumbnails.
 
+The October 21 interaction pass adds a keyboard-operated image viewer with previous/next and retry states, reliable filter and scroll restoration through browser history, system reduced-motion precedence, invalid-route recovery, and stable card positions when resizing. Gallery portraits fit without cropping. Worker-side SVG contour compaction and deferred decoding reduce landscape work during scrolling and route animations. The loading title shares the home title's layout from the first content fetch, and its caret only appears during typing. See [the interaction audit](docs/interaction-audit-2026-10-21.md) for checked flows, limitations and changed files.
+
 All production logo, icon, button, and decorative landscape artwork is SVG with vector paths or text. All GLB models, obsolete 3D authoring code and GPU backgrounds have been removed, along with Three.js, vgpu, OGL and React dependencies.
 
 ## Content and provenance

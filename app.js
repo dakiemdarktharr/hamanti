@@ -1,5 +1,6 @@
 import './styles.css';
 import './lib/horizontal.css';
+import './lib/polish.css';
 import { animate, hover, press } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
@@ -7,6 +8,8 @@ import { searchStyles } from './lib/search.js';
 import { createLoadingScreen } from './lib/loading.js';
 import { openingAssets, warmImages } from './lib/preload.js';
 import { mixedCurtains, prepareHomeReturn } from './lib/page-transition.js';
+import { readIndexFilters, resolveRoute, shouldPauseMotion } from './lib/navigation.js';
+import { createImageViewer } from './lib/lightbox.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -17,7 +20,7 @@ const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 const desktop = matchMedia('(min-width: 900px)');
 let savedPause = false;
 try { savedPause = localStorage.getItem('hamanti-motion') === 'paused'; } catch {}
-let paused = reduced.matches || savedPause;
+let paused = shouldPauseMotion(reduced.matches, savedPause);
 const opening = createLoadingScreen(() => paused);
 let returningFromCredits = false;
 try { returningFromCredits=sessionStorage.getItem('hamanti-home-return')==='1'; sessionStorage.removeItem('hamanti-home-return'); } catch {}
@@ -26,11 +29,31 @@ if (returningFromCredits && !reduced.matches) {
 }
 let detailReady = Promise.resolve();
 let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, landscape, homeScroll = 0, lastStyleId;
-let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest;
+let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest, scrollSaveTimer, galleryMove, pendingFocus;
 const filters = { query: '', letter: 'all' };
 let frozenPalette;
 let introWordElements = [];
 let indexCards = [], curvedCards = new Set(), cardLayout;
+let homeAnchor;
+const viewer = createImageViewer({
+  dialog:$('#lightbox'), getStyle:() => currentStyle,
+  onOpen:() => lenis?.stop(),
+  onClose:index => { galleryMove?.(index, {immediate:true}); lenis?.start(); return $(`[data-open-image="${index}"]`); },
+});
+
+function savePagePosition() {
+  if (!handbook || navigationBusy || opening.active) return;
+  const position=currentStyle ? {detailScroll:scrollY} : {homeScroll:$('#home-page').scrollLeft};
+  history.replaceState({...history.state,...position},'');
+}
+function syncFilters() {
+  const letters = [...$('#letter-filter').options].map(option => option.value);
+  const next = readIndexFilters(location.search, letters);
+  if (filters.query === next.query && filters.letter === next.letter) return;
+  Object.assign(filters, next);
+  $('#search').value = filters.query; $('#letter-filter').value = filters.letter;
+  renderIndex();
+}
 
 function measureCards() {
   const grid = $('.style-grid');
@@ -64,6 +87,7 @@ function curveCards(scrollLeft) {
 }
 
 function smoothTo(target, options = {}) {
+  if (!currentStyle && !options.immediate) landscape?.hold();
   const home = $('#home-page');
   const value = typeof target === 'number' ? target : currentStyle
     ? target.getBoundingClientRect().top + scrollY
@@ -79,11 +103,13 @@ function setupMotion() {
     ...(!currentStyle ? {wrapper:$('#home-page'),content:$('#home-track'),orientation:'horizontal',gestureOrientation:'both'} : {}),
   }) : null;
   document.body.classList.toggle('motion-paused', paused);
-  $('#motion-toggle').textContent = paused ? 'Motion paused' : 'Pause motion';
+  $('#motion-toggle').textContent = reduced.matches ? 'Reduced motion on' : paused ? 'Motion paused' : 'Pause motion';
+  $('#motion-toggle').disabled = reduced.matches;
   $('#motion-toggle').setAttribute('aria-pressed', String(paused));
   background?.pause(paused);
   landscape?.pause(paused);
   if (currentStyle) setupGallery();
+  if ($('#lightbox').open) lenis?.stop();
   requestUpdate();
 }
 function bindControls() {
@@ -104,20 +130,23 @@ function bindControls() {
 }
 function typeTitle() {
   clearTimeout(titleTimer);
+  $('.hero').classList.remove('is-typing');
   const element = $('#type-title');
   element.textContent = 'hamanti';
   if (paused) return;
   const words = ['anti', 'hamanti'];
   let index = 0;
   const tick = () => {
-    if (paused || currentStyle || document.hidden) { element.textContent = 'hamanti'; return; }
+    if (paused || currentStyle || document.hidden) { element.textContent = 'hamanti'; $('.hero').classList.remove('is-typing'); return; }
     const target = words[index], current = element.textContent;
     if (current !== target) {
+      $('.hero').classList.add('is-typing');
       const shared = [...current].findIndex((letter, i) => target[i] !== letter);
       if (shared !== -1 || current.length > target.length) element.textContent = current.slice(0, -1);
       else element.textContent = target.slice(0, current.length + 1);
       titleTimer = setTimeout(tick, current.length > target.length || shared !== -1 ? 60 : 100 + Math.random() * 55);
     } else if (++index < words.length) titleTimer = setTimeout(tick, 1400);
+    else $('.hero').classList.remove('is-typing');
   };
   titleTimer = setTimeout(tick, 3800);
 }
@@ -131,11 +160,18 @@ function requestUpdate() {
   if (frameRequest) return;
   frameRequest = requestAnimationFrame(() => {
     frameRequest = null;
+    if (!handbook || !$('#error').hidden) return;
+    const footer = $('#footer').getBoundingClientRect();
     if (!currentStyle) {
       const intro = $('#about').getBoundingClientRect();
       // Finish all word geometry reads before writing styles.
       const bounds = intro.right > 0 && intro.left < innerWidth
         ? introWordElements.map(word => word.getBoundingClientRect()) : null;
+      const home = $('#home-page'), index = $('#index').getBoundingClientRect();
+      const sections=[...$('#home-track').children];
+      const section=sections.findLast(element=>element.offsetLeft<=home.scrollLeft+2) || sections[0];
+      const unit=section.id==='index' && cardLayout ? cardLayout.width+cardLayout.gap : section.offsetWidth;
+      homeAnchor={id:section.id || 'hero',position:(home.scrollLeft-section.offsetLeft)/unit};
       introWordElements.forEach((word, i) => {
         // Reveal each word only after it passes the horizontal centre.
         const progress = paused ? 1 : bounds
@@ -144,13 +180,17 @@ function requestUpdate() {
         const value = String(Math.round(progress * 100) / 100);
         if (word.style.opacity !== value) word.style.opacity = value;
       });
-      const home = $('#home-page'), index = $('#index').getBoundingClientRect();
       const indexStart = index.left + home.scrollLeft;
       $('#index-prev').disabled = home.scrollLeft <= indexStart + 2;
       $('#index-next').disabled = index.right <= innerWidth + 2;
       curveCards(home.scrollLeft);
+      if (cardLayout && indexCards.length) {
+        const pitch = cardLayout.width + cardLayout.gap;
+        const first = Math.max(0,Math.min(indexCards.length-1,Math.floor((home.scrollLeft-cardLayout.start)/pitch)));
+        const last = Math.min(indexCards.length,Math.max(first+1,Math.round((home.scrollLeft+innerWidth-cardLayout.start)/pitch)));
+        $('#index-position').textContent = `${pad(first+1)} — ${pad(last)} / ${indexCards.length}`;
+      } else $('#index-position').textContent = '';
     } else galleryUpdate?.();
-    const footer = $('#footer').getBoundingClientRect();
     const footerProgress = currentStyle
       ? clamp((innerHeight - footer.top) / Math.min(innerHeight, footer.height))
       : clamp((innerWidth - footer.left) / Math.min(innerWidth,footer.width));
@@ -165,12 +205,17 @@ function renderIndex() {
   );
   $('#style-index').innerHTML = `<div class="style-grid">${styles.map(style => `<a href="#/style/${style.id}" class="style-card${style.examples.length ? '' : ' style-card-empty'}" data-style="${style.id}" title="${escape(style.name)}" aria-label="${escape(style.name)}${style.found < style.expected ? ', examples pending' : ''}">
     ${style.examples[0] ? `<div class="style-picture"><img src="${escape(safeURL(style.examples[0].thumbnail || style.examples[0].image))}" alt="${escape(style.examples[0].title)}" loading="lazy" decoding="async" width="${style.examples[0].width}" height="${style.examples[0].height}"></div>` : `<div class="style-picture style-picture-pending" aria-hidden="true"><span>${escape(style.name.charAt(0))}</span></div>`}
-    <div class="card-label"><span class="style-number">${pad(style.rank)}</span><span class="style-coverage">${style.found ? `${style.found} ${style.found === 1 ? 'reference' : 'references'}` : 'Images to come'}</span></div>
+    <div class="card-label"><span class="style-number">${pad(style.rank)}</span><span class="style-coverage">${style.found ? `${style.found} ref${style.found === 1 ? '' : 's'}${style.found < style.expected ? ' · pending' : ''}` : 'Images pending'}</span></div>
     <h3 class="style-name">${escape(style.name)}</h3><span class="card-open" aria-hidden="true">↗</span>
   </a>`).join('')}</div>`;
   $('#result-count').textContent = `${styles.length} ${styles.length === 1 ? 'style' : 'styles'}${query || filters.letter !== 'all' ? ' / 300' : ' · A — Z'}`;
   $('#search-clear').hidden = !query;
   $('#empty').hidden = styles.length > 0;
+  $('.journey').hidden = !styles.length;
+  $('#style-index').querySelectorAll('img').forEach(img => img.addEventListener('error', () => {
+    const picture=img.parentElement; img.hidden=true;
+    picture.classList.add('preview-unavailable'); picture.insertAdjacentHTML('beforeend','<span>Preview unavailable</span>');
+  },{once:true}));
   indexCards = [...document.querySelectorAll('.style-card')];
   curvedCards.clear(); measureCards();
   lenis?.resize();
@@ -195,7 +240,7 @@ function renderDetail(style) {
     ${examples.length ? `<section class="gallery-track" id="gallery-track" aria-label="${escape(style.name)} references">
       <div class="gallery-viewport"><div class="gallery-label"><span>( reference studies )</span><span id="gallery-hint">Select to view</span></div>
         <div class="gallery-stage" id="gallery-stage">${examples.map((example,index) => `<figure class="reference${example.height > example.width * 1.45 ? ' reference-tall' : ''}" data-reference="${index}">
-          <button class="reference-open" data-open-image="${index}" aria-label="View reference ${index + 1}: ${escape(example.title)}"><img src="${escape(safeURL(index < 2 ? example.image : example.thumbnail || example.image))}" data-full-src="${escape(safeURL(example.image))}" alt="${escape(example.title)}" loading="${index < 2 ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" width="${example.width}" height="${example.height}"></button>
+          <button class="reference-open" data-open-image="${index}" aria-label="View reference ${index + 1}: ${escape(example.title)}"><img src="${escape(safeURL(index < 2 ? example.image : example.thumbnail || example.image))}" data-full-src="${escape(safeURL(example.image))}" alt="${escape(example.title)}" loading="${index < 2 ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" width="${example.width}" height="${example.height}"><span class="image-unavailable" hidden>Image unavailable.<br>Select to retry ↗</span></button>
           <figcaption><span>${String(index+1).padStart(2,'0')} / ${String(examples.length).padStart(2,'0')}</span>${example.url ? `<a href="${escape(safeURL(example.url))}" target="_blank" rel="noopener">${sourceLabel(example)} ↗<span class="sr-only">: ${escape(example.title)}</span></a>` : '<span>Selected reference</span>'}</figcaption>
         </figure>`).join('')}</div>
         <div class="gallery-controls"><span class="gallery-current" id="gallery-current" aria-live="off">01 / ${String(examples.length).padStart(2,'0')}</span><div class="gallery-buttons"><button id="gallery-prev" aria-label="Previous reference">←</button><button id="gallery-next" aria-label="Next reference">→</button></div></div>
@@ -204,12 +249,17 @@ function renderDetail(style) {
     ${examples.length ? '<p class="reference-note"><a href="./sources.html">Sources & credits ↗</a></p>' : ''}
     <a class="next-style" href="#/style/${next.id}"><span>Next style ↗</span><strong>${escape(next.name)}</strong></a>
   </article>`;
-  $('#detail-page').querySelectorAll('.reference img').forEach(img => img.addEventListener('error', () => {
-    const replacement = document.createElement('span');
-    replacement.className = 'image-unavailable';
-    replacement.textContent = 'Image unavailable. Please try again later.';
-    img.replaceWith(replacement);
-  }, { once: true }));
+  $('#detail-page').querySelectorAll('.reference img').forEach(img => {
+    const button=img.parentElement;
+    const state=failed => {
+      button.dataset.failed=String(failed); img.hidden=failed;
+      const message=button.querySelector('.image-unavailable'); message.hidden=!failed;
+      message.innerHTML='Image unavailable.<br>Select to retry ↗';
+    };
+    img.addEventListener('error',()=>state(true));
+    img.addEventListener('load',()=>state(false));
+    if (img.complete && !img.naturalWidth) state(true);
+  });
   setupGallery();
   const version = routeVersion;
   detailReady = import('./lib/background.js').then(({ mountBackground }) => {
@@ -222,8 +272,13 @@ function renderDetail(style) {
   document.title = `${style.name} — hamanti`;
 }
 function setupGallery() {
+  const oldTrack=$('#gallery-track');
+  const previousIndex=Number(oldTrack?.dataset.active || 0);
+  const wasBarrel=oldTrack?.classList.contains('barrel');
+  const oldBounds=oldTrack?.getBoundingClientRect();
+  const viewingGallery=oldBounds && oldBounds.top<innerHeight/2 && oldBounds.bottom>innerHeight/2;
   galleryCleanup?.();
-  galleryCleanup = galleryUpdate = null;
+  galleryCleanup = galleryUpdate = galleryMove = null;
   const track = $('#gallery-track');
   if (!track) return;
   const stage = $('#gallery-stage'), cards = [...track.querySelectorAll('.reference')];
@@ -240,7 +295,18 @@ function setupGallery() {
     }),{rootMargin:'400px'});
     cards.forEach(card=>observer.observe(card));
     galleryCleanup=()=>observer.disconnect();
-    lenis?.resize(); return;
+    galleryMove=(index,options={}) => smoothTo(cards[index],options);
+    galleryUpdate=()=>{
+      let nearest=0, distance=Infinity;
+      cards.forEach((card,index)=>{
+        const bounds=card.getBoundingClientRect();
+        const offset=Math.abs(bounds.top+bounds.height/2-innerHeight/2);
+        if(offset<distance){nearest=index;distance=offset;}
+      });
+      track.dataset.active=String(nearest);
+    };
+    if (wasBarrel && viewingGallery) galleryMove(previousIndex,{immediate:true});
+    lenis?.resize(); requestUpdate(); return;
   }
   track.classList.add('barrel');
   $('#gallery-hint').textContent = 'Scroll to turn · Select to view';
@@ -251,10 +317,11 @@ function setupGallery() {
   cards.forEach((card,i) => {
     card.style.transform = `rotateY(${i * step}deg) translateZ(${radius}px)`;
   });
-  const move = index => {
+  const move = (index,options={}) => {
     index = Math.max(0, Math.min(cards.length - 1, index));
-    smoothTo(track.getBoundingClientRect().top + scrollY + index / (cards.length - 1) * (track.offsetHeight - innerHeight));
+    smoothTo(track.getBoundingClientRect().top + scrollY + index / (cards.length - 1) * (track.offsetHeight - innerHeight),options);
   };
+  galleryMove=move;
   const prev = () => move(active - 1), next = () => move(active + 1);
   const keyboard = event => {
     if (!track.contains(document.activeElement) || $('#lightbox').open) return;
@@ -274,6 +341,7 @@ function setupGallery() {
     });
     if (index === active) return;
     active = index;
+    track.dataset.active=String(index);
     [active-1,active,active+1].forEach(loadFull);
     cards.forEach((card,i) => { card.classList.toggle('is-active', i === active); card.querySelectorAll('button,a').forEach(el => el.tabIndex = i === active ? 0 : -1); });
     $('#gallery-current').textContent = `${String(index+1).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`;
@@ -283,86 +351,94 @@ function setupGallery() {
     $('#gallery-prev')?.removeEventListener('click', prev); $('#gallery-next')?.removeEventListener('click', next);
     track.removeEventListener('keydown', keyboard);
   };
-  lenis?.resize(); requestUpdate();
-}
-function openImage(index) {
-  const example = currentStyle.examples[index];
-  if (!example) return;
-  $('#lightbox-image').src = safeURL(example.image); $('#lightbox-image').alt = example.title;
-  $('#lightbox-title').textContent = example.title;
-  $('#lightbox-counter').textContent = `${pad(currentStyle.rank)} · ${index + 1} / ${currentStyle.examples.length}`;
-  $('#lightbox-source').href = safeURL(example.url);
-  $('#lightbox-source').textContent = `${sourceLabel(example)} ↗`;
-  $('#lightbox-source').hidden = !example.url;
-  lenis?.stop(); $('#lightbox').showModal(); $('.lightbox-image').scrollTop = 0; $('#lightbox-close').focus();
+  lenis?.resize();
+  if (!wasBarrel && viewingGallery) move(previousIndex,{immediate:true});
+  requestUpdate();
 }
 async function cover(type, render) {
   const overlay = $('#transition');
-  if (type === 'curtains') {
-    lenis?.stop();
-    try { await mixedCurtains(overlay, render, reduced.matches); }
-    finally { lenis?.start(); }
-    return;
-  }
-  if (paused) { render(); return; }
-  overlay.className = `transition active ${type}`; lenis?.stop();
+  const surfaces=[$('.masthead'),$('#main'),$('#footer')];
+  surfaces.forEach(element=>element.inert=true);
+  lenis?.stop();
   try {
-      const line = overlay.querySelector('.transition-line');
-      await animate(line, { clipPath:['inset(50% 49.95%)','inset(0% 49.95%)','inset(0% 0%)'] }, { duration:.65, times:[0,.45,1], ease:[.76,0,.24,1] });
-      render();
-      await animate(line, { clipPath:['inset(0% 0%)','inset(0% 0% 0% 100%)'] }, { duration:.45, ease:[.76,0,.24,1] });
-  } finally { overlay.className = 'transition'; lenis?.start(); }
+    if (type === 'curtains') { await mixedCurtains(overlay, render, reduced.matches); return; }
+    if (paused) { render(); return; }
+    overlay.className = `transition active ${type}`;
+    const line = overlay.querySelector('.transition-line');
+    await animate(line, { clipPath:['inset(50% 49.95%)','inset(0% 49.95%)','inset(0% 0%)'] }, { duration:.65, times:[0,.45,1], ease:[.76,0,.24,1] });
+    render();
+    await animate(line, { clipPath:['inset(0% 0%)','inset(0% 0% 0% 100%)'] }, { duration:.45, ease:[.76,0,.24,1] });
+  } finally {
+    overlay.className='transition'; lenis?.start();
+    surfaces.forEach(element=>element.inert=false);
+    pendingFocus?.focus({preventScroll:true}); pendingFocus=null;
+  }
 }
-function showRoute(hash, { returnToIndex = false, focus = true, animateTitle = true } = {}) {
-  routeVersion++; background?.destroy(); background = null; galleryCleanup?.(); galleryCleanup = galleryUpdate = null;
+function showRoute(hash, { returnToIndex = false, focus = true, animateTitle = true, restoreScroll } = {}) {
+  const route=resolveRoute(hash,handbook.styles);
+  hash=route.hash;
+  if(route.invalid) history.replaceState(history.state,'',`${location.pathname}${location.search}${hash}`);
+  $('#route-notice').hidden=!route.invalid;
+  syncFilters();
+  routeVersion++; background?.destroy(); background = null; galleryCleanup?.(); galleryCleanup = galleryUpdate = galleryMove = null;
   $('#lightbox').close();
-  const match = hash.match(/^#\/style\/(\d+)$/), style = match && handbook.styles.find(item => item.id === Number(match[1]));
+  const style = route.style;
   const wasDetail = Boolean(currentStyle);
   if (style && !wasDetail) homeScroll = $('#home-page').scrollLeft;
   document.body.classList.toggle('detail-mode', Boolean(style));
   $('#home-page').hidden = Boolean(style); $('#detail-page').hidden = !style;
   if (style) {
     currentStyle = style; $('#main').after($('#footer'));
-    setupMotion(); renderDetail(style); lenis?.resize(); smoothTo(0, { immediate:true });
-    if (focus) $('.detail-title').focus({preventScroll:true});
+    setupMotion(); renderDetail(style); lenis?.resize(); smoothTo(Number.isFinite(restoreScroll)?restoreScroll:0, { immediate:true });
+    if (focus) pendingFocus=$('.detail-title');
   } else {
     currentStyle = null; $('#detail-page').replaceChildren(); document.title = 'hamanti — 300 ways of seeing';
     $('#home-track').append($('#footer')); window.scrollTo({top:0,behavior:'instant'});
     setupMotion();
-    const destination = hash.startsWith('#/index') ? returnToIndex && homeScroll ? homeScroll : $('#index') : hash === '#/about' ? $('#about') : 0;
+    const destination = Number.isFinite(restoreScroll) ? restoreScroll : hash === '#/index' ? returnToIndex && homeScroll ? homeScroll : $('#index') : hash === '#/about' ? $('#about') : 0;
     smoothTo(destination, { immediate:true });
     if (focus) {
-      if (returnToIndex && lastStyleId) $(`[data-style="${lastStyleId}"]`)?.focus({preventScroll:true});
-      else $('#main').focus({preventScroll:true});
+      pendingFocus=returnToIndex && lastStyleId ? $(`[data-style="${lastStyleId}"]`) || $('#main') : $('#main');
     }
     if (!hash.startsWith('#/index') && animateTitle) typeTitle();
-    else { clearTimeout(titleTimer); $('#type-title').textContent='hamanti'; }
+    else { clearTimeout(titleTimer); $('#type-title').textContent='hamanti'; $('.hero').classList.remove('is-typing'); }
   }
   lenis?.resize(); bindControls(); requestUpdate();
   measureCards();
   landscape?.update();
+  if (!navigationBusy) { pendingFocus?.focus({preventScroll:true}); pendingFocus=null; }
 }
 document.addEventListener('click', async event => {
   const image = event.target.closest('[data-open-image]');
-  if (image) { openImage(Number(image.dataset.openImage)); return; }
+  if (image && !navigationBusy) {
+    if (image.dataset.failed==='true') {
+      const img=image.querySelector('img'); image.querySelector('.image-unavailable').textContent='Retrying image…';
+      img.src=img.dataset.fullSrc;
+    } else viewer.open(Number(image.dataset.openImage));
+    return;
+  }
   const link = event.target.closest('a[href^="#/"]');
   if (!link || event.defaultPrevented || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0 || !handbook) return;
   event.preventDefault(); if (navigationBusy) return;
+  savePagePosition();
   const hash = link.getAttribute('href');
   if (!currentStyle && ['#/index','#/about'].includes(hash)) {
-    history.pushState(null,'',hash); smoothTo($(hash === '#/about' ? '#about' : '#index')); return;
+    history.pushState({},'',hash); smoothTo($(hash === '#/about' ? '#about' : '#index')); return;
   }
   navigationBusy = true;
   try {
     const returningHome = !hash.startsWith('#/style/');
     await cover(returningHome ? 'curtains' : 'line', () => {
-      history.pushState(null,'',hash); showRoute(hash, {returnToIndex:link.hasAttribute('data-return'),animateTitle:!returningHome});
+      history.pushState({},'',hash); showRoute(hash, {returnToIndex:link.hasAttribute('data-return'),animateTitle:!returningHome});
     });
   } finally { navigationBusy = false; }
 });
-addEventListener('popstate', () => { if (handbook) showRoute(location.hash, {returnToIndex:true}); });
-addEventListener('scroll', requestUpdate, {passive:true});
-$('#home-page').addEventListener('scroll',requestUpdate,{passive:true});
+addEventListener('popstate', () => { if (handbook) showRoute(location.hash, {returnToIndex:true,restoreScroll:location.hash.startsWith('#/style/')?history.state?.detailScroll:history.state?.homeScroll,animateTitle:false}); });
+const scrolled=()=>{requestUpdate();clearTimeout(scrollSaveTimer);scrollSaveTimer=setTimeout(savePagePosition,180);};
+addEventListener('scroll', scrolled, {passive:true});
+$('#home-page').addEventListener('scroll',()=>{
+  scrolled();
+},{passive:true});
 // Native horizontal touch/trackpad scrolling stays available with motion off.
 $('#home-page').addEventListener('wheel',event => {
   if (!paused || currentStyle || event.ctrlKey || event.target.closest('select')) return;
@@ -370,21 +446,32 @@ $('#home-page').addEventListener('wheel',event => {
   event.preventDefault();
   $('#home-page').scrollLeft += delta * (event.deltaMode===1 ? 16 : event.deltaMode===2 ? innerWidth : 1);
 },{passive:false});
-addEventListener('resize', () => { if (currentStyle) setupGallery(); else measureCards(); requestUpdate(); }, {passive:true});
-$('#lightbox-close').addEventListener('click', () => $('#lightbox').close());
-$('#lightbox').addEventListener('close', () => lenis?.start());
-$('#lightbox').addEventListener('click', event => { if (event.target === $('#lightbox')) $('#lightbox').close(); });
+addEventListener('resize', () => {
+  if (!handbook || !$('#error').hidden) return;
+  if (currentStyle) setupGallery();
+  else {
+    const anchor=homeAnchor;
+    lenis?.resize(); measureCards();
+    if(anchor){
+      const section=anchor.id==='hero' ? $('.hero') : document.getElementById(anchor.id);
+      const unit=anchor.id==='index' && cardLayout ? cardLayout.width+cardLayout.gap : section.offsetWidth;
+      smoothTo(section.offsetLeft+anchor.position*unit,{immediate:true});
+    }
+  }
+  requestUpdate();
+}, {passive:true});
 $('#motion-toggle').addEventListener('click', () => {
-  savedPause = !paused; paused = savedPause;
+  savedPause = !savedPause; paused = shouldPauseMotion(reduced.matches,savedPause);
   try { localStorage.setItem('hamanti-motion', paused ? 'paused' : 'running'); } catch {}
   setupMotion();
-  if (paused) { clearTimeout(titleTimer); $('#type-title').textContent = 'hamanti'; }
+  if (paused) { clearTimeout(titleTimer); $('#type-title').textContent = 'hamanti'; $('.hero').classList.remove('is-typing'); }
 });
-reduced.addEventListener('change', () => { paused = reduced.matches || savedPause; setupMotion(); });
+reduced.addEventListener('change', () => { paused = shouldPauseMotion(reduced.matches,savedPause); setupMotion(); });
+$('.skip-link').addEventListener('click',event=>{event.preventDefault();$('#main').focus({preventScroll:true});});
 document.addEventListener('keydown', event => {
-  if (opening.active) return;
-  if (event.key === '/' && !currentStyle && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { event.preventDefault(); $('#search').focus(); smoothTo($('#index')); }
-  if (currentStyle || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) || event.ctrlKey || event.metaKey || event.altKey) return;
+  if (opening.active || navigationBusy || event.ctrlKey || event.metaKey || event.altKey || document.activeElement.isContentEditable) return;
+  if (event.key === '/' && !currentStyle && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { event.preventDefault(); $('#search').focus({preventScroll:true}); smoothTo($('#index')); }
+  if (currentStyle || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) return;
   const card = document.activeElement.closest('.style-card');
   if (card && ['ArrowLeft','ArrowRight'].includes(event.key)) {
     const cards = [...document.querySelectorAll('.style-card')], index = cards.indexOf(card);
@@ -419,13 +506,14 @@ for (const [id, key] of [['search','query'],['letter-filter','letter']]) {
     const params = new URLSearchParams();
     if (filters.query) params.set('q', filters.query);
     if (filters.letter !== 'all') params.set('letter', filters.letter);
-    history.replaceState(null,'',`${location.pathname}${params.size ? '?' + params : ''}#/index`);
+    history.replaceState({...history.state,homeScroll:$('#index').offsetLeft},'',`${location.pathname}${params.size ? '?' + params : ''}#/index`);
+    $('#route-notice').hidden=true;
   });
 }
 $('#clear-filters').addEventListener('click', () => {
   filters.query = ''; filters.letter = 'all';
   $('#search').value = ''; $('#letter-filter').value = 'all';
-  history.replaceState(null,'',`${location.pathname}#/index`); renderIndex(); smoothTo($('#index'),{immediate:true}); $('#search').focus();
+  history.replaceState({...history.state,homeScroll:$('#index').offsetLeft},'',`${location.pathname}#/index`); renderIndex(); smoothTo($('#index'),{immediate:true}); $('#search').focus();
 });
 try {
   handbook = await loadHandbook({signal:AbortSignal.timeout(20000)});
@@ -434,9 +522,7 @@ try {
   handbook.styles.forEach((style,index) => { style.rank = index + 1; });
   const letters = [...new Set(handbook.styles.map(style => style.name.charAt(0).toLocaleUpperCase()))];
   $('#letter-filter').insertAdjacentHTML('beforeend', letters.map(letter => `<option value="${escape(letter)}">${escape(letter)}</option>`).join(''));
-  const params = new URLSearchParams(location.search);
-  filters.query = params.get('q') || '';
-  if (letters.includes(params.get('letter'))) filters.letter = params.get('letter');
+  Object.assign(filters,readIndexFilters(location.search,letters));
   $('#search').value = filters.query; $('#letter-filter').value = filters.letter;
   $('#footer-coverage').textContent = `${handbook.stats.examples.toLocaleString()} references`;
   $('.index-total').innerHTML = `${handbook.styles.length} directions<br>A — Z`;
@@ -482,6 +568,7 @@ try {
   lenis?.resize(); lenis?.start(); measureCards(); requestUpdate();
   if (!returningFromCredits && !currentStyle && !location.hash.startsWith('#/index')) typeTitle();
 } catch (error) {
-  await opening.finish(false); $('#error').hidden = false;
-  $('#error').innerHTML = `<p>The handbook could not open.</p><p>${escape(error.message)}</p><a href="./artstyles-300.md">Read the original notes ↗</a>`;
+  await opening.finish(false); $('#home-page').hidden=true; $('#error').hidden = false;
+  $('#error').innerHTML = '<h1>The handbook couldn’t open.</h1><p>Check your connection and try again.</p><button class="text-button" id="retry-handbook">Try again ↗</button><a href="./artstyles-300.md">Read the original notes ↗</a>';
+  $('#retry-handbook').addEventListener('click',()=>location.reload());
 }

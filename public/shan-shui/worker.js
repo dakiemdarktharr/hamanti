@@ -1,6 +1,7 @@
 /* Lingdong Huang's MIT-licensed generator is isolated here: its seeded
    Math.random and legacy globals never touch the handbook's browser context. */
 importScripts('./engine.js');
+importScripts('./compact.js');
 
 let initialized = false;
 const paper = '#e9ebe2';
@@ -32,7 +33,7 @@ self.onmessage = ({data}) => {
       if (+key*5 < minimum || +key*5 > maximum) delete MEM.planmtx[key];
     }
     chunkrender(x,x+width);
-    self.postMessage({id,x,width,svg:greenInk(MEM.canv)});
+    self.postMessage({id,x,width,svg:compactLandscape(greenInk(MEM.canv))});
     MEM.canv = '';
   } catch (error) {
     self.postMessage({id:data.id,error:true,reason:error.name});

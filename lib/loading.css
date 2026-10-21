@@ -1,5 +1,5 @@
 .opening-loader { position:fixed; inset:0; z-index:1000; background:#e9ebe2; color:#222a20; }
-.opening-word { position:absolute; left:var(--gutter); top:calc(50svh - 7.25vw); font:800 14.5vw/.88 var(--display); letter-spacing:-.095em; white-space:nowrap; user-select:none; }
+.opening-word { position:absolute; left:var(--gutter); top:calc(50svh - 7.25vw); font:800 14.5vw/.88 var(--display); letter-spacing:-.08em; white-space:nowrap; user-select:none; }
 .opening-outline { display:block; }
 .opening-outline { color:transparent; -webkit-text-stroke:1px #87917f; }
 .opening-fill { position:absolute; inset:0; clip-path:inset(0 100% 0 0); will-change:clip-path; }
@@ -8,5 +8,5 @@
 .opening-count { font-variant-numeric:tabular-nums; margin-left:auto; }
 .is-loading { overflow:hidden; }
 .is-loading .skip-link { visibility:hidden; }
-.is-loading .horizontal-scroll { overflow:hidden; }
+.is-loading .horizontal-scroll { overflow-x:scroll; overflow-y:hidden; }
 @media(prefers-reduced-motion:reduce) { .opening-fill { will-change:auto; } }

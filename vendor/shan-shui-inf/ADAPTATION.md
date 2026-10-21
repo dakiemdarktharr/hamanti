@@ -24,3 +24,10 @@ repainting thousands of inline paths after a viewBox change. A worker-generated
 buffer covers the viewport plus a margin; requests are coalesced, obsolete views
 are discarded, and object URLs are revoked when replaced. Generation and
 decoding failures retain the previous view or leave the plain paper background.
+
+The worker compacts generated contours to a maximum 0.6 drawing-unit deviation
+on the 800-unit canvas before delivery. It retains paint order, separate
+translucent washes and filled contours. Opaque adjacent contours with identical
+styles can share a path. New SVG decoding waits until a scroll gesture or route
+animation has settled, leaving the existing image layer in place during input.
+This also applies when returning from a direct style link to the home page.
