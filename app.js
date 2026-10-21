@@ -6,7 +6,7 @@ import { loadHandbook } from './lib/handbook.js';
 import { searchStyles } from './lib/search.js';
 import { createLoadingScreen } from './lib/loading.js';
 import { openingAssets, warmImages } from './lib/preload.js';
-import { mixedCurtains } from './lib/page-transition.js';
+import { mixedCurtains, prepareHomeReturn } from './lib/page-transition.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -22,8 +22,7 @@ const opening = createLoadingScreen(() => paused);
 let returningFromCredits = false;
 try { returningFromCredits=sessionStorage.getItem('hamanti-home-return')==='1'; sessionStorage.removeItem('hamanti-home-return'); } catch {}
 if (returningFromCredits && !reduced.matches) {
-  $('#transition').className='transition active curtains';
-  $('#transition .transition-iris').style.display='block';
+  prepareHomeReturn($('#transition'));
 }
 let detailReady = Promise.resolve();
 let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, landscape, homeScroll = 0, lastStyleId;
@@ -314,7 +313,7 @@ async function cover(type, render) {
       await animate(line, { clipPath:['inset(0% 0%)','inset(0% 0% 0% 100%)'] }, { duration:.45, ease:[.76,0,.24,1] });
   } finally { overlay.className = 'transition'; lenis?.start(); }
 }
-function showRoute(hash, { returnToIndex = false, focus = true } = {}) {
+function showRoute(hash, { returnToIndex = false, focus = true, animateTitle = true } = {}) {
   routeVersion++; background?.destroy(); background = null; galleryCleanup?.(); galleryCleanup = galleryUpdate = null;
   $('#lightbox').close();
   const match = hash.match(/^#\/style\/(\d+)$/), style = match && handbook.styles.find(item => item.id === Number(match[1]));
@@ -336,7 +335,8 @@ function showRoute(hash, { returnToIndex = false, focus = true } = {}) {
       if (returnToIndex && lastStyleId) $(`[data-style="${lastStyleId}"]`)?.focus({preventScroll:true});
       else $('#main').focus({preventScroll:true});
     }
-    if (!hash.startsWith('#/index')) typeTitle();
+    if (!hash.startsWith('#/index') && animateTitle) typeTitle();
+    else { clearTimeout(titleTimer); $('#type-title').textContent='hamanti'; }
   }
   lenis?.resize(); bindControls(); requestUpdate();
   measureCards();
@@ -354,8 +354,9 @@ document.addEventListener('click', async event => {
   }
   navigationBusy = true;
   try {
-    await cover(link.hasAttribute('data-home') ? 'curtains' : 'line', () => {
-      history.pushState(null,'',hash); showRoute(hash, {returnToIndex:link.hasAttribute('data-return')});
+    const returningHome = !hash.startsWith('#/style/');
+    await cover(returningHome ? 'curtains' : 'line', () => {
+      history.pushState(null,'',hash); showRoute(hash, {returnToIndex:link.hasAttribute('data-return'),animateTitle:!returningHome});
     });
   } finally { navigationBusy = false; }
 });
@@ -476,10 +477,10 @@ try {
   ]);
   clearTimeout(deadline); abortWarmup.abort();
   document.body.dataset.preloadState = ready ? 'ready' : 'partial';
-  if (returningFromCredits) await mixedCurtains($('#transition'),()=>opening.finish(ready),reduced.matches,true);
+  if (returningFromCredits) await mixedCurtains($('#transition'),()=>opening.finish(ready,{instant:true}),reduced.matches,true);
   else await opening.finish(ready);
   lenis?.resize(); lenis?.start(); measureCards(); requestUpdate();
-  if (!currentStyle && !location.hash.startsWith('#/index')) typeTitle();
+  if (!returningFromCredits && !currentStyle && !location.hash.startsWith('#/index')) typeTitle();
 } catch (error) {
   await opening.finish(false); $('#error').hidden = false;
   $('#error').innerHTML = `<p>The handbook could not open.</p><p>${escape(error.message)}</p><a href="./artstyles-300.md">Read the original notes ↗</a>`;

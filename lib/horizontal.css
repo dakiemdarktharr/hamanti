@@ -65,7 +65,9 @@
 .reference:only-child .reference-open, .reference:only-child img { background: transparent; }
 .reference:only-child img { height: 82svh; max-height: 1000px; }
 .detail-description { line-height: 1.32; word-spacing: .06em; letter-spacing: 0; }
-.transition-iris { display:none; position:absolute; inset:0; width:100%; height:100%; }
+.home-wipe { display:none; position:absolute; inset:0; background:#222a20; transform:scaleX(0); transform-origin:left center; }
+.transition.home-return .home-wipe { display:block; }
+.home-iris { display:none; position:absolute; inset:0; width:100%; height:100%; }
 .transition.active { z-index:1100; }
 .svg-atmosphere { position:absolute; inset:0; width:100%; height:100%; overflow:hidden; }
 .svg-atmosphere .atmosphere-lines { transform-origin:center; animation:atmosphere-drift 32s ease-in-out infinite alternate; }
