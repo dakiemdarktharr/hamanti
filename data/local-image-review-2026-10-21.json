@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-21",
+  "receipts": [
+    {
+      "style": "Book Design",
+      "file": "a7b74ebe3764642bf49749621be7778f_fullsize.jpg",
+      "checksum": "8415e365c7f2a00a1b26d3bf0d5fb9f540e858064a314c5c1a95e40d0d073ce6",
+      "width": 2965,
+      "height": 4096,
+      "decision": "approved",
+      "reason": "Facing-page editorial spreads pair expressive typography and images. No people photography.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "0533fb7cc362899c3e489fef6e0001ed (1)_fullsize.jpg",
+      "checksum": "ece91d24be64ab2a82a9a08c2d0b6441f9ec08ee999e1eb78b4f88bbf7fd27ba",
+      "width": 1206,
+      "height": 2034,
+      "decision": "rejected",
+      "reason": "A single editorial landing page lacks repeated self-contained content cards.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "246d7fc15699d3c6f3149b898160fab0_fullsize.jpg",
+      "checksum": "e24cf1f03a84406317a08bb7898131716d81b0818a52c19d0d048da13efab988",
+      "width": 2310,
+      "height": 4097,
+      "decision": "rejected",
+      "reason": "Loose editorial photo collage rather than distinct reusable cards; casual photos are embedded.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "3629af08d583ad95878f3d7ee7ef4ff0_fullsize.jpg",
+      "checksum": "c2c92da5e8785dd0dae40f7c2851121f146f8f3b1940948213977285e2e5b21c",
+      "width": 2800,
+      "height": 6402,
+      "decision": "approved",
+      "reason": "Repeated news and podcast cards with images, text and labels. Visible author portraits are deliberately posed.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "614299d8c2871515db7651571108e27b_fullsize.jpg",
+      "checksum": "0b0d92b411da4eccdf1ba649a5561e443944bda65c612d814fe0f191a7d0dcd8",
+      "width": 2400,
+      "height": 2400,
+      "decision": "approved",
+      "reason": "Independent colored portfolio cards group related text and illustrations.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "6a4f9c5161263528ed5671b222bc51b7_fullsize.jpg",
+      "checksum": "385ad57255b2e55222a796c7a09f61ccde8f181bf4623dad3eb61eb5e4cd0528",
+      "width": 1440,
+      "height": 1920,
+      "decision": "approved",
+      "reason": "Repeated rounded cards each contain an image, caption and supporting information.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "708b3b3151ca06e80a900736462bb2cb_fullsize.jpg",
+      "checksum": "837e74fe722174019b407070bf3d4aa1029dd9ab42d52de45c5085f91659763a",
+      "width": 1146,
+      "height": 2048,
+      "decision": "rejected",
+      "reason": "A bitmap desktop frame and uniform image-only social grid do not clearly demonstrate content cards.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "9287ece0103bae9740a5c9684e91b73c_fullsize.jpg",
+      "checksum": "93e19d2a57f8a906d29292f2099307005ce1158a9ef43b114e77353772ce40d6",
+      "width": 2579,
+      "height": 4096,
+      "decision": "rejected",
+      "reason": "An NFT promotional hero does not show a clear repeated card interface.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "991a2d2bfa2b8e7b4dd79074f9bad5a2_fullsize.png",
+      "checksum": "8fd7f9ff6e865a6fd35b3af7ffcc27d48a8c9727081d9fd847a16c5692c56dd0",
+      "width": 1920,
+      "height": 3840,
+      "decision": "rejected",
+      "reason": "A primarily typographic sports landing page with broad editorial sections; weak card-layout fit.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "a38cb3bbb75fe636c88c78dd9fc0b21c_fullsize.jpg",
+      "checksum": "7c27bae7a720cb05f2faf96b854119942f9e63ce27c18e88cceaf55f9ad1b9fd",
+      "width": 1552,
+      "height": 2336,
+      "decision": "rejected",
+      "reason": "Editorial studio layout includes incidental unposed people in a project photograph.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "b786208a595311224679ea382c4e0200_fullsize.jpg",
+      "checksum": "d77536fd92055f174c688052f640e32c953ac4868441fc3572b07e8831f0182e",
+      "width": 3762,
+      "height": 4096,
+      "decision": "approved",
+      "reason": "Shopping-cart and product modules use separated reusable content cards. No people photos.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "be0ff2794e1328af0110fd4b185942c5_fullsize.jpg",
+      "checksum": "5187164ed0ce6a6e87305064673a8b185b03e1ac13ff3326e30578031e3cd292",
+      "width": 3113,
+      "height": 4096,
+      "decision": "approved",
+      "reason": "Product information, purchase controls and related products are grouped into distinct cards.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "c69c59706aecc7e49ac2551a4d2b7e53_fullsize.jpg",
+      "checksum": "43111f3e8143dac4066577698305c3087705e7efd66feca3408ef630139a386e",
+      "width": 3200,
+      "height": 2400,
+      "decision": "rejected",
+      "reason": "Physical business-card artwork rather than a card-based interface.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "e8cd76ad221fdc354a10137d5a4dff86_fullsize.jpg",
+      "checksum": "24bd3b8466129adc2916466d0710b226a5af0c3cd85d6d9e8bd3598affd3bfad",
+      "width": 1242,
+      "height": 1952,
+      "decision": "approved",
+      "reason": "Mobile content feeds use repeated story cards with deliberately posed editorial portraits.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Card-Based Design",
+      "file": "f14ab8125f3c93050f63ec7c0bd45a6b_fullsize.jpg",
+      "checksum": "16d3a961dd0d25e0f56e006b52bdd696d3d3d0e7d71bef18ec050f1adc72cc00",
+      "width": 1200,
+      "height": 2133,
+      "decision": "approved",
+      "reason": "Retail interface uses bounded promotion and product cards with clearly posed fashion photography.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "15e551710744087b85a165168ccff2a4_fullsize.jpg",
+      "checksum": "f96fc004879194de3893e3b9eaea6107574380289ea8704051b90ddc40cca2e3",
+      "width": 2945,
+      "height": 3321,
+      "decision": "approved",
+      "reason": "A geographic street map uses routes, a highlighted district and location labeling.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "247af9405e4f84dbb6990fa1e8892682_fullsize.jpg",
+      "checksum": "43e3ea92da24c1287cd726ed1c3a6bae475fab762465f6bede9d691559b0aca3",
+      "width": 1360,
+      "height": 2197,
+      "decision": "rejected",
+      "reason": "Decorative contour texture without sufficiently clear geographic or spatial information.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "486b481a937250381a921044b576533f_fullsize.jpg",
+      "checksum": "da2c6317341a70994999371315505976200ca663afedb4e01d27a6fffec81897",
+      "width": 1960,
+      "height": 3768,
+      "decision": "rejected",
+      "reason": "Unlabeled contour texture provides a weak example of a cartographic interface.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "72cb5a05cdc9a12a32f2f8e964c9bfa1_fullsize.jpg",
+      "checksum": "3603dbde1f3dced8c74bf3ea8f4bc6c910e5029a667c8b4b54cbf9016e7f0dde",
+      "width": 1170,
+      "height": 2080,
+      "decision": "approved",
+      "reason": "A thematic city map uses distinct district fields and geographic boundaries.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "9a071ad1495ba563cd7a73a3f92364aa_fullsize.jpg",
+      "checksum": "1c3d99d6ffa77652425e5db981a79e80577daba46bf35b1e0e50290a1dae50cc",
+      "width": 2448,
+      "height": 3264,
+      "decision": "rejected",
+      "reason": "A decorative embroidered surface rather than a clear graphic map or spatial interface.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "9b4b2adadcef5392d9ba38009de04569_fullsize.jpg",
+      "checksum": "83c8d8631d7f3c66734a0c1d14bc8ff0a9fb17a50ad40719c78d335798960ae9",
+      "width": 1372,
+      "height": 2048,
+      "decision": "approved",
+      "reason": "A labeled urban map pairs geographic structure and architectural information.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "a62e128ca849bd7bbb9a617b8c6faa74_fullsize.jpg",
+      "checksum": "69c0baa7779314c958f0a5415e4c15f494f9a74085a7449e9c243cf199935288",
+      "width": 1096,
+      "height": 1920,
+      "decision": "approved",
+      "reason": "A river and street map uses spatial fields and geographic linework.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "b5e7292d0f89e5ed7033c9bf64a1e579_fullsize.png",
+      "checksum": "ed1a50da91aa10a22ebf9941966cedfaafa918fe84663d7bd3bda61f038e7080",
+      "width": 3400,
+      "height": 4400,
+      "decision": "approved",
+      "reason": "A labeled Minneapolis map combines street geometry with strong color-coded fields.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "b7bba5164183afb127fe52f2f0d35964_fullsize.jpg",
+      "checksum": "1d468e6d7ccf45507f03d29e1e9937fbbd7bf08761e445d85fec16afb181f4b8",
+      "width": 1080,
+      "height": 1920,
+      "decision": "approved",
+      "reason": "A weather-map composition uses geographic imagery, pressure contours and numeric labels.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "baabed253dd14a59d48f158654eccc97_fullsize.jpg",
+      "checksum": "b0874b1e604fd8f0f07a431ffd5fc8b6d21459e6de89787dd7ba6b092b2b08aa",
+      "width": 2480,
+      "height": 3508,
+      "decision": "approved",
+      "reason": "A route-focused event graphic retains recognizable street geometry and map labels.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "c4084440ade79001e483e18a715abbba_fullsize.jpg",
+      "checksum": "b8ac0d55fe3858e3faead9b56fbbac5368efb4c699216985ef8c9596b5abfbf4",
+      "width": 1326,
+      "height": 2048,
+      "decision": "approved",
+      "reason": "Urban blocks, streets and a river form a coherent graphic city map.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cartographic Design",
+      "file": "e768cb8923c89ad6f13e190f9a1c50db_fullsize.jpg",
+      "checksum": "5a1945e78bcba28563e1b5e95c98ca798b28f2f35f08f92ea267c9eb8595fa60",
+      "width": 1151,
+      "height": 1920,
+      "decision": "approved",
+      "reason": "An information-rich thematic city map uses geographic cells, labels and a prominent river.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cel Shading",
+      "file": "3d1e5b1762fc9ec2d70c0d2b13a26ca9_fullsize.jpg",
+      "checksum": "2768c4f950894debe80e9464e053ea9b25a530644b093cf34e44452793875807",
+      "width": 1920,
+      "height": 2716,
+      "decision": "approved",
+      "reason": "The illustrated face and hair use discrete graphic light and shadow regions, with drawn figures only.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cel Shading",
+      "file": "5ebd5d302a858a9460cfa8c6078475e3_fullsize.jpg",
+      "checksum": "343ca1335ea69d8432b0b004839a95e74cacbb33dbe246d8cf79061d1d2b20b8",
+      "width": 1601,
+      "height": 2048,
+      "decision": "approved",
+      "reason": "The drawn character uses clearly separated flat light and shadow bands.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cel Shading",
+      "file": "5fc3ad31405a018d9860dedc66778ee6_fullsize.png",
+      "checksum": "9eb39c4a26d37237d376c20d3d39e2550d6cd34eac00e12d1cd3a989301a95e8",
+      "width": 1080,
+      "height": 1920,
+      "decision": "approved",
+      "reason": "Illustrated hardware uses sharply separated planes of flat light and shadow.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cel Shading",
+      "file": "e839b450af47ed8f0531b7d373eba5a4_fullsize.jpg",
+      "checksum": "df473af072659b83cf1241ef0e9b7f76687710f0abaafc3b55e39598a8426430",
+      "width": 1500,
+      "height": 2026,
+      "decision": "approved",
+      "reason": "A drawn character scene uses solid graphic shadow shapes and discrete color bands.",
+      "intakePreserved": true
+    },
+    {
+      "style": "Cel Shading",
+      "file": "fcb1b731ef6074b7c55bc1331782ca53_fullsize.jpg",
+      "checksum": "8569435d4f0ec8bfa35ecce81e19db304bb34cca6cf8a6af7332d21c2f96a6f0",
+      "width": 1289,
+      "height": 2500,
+      "decision": "approved",
+      "reason": "The mechanical scene uses distinct light and shadow planes with a flattened cel-like finish.",
+      "intakePreserved": true
+    }
+  ],
+  "intakePreserved": true
+}

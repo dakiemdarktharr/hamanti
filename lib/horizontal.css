@@ -65,6 +65,13 @@
 .reference:only-child .reference-open, .reference:only-child img { background: transparent; }
 .reference:only-child img { height: 82svh; max-height: 1000px; }
 .detail-description { line-height: 1.32; word-spacing: .06em; letter-spacing: 0; }
+.transition-iris { display:none; position:absolute; inset:0; width:100%; height:100%; }
+.transition.active { z-index:1100; }
+.svg-atmosphere { position:absolute; inset:0; width:100%; height:100%; overflow:hidden; }
+.svg-atmosphere .atmosphere-lines { transform-origin:center; animation:atmosphere-drift 32s ease-in-out infinite alternate; }
+.svg-atmosphere.is-paused .atmosphere-lines { animation-play-state:paused; }
+@keyframes atmosphere-drift { to { transform:translate(18px,-12px); } }
+@media(prefers-reduced-motion:reduce) { .svg-atmosphere .atmosphere-lines { animation:none; } }
 
 @media(min-width:701px) and (max-width:1000px) {
   .home-track .explorer { --card-width: calc((100vw - 2 * var(--gutter) - 4 * var(--card-gap)) / 5); }

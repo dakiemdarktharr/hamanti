@@ -46,14 +46,14 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 45,"Modular Grid",6,0,0,deferred
 46,"Hierarchical Grid",6,0,0,deferred
 47,"Bento Grid",6,4,4,partial
-48,"Card-Based Design",6,0,0,deferred
+48,"Card-Based Design",6,7,7,complete
 49,"Masonry Layout",6,0,0,deferred
 50,"Justified Image Grid",6,0,0,deferred
 51,"Split-Screen Layout",6,0,0,deferred
 52,"Asymmetric Layout",6,0,0,deferred
 53,"Editorial Design",6,0,0,deferred
 54,"Newspaper Design",6,0,0,deferred
-55,"Book Design",6,0,0,deferred
+55,"Book Design",6,1,1,partial
 56,"Marginalia",6,0,0,deferred
 57,"Full-Bleed Composition",6,0,0,deferred
 58,"Framed Composition",6,0,0,deferred
@@ -64,7 +64,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 63,"Diagonal Composition",6,0,0,deferred
 64,"Radial Composition",6,0,0,deferred
 65,"Tabular Design",6,0,0,deferred
-66,"Cartographic Design",6,0,0,deferred
+66,"Cartographic Design",6,9,9,complete
 67,"Node-Link Diagram",6,0,0,deferred
 68,"Schematic Design",6,0,0,deferred
 69,"Pictographic Design",6,0,0,deferred
@@ -155,7 +155,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 154,"Voxel Art",6,0,0,deferred
 155,"Low-poly Rendering",6,0,0,deferred
 156,"PS1-era 3D",6,0,0,deferred
-157,"Cel Shading",6,0,0,deferred
+157,"Cel Shading",6,5,5,partial
 158,"Wireframe Rendering",6,0,0,deferred
 159,"Point-cloud Rendering",6,0,0,deferred
 160,"Gaussian Splatting",6,0,0,deferred

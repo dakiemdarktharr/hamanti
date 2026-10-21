@@ -1,5 +1,6 @@
-.opening-loader { position:fixed; inset:0; z-index:1000; background:#e9ebe2; color:#222a20; display:grid; place-items:center; padding:clamp(24px,5vw,80px); }
-.opening-word { position:relative; font:700 clamp(52px,17vw,300px)/.95 var(--display); letter-spacing:-.085em; padding-right:.085em; user-select:none; }
+.opening-loader { position:fixed; inset:0; z-index:1000; background:#e9ebe2; color:#222a20; }
+.opening-word { position:absolute; left:var(--gutter); top:calc(50svh - 7.25vw); font:800 14.5vw/.88 var(--display); letter-spacing:-.095em; white-space:nowrap; user-select:none; }
+.opening-outline { display:block; }
 .opening-outline { color:transparent; -webkit-text-stroke:1px #87917f; }
 .opening-fill { position:absolute; inset:0; clip-path:inset(0 100% 0 0); will-change:clip-path; }
 .opening-meta { position:absolute; bottom:clamp(28px,6vh,70px); left:var(--gutter); right:var(--gutter); display:flex; align-items:center; justify-content:space-between; gap:24px; font:11px/1.5 var(--mono); }

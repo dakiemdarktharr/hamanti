@@ -1,11 +1,12 @@
 import './styles.css';
 import './lib/horizontal.css';
-import { animate, hover, press, stagger } from 'motion';
+import { animate, hover, press } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
 import { searchStyles } from './lib/search.js';
 import { createLoadingScreen } from './lib/loading.js';
 import { openingAssets, warmImages } from './lib/preload.js';
+import { mixedCurtains } from './lib/page-transition.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -18,6 +19,12 @@ let savedPause = false;
 try { savedPause = localStorage.getItem('hamanti-motion') === 'paused'; } catch {}
 let paused = reduced.matches || savedPause;
 const opening = createLoadingScreen(() => paused);
+let returningFromCredits = false;
+try { returningFromCredits=sessionStorage.getItem('hamanti-home-return')==='1'; sessionStorage.removeItem('hamanti-home-return'); } catch {}
+if (returningFromCredits && !reduced.matches) {
+  $('#transition').className='transition active curtains';
+  $('#transition .transition-iris').style.display='block';
+}
 let detailReady = Promise.resolve();
 let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, landscape, homeScroll = 0, lastStyleId;
 let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest;
@@ -189,7 +196,7 @@ function renderDetail(style) {
     ${examples.length ? `<section class="gallery-track" id="gallery-track" aria-label="${escape(style.name)} references">
       <div class="gallery-viewport"><div class="gallery-label"><span>( reference studies )</span><span id="gallery-hint">Select to view</span></div>
         <div class="gallery-stage" id="gallery-stage">${examples.map((example,index) => `<figure class="reference${example.height > example.width * 1.45 ? ' reference-tall' : ''}" data-reference="${index}">
-          <button class="reference-open" data-open-image="${index}" aria-label="View reference ${index + 1}: ${escape(example.title)}"><img src="${escape(safeURL(example.image))}" alt="${escape(example.title)}" loading="${index < 2 ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer"></button>
+          <button class="reference-open" data-open-image="${index}" aria-label="View reference ${index + 1}: ${escape(example.title)}"><img src="${escape(safeURL(index < 2 ? example.image : example.thumbnail || example.image))}" data-full-src="${escape(safeURL(example.image))}" alt="${escape(example.title)}" loading="${index < 2 ? 'eager' : 'lazy'}" decoding="async" referrerpolicy="no-referrer" width="${example.width}" height="${example.height}"></button>
           <figcaption><span>${String(index+1).padStart(2,'0')} / ${String(examples.length).padStart(2,'0')}</span>${example.url ? `<a href="${escape(safeURL(example.url))}" target="_blank" rel="noopener">${sourceLabel(example)} ↗<span class="sr-only">: ${escape(example.title)}</span></a>` : '<span>Selected reference</span>'}</figcaption>
         </figure>`).join('')}</div>
         <div class="gallery-controls"><span class="gallery-current" id="gallery-current" aria-live="off">01 / ${String(examples.length).padStart(2,'0')}</span><div class="gallery-buttons"><button id="gallery-prev" aria-label="Previous reference">←</button><button id="gallery-next" aria-label="Next reference">→</button></div></div>
@@ -206,13 +213,13 @@ function renderDetail(style) {
   }, { once: true }));
   setupGallery();
   const version = routeVersion;
-  detailReady = import('./lib/background.jsx').then(({ mountBackground }) => {
+  detailReady = import('./lib/background.js').then(({ mountBackground }) => {
     if (version !== routeVersion || currentStyle?.id !== style.id) return;
     return mountBackground($('#detail-background'), frozenPalette, paused).then(instance => {
       if (version !== routeVersion) instance.destroy();
       else background = instance;
     });
-  }).catch(() => { /* The fixed palette remains usable without WebGL. */ });
+  }).catch(() => { /* The fixed palette remains usable without decoration. */ });
   document.title = `${style.name} — hamanti`;
 }
 function setupGallery() {
@@ -224,7 +231,18 @@ function setupGallery() {
   cards.forEach(card => { card.style.transform = ''; card.style.opacity = ''; card.classList.remove('is-active'); card.querySelectorAll('button,a').forEach(el => el.removeAttribute('tabindex')); });
   track.classList.remove('barrel'); track.style.height = ''; stage.style.transform = '';
   $('#gallery-hint').textContent = 'Select to view';
-  if (!desktop.matches || paused || cards.length < 3) { lenis?.resize(); return; }
+  const loadFull = index => {
+    const img=cards[index]?.querySelector('img');
+    if(img?.dataset.fullSrc && img.getAttribute('src')!==img.dataset.fullSrc) img.src=img.dataset.fullSrc;
+  };
+  if (!desktop.matches || paused || cards.length < 3) {
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{
+      if(entry.isIntersecting){loadFull(cards.indexOf(entry.target));observer.unobserve(entry.target);}
+    }),{rootMargin:'400px'});
+    cards.forEach(card=>observer.observe(card));
+    galleryCleanup=()=>observer.disconnect();
+    lenis?.resize(); return;
+  }
   track.classList.add('barrel');
   $('#gallery-hint').textContent = 'Scroll to turn · Select to view';
   const radius = Math.max(900, Math.min(innerWidth * .8, 1550)), step = 360 / cards.length;
@@ -233,7 +251,6 @@ function setupGallery() {
   let active = -1;
   cards.forEach((card,i) => {
     card.style.transform = `rotateY(${i * step}deg) translateZ(${radius}px)`;
-    card.querySelector('img')?.setAttribute('loading','eager');
   });
   const move = index => {
     index = Math.max(0, Math.min(cards.length - 1, index));
@@ -258,6 +275,7 @@ function setupGallery() {
     });
     if (index === active) return;
     active = index;
+    [active-1,active,active+1].forEach(loadFull);
     cards.forEach((card,i) => { card.classList.toggle('is-active', i === active); card.querySelectorAll('button,a').forEach(el => el.tabIndex = i === active ? 0 : -1); });
     $('#gallery-current').textContent = `${String(index+1).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`;
     $('#gallery-prev').disabled = index === 0; $('#gallery-next').disabled = index === cards.length - 1;
@@ -280,23 +298,20 @@ function openImage(index) {
   lenis?.stop(); $('#lightbox').showModal(); $('.lightbox-image').scrollTop = 0; $('#lightbox-close').focus();
 }
 async function cover(type, render) {
-  if (paused) { render(); return; }
   const overlay = $('#transition');
+  if (type === 'curtains') {
+    lenis?.stop();
+    try { await mixedCurtains(overlay, render, reduced.matches); }
+    finally { lenis?.start(); }
+    return;
+  }
+  if (paused) { render(); return; }
   overlay.className = `transition active ${type}`; lenis?.stop();
   try {
-    if (type === 'curtains') {
-      const curtains = [...overlay.querySelectorAll('.curtain')];
-      curtains.forEach((element,i) => { element.style.transformOrigin = i % 2 ? 'bottom' : 'top'; });
-      await animate(curtains, { scaleY: [0,1] }, { duration:.45, delay:stagger(.035), ease:[.76,0,.24,1] });
-      render();
-      curtains.forEach((element,i) => { element.style.transformOrigin = i % 2 ? 'top' : 'bottom'; });
-      await animate(curtains, { scaleY: [1,0] }, { duration:.5, delay:stagger(.035), ease:[.76,0,.24,1] });
-    } else {
       const line = overlay.querySelector('.transition-line');
       await animate(line, { clipPath:['inset(50% 49.95%)','inset(0% 49.95%)','inset(0% 0%)'] }, { duration:.65, times:[0,.45,1], ease:[.76,0,.24,1] });
       render();
       await animate(line, { clipPath:['inset(0% 0%)','inset(0% 0% 0% 100%)'] }, { duration:.45, ease:[.76,0,.24,1] });
-    }
   } finally { overlay.className = 'transition'; lenis?.start(); }
 }
 function showRoute(hash, { returnToIndex = false, focus = true } = {}) {
@@ -425,6 +440,7 @@ try {
   $('#footer-coverage').textContent = `${handbook.stats.examples.toLocaleString()} references`;
   $('.index-total').innerHTML = `${handbook.styles.length} directions<br>A — Z`;
   introWords(); renderIndex(); showRoute(location.hash, {focus:false});
+  opening.alignTitle();
   clearTimeout(titleTimer); lenis?.stop();
   opening.enableEntry();
   const abortWarmup = new AbortController();
@@ -433,13 +449,14 @@ try {
   const progress = {fonts:0, landscape:0, images:0};
   const updateProgress = () => opening.progress(Math.min(99,20 + progress.fonts*15 + progress.landscape*35 + progress.images*30));
   const fontsReady = Promise.all([
-    document.fonts.load('700 48px "Syne Variable"'),
+    document.fonts.load('800 48px "Syne Variable"'),
     document.fonts.load('400 16px "Manrope Variable"'),
     document.fonts.load('400 40px "Instrument Serif"'),
     document.fonts.load('italic 400 40px "Instrument Serif"'),
     document.fonts.load('400 12px "IBM Plex Mono"'),
   ]).then(() => document.fonts.ready).then(() => {
     lenis?.resize(); measureCards(); requestUpdate();
+    opening.alignTitle();
     progress.fonts = 1; updateProgress(); return true;
   }).catch(() => false);
   const landscapeReady = import('./lib/shanshui.js').then(({createShanShui}) => {
@@ -459,7 +476,8 @@ try {
   ]);
   clearTimeout(deadline); abortWarmup.abort();
   document.body.dataset.preloadState = ready ? 'ready' : 'partial';
-  await opening.finish(ready);
+  if (returningFromCredits) await mixedCurtains($('#transition'),()=>opening.finish(ready),reduced.matches,true);
+  else await opening.finish(ready);
   lenis?.resize(); lenis?.start(); measureCards(); requestUpdate();
   if (!currentStyle && !location.hash.startsWith('#/index')) typeTitle();
 } catch (error) {

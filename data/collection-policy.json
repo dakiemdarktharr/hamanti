@@ -7,6 +7,6 @@
   "candidateBatchSize": 12,
   "peoplePolicy": "No casual people photos; deliberately posed models are allowed.",
   "collectionStopped": "2026-10-21",
-  "uploadTrigger": "User stopped search and check on 2026-10-21 and requested publication of saved approvals now. Publish only hash-verified, visually approved native Full HD files; unreviewed candidates remain unpublished.",
+  "uploadTrigger": "User stopped search and check, then requested publication of the current local folder contents on 2026-10-21. Publish only hash-verified, visually approved native Full HD files. Preserve every intake file.",
   "cleanupRule": "Keep the intake directory until the user says done, every accepted file is verified in MongoDB and published successfully, and rejected or failed files are resolved."
 }

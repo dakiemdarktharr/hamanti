@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-21T04:40:00.901Z",
+  "date": "2026-10-21T05:21:45.082Z",
   "mode": "partial",
-  "approved": 40,
-  "published": 40,
-  "storedDocuments": 0,
+  "approved": 62,
+  "published": 62,
+  "storedDocuments": 44,
   "reusedDocuments": 81,
-  "bytesAdded": 0,
+  "bytesAdded": 21726807,
   "failures": [],
   "intakePreserved": true
 }

@@ -24,10 +24,7 @@ for (const file of files) {
 }
 try { await copyFile(resolve(root, 'data/catalog.json'), resolve(output, 'data/catalog.json')); }
 catch (error) { if (error.code !== 'ENOENT') throw error; }
-await cp(resolve(root, 'public'), output, {
-  recursive: true,
-  filter: source => !source.startsWith(resolve(root,'public/models')) && source !== resolve(root,'public/ui/pastel-landscape.svg'),
-});
+await cp(resolve(root, 'public'), output, {recursive:true});
 await prepareShanShui(new URL('../dist/', import.meta.url));
 await build({
   absWorkingDir: root, entryPoints: ['app.js', 'sources.js'], outdir: resolve(output, 'assets'),
@@ -37,7 +34,6 @@ await build({
   assetNames: 'fonts/[name]-[hash]', chunkNames: '[name]-[hash]',
   define: { 'process.env.NODE_ENV': '"production"' },
 });
-await copyFile(resolve(root, 'vendor/react-bits/LICENSE.md'), resolve(output, 'react-bits-license.txt'));
 await mkdir(resolve(output, 'licenses'), {recursive:true});
 for (const [pkg, name] of [['@fontsource-variable/syne','syne'], ['@fontsource-variable/manrope','manrope'], ['@fontsource/instrument-serif','instrument-serif'], ['@fontsource/ibm-plex-mono','ibm-plex-mono']]) {
   await copyFile(resolve(root, `node_modules/${pkg}/LICENSE`), resolve(output, `licenses/${name}.txt`));

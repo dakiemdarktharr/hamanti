@@ -3,7 +3,6 @@
 A visual handbook of 300 web and interface aesthetics, typographic directions, and art influences.
 
 - Website: https://hamanti.vercel.app
-- Free GitHub Pages address: https://dakiemdarktharr.github.io/hamanti/
 - Public repository: https://github.com/dakiemdarktharr/hamanti
 - Canva component sheet: https://canva.link/gs5kjbknzcrey7w
 
@@ -16,7 +15,7 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:4173. The existing HTML, CSS, and browser JavaScript stack is bundled with esbuild. Motion and Lenis provide transitions and scrolling. A small React island hosts the official React Bits detail backgrounds. Lingdong Huang's Shan Shui Inf generates the home page's SVG landscape.
+Open http://localhost:4173. HTML, CSS and browser JavaScript are bundled with esbuild. Motion and Lenis provide interactions and scrolling. Lightweight SVGs provide detail backgrounds. Lingdong Huang's Shan Shui Inf generates the home page's SVG landscape.
 
 ## Interface
 
@@ -28,9 +27,9 @@ The flower graphic and 3D woodland have been replaced. Hand-drawn arrows lead ri
 
 The landscape is decoded ahead of the viewport into a single SVG image layer and moved with a composited transform. Scrolling no longer changes a live SVG viewBox containing tens of thousands of paths. The previous layer stays visible until its replacement is decoded; temporary object URLs are revoked. The worker keeps a bounded terrain buffer and skips intervening terrain after distant navigation jumps.
 
-The introduction starts revealing each word only after it passes the viewport's horizontal centre. Spaces sit outside the word spans, with generous line spacing; geometry is read before opacity updates. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Single-image collections use the full gallery width. Detail backgrounds are chosen once per visit from Topography, Gradient ASCII, Pattern Waves, Beams, and Aero Shards (when WebGPU is available). The chosen pattern and palette stay fixed until leaving that style.
+The introduction starts revealing each word only after it passes the viewport's horizontal centre. Spaces sit outside the word spans, with generous line spacing; geometry is read before opacity updates. Reference images occupy most of the viewport; selecting one opens a larger, scrollable view. Single-image collections use the full gallery width. Detail backgrounds are chosen once per visit from small SVG topography, ASCII, wave, beam and flat-shard patterns. The pattern and palette stay fixed until leaving that style. Full-size gallery images load around the active reference; distant cards use thumbnails.
 
-All production logo, icon, button, and decorative landscape artwork is SVG with vector paths or text. No raster is embedded in those SVGs. The old GLB forest models and pastel backdrop are excluded from the published build.
+All production logo, icon, button, and decorative landscape artwork is SVG with vector paths or text. All GLB models, obsolete 3D authoring code and GPU backgrounds have been removed, along with Three.js, vgpu, OGL and React dependencies.
 
 ## Content and provenance
 
@@ -64,7 +63,7 @@ The user subsequently authorized exactly two collection agents, `search` and `ch
 
 On 2026-10-21 the user stopped both agents and requested publication of the saved approvals before the full collection was complete. `node scripts/prepare-reviewed-import.mjs` validates the saved checker decisions against the actual source bytes and folder mapping before merging them into `data/manual-review.json`. Only persisted approvals are published; unfinished reviews remain pending. The current merge adds 39 checker-approved images, replaces one lower-resolution copy with its larger original, and retains the original Abstract Expressionism reference: 40 published references across seven styles. Source links, people-photo decisions and review reasons are preserved. Neither agent is running.
 
-Their cumulative ready/review manifests and original folder audit remain under `.tmp/collection-coordination/`. The portable publication approvals are recorded in `data/manual-review.json`.
+Their cumulative ready/review manifests and original folder audit remain under `.tmp/collection-coordination/`. The portable publication approvals are recorded in `data/manual-review.json`. A subsequent user-requested folder review added 22 native Full HD images, bringing publication to 62 references across 11 styles. `data/local-image-review-2026-10-21.json` records the visual decisions; all intake files are preserved.
 
 `scripts/inspect-manual-images.mjs` makes a local dimension inventory and review contact sheets. `node --env-file=.env.local scripts/import-manual-images.mjs` imports only explicitly approved files whose checksum still matches, verifies MongoDB read-back, creates small index thumbnails and rebuilds the published reference data. It is repeatable and never removes intake files. Unattributed user-supplied images do not receive invented Pinterest links.
 
@@ -84,7 +83,7 @@ Builds do not crawl Pinterest, use AI tools, or connect to MongoDB. The collecto
 
 The `hamanti` database uses the already-existing `wfg` Flex cluster. At the user's request, `scripts/clear-reference-archive.mjs` removed 3,214 image documents from this archive and 2,350 from the earlier Cluster0 hamanti archive, and cleared their reference image fields. Both image collections were verified empty. Other databases were not modified. Local collected image downloads were also removed. No cluster was created or upgraded; image bytes are not committed to GitHub or included in the static bundle.
 
-Store `MONGODB_URI` only in ignored `.env.local` and Vercel's server environment. The read-only `api/images/[id].js` endpoint rejects retired image IDs with HTTP 410 and no-store caching. The GitHub Pages site uses the same image API.
+Store `MONGODB_URI` only in ignored `.env.local` and Vercel's server environment. The read-only `api/images/[id].js` endpoint rejects retired image IDs with HTTP 410 and no-store caching.
 
 The current manual import retains original bytes and dimensions, with separate WebP thumbnails for the index. Originals exceeding the 4.3 MB delivery budget are archived separately and served through a lossless WebP variant at the same native dimensions. If even that variant exceeds the delivery budget, the reference remains pending. The manual importer uses a 4,000 MB ceiling for `wfg`; historical migration tools default to a conservative 280 MB ceiling for older free clusters. Capacity failures remain pending instead of silently changing plans or removing older data.
 
@@ -92,11 +91,11 @@ The current manual import retains original bytes and dimensions, with separate W
 
 `public/ui/` contains SVGs for the outlined Syne h, imperfect seven-point star, arrow, search icon, and button states. These implement the Canva component direction. The font glyph is preserved as an outline; the star has deliberately unequal points.
 
-`scripts/create-ui-vectors.py` regenerates the SVG controls with Python, fontTools and Brotli. Earlier Blender authoring files remain in the repository for history, but are not used by the current site. `scripts/prepare-shanshui.mjs` extracts the drawing algorithms from the preserved upstream source during each build and copies the license. `vendor/shan-shui-inf/ADAPTATION.md` documents the integration.
+`scripts/create-ui-vectors.py` regenerates the SVG controls with Python, fontTools and Brotli. `scripts/prepare-shanshui.mjs` extracts the drawing algorithms from the preserved upstream source during each build and copies the license. `vendor/shan-shui-inf/ADAPTATION.md` documents the integration.
 
 ## Deployment
 
-GitHub Pages builds and publishes `dist/` on pushes to `main`. Vercel serves the app and image endpoint. Production needs the existing `MONGODB_URI` secret.
+Vercel serves the app and image endpoint at https://hamanti.vercel.app. Production needs the existing `MONGODB_URI` secret. GitHub Actions runs tests and builds only; Pages deployment is disabled.
 
 Strongly recommended: install the Vercel CLI with `npm i -g vercel` for `vercel env pull`, `vercel deploy`, and `vercel logs`.
 
@@ -108,12 +107,14 @@ Keep `hamanti.vercel.app` attached as the Vercel production domain because the i
 
 ## Credits and verification
 
-Official React Bits components and their MIT + Commons Clause license are in `vendor/react-bits/`. Shan Shui Inf and its MIT license are in `vendor/shan-shui-inf/`. Font licenses ship with the site. Motion example interactions are independently implemented; restricted Motion+ code is not included. Canva assets and the shan shui landscape are interface decoration, never art-style reference examples.
+Shan Shui Inf and its MIT license are in `vendor/shan-shui-inf/`. Font licenses ship with the site. SVG background patterns and Motion example interactions are independently implemented; restricted Motion+ code is not included. Canva assets and the shan shui landscape are interface decoration, never art-style reference examples.
 
 The user authorized tests on 2026-10-21. Run `npm test` for the native-dimension, visual-review, storage-verification, source-link, duplicate and catalog/search regressions. Browser checks also cover desktop/mobile layout, seven-card geometry, keyboard navigation, filtering, the modal image view, motion pause and long-distance landscape navigation. Earlier work predating this authorization used builds and manual inspection only.
 
 ## Opening preparation
 
 The initial `hamanti` wordmark fills from left to right as the opening view is prepared, inspired by [Motion's fill-text example](https://motion.dev/examples/react-loading-fill-text). The app warms the available cover thumbnails for the first 120 alphabetically ordered styles (40% of 300), prioritizes the current search/detail route, loads the typography, and waits for the first decoded landscape. Galleries remain on demand. Four concurrent image requests and selective decoding keep preparation bounded.
+
+The loader uses the homepage title's exact measured position, dimensions, weight, font and spacing, including after fonts load or the viewport changes. Home links use a mixed wipe/iris transition inspired by [Motion's mixed curtains](https://motion.dev/examples/js-curtains-mixed): all covering panels must finish and paint before the route or document changes, then the iris reveals the destination. This also applies to the separate credits page. Reduced-motion preferences use immediate navigation.
 
 Progress reflects completed preparation tasks rather than a timer. Visitors can enter after six seconds if optional assets are still loading; optional preparation ends after twelve seconds and failed assets do not trap the page. Reduced-motion and saved pause preferences disable the fill/fade animation. The loader is shown once per document load, not on internal navigation. Original image quality and collection rules are unchanged.
