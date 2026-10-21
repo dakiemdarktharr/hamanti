@@ -10,16 +10,19 @@
     <link rel="stylesheet" href="./assets/app.css">
     <script type="module" src="./assets/app.js"></script>
   </head>
-  <body class="handbook-page">
+  <body class="handbook-page is-loading">
+    <div id="opening-loader" class="opening-loader">
+      <div class="opening-word" aria-hidden="true"><span class="opening-outline">hamanti</span><span class="opening-fill">hamanti</span></div>
+      <div class="opening-meta"><span role="progressbar" aria-label="Preparing the opening view" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">Opening hamanti</span><button type="button" hidden>Enter now ↗</button><span class="opening-count" aria-hidden="true">00%</span></div>
+    </div>
     <a class="skip-link" href="#main">Skip to content</a>
-    <header class="masthead">
+    <header class="masthead" inert data-opening-inert>
       <a class="wordmark" href="#/" data-home aria-label="hamanti home"><svg class="wordmark-mark" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g fill="#222a20"><path transform="translate(4.3333 58) scale(0.066667 -0.066667)" d="M723 0V182Q723 227 705.0 258.0Q687 289 641.5 304.5Q596 320 513 320Q466 320 421.5 311.5Q377 303 341.5 291.0Q306 279 285 267L283 315Q287 330 310.5 360.5Q334 391 379.0 424.5Q424 458 492.5 481.5Q561 505 655 505Q714 505 769.0 494.0Q824 483 867.5 457.5Q911 432 937.0 389.0Q963 346 963 282V0ZM55 0V690H295V0Z"/><path transform="translate(25 0) scale(.71)" d="M29 1 27 22 41 19 32 27 38 31 27 31 30 43 20 32 8 38 14 29 1 20 19 23 16 15 23 21Z"/></g></svg>
 </a>
       <span class="masthead-note">A field guide to difference</span>
       <a href="#/index" class="index-link"><span>Explore</span><svg class="trail-arrow" viewBox="0 0 65 32" aria-hidden="true"><path d="M3 22C15 5 25 29 40 15L57 11M47 3l12 8-8 13"/></svg></a>
     </header>
-    <main id="main" tabindex="-1">
-      <p id="loading" class="loading" role="status">Opening the handbook…</p>
+    <main id="main" tabindex="-1" inert data-opening-inert aria-busy="true">
       <div id="error" class="error" hidden></div>
       <div id="landscape" class="landscape" aria-hidden="true"></div>
       <div id="home-page" class="horizontal-scroll" tabindex="0" aria-label="Horizontal handbook" hidden>
@@ -48,7 +51,7 @@
       </div>
       <div id="detail-page" hidden></div>
     </main>
-    <footer class="footer" id="footer">
+    <footer class="footer" id="footer" inert data-opening-inert>
       <div class="footer-inner">
         <div class="footer-top"><p>Different,<br><i>by nature.</i></p><div class="footer-notes"><p>An independent visual handbook.</p><a href="./artstyles-300.md" target="_blank" rel="noopener">Original Obsidian notes ↗</a><a href="./sources.html">References & credits ↗</a></div></div>
         <a class="footer-wordmark" href="#/" data-home aria-label="hamanti home">hamanti<span aria-hidden="true">↗</span></a>
@@ -61,6 +64,6 @@
       <div class="lightbox-image"><img id="lightbox-image" alt=""></div>
       <div class="lightbox-caption"><p id="lightbox-title"></p><a id="lightbox-source" target="_blank" rel="noopener">Pinterest source ↗</a></div>
     </dialog>
-    <noscript><p class="error">JavaScript opens the visual handbook. You can also <a href="./artstyles-300.md">read all 300 styles here</a>.</p></noscript>
+    <noscript><style>.opening-loader{display:none}</style><p class="error">JavaScript opens the visual handbook. You can also <a href="./artstyles-300.md">read all 300 styles here</a>.</p></noscript>
   </body>
 </html>

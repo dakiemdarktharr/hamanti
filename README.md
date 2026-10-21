@@ -109,3 +109,9 @@ Keep `hamanti.vercel.app` attached as the Vercel production domain because the i
 Official React Bits components and their MIT + Commons Clause license are in `vendor/react-bits/`. Shan Shui Inf and its MIT license are in `vendor/shan-shui-inf/`. Font licenses ship with the site. Motion example interactions are independently implemented; restricted Motion+ code is not included. Canva assets and the shan shui landscape are interface decoration, never art-style reference examples.
 
 The user authorized tests on 2026-10-21. Run `npm test` for the native-dimension, visual-review, storage-verification, source-link, duplicate and catalog/search regressions. Browser checks also cover desktop/mobile layout, seven-card geometry, keyboard navigation, filtering, the modal image view, motion pause and long-distance landscape navigation. Earlier work predating this authorization used builds and manual inspection only.
+
+## Opening preparation
+
+The initial `hamanti` wordmark fills from left to right as the opening view is prepared, inspired by [Motion's fill-text example](https://motion.dev/examples/react-loading-fill-text). The app warms the available cover thumbnails for the first 120 alphabetically ordered styles (40% of 300), prioritizes the current search/detail route, loads the typography, and waits for the first decoded landscape. Galleries remain on demand. Four concurrent image requests and selective decoding keep preparation bounded.
+
+Progress reflects completed preparation tasks rather than a timer. Visitors can enter after six seconds if optional assets are still loading; optional preparation ends after twelve seconds and failed assets do not trap the page. Reduced-motion and saved pause preferences disable the fill/fade animation. The loader is shown once per document load, not on internal navigation. Original image quality and collection rules are unchanged.

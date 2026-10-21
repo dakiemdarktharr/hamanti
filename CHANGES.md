@@ -1,3 +1,15 @@
+# 2026-10-21 — fill-text opening screen
+
+- Added a green `hamanti` text-fill loader driven by real font, landscape and image preparation.
+- Preloads available thumbnails for the first 120 styles (40%), with current-route images first and at most four requests at once. Full galleries remain on demand.
+- Waits for the first decoded shan shui image before the initial reveal; unlocks scrolling and keyboard controls together.
+- Supports reduced motion, a six-second Enter now option, a twelve-second optional-resource limit and a readable content-error fallback.
+- Added three regression tests for asset selection, request limits, failed downloads and cancellation. Checked home/index transitions, direct gallery entry and slow/error responses in the browser.
+
+Changed files: `app.js`, `index.html`, `lib/loading.js`, `lib/loading.css`, `lib/preload.js`, `lib/handbook.js`, `lib/shanshui.js`, `tests/preload.test.mjs`, `README.md`, `CHANGES.md`.
+
+---
+
 # 2026-10-21 — smoother handscroll and curved cards
 
 - Single horizontal row with seven complete cards on desktop; perspective increases toward the sides. Tablets show five and phones show a readable card with a neighbouring preview.

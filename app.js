@@ -4,6 +4,8 @@ import { animate, hover, press, stagger } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
 import { searchStyles } from './lib/search.js';
+import { createLoadingScreen } from './lib/loading.js';
+import { openingAssets, warmImages } from './lib/preload.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -15,6 +17,8 @@ const desktop = matchMedia('(min-width: 900px)');
 let savedPause = false;
 try { savedPause = localStorage.getItem('hamanti-motion') === 'paused'; } catch {}
 let paused = reduced.matches || savedPause;
+const opening = createLoadingScreen(() => paused);
+let detailReady = Promise.resolve();
 let handbook, currentStyle, background, lenis, galleryCleanup, galleryUpdate, landscape, homeScroll = 0, lastStyleId;
 let routeVersion = 0, navigationBusy = false, controlsCleanup = [], titleTimer, frameRequest;
 const filters = { query: '', letter: 'all' };
@@ -202,7 +206,7 @@ function renderDetail(style) {
   }, { once: true }));
   setupGallery();
   const version = routeVersion;
-  import('./lib/background.jsx').then(({ mountBackground }) => {
+  detailReady = import('./lib/background.jsx').then(({ mountBackground }) => {
     if (version !== routeVersion || currentStyle?.id !== style.id) return;
     return mountBackground($('#detail-background'), frozenPalette, paused).then(instance => {
       if (version !== routeVersion) instance.destroy();
@@ -362,6 +366,7 @@ $('#motion-toggle').addEventListener('click', () => {
 });
 reduced.addEventListener('change', () => { paused = reduced.matches || savedPause; setupMotion(); });
 document.addEventListener('keydown', event => {
+  if (opening.active) return;
   if (event.key === '/' && !currentStyle && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { event.preventDefault(); $('#search').focus(); smoothTo($('#index')); }
   if (currentStyle || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName) || event.ctrlKey || event.metaKey || event.altKey) return;
   const card = document.activeElement.closest('.style-card');
@@ -407,7 +412,8 @@ $('#clear-filters').addEventListener('click', () => {
   history.replaceState(null,'',`${location.pathname}#/index`); renderIndex(); smoothTo($('#index'),{immediate:true}); $('#search').focus();
 });
 try {
-  handbook = await loadHandbook(); $('#loading').hidden = true;
+  handbook = await loadHandbook({signal:AbortSignal.timeout(20000)});
+  opening.progress(20);
   handbook.styles.sort((a,b) => a.name.localeCompare(b.name, 'en', {sensitivity:'base',numeric:true}));
   handbook.styles.forEach((style,index) => { style.rank = index + 1; });
   const letters = [...new Set(handbook.styles.map(style => style.name.charAt(0).toLocaleUpperCase()))];
@@ -419,11 +425,44 @@ try {
   $('#footer-coverage').textContent = `${handbook.stats.examples.toLocaleString()} references`;
   $('.index-total').innerHTML = `${handbook.styles.length} directions<br>A — Z`;
   introWords(); renderIndex(); showRoute(location.hash, {focus:false});
-  document.fonts.ready.then(() => { lenis?.resize(); measureCards(); requestUpdate(); });
-  import('./lib/shanshui.js').then(({createShanShui}) => {
+  clearTimeout(titleTimer); lenis?.stop();
+  opening.enableEntry();
+  const abortWarmup = new AbortController();
+  const assets = openingAssets(handbook.styles, indexCards.map(card => handbook.styles.find(style => style.id === +card.dataset.style)), currentStyle?.examples || []);
+  document.body.dataset.preloadStyles = String(assets.styleCount);
+  const progress = {fonts:0, landscape:0, images:0};
+  const updateProgress = () => opening.progress(Math.min(99,20 + progress.fonts*15 + progress.landscape*35 + progress.images*30));
+  const fontsReady = Promise.all([
+    document.fonts.load('700 48px "Syne Variable"'),
+    document.fonts.load('400 16px "Manrope Variable"'),
+    document.fonts.load('400 40px "Instrument Serif"'),
+    document.fonts.load('italic 400 40px "Instrument Serif"'),
+    document.fonts.load('400 12px "IBM Plex Mono"'),
+  ]).then(() => document.fonts.ready).then(() => {
+    lenis?.resize(); measureCards(); requestUpdate();
+    progress.fonts = 1; updateProgress(); return true;
+  }).catch(() => false);
+  const landscapeReady = import('./lib/shanshui.js').then(({createShanShui}) => {
     landscape = createShanShui($('#landscape'),$('#home-page'));
-  }).catch(() => { $('#landscape').classList.add('landscape-unavailable'); });
+    return currentStyle ? detailReady.then(() => true) : landscape.ready;
+  }).then(ready => { if (ready) { progress.landscape = 1; updateProgress(); } return ready; })
+    .catch(() => { $('#landscape').classList.add('landscape-unavailable'); return false; });
+  const imagesReady = warmImages(assets.urls, {
+    signal:abortWarmup.signal,
+    onProgress:(done,total) => { progress.images = total ? done/total : 1; updateProgress(); },
+  });
+  let deadline;
+  const timedOut = new Promise(resolve => { deadline = setTimeout(() => resolve(false), 12000); });
+  const ready = await Promise.race([
+    Promise.all([fontsReady,landscapeReady,imagesReady]).then(([fonts,scene,images]) => fonts && scene && images.complete),
+    opening.skipped, timedOut,
+  ]);
+  clearTimeout(deadline); abortWarmup.abort();
+  document.body.dataset.preloadState = ready ? 'ready' : 'partial';
+  await opening.finish(ready);
+  lenis?.resize(); lenis?.start(); measureCards(); requestUpdate();
+  if (!currentStyle && !location.hash.startsWith('#/index')) typeTitle();
 } catch (error) {
-  $('#loading').hidden = true; $('#error').hidden = false;
+  await opening.finish(false); $('#error').hidden = false;
   $('#error').innerHTML = `<p>The handbook could not open.</p><p>${escape(error.message)}</p><a href="./artstyles-300.md">Read the original notes ↗</a>`;
 }
