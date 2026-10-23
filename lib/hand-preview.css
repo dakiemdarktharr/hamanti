@@ -1,0 +1,18 @@
+/* Overlay only: original card/deck layout, breakpoints and interactions apply. */
+.hand-layer { position:absolute; top:0; left:0; width:100vw; height:100%; pointer-events:none; }
+.hand-layer-back { z-index:1; }
+.hand-layer-front { z-index:45; }
+.hand-review { position:fixed; bottom:15px; left:50%; translate:-50% 0; z-index:90; display:flex; align-items:center; gap:12px; padding:9px 14px; border:1px solid #697661; border-radius:5px; background:#f1f1e7ed; color:var(--ink); box-shadow:0 4px 18px #222a2018; font:11px var(--mono); }
+.hand-review button { border:1px solid #697661; border-radius:3px; padding:7px 10px; white-space:nowrap; }
+.hand-review button:hover { background:#222a20; color:#f1f1e7; }
+.hand-review input { width:clamp(100px,22vw,320px); accent-color:#4e604b; }
+.hand-review output { min-width:84px; font-variant-numeric:tabular-nums; }
+.hand-review-status { position:absolute; bottom:calc(100% + 8px); left:50%; translate:-50% 0; white-space:nowrap; background:#e9ebe2ed; padding:4px 8px; }
+.detail-mode .hand-review { display:none; }
+.hand-review[hidden] { display:none; }
+@media(max-width:700px) {
+  .hand-review { bottom:9px; gap:6px; padding:6px 8px; }
+  .hand-review input { width:100px; }
+  .hand-review button { padding:7px; }
+  .hand-review output { min-width:66px; font-size:9px; }
+}

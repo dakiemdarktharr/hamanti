@@ -9,3 +9,19 @@ Thumbs.db
 .env.*
 .image-cache/
 .tmp/
+__pycache__/
+*.pyc
+*.blend1
+# Preserve authoring experiments locally; publish the fitted source and final review.
+demos/card-fan/*
+!demos/card-fan/card-handoff-5s.blend
+!demos/card-fan/handoff_player.py
+!demos/card-fan/handoff-calibration.json
+!demos/card-fan/README.md
+demos/category-hands-original/
+demos/category-hands-preview/
+demos/five-card-opening/
+demos/correction-audit/before/
+demos/correction-audit/grip/
+demos/correction-audit/after/*.jpg
+demos/correction-audit/after/*.ffconcat

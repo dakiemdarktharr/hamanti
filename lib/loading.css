@@ -1,8 +1,14 @@
 .opening-loader { position:fixed; inset:0; z-index:1000; background:#e9ebe2; color:#222a20; }
 .opening-word { position:absolute; left:var(--gutter); top:calc(50svh - 7.25vw); font:800 14.5vw/.88 var(--display); letter-spacing:-.08em; white-space:nowrap; user-select:none; }
-.opening-outline { display:block; }
-.opening-outline { color:transparent; -webkit-text-stroke:1px #87917f; }
-.opening-fill { position:absolute; inset:0; clip-path:inset(0 100% 0 0); will-change:clip-path; }
+.opening-filter { position:absolute; width:0; height:0; }
+.opening-pencil { display:block; opacity:var(--pencil-opacity,1); filter:url(#pencil-grain); }
+.opening-outline { display:block; color:transparent; -webkit-text-stroke:1px #64705d; }
+.opening-rough,.opening-hatch { position:absolute; inset:0; color:transparent; }
+.opening-rough { -webkit-text-stroke:.65px #7e8675; transform:translate(1.6px,-1px) rotate(-.12deg); }
+.opening-hatch { background:repeating-linear-gradient(123deg,transparent 0 3px,#6a735f70 3px 3.6px,transparent 3.6px 6px); background-clip:text; -webkit-background-clip:text; opacity:.55; }
+.opening-guides { position:absolute; inset:-13% -2%; width:104%; height:127%; color:#718064; opacity:var(--guide-opacity,1); overflow:visible; }
+.opening-draft { position:absolute; inset:0; width:100%; height:100%; overflow:visible; opacity:var(--pencil-opacity,1); pointer-events:none; }
+.opening-fill { position:absolute; inset:0; clip-path:inset(0 100% 0 0); will-change:clip-path; color:#222a20; -webkit-text-stroke:.25px #222a20; text-shadow:0 .4px 0 #11170f; }
 .opening-meta { position:absolute; bottom:clamp(28px,6vh,70px); left:var(--gutter); right:var(--gutter); display:flex; align-items:center; justify-content:space-between; gap:24px; font:11px/1.5 var(--mono); }
 .opening-meta button { font:inherit; color:inherit; background:none; padding:12px; border:1px solid currentColor; }
 .opening-count { font-variant-numeric:tabular-nums; margin-left:auto; }
@@ -10,3 +16,6 @@
 .is-loading .skip-link { visibility:hidden; }
 .is-loading .horizontal-scroll { overflow-x:scroll; overflow-y:hidden; }
 @media(prefers-reduced-motion:reduce) { .opening-fill { will-change:auto; } }
+/* The finished masthead has the contrast and spacing of an inked nameplate. */
+.home-track .hero h1 #type-title { font-family:var(--serif); font-weight:400; font-size:2.4em; letter-spacing:-.055em; font-kerning:normal; text-shadow:0 .4px 0 #222a20; }
+.home-track .hero h1 .type-caret { display:none; }

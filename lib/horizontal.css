@@ -5,6 +5,9 @@
 .handbook-page:not(.detail-mode) #main { height: calc(100svh - var(--masthead-height)); background: transparent; isolation: isolate; }
 .horizontal-scroll { position: relative; z-index: 2; width: 100%; height: 100%; overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-width: thin; scrollbar-color: #65715d #e9ebe2; scroll-padding-inline: var(--gutter); }
 .horizontal-scroll:focus-visible { outline: 2px solid var(--moss); outline-offset: -3px; }
+/* overflow:clip ceases to be a scroll container and exposes its origin.
+   Keep the exact visible scroll offset while Lenis is stopped for a cover. */
+.horizontal-scroll.lenis.lenis-stopped { overflow-x:auto; overflow-y:hidden; }
 .home-track { display: flex; align-items: stretch; width: max-content; min-width: 100%; height: 100%; }
 .home-track > section, .home-track > footer { flex-shrink: 0; }
 .home-track .hero { width: 100vw; height: 100%; min-height: 0; max-height: none; padding: 28px var(--gutter) 44px; background: var(--paper); border-right: 1px solid var(--line); }
@@ -12,6 +15,7 @@
 .home-track .hero-baseline { display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: end; gap: 24px; }
 .home-track .hero-caption { position: static; margin: 0; justify-self: center; font-size: clamp(24px,2.3vw,37px); }
 .home-track .down-link { justify-self: end; flex-direction: row; gap: 24px; font-size: 27px; background: none; }
+.home-track .hero-baseline .down-link { grid-column:3; }
 .home-track .down-link svg { width: 65px; height: 34px; }
 .home-track .down-link:hover svg { transform: translateX(6px) rotate(-5deg); }
 .home-track .introduction { width: 86vw; height: 100%; min-height: 0; padding: 7vh 8vw; border-top: 0; display: flex; flex-direction: column; align-items: start; justify-content: center; gap: 35px; background: linear-gradient(90deg,var(--paper),#e9ebe2d9 70%,#e9ebe200); }

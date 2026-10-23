@@ -1,0 +1,16 @@
+{
+  "initial": {
+    "layers": 2,
+    "review": 0,
+    "api": false,
+    "coverage": "all-300",
+    "lower": "0",
+    "cards": 5
+  },
+  "browsing": {
+    "frame": 89.942,
+    "opacity": 1,
+    "lower": 3
+  },
+  "errors": []
+}

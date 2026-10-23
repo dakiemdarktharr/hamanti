@@ -1,16 +1,17 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {fanFrame,fanPose,fanDeckPose,stepFanSpring} from '../lib/card-fan.js';
+import {fanFrame,fanPose,fanDeckPose,fanScrollLength,stepFanSpring} from '../lib/card-fan.js';
 
-const layout={count:300,slots:7,pitch:240,sectionStart:3500,gutter:72,cardWidth:280,cardHeight:409};
+const layout={count:300,slots:5,pitch:240,sectionStart:3500,gutter:72,cardWidth:280,cardHeight:409,journeyHeight:650};
+const opened=layout.sectionStart+layout.pitch*2.6;
 const viewport=1920;
-test('seven cards follow a symmetric arc, with an upright raised centre',()=>{
-  const frame=fanFrame(layout,layout.sectionStart,viewport);
-  const centre=fanPose(3,layout,frame,viewport);
+test('five cards share a compact symmetric pivot with an upright centre',()=>{
+  const frame=fanFrame(layout,opened,viewport);
+  const centre=fanPose(2,layout,frame,viewport);
   assert.equal(centre.rotation,0);
   assert.equal(centre.x,viewport/2);
-  for(let i=0;i<3;i++){
-    const left=fanPose(i,layout,frame,viewport),right=fanPose(6-i,layout,frame,viewport);
+  for(let i=0;i<2;i++){
+    const left=fanPose(i,layout,frame,viewport),right=fanPose(4-i,layout,frame,viewport);
     assert.ok(Math.abs(left.x+right.x-viewport)<.00001);
     assert.equal(left.y,right.y);
     assert.equal(left.rotation,-right.rotation);
@@ -19,9 +20,9 @@ test('seven cards follow a symmetric arc, with an upright raised centre',()=>{
 });
 test('scrolling forwards and backwards retraces the same fan and pile poses',()=>{
   const offsets=[0,51,169,240,501,700];
-  const poses=offsets.map(offset=>fanPose(7,layout,fanFrame(layout,3500+offset,viewport),viewport));
+  const poses=offsets.map(offset=>fanPose(5,layout,fanFrame(layout,opened+offset,viewport),viewport));
   for(let i=offsets.length-1;i>=0;i--)
-    assert.deepEqual(fanPose(7,layout,fanFrame(layout,3500+offsets[i],viewport),viewport),poses[i]);
+    assert.deepEqual(fanPose(5,layout,fanFrame(layout,opened+offsets[i],viewport),viewport),poses[i]);
   const entering=poses[0],arrived=poses.at(-1);
   assert.ok(entering.scale<arrived.scale);
   assert.ok(entering.y<arrived.y);
@@ -30,16 +31,16 @@ test('small result sets stay centred, and entering/leaving the index moves the w
   const one={...layout,count:1};
   assert.equal(fanPose(0,one,fanFrame(one,3500,viewport),viewport).x,viewport/2);
   assert.equal(fanPose(0,one,fanFrame(one,3300,viewport),viewport).x,viewport/2+200);
-  assert.equal(fanPose(0,one,fanFrame(one,3700,viewport),viewport).x,viewport/2-200);
-  const end=3500+(layout.count-layout.slots)*layout.pitch;
-  assert.equal(fanFrame(layout,end,viewport).centre,296);
+  assert.equal(fanPose(0,one,fanFrame(one,3500+fanScrollLength(one)+200,viewport),viewport).x,viewport/2-200);
+  const end=3500+fanScrollLength(layout);
+  assert.equal(fanFrame(layout,end,viewport).centre,297);
   assert.equal(fanFrame(layout,end+200,viewport).origin,-200);
 });
 test('the pile curls meet the main arc without a velocity jump',()=>{
   const epsilon=.00001;
   for(const side of [-1,1]){
     const pose=d=>fanPose(0,layout,{origin:0,centre:-side*d},viewport);
-    const before=pose(3-epsilon),edge=pose(3),after=pose(3+epsilon);
+    const before=pose(2-epsilon),edge=pose(2),after=pose(2+epsilon);
     for(const axis of ['x','y','rotation','scale']){
       const entering=(edge[axis]-before[axis])/epsilon;
       const leaving=(after[axis]-edge[axis])/epsilon;

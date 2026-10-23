@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 350">
+  <defs><pattern id="engraving" width="24" height="24" patternUnits="userSpaceOnUse"><g fill="none" stroke="#66715b" stroke-width=".65"><path d="m12 0 12 12-12 12L0 12Zm0 4 8 8-8 8-8-8Z"/><circle cx="12" cy="12" r="2.8"/><path d="M0 0q12 13 24 0M0 24q12-13 24 0"/></g></pattern></defs>
+  <rect x="1" y="1" width="238" height="348" rx="11" fill="#eee9d9"/>
+  <rect x="9" y="9" width="222" height="332" rx="7" fill="url(#engraving)" stroke="#42523d" stroke-width="1.5"/>
+  <rect x="14" y="14" width="212" height="322" rx="5" fill="none" stroke="#42523d" stroke-width=".55"/>
+  <g fill="none" stroke="#42523d"><ellipse cx="120" cy="175" rx="63" ry="87" fill="#eee9d9" stroke-width="1.4"/><ellipse cx="120" cy="175" rx="57" ry="81" stroke-width=".6"/><path d="M120 82c-19 29-54 12-62 48m62 138c19-29 54-12 62-48M47 175q23-7 17-36m129 36q-23 7-17 36" stroke-width="1.1"/></g>
+  <g fill="#34452e" transform="translate(83 139) scale(1.15)"><path transform="translate(4.3333 58) scale(.066667 -.066667)" d="M723 0V182Q723 227 705 258Q687 289 641.5 304.5Q596 320 513 320Q466 320 421.5 311.5Q377 303 341.5 291Q306 279 285 267L283 315Q287 330 310.5 360.5Q334 391 379 424.5Q424 458 492.5 481.5Q561 505 655 505Q714 505 769 494Q824 483 867.5 457.5Q911 432 937 389Q963 346 963 282V0ZM55 0V690H295V0Z"/><path transform="translate(25 0) scale(.71)" d="M29 1 27 22 41 19 32 27 38 31 27 31 30 43 20 32 8 38 14 29 1 20 19 23 16 15 23 21Z"/></g>
+  <g fill="#42523d"><path d="m120 34 5 7-5 7-5-7Zm0 268 5 7-5 7-5-7Z"/><circle cx="120" cy="66" r="2"/><circle cx="120" cy="284" r="2"/></g>
+</svg>

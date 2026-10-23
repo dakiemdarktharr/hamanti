@@ -1,0 +1,169 @@
+{
+  "fps": 30,
+  "frames": 270,
+  "duration": 9,
+  "loadingFrames": 104,
+  "loadingDuration": 33.446,
+  "coverage": {
+    "totalTiles": "24",
+    "preparedTiles": "24",
+    "landscapePosition": "1392.56",
+    "coverage": "all-300"
+  },
+  "samples": [
+    {
+      "frame": 0,
+      "state": {
+        "progress": 0,
+        "cycle": 0,
+        "phase": 0,
+        "opening": 0,
+        "reach": 0,
+        "spread": 0,
+        "sourceFrame": 0,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "0",
+      "handGap": 2.4034754221709917
+    },
+    {
+      "frame": 60,
+      "state": {
+        "progress": 0,
+        "cycle": 0,
+        "phase": 0,
+        "opening": 0.4180602006688963,
+        "reach": 0.9999362034771677,
+        "spread": 0,
+        "sourceFrame": 0,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "0",
+      "handGap": 2.40347542217099
+    },
+    {
+      "frame": 120,
+      "state": {
+        "progress": 0.9854468599033819,
+        "cycle": 0,
+        "phase": 0.9854468599033819,
+        "opening": 1,
+        "reach": 1,
+        "spread": 1,
+        "sourceFrame": 119.1268115942029,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "0",
+      "handGap": 2.1523291597885486
+    },
+    {
+      "frame": 180,
+      "state": {
+        "progress": 3.770772946859904,
+        "cycle": 3,
+        "phase": 0.7707729468599038,
+        "opening": 1,
+        "reach": 1,
+        "spread": 1,
+        "sourceFrame": 106.24637681159423,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "3",
+      "handGap": 1.5129471741785565
+    },
+    {
+      "frame": 240,
+      "state": {
+        "progress": 5.70691425120773,
+        "cycle": 5,
+        "phase": 0.7069142512077304,
+        "opening": 1,
+        "reach": 1,
+        "spread": 1,
+        "sourceFrame": 102.41485507246382,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "4",
+      "handGap": 1.518739504390826
+    },
+    {
+      "frame": 300,
+      "state": {
+        "progress": 5.70691425120773,
+        "cycle": 5,
+        "phase": 0.7069142512077304,
+        "opening": 1,
+        "reach": 1,
+        "spread": 1,
+        "sourceFrame": 102.41485507246382,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "4",
+      "handGap": 1.5187420625001398
+    },
+    {
+      "frame": 360,
+      "state": {
+        "progress": 3.770772946859904,
+        "cycle": 3,
+        "phase": 0.7707729468599038,
+        "opening": 1,
+        "reach": 1,
+        "spread": 1,
+        "sourceFrame": 106.24637681159423,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "3",
+      "handGap": 1.5158269486597344
+    },
+    {
+      "frame": 420,
+      "state": {
+        "progress": 0.9854468599033819,
+        "cycle": 0,
+        "phase": 0.9854468599033819,
+        "opening": 1,
+        "reach": 1,
+        "spread": 1,
+        "sourceFrame": 119.1268115942029,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "0",
+      "handGap": 2.1527305135156585
+    },
+    {
+      "frame": 480,
+      "state": {
+        "progress": 0,
+        "cycle": 0,
+        "phase": 0,
+        "opening": 0.4180602006688963,
+        "reach": 0.9999362034771677,
+        "spread": 0,
+        "sourceFrame": 0,
+        "scale": 20.871785,
+        "thumbY": 363.5025,
+        "plane": 3.55
+      },
+      "lower": "0",
+      "handGap": 2.40347542217099
+    }
+  ],
+  "errors": []
+}

@@ -1,6 +1,6 @@
 /* A hand of portrait cards, rather than a wall of perspective panels. */
-.home-track .explorer { --fan-slots: 7; --card-gap: 0px; --card-pitch: calc((100vw - 2 * var(--gutter)) / var(--fan-slots)); }
-.home-track .journey { container-type: size; width: max(calc(100vw - 2 * var(--gutter)),calc(var(--fan-count) * var(--card-pitch))); padding-top: 0; }
+.home-track .explorer { --fan-slots: 5; --card-gap: 0px; --card-pitch: calc((100vw - 2 * var(--gutter)) / var(--fan-slots)); }
+.home-track .journey { container-type: size; width: max(calc(100vw - 2 * var(--gutter)),calc((var(--fan-count) + 2.6) * var(--card-pitch))); padding-top: 0; }
 .home-track .style-grid { grid-auto-columns: var(--card-pitch); gap: 0; }
 .fan-decks { position: absolute; inset: 0 auto auto 0; width: 100vw; height: 100%; pointer-events: none; will-change: transform; }
 .fan-deck { position: absolute; inset: 0 auto auto 0; }
@@ -43,8 +43,8 @@
 .motion-paused .home-track .style-card { translate: none; scale: 1; transition: none; }
 @media(min-width:701px) and (max-width:1199px) { .home-track .explorer { --fan-slots: 5; } }
 @media(max-width:700px) {
-  .home-track .explorer { --fan-slots: 1.35; }
-  .home-track .style-card { --fan-card-height: min(108vw,78cqh); grid-template-rows: minmax(0,1fr) 28px 78px; padding: 8px 8px 16px; }
+  .home-track .explorer { --fan-slots: 5; }
+  .home-track .style-card { --fan-card-height: min(54vw,52cqh); grid-template-rows: minmax(0,1fr) 28px 78px; padding: 8px 8px 16px; }
   .home-track .style-card .style-name { font-size: 22px; }
   .home-track .style-card:nth-child(3n+2) .style-name { font-size: 30px; }
   .home-track .style-card .style-number, .home-track .style-card .style-coverage { font-size: 10px; }
@@ -55,9 +55,29 @@
   .fan-deck-lower > i:nth-child(2) { translate: 4px -4px; }
   .fan-deck-lower > i:nth-child(3) { translate: 2px -2px; }
 }
+
+/* The link remains the focus/navigation target. Only its two printed faces
+   turn in 3D; hand placement continues to follow the outer card transform. */
+.home-track .style-card { perspective:1100px; padding:0; border:0; background:transparent; box-shadow:none; overflow:visible; content-visibility:visible; opacity:0; pointer-events:none; }
+.home-track .style-card[data-fan-active] { pointer-events:auto; }
+.card-flipper { position:absolute; inset:0; transform-style:preserve-3d; transform:rotateY(var(--card-flip,0deg)); }
+.card-front,.card-back { position:absolute; inset:0; border:1px solid #8d8b75; border-radius:12px; backface-visibility:hidden; box-shadow:inset 0 0 0 1px #fbf4d777,inset 0 0 16px #87704a22,0 2px 1px #222a2014,0 12px 24px -12px #222a204d; }
+.card-front { display:grid; grid-template-rows:minmax(0,1fr) 24px 65px; padding:8px 8px 14px; gap:7px; background:#f1eddf; transform:translateZ(.02px); }
+.card-front::after,.card-back::after { content:''; position:absolute; inset:0; border-radius:inherit; pointer-events:none; background:radial-gradient(ellipse at 0 0,#85704e28,transparent 25%),radial-gradient(ellipse at 100% 100%,#99846422,transparent 27%),url('/card-paper.svg'); opacity:.7; mix-blend-mode:multiply; box-shadow:inset 0 0 2px 2px #fff8e877; }
+.card-back { transform:rotateY(180deg) translateZ(.02px); background:#eee9d9 url('/card-back.svg') center/100% 100%; }
+.fan-deck > i,.fan-deck > span { background:#eee9d9 url('/card-back.svg') center/100% 100%; border-color:#8d8b75; box-shadow:inset 0 0 7px #87704a22,0 4px 8px #222a2012; }
+.fan-deck img { visibility:hidden; }
+@media(max-width:700px){ .card-front { grid-template-rows:minmax(0,1fr) 20px 50px; padding:6px 6px 10px; gap:4px; } .home-track .style-card .style-name { font-size:14px; } .home-track .style-card:nth-child(3n+2) .style-name { font-size:20px; } }
+@media(max-height:580px){ .card-front { grid-template-rows:minmax(0,1fr) 18px 46px; gap:4px; padding:5px 5px 9px; } }
 @media(max-height:580px) {
   .home-track .style-card { grid-template-rows: minmax(0,1fr) 18px 46px; gap: 4px; padding: 5px 5px 9px; border-radius: 8px; }
   .home-track .style-card .style-name { font-size: 12px; }
   .home-track .style-card:nth-child(3n+2) .style-name { font-size: 17px; }
   .home-track .style-card .style-number, .home-track .style-card .style-coverage { font-size: 8px; }
 }
+
+/* A flip has exactly two faces. The link itself must never paint a stationary
+   hover/focus rectangle or move independently of its gripping fingertips. */
+.home-track .style-card:is(:hover,:focus-visible),
+.home-track .style-card-empty:is(:hover,:focus-visible) { background:transparent; border:0; box-shadow:none; scale:1; translate:none; outline:none; z-index:var(--fan-order,1)!important; }
+.home-track .style-card:focus-visible :is(.card-front,.card-back) { outline:3px solid var(--ink); outline-offset:3px; }

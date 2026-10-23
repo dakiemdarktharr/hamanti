@@ -30,6 +30,7 @@ await build({
   absWorkingDir: root, entryPoints: ['app.js', 'sources.js'], outdir: resolve(output, 'assets'),
   bundle: true, splitting: true, format: 'esm', target: ['es2022'],
   minify: true, jsx: 'automatic', legalComments: 'linked',
+  external: ['/card-back.svg','/card-paper.svg'],
   loader: { '.woff2': 'file', '.woff': 'file' },
   assetNames: 'fonts/[name]-[hash]', chunkNames: '[name]-[hash]',
   define: { 'process.env.NODE_ENV': '"production"' },

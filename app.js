@@ -2,6 +2,7 @@ import './styles.css';
 import './lib/horizontal.css';
 import './lib/polish.css';
 import './lib/card-fan.css';
+import './lib/hand-preview.css';
 import { animate, hover, press } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
@@ -11,7 +12,7 @@ import { openingAssets, warmImages } from './lib/preload.js';
 import { mixedCurtains, prepareHomeReturn } from './lib/page-transition.js';
 import { readIndexFilters, resolveRoute, shouldPauseMotion } from './lib/navigation.js';
 import { createImageViewer } from './lib/lightbox.js';
-import { fanFrame, fanPose, fanDeckPose, stepFanSpring } from './lib/card-fan.js';
+import { fanFrame, fanPose, fanDeckPose, fanScrollLength, stepFanSpring } from './lib/card-fan.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -38,6 +39,21 @@ let introWordElements = [];
 let indexCards = [], curvedCards = new Set(), cardLayout;
 let homeAnchor;
 let fanSpring;
+// Hands are part of the normal index. The query flag adds review controls only.
+const handReviewEnabled=new URLSearchParams(location.search).get('preview')==='hands';
+if(handReviewEnabled)document.body.classList.add('hand-preview');
+let handPreviewAPI,handPreviewLoading;
+function prepareHandPreview(){
+  return handPreviewLoading ||= import('./lib/hand-preview.js').then(({createHandPreview})=>createHandPreview({
+    journey:$('.journey'),getLayout:()=>cardLayout,review:handReviewEnabled,
+    setScroll:value=>smoothTo(value,{immediate:true}),requestUpdate,
+  })).then(api=>{handPreviewAPI=api;requestUpdate();return true;}).catch(error=>{
+    console.error('Hand preview:',error);
+    document.body.dataset.handPreviewError=error.message;
+    const status=$('.hand-review-status');if(status)status.textContent='Hands could not load. Reload to retry.';
+    return false;
+  });
+}
 const viewer = createImageViewer({
   dialog:$('#lightbox'), getStyle:() => currentStyle,
   onOpen:() => lenis?.stop(),
@@ -60,7 +76,7 @@ function syncFilters() {
 
 function measureCards() {
   const grid = $('.style-grid');
-  if (!grid || currentStyle || !indexCards.length) return;
+  if (!grid || currentStyle || !indexCards.length) {cardLayout=undefined;return;}
   const columns = getComputedStyle(grid);
   const card = getComputedStyle(indexCards[0]);
   cardLayout = {
@@ -76,14 +92,32 @@ function measureCards() {
 }
 function curveCards(scrollLeft,time) {
   if (!cardLayout) return;
+  // Preserve the complete painted grip, including its spring displacement,
+  // until the closing cover is opaque. Stopping scroll must not reset a pose.
+  if(navigationBusy&&$('#transition').dataset.phase==='closing')return;
   const {start,pitch,cardWidth,slots} = cardLayout;
+  // The card controller owns the reversible opening and both end decks.
+  // The hands observe these final poses, including the scroll spring.
   const frame = fanFrame(cardLayout,scrollLeft,innerWidth);
   fanSpring=stepFanSpring(fanSpring,scrollLeft,time,!paused&&!navigationBusy&&!opening.active&&frame.origin===0);
+  const poseAt=index=>{
+    const pose=fanPose(index,cardLayout,frame,innerWidth);
+    const distance=index-frame.centre;
+    const weight=clamp((Math.max(1,(slots-1)/2)+1.45-Math.abs(distance))/1.1);
+    const give=fanSpring.value*weight*frame.spread;
+    pose.rotation+=give*1.7;
+    pose.y+=give*Math.sin(distance*.8)*4;
+    return pose;
+  };
   const decks=$('.fan-decks');
   decks.hidden=indexCards.length<2;
   decks.style.transform=`translateX(${(scrollLeft-start).toFixed(2)}px)`;
   for(const [selector,side] of [['.fan-deck-upper',1],['.fan-deck-lower',-1]]){
     const deck=decks.querySelector(selector),pose=fanDeckPose(side,cardLayout,frame,innerWidth);
+    const pile=side<0?frame.deposited:Math.min(4,Math.max(0,indexCards.length-Math.ceil(frame.centre+(slots-1)/2)-1));
+    deck.hidden=pile===0;deck.dataset.cards=String(pile);
+    [...deck.querySelectorAll('i')].forEach((sheet,i)=>{sheet.hidden=i>=pile-1;});
+    deck.style.opacity=String(side<0?1:frame.spread);
     const width=cardWidth*pose.scale,height=cardLayout.cardHeight*pose.scale;
     deck.style.width=`${width}px`; deck.style.height=`${height}px`;
     deck.style.transform=`translate(${(pose.x-width/2).toFixed(2)}px,${(cardLayout.journeyHeight*.47+pose.y-height/2).toFixed(2)}px)`;
@@ -94,25 +128,26 @@ function curveCards(scrollLeft,time) {
   const visible = new Set();
   for (let i=first;i<=last;i++) {
     const card = indexCards[i];
-    const pose = fanPose(i,cardLayout,frame,innerWidth);
-    const distance=i-frame.centre;
-    const weight=clamp((Math.max(1,(slots-1)/2)+1.45-Math.abs(distance))/1.1);
-    const give=fanSpring.value*weight;
-    pose.rotation+=give*1.7;
-    pose.y+=give*Math.sin(distance*.8)*4;
+    const pose = poseAt(i);
     const shift = pose.x-(start+i*pitch+cardWidth/2-scrollLeft);
     card.style.transform = `translate(${shift.toFixed(2)}px,${pose.y.toFixed(2)}px) rotate(${pose.rotation.toFixed(3)}deg) scale(${pose.scale.toFixed(4)})`;
     card.style.opacity = String(pose.opacity);
+    card.style.setProperty('--card-flip',`${pose.flip.toFixed(3)}deg`);
     card.style.zIndex = String(pose.order);
+    card.style.setProperty('--fan-order',String(pose.order));
     card.style.pointerEvents = pose.opacity < .1 ? 'none' : '';
     card.style.willChange = paused ? 'auto' : 'transform';
+    card.dataset.fanActive='';
     visible.add(card);
   }
   for (const card of curvedCards) if (!visible.has(card)) {
     card.style.transform = ''; card.style.willChange = ''; card.style.opacity = '';
-    card.style.zIndex = ''; card.style.pointerEvents = '';
+    card.style.zIndex = ''; card.style.pointerEvents = '';card.style.removeProperty('--card-flip');
+    delete card.dataset.fanActive;
+    card.style.removeProperty('--fan-order');
   }
   curvedCards = visible;
+  handPreviewAPI?.update(cardLayout,scrollLeft,frame,poseAt);
   if(fanSpring.awake){landscape?.hold(100);requestUpdate();}
 }
 
@@ -167,24 +202,9 @@ function bindControls() {
 function typeTitle() {
   clearTimeout(titleTimer);
   $('.hero').classList.remove('is-typing');
-  const element = $('#type-title');
-  element.textContent = 'hamanti';
-  if (paused) return;
-  const words = ['anti', 'hamanti'];
-  let index = 0;
-  const tick = () => {
-    if (paused || currentStyle || document.hidden) { element.textContent = 'hamanti'; $('.hero').classList.remove('is-typing'); return; }
-    const target = words[index], current = element.textContent;
-    if (current !== target) {
-      $('.hero').classList.add('is-typing');
-      const shared = [...current].findIndex((letter, i) => target[i] !== letter);
-      if (shared !== -1 || current.length > target.length) element.textContent = current.slice(0, -1);
-      else element.textContent = target.slice(0, current.length + 1);
-      titleTimer = setTimeout(tick, current.length > target.length || shared !== -1 ? 60 : 100 + Math.random() * 55);
-    } else if (++index < words.length) titleTimer = setTimeout(tick, 1400);
-    else $('.hero').classList.remove('is-typing');
-  };
-  titleTimer = setTimeout(tick, 3800);
+  // The loading screen has already built the finished nameplate. Preserve it
+  // after reveal instead of deleting it for the previous typewriter effect.
+  $('#type-title').textContent = 'hamanti';
 }
 function introWords() {
   const element = $('#intro-copy'), text = element.textContent;
@@ -240,21 +260,23 @@ function renderIndex() {
     filters.letter === 'all' || style.name.charAt(0).toLocaleUpperCase() === filters.letter
   );
   $('#index').style.setProperty('--fan-count',String(styles.length));
-  $('#style-index').innerHTML = `<div class="style-grid">${styles.map(style => `<a href="#/style/${style.id}" class="style-card${style.examples.length ? '' : ' style-card-empty'}" data-style="${style.id}" title="${escape(style.name)}" aria-label="${escape(style.name)}${style.found < style.expected ? ', examples pending' : ''}">
+  $('#style-index').innerHTML = `<div class="style-grid">${styles.map(style => `<a href="#/style/${style.id}" class="style-card${style.examples.length ? '' : ' style-card-empty'}" data-style="${style.id}" title="${escape(style.name)}" aria-label="${escape(style.name)}${style.found < style.expected ? ', examples pending' : ''}"><div class="card-flipper"><div class="card-front">
     ${style.examples[0] ? `<div class="style-picture"><img src="${escape(safeURL(style.examples[0].thumbnail || style.examples[0].image))}" alt="${escape(style.examples[0].title)}" loading="lazy" decoding="async" width="${style.examples[0].width}" height="${style.examples[0].height}"></div>` : `<div class="style-picture style-picture-pending" aria-hidden="true"><span>${escape(style.name.charAt(0))}</span></div>`}
     <div class="card-label"><span class="style-number">${pad(style.rank)}</span><span class="style-coverage">${style.found ? `${style.found} ref${style.found === 1 ? '' : 's'}${style.found < style.expected ? ' · pending' : ''}` : 'Images pending'}</span></div>
     <h3 class="style-name">${escape(style.name)}</h3><span class="card-open" aria-hidden="true">↗</span>
-  </a>`).join('')}</div>`;
+  </div><div class="card-back" aria-hidden="true"></div></div></a>`).join('')}</div>`;
   $('#result-count').textContent = `${styles.length} ${styles.length === 1 ? 'style' : 'styles'}${query || filters.letter !== 'all' ? ' / 300' : ' · A — Z'}`;
   $('#search-clear').hidden = !query;
   $('#empty').hidden = styles.length > 0;
   $('.journey').hidden = !styles.length;
+  $('.hand-review')?.toggleAttribute('hidden',!styles.length);
   $('#style-index').querySelectorAll('img').forEach(img => img.addEventListener('error', () => {
     const picture=img.parentElement; img.hidden=true;
     picture.classList.add('preview-unavailable'); picture.insertAdjacentHTML('beforeend','<span>Preview unavailable</span>');
   },{once:true}));
   indexCards = [...document.querySelectorAll('.style-card')];
   curvedCards.clear(); measureCards();
+  prepareHandPreview();
   lenis?.resize();
   requestUpdate();
 }
@@ -396,17 +418,26 @@ async function cover(type, render) {
   const overlay = $('#transition');
   const surfaces=[$('.masthead'),$('#main'),$('#footer')];
   surfaces.forEach(element=>element.inert=true);
+  handPreviewAPI?.stop();
   lenis?.stop();
   try {
     if (type === 'curtains') { await mixedCurtains(overlay, render, reduced.matches); return; }
     if (paused) { render(); return; }
     overlay.className = `transition active ${type}`;
+    overlay.dataset.phase='closing';
     const line = overlay.querySelector('.transition-line');
+    line.style.clipPath='inset(50% 49.95%)';
     await animate(line, { clipPath:['inset(50% 49.95%)','inset(0% 49.95%)','inset(0% 0%)'] }, { duration:.65, times:[0,.45,1], ease:[.76,0,.24,1] });
-    render();
+    line.style.clipPath='inset(0%)';
+    overlay.dataset.phase='covered';
+    await new Promise(requestAnimationFrame);await new Promise(requestAnimationFrame);
+    await render();
+    if(currentStyle)await detailReady;
+    await new Promise(requestAnimationFrame);await new Promise(requestAnimationFrame);
+    overlay.dataset.phase='revealing';
     await animate(line, { clipPath:['inset(0% 0%)','inset(0% 0% 0% 100%)'] }, { duration:.45, ease:[.76,0,.24,1] });
   } finally {
-    overlay.className='transition'; lenis?.start();
+    overlay.className='transition';overlay.querySelector('.transition-line').style.clipPath='';delete overlay.dataset.phase;lenis?.start();
     surfaces.forEach(element=>element.inert=false);
     pendingFocus?.focus({preventScroll:true}); pendingFocus=null;
   }
@@ -542,6 +573,7 @@ for (const [id, key] of [['search','query'],['letter-filter','letter']]) {
     filters[key] = event.target.value; renderIndex();
     smoothTo($('#index'),{immediate:true});
     const params = new URLSearchParams();
+    if(handReviewEnabled)params.set('preview','hands');
     if (filters.query) params.set('q', filters.query);
     if (filters.letter !== 'all') params.set('letter', filters.letter);
     history.replaceState({...history.state,homeScroll:$('#index').offsetLeft},'',`${location.pathname}${params.size ? '?' + params : ''}#/index`);
@@ -551,7 +583,7 @@ for (const [id, key] of [['search','query'],['letter-filter','letter']]) {
 $('#clear-filters').addEventListener('click', () => {
   filters.query = ''; filters.letter = 'all';
   $('#search').value = ''; $('#letter-filter').value = 'all';
-  history.replaceState({...history.state,homeScroll:$('#index').offsetLeft},'',`${location.pathname}#/index`); renderIndex(); smoothTo($('#index'),{immediate:true}); $('#search').focus();
+  history.replaceState({...history.state,homeScroll:$('#index').offsetLeft},'',`${location.pathname}${handReviewEnabled?'?preview=hands':''}#/index`); renderIndex(); smoothTo($('#index'),{immediate:true}); $('#search').focus();
 });
 try {
   handbook = await loadHandbook({signal:AbortSignal.timeout(20000)});
@@ -567,12 +599,11 @@ try {
   introWords(); renderIndex(); showRoute(location.hash, {focus:false});
   opening.alignTitle();
   clearTimeout(titleTimer); lenis?.stop();
-  opening.enableEntry();
   const abortWarmup = new AbortController();
   const assets = openingAssets(handbook.styles, indexCards.map(card => handbook.styles.find(style => style.id === +card.dataset.style)), currentStyle?.examples || []);
   document.body.dataset.preloadStyles = String(assets.styleCount);
   const progress = {fonts:0, landscape:0, images:0};
-  const updateProgress = () => opening.progress(Math.min(99,20 + progress.fonts*15 + progress.landscape*35 + progress.images*30));
+  const updateProgress = () => opening.progress(Math.min(99,20 + progress.fonts*10 + progress.landscape*65 + progress.images*5));
   const fontsReady = Promise.all([
     document.fonts.load('800 48px "Syne Variable"'),
     document.fonts.load('400 16px "Manrope Variable"'),
@@ -584,23 +615,36 @@ try {
     opening.alignTitle();
     progress.fonts = 1; updateProgress(); return true;
   }).catch(() => false);
-  const landscapeReady = import('./lib/shanshui.js').then(({createShanShui}) => {
-    landscape = createShanShui($('#landscape'),$('#home-page'));
-    return currentStyle ? detailReady.then(() => true) : landscape.ready;
+  const landscapeReady = import('./lib/shanshui.js').then(async({createShanShui}) => {
+    await fontsReady;
+    const getMaxScroll=()=>{
+      const gutter=parseFloat(getComputedStyle($('#index')).paddingLeft)||innerWidth*.04;
+      const fallback={pitch:(innerWidth-2*gutter)/5,sectionStart:innerWidth*1.86,slots:5};
+      const layout=cardLayout||fallback;
+      return Math.max($('#home-page').scrollWidth-innerWidth,layout.sectionStart+fanScrollLength({...layout,count:handbook.styles.length})+innerWidth);
+    };
+    landscape = createShanShui($('#landscape'),$('#home-page'),{getMaxScroll,onProgress:(done,total)=>{
+      progress.landscape=done/total;opening.stage(`Drawing the landscape · ${done} / ${total}`);updateProgress();
+    }});
+    return landscape.ready;
   }).then(ready => { if (ready) { progress.landscape = 1; updateProgress(); } return ready; })
     .catch(() => { $('#landscape').classList.add('landscape-unavailable'); return false; });
-  const imagesReady = warmImages(assets.urls, {
+  const warmingImages = warmImages(assets.urls, {
     signal:abortWarmup.signal,
     onProgress:(done,total) => { progress.images = total ? done/total : 1; updateProgress(); },
   });
-  let deadline;
-  const timedOut = new Promise(resolve => { deadline = setTimeout(() => resolve(false), 12000); });
-  const ready = await Promise.race([
-    Promise.all([fontsReady,landscapeReady,imagesReady]).then(([fonts,scene,images]) => fonts && scene && images.complete),
-    opening.skipped, timedOut,
-  ]);
-  clearTimeout(deadline); abortWarmup.abort();
-  document.body.dataset.preloadState = ready ? 'ready' : 'partial';
+  // Image hosts may be slow, but neither an image deadline nor an "enter now"
+  // button may bypass full landscape preparation. All 300 positions are cached.
+  let imageDeadline;
+  const imagesReady=Promise.race([warmingImages,new Promise(resolve=>{imageDeadline=setTimeout(()=>resolve({complete:false}),8000);})]);
+  const [fonts,scene,images,hands]=await Promise.all([fontsReady,landscapeReady,imagesReady,prepareHandPreview()]);
+  clearTimeout(imageDeadline);abortWarmup.abort();
+  if(!scene)throw Error('The full landscape could not be prepared.');
+  if(!hands)throw Error('The hands could not be prepared.');
+  const ready=scene&&hands&&fonts;
+  document.body.dataset.preloadState='ready';
+  document.body.dataset.preloadImages=images.complete?'ready':'partial';
+  opening.stage('300 directions. Ready to explore.');
   // The first Lenis measurement can precede the index's full layout. Restore
   // deep links after fonts and opening assets settle, while still covered.
   if(!currentStyle){
