@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {fanFrame,fanPose,fanDeckPose} from '../lib/card-fan.js';
+import {fanFrame,fanPose,fanDeckPose,stepFanSpring} from '../lib/card-fan.js';
 
 const layout={count:300,slots:7,pitch:240,sectionStart:3500,gutter:72,cardWidth:280,cardHeight:409};
 const viewport=1920;
@@ -56,4 +56,24 @@ test('cards arrive exactly at both visible decks, on desktop and mobile',()=>{
     for(const key of ['x','y','scale'])assert.ok(Math.abs(card[key]-deck[key])<.00001,key);
     assert.ok(Math.abs(card.rotation)<.00001);
   }
+});
+test('scroll spring feels the same at 60 and 120 Hz, reverses and settles',()=>{
+  const run=hz=>{
+    let state=stepFanSpring(undefined,0,0);
+    for(let frame=1;frame<=hz;frame++)state=stepFanSpring(state,frame/hz*800,frame/hz*1000);
+    return state;
+  };
+  const a=run(60),b=run(120);
+  assert.ok(Math.abs(a.value-b.value)<.00001);
+  assert.ok(Math.abs(a.velocity-b.velocity)<.00001);
+  let state=a,hasRebound=false;
+  for(let frame=1;frame<=90;frame++){
+    state=stepFanSpring(state,800,1000+frame/60*1000);
+    if(state.value<0)hasRebound=true;
+  }
+  assert.ok(hasRebound);
+  assert.equal(state.awake,false);
+  assert.equal(state.value,0);
+  assert.equal(stepFanSpring(a,900,1100,false).value,0);
+  assert.equal(stepFanSpring(a,3000,1016).value,0);
 });

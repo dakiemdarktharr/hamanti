@@ -2,6 +2,7 @@
    Math.random and legacy globals never touch the handbook's browser context. */
 importScripts('./engine.js');
 importScripts('./compact.js');
+importScripts('./raster.js');
 
 let initialized = false;
 const paper = '#e9ebe2';
@@ -33,8 +34,16 @@ self.onmessage = ({data}) => {
       if (+key*5 < minimum || +key*5 > maximum) delete MEM.planmtx[key];
     }
     chunkrender(x,x+width);
-    self.postMessage({id,x,width,svg:compactLandscape(greenInk(MEM.canv))});
+    const svg = compactLandscape(greenInk(MEM.canv));
     MEM.canv = '';
+    if (data.raster !== false && typeof OffscreenCanvas !== 'undefined' && typeof Path2D !== 'undefined') {
+      try {
+        const bitmap = rasterLandscape(svg, x, width, data.density || 1);
+        self.postMessage({id,x,width,bitmap,density:data.density || 1}, [bitmap]);
+        return;
+      } catch { /* Older browsers retain the original SVG presentation. */ }
+    }
+    self.postMessage({id,x,width,svg});
   } catch (error) {
     self.postMessage({id:data.id,error:true,reason:error.name});
   }

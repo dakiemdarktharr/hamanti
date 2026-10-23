@@ -11,7 +11,7 @@ import { openingAssets, warmImages } from './lib/preload.js';
 import { mixedCurtains, prepareHomeReturn } from './lib/page-transition.js';
 import { readIndexFilters, resolveRoute, shouldPauseMotion } from './lib/navigation.js';
 import { createImageViewer } from './lib/lightbox.js';
-import { fanFrame, fanPose, fanDeckPose } from './lib/card-fan.js';
+import { fanFrame, fanPose, fanDeckPose, stepFanSpring } from './lib/card-fan.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -37,6 +37,7 @@ let frozenPalette;
 let introWordElements = [];
 let indexCards = [], curvedCards = new Set(), cardLayout;
 let homeAnchor;
+let fanSpring;
 const viewer = createImageViewer({
   dialog:$('#lightbox'), getStyle:() => currentStyle,
   onOpen:() => lenis?.stop(),
@@ -73,10 +74,11 @@ function measureCards() {
     journeyHeight:$('.journey').getBoundingClientRect().height,
   };
 }
-function curveCards(scrollLeft) {
+function curveCards(scrollLeft,time) {
   if (!cardLayout) return;
   const {start,pitch,cardWidth,slots} = cardLayout;
   const frame = fanFrame(cardLayout,scrollLeft,innerWidth);
+  fanSpring=stepFanSpring(fanSpring,scrollLeft,time,!paused&&!navigationBusy&&!opening.active&&frame.origin===0);
   const decks=$('.fan-decks');
   decks.hidden=indexCards.length<2;
   decks.style.transform=`translateX(${(scrollLeft-start).toFixed(2)}px)`;
@@ -93,6 +95,11 @@ function curveCards(scrollLeft) {
   for (let i=first;i<=last;i++) {
     const card = indexCards[i];
     const pose = fanPose(i,cardLayout,frame,innerWidth);
+    const distance=i-frame.centre;
+    const weight=clamp((Math.max(1,(slots-1)/2)+1.45-Math.abs(distance))/1.1);
+    const give=fanSpring.value*weight;
+    pose.rotation+=give*1.7;
+    pose.y+=give*Math.sin(distance*.8)*4;
     const shift = pose.x-(start+i*pitch+cardWidth/2-scrollLeft);
     card.style.transform = `translate(${shift.toFixed(2)}px,${pose.y.toFixed(2)}px) rotate(${pose.rotation.toFixed(3)}deg) scale(${pose.scale.toFixed(4)})`;
     card.style.opacity = String(pose.opacity);
@@ -106,9 +113,11 @@ function curveCards(scrollLeft) {
     card.style.zIndex = ''; card.style.pointerEvents = '';
   }
   curvedCards = visible;
+  if(fanSpring.awake){landscape?.hold(100);requestUpdate();}
 }
 
 function smoothTo(target, options = {}) {
+  syncNativeScroll();
   if (!currentStyle && !options.immediate) landscape?.hold();
   const home = $('#home-page');
   const value = typeof target === 'number' ? target : currentStyle
@@ -117,6 +126,11 @@ function smoothTo(target, options = {}) {
   if (lenis && !paused) lenis.scrollTo(value, { duration: 1.1, force: options.immediate === true, ...options });
   else if (currentStyle) window.scrollTo({ top:value, behavior:'instant' });
   else home.scrollTo({left:value,behavior:'instant'});
+}
+function syncNativeScroll() {
+  // Scroll restoration and inert opening content can update the native surface
+  // before Lenis sees its event. Start the next gesture from the visible page.
+  if(lenis && lenis.isScrolling!=='smooth' && Math.abs(lenis.animatedScroll-lenis.actualScroll)>1)lenis.resize();
 }
 function setupMotion() {
   lenis?.destroy();
@@ -180,7 +194,7 @@ function introWords() {
 }
 function requestUpdate() {
   if (frameRequest) return;
-  frameRequest = requestAnimationFrame(() => {
+  frameRequest = requestAnimationFrame(time => {
     frameRequest = null;
     if (!handbook || !$('#error').hidden) return;
     const footer = $('#footer').getBoundingClientRect();
@@ -205,7 +219,7 @@ function requestUpdate() {
       const indexStart = index.left + home.scrollLeft;
       $('#index-prev').disabled = home.scrollLeft <= indexStart + 2;
       $('#index-next').disabled = index.right <= innerWidth + 2;
-      curveCards(home.scrollLeft);
+      curveCards(home.scrollLeft,time);
       if (cardLayout && indexCards.length) {
         const frame=fanFrame(cardLayout,home.scrollLeft,innerWidth);
         const first=Math.max(0,Math.floor(frame.centre-(cardLayout.slots-1)/2));
@@ -464,6 +478,7 @@ $('#home-page').addEventListener('scroll',()=>{
 },{passive:true});
 // Native horizontal touch/trackpad scrolling stays available with motion off.
 $('#home-page').addEventListener('wheel',event => {
+  syncNativeScroll();
   if (!paused || currentStyle || event.ctrlKey || event.target.closest('select')) return;
   const delta = Math.abs(event.deltaX)>Math.abs(event.deltaY)?event.deltaX:event.deltaY;
   event.preventDefault();
@@ -586,6 +601,13 @@ try {
   ]);
   clearTimeout(deadline); abortWarmup.abort();
   document.body.dataset.preloadState = ready ? 'ready' : 'partial';
+  // The first Lenis measurement can precede the index's full layout. Restore
+  // deep links after fonts and opening assets settle, while still covered.
+  if(!currentStyle){
+    lenis?.resize();
+    if(location.hash==='#/index')smoothTo($('#index'),{immediate:true});
+    else if(location.hash==='#/about')smoothTo($('#about'),{immediate:true});
+  }
   if (returningFromCredits) await mixedCurtains($('#transition'),()=>opening.finish(ready,{instant:true}),reduced.matches,true);
   else await opening.finish(ready);
   lenis?.resize(); lenis?.start(); measureCards(); requestUpdate();
