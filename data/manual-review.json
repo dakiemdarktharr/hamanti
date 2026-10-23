@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-10-21",
-  "scope": "User requested publication of the current local folder contents. Only visually reviewed, native Full HD images are approved; every intake file is preserved.",
+  "scope": "Reviewed intake-folder images may publish at their original resolution. Relevance, people-photo review, checksum verification and verified storage remain required. All intake originals are preserved.",
   "inventoryFiles": 189,
   "belowFullHD": 116,
   "approved": [
@@ -1171,6 +1171,1526 @@
         "height": 2500
       },
       "nativeFullHD": true
+    },
+    {
+      "style": "Abstract Expressionism",
+      "folder": "Abstract Expressionism",
+      "file": "1e41a20cad97983a4a79d97b1231da82.jpg",
+      "checksum": "04f934df7862376b8bde003a3ebc99a1c8b40d9c348542e4528d02b36df68e97",
+      "title": "Abstract Expressionism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Gestural marks, layered pigment and nonrepresentational color fields clearly support this direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 720,
+        "height": 977
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Abstract Expressionism",
+      "folder": "Abstract Expressionism",
+      "file": "23def48b51e5f7b28b72f134e823f6f5.jpg",
+      "checksum": "dfda4e6509d9b335e6e7f3bc689c0480fc93a7c9023ecc4c3455690dfbac2458",
+      "title": "Abstract Expressionism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Gestural marks, layered pigment and nonrepresentational color fields clearly support this direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1176
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Abstract Expressionism",
+      "folder": "Abstract Expressionism",
+      "file": "3b3a041b6383f950e6258a87ee19294d.jpg",
+      "checksum": "e7c8ff8e3d532f10efe97eacf1a620d12ae60495928636b2cedf4095e5847a9b",
+      "title": "Abstract Expressionism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Gestural marks, layered pigment and nonrepresentational color fields clearly support this direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 720,
+        "height": 1024
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Abstract Expressionism",
+      "folder": "Abstract Expressionism",
+      "file": "ad7bae866ab60a9ab0be393a78c08781.jpg",
+      "checksum": "523dde6e7e90351cfe0318af37df829405f6f16030b8a24cfec8bbe3d4cab799",
+      "title": "Abstract Expressionism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Gestural marks, layered pigment and nonrepresentational color fields clearly support this direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1109
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Abstract Expressionism",
+      "folder": "Abstract Expressionism",
+      "file": "ca5170481bc85c72dbcccb79a1ccdaab.jpg",
+      "checksum": "a465daafc07428b444e1835a72267f88c1c0fed5c484bb7bd382ae1a256fc2d3",
+      "title": "Abstract Expressionism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Gestural marks, layered pigment and nonrepresentational color fields clearly support this direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 770,
+        "height": 1073
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Abstract Expressionism",
+      "folder": "Abstract Expressionism",
+      "file": "cae70d20bf50df84b30dde790bbe5f3a.jpg",
+      "checksum": "337aa68fcd59c83bc62bb6872947718c076469c6b60ec4dee723c2d7546094fd",
+      "title": "Abstract Expressionism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Gestural marks, layered pigment and nonrepresentational color fields clearly support this direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 770,
+        "height": 1111
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "70b652a49ad61b6fe284c63154f07047.jpg",
+      "checksum": "9b606169bf4f52b4b68b0e50159af96a234af109cdc301d7cf56e3ee648e1c2f",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1132,
+        "height": 1600
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "26582f8c4479aa1b9d695a4dcba8e1e7.jpg",
+      "checksum": "5147210cc9f74341a2ba7b162ff3ffbd909864a1882df064cb7a67daf23e5e05",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1500
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "501cd4141d29908b75f235a42910b02e.jpg",
+      "checksum": "27d5b3a23c4af1d92e90125f3f020ee1ce58c11a8bbc8d422d9ba0b367b70fa8",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1040
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "65afe196b82b5649fd04ed91a7c66d46.jpg",
+      "checksum": "b1d0937629fe79b90d92536c9df2d7abc449f0eaa3ffb6dc206946928fb81926",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1040
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "7e962cb31512d331c44daeb53607a7ef.jpg",
+      "checksum": "93b2dd5952b754f3ba48ecc91ae7cb1c520018320fbbee7a27c4cbf4d6d6b1b1",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 464,
+        "height": 706
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "8ba7e38d9d52c545a86e12ddae57001e.jpg",
+      "checksum": "261107a710d8229c5a7f738dd908b92db581bf69c6a7f4753bd462effff03b7a",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1697
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "8df11c7deb21224906ab9261e692bcc4.jpg",
+      "checksum": "f5df5bf7a8d1f606087e16b021c32a9def5fa2dfb554cf52100a70a310bf1011",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1041
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "8ffc1d8a058c5ad8a49ffcd383fcf691.jpg",
+      "checksum": "78f29f0f1d424029e56ef234d1b350698fbdfa46f47b7802476f78e3947c27fc",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 714,
+        "height": 999
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "aa5a302a084c69413b35468c4605e719.jpg",
+      "checksum": "e6c46dbde99f04473d815810bb8e6452daf1ba8a49106a34d5953a1011306d7a",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 944
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Acidgrafix",
+      "folder": "Acidgrafix",
+      "file": "c16b39abb2f8e74ec1e49a0fd3a23c96.jpg",
+      "checksum": "5472e76a6a6e5220396a2253d07f7b0e9a97228181fe01a3b395c778274e5c85",
+      "title": "Acidgrafix — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Distorted digital forms, abrasive layering, spiky shapes or psychedelic color treatments support the Acidgrafix direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 538,
+        "height": 1200
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Afrofuturism",
+      "folder": "Afrofuturism",
+      "file": "527648a2adf4eeec40499f6564ca45ac.jpg",
+      "checksum": "573e2b7eee50e5d549ea00ce80b729d5d2dcade36473601f679946c8a6b4f496",
+      "title": "Afrofuturism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "African or diasporic visual motifs are combined with speculative space, technological or futuristic imagery.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 736
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Afrofuturism",
+      "folder": "Afrofuturism",
+      "file": "7aaaf65527afc3778e187f09cf2b104f.jpg",
+      "checksum": "511f8196a8aa9c1e406c524eb23159a69fc16f56ca875065096662d78cc3d55f",
+      "title": "Afrofuturism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "African or diasporic visual motifs are combined with speculative space, technological or futuristic imagery.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1500
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Afrofuturism",
+      "folder": "Afrofuturism",
+      "file": "802895c0799402a3964e23111c5d0c51.jpg",
+      "checksum": "8234e1c497061fca29c3b3f3ba4dcdc578ebae8161769f6b47b0238b39c4c77f",
+      "title": "Afrofuturism — selected reference",
+      "peopleReview": "posed-model",
+      "reviewReason": "African or diasporic visual motifs are combined with speculative space, technological or futuristic imagery.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 679,
+        "height": 855
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Afrofuturism",
+      "folder": "Afrofuturism",
+      "file": "bc3093422d2ed8af332f6f2655933b82.jpg",
+      "checksum": "f1744db7a99d674fc5b8ed7a979969db1992c17fe0a13080fe729c4ca4fd498b",
+      "title": "Afrofuturism — selected reference",
+      "peopleReview": "posed-model",
+      "reviewReason": "African or diasporic visual motifs are combined with speculative space, technological or futuristic imagery.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 540,
+        "height": 699
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Afrofuturism",
+      "folder": "Afrofuturism",
+      "file": "c440901dc3b820729b0ee327426ff348.jpg",
+      "checksum": "f28eeb96240716e9866353445b26b4f9ff9b7e8effc4749aac1b6776246b56d4",
+      "title": "Afrofuturism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "African or diasporic visual motifs are combined with speculative space, technological or futuristic imagery.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 800,
+        "height": 1200
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Afrofuturism",
+      "folder": "Afrofuturism",
+      "file": "e50cd5a52c693d79b9693206a4b50b52.jpg",
+      "checksum": "f8887a4c0e08118be8c5b3bfd0a53016489e58950053696de556bb2a4bd57eb0",
+      "title": "Afrofuturism — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "African or diasporic visual motifs are combined with speculative space, technological or futuristic imagery.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 853,
+        "height": 960
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "45350e8a25fce37822dd5568ae0d9d53.jpg",
+      "checksum": "7b43c2f584de56f357de818b853e142493aff7dde8a1b9fe91b42f39fdbbca46",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1125,
+        "height": 1745
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "483798fff68c0fd5d376bd30ebf9df43.jpg",
+      "checksum": "05d60d2718ddd32f3fd765d15152dce52ad35e371aa1a4319913efba11fab657",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 920
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "7f825ca26c30d5301443edad34afa0fb.jpg",
+      "checksum": "94366388fa4afa45b13024a85190bfa28021a0b90c2e4be1ea22e9a37ff197fe",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1526
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "88c533bd5826e881de15d756b0138829.jpg",
+      "checksum": "3fea61a602d6a91aba0aa6e9e12ecab8a9f172f2df8646ecb27cb8562e9d5268",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "8f8c2052b3838b23a59fb36b893d7d1b.jpg",
+      "checksum": "163b1b8fadd0de9402187823fcfb99a149bf11d4a6e8b29dec280400b5489343",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1837
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "a3ef865aa5f8d8a0f4f7a07186f1fd0a.jpg",
+      "checksum": "69115014f04164a1b4eb47373be5a3f18f7c23a8d5939d1ad168d6fe29b2420b",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1313
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "a876882adb57e4ede3603fd46b7458d2.jpg",
+      "checksum": "1a131e0963afac31e67f87da7c01d756b15f911b5d815c02c5915522657af909",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1521
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "d0a9799f41e0e4046a285506288e5580.jpg",
+      "checksum": "34f7244349c55a9be470d8f43433d7a56a2303d0a45017998eba2be27df135fc",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 474,
+        "height": 509
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Airbrush illustration",
+      "folder": "Airbrush illustration",
+      "file": "d63f35787be097ae5550dcf01b472b1b.jpg",
+      "checksum": "457246a011b6f5d915329e0d7a1fafc7cc12435129005148a423ca5a4f299f6d",
+      "title": "Airbrush illustration — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Soft sprayed gradients, glowing highlights and smooth volumetric shading support the airbrush treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1532
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "163fd66ad5f37a9a52857ed75d4ca5a4.jpg",
+      "checksum": "0fac143ef9b823f6218d7fcd3778ec70a5b932001741b8df26ce5c712485d153",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 720,
+        "height": 1018
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "3d35a4525b5bfc3ba94a0cda3dd4ab67.jpg",
+      "checksum": "993755822f9eaec4c77871cc92101a8df8c3aba2d1acf39b132633400ede89dd",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 429,
+        "height": 640
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "739ae39eacd0576cf366107c866419a7.jpg",
+      "checksum": "42b1b8ded242b3b478e64bd5a4875d6ea53df1b00aee1534c75c87b4847c40a0",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 440,
+        "height": 695
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "ba30872468656f7a4c50ee7a8bb7807e.jpg",
+      "checksum": "e9d35ade33bfae4d37bd002a99fec12063071cd1e47deb5adbc2d687311f99e3",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 533,
+        "height": 759
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "bda321c76b1091fe9311221690287bdd.jpg",
+      "checksum": "ce9551e3b7e01be3dc0535386bab146df6f842499714d41871b6bcb5a4381e95",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1199,
+        "height": 1809
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "e79ca6a061338847dddc42280a924bb6.jpg",
+      "checksum": "969e36d4aa498d3cf76398f7b74fff764d0d7b4feb7d262129c295b72c0a63e4",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 876
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "ee824146f30c1951d4e53041097c401b.jpg",
+      "checksum": "7b2522039f5d2ebef76df3c7735153ce9933cd37dfcf7d508467e3442beabf5a",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 770,
+        "height": 947
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "American comic-book art",
+      "folder": "American comic-book art",
+      "file": "f49aaeff29ef8c7ebd363c3a099cea73.jpg",
+      "checksum": "8b11caac25a91d700574a7af6954998ad5892e84355821ca4d225d2a178db414",
+      "title": "American comic-book art — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Bold contour inking, flat color, halftones or familiar comic lettering support the comic-book treatment.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 750,
+        "height": 1334
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Amiga Workbench UI",
+      "folder": "Amiga Workbench UI",
+      "file": "078dfbed4fcc4c79dd1b49243a1c93e4.jpg",
+      "checksum": "a7d501756f66d7c66c836af3153618624e94dac6967f0bf6b903866fd44f3c56",
+      "title": "Amiga Workbench UI — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The screenshot shows compact bitmap desktop controls, iconography and window furniture.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1309
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Amiga Workbench UI",
+      "folder": "Amiga Workbench UI",
+      "file": "66686586f318d146f80cdd0e485bf160.jpg",
+      "checksum": "dca4c91009ef16f16823bee8500578ae7a1323f5f536092175d8f7896eef5576",
+      "title": "Amiga Workbench UI — selected reference",
+      "peopleReview": "posed-model",
+      "reviewReason": "The screenshot shows compact bitmap desktop controls, iconography and window furniture.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1152,
+        "height": 864
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Amiga Workbench UI",
+      "folder": "Amiga Workbench UI",
+      "file": "767bfe504057cb87c3994f63070990fb.jpg",
+      "checksum": "10ef7af694d0affa4fc57da84807853c6e06a7e9e82072ff638516794de1abfb",
+      "title": "Amiga Workbench UI — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The screenshot shows compact bitmap desktop controls, iconography and window furniture.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 640,
+        "height": 512
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Amiga Workbench UI",
+      "folder": "Amiga Workbench UI",
+      "file": "932481531f298e07e922e0f9c07efa83.jpg",
+      "checksum": "53b1d01f7ac0752d516e4bee7356b7be90942e6e92fa21b82094fc661881869e",
+      "title": "Amiga Workbench UI — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "The screenshot shows compact bitmap desktop controls, iconography and window furniture.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 474,
+        "height": 500
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anaglyph Graphics",
+      "folder": "Anaglyph Graphics",
+      "file": "26609370f58ddc04a7e8da2f3fa06650.jpg",
+      "checksum": "a7161ff6acd65e53288c0b493011967e5cfa276a840ba49e5f4ca81cc0323701",
+      "title": "Anaglyph Graphics — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible color-channel offsets double edges and create a stereoscopic or optically unstable effect.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1313
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anaglyph Graphics",
+      "folder": "Anaglyph Graphics",
+      "file": "3586315f679611cef8ee183b788bef0b.jpg",
+      "checksum": "575a0f85437307f7fbaa14bf804328df03fbc3ee7746a3f3644ce69c222f6542",
+      "title": "Anaglyph Graphics — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible color-channel offsets double edges and create a stereoscopic or optically unstable effect.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 610,
+        "height": 949
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anaglyph Graphics",
+      "folder": "Anaglyph Graphics",
+      "file": "91ee9f46b8ab5d03468aea71ee89c8a1.jpg",
+      "checksum": "b0f49b3af085fbc44661f36ae52ded98a864fb8d5dd9867b7972e62a7ff12f53",
+      "title": "Anaglyph Graphics — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible color-channel offsets double edges and create a stereoscopic or optically unstable effect.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 818,
+        "height": 1080
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anaglyph Graphics",
+      "folder": "Anaglyph Graphics",
+      "file": "b1abcffbfdf66348820aad6e2b6df4f1.jpg",
+      "checksum": "1d3ea14c2c544ebacb8de1cb2658b6b0e5f58ba95f2ed5d8a1b603055e561f38",
+      "title": "Anaglyph Graphics — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible color-channel offsets double edges and create a stereoscopic or optically unstable effect.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 650,
+        "height": 736
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anaglyph Graphics",
+      "folder": "Anaglyph Graphics",
+      "file": "fd62369747c1d1834fc2e11f6a6c088a.jpg",
+      "checksum": "532a27de9d10657e9aaa737f56d3d6bf538016f3f875711e370ec282cb3ae641",
+      "title": "Anaglyph Graphics — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible color-channel offsets double edges and create a stereoscopic or optically unstable effect.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 576,
+        "height": 864
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anime visual style",
+      "folder": "Anime visual style",
+      "file": "1ee25afcf6db52614d6c3af94dbc3ea6.jpg",
+      "checksum": "3caa841c12020f895cdc71395e21b8268aced290e78e4d7fc9bc2fd23afb3e2a",
+      "title": "Anime visual style — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Drawn characters, stylized facial anatomy and animation-derived line and color treatment support anime styling.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 512,
+        "height": 768
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anime visual style",
+      "folder": "Anime visual style",
+      "file": "2c7fa38e606471f6c4fcd0f05a768dd7.jpg",
+      "checksum": "da968a007c4fa00c0d9362d12785617322fe27dbdd502ec6820e504ce39792fe",
+      "title": "Anime visual style — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Drawn characters, stylized facial anatomy and animation-derived line and color treatment support anime styling.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1040
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anime visual style",
+      "folder": "Anime visual style",
+      "file": "8412503b4ac16e1a7a56102d58ff67ab.jpg",
+      "checksum": "cd1a3b04e5410653e20437f34b55ecc6f87e9d482568f883e0d0fc713454c701",
+      "title": "Anime visual style — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Drawn characters, stylized facial anatomy and animation-derived line and color treatment support anime styling.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 848,
+        "height": 1200
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anime visual style",
+      "folder": "Anime visual style",
+      "file": "b42edbc7fadb57b3675135f0a76ce8f7.jpg",
+      "checksum": "05e016150184200f25b19820b04e2f4f66a7a12857e2eb62b64f23c4c87ef290",
+      "title": "Anime visual style — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Drawn characters, stylized facial anatomy and animation-derived line and color treatment support anime styling.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1308
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anime visual style",
+      "folder": "Anime visual style",
+      "file": "d1a5bf80657e97b84e75233f00077dd1.jpg",
+      "checksum": "2f9cc6e9df2bb58c4790a84f755bbcaba37903fe1f69c0aecc378491e8634579",
+      "title": "Anime visual style — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Drawn characters, stylized facial anatomy and animation-derived line and color treatment support anime styling.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1063,
+        "height": 1500
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anime visual style",
+      "folder": "Anime visual style",
+      "file": "e55240ec75deb94c81872cc5212cfd68.jpg",
+      "checksum": "cc15afe6c2cfbea5e1f87bb673806e82aa934ffc4b2efc7705a770f4f656be91",
+      "title": "Anime visual style — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Drawn characters, stylized facial anatomy and animation-derived line and color treatment support anime styling.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1308
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anti-design",
+      "folder": "Anti-design",
+      "file": "110085eb6a362d029698ae1872696cde.jpg",
+      "checksum": "ae11c18610d1995ad8db807e90e1835343b41422366e42d0c8a05f7345634cf6",
+      "title": "Anti-design — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Disrupted typography, clashing scales and deliberately unconventional image-text construction support anti-design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 981
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anti-design",
+      "folder": "Anti-design",
+      "file": "2316f51a93ec7e3c998af49c3d238f5a.jpg",
+      "checksum": "a8a4aaec0409c01b9e4cda9e32338532a241e5c97793e3a0a6144d2e795c4a3b",
+      "title": "Anti-design — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Disrupted typography, clashing scales and deliberately unconventional image-text construction support anti-design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 672,
+        "height": 950
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anti-design",
+      "folder": "Anti-design",
+      "file": "8ae4283982e9ebd89adb2b1b84de3959.jpg",
+      "checksum": "37f559dfc69f0464f828ee9957c639f52bb7cbba230717d80a631b8407bfb06a",
+      "title": "Anti-design — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Disrupted typography, clashing scales and deliberately unconventional image-text construction support anti-design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 564,
+        "height": 823
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anti-design",
+      "folder": "Anti-design",
+      "file": "a42d6211bf2fcf8db078aeb6a41ffd33.jpg",
+      "checksum": "c855ab1a7bd37941d4d55ff61f8d5f647e6d4e648bad37cb81d627fbeac276db",
+      "title": "Anti-design — selected reference",
+      "peopleReview": "posed-model",
+      "reviewReason": "Disrupted typography, clashing scales and deliberately unconventional image-text construction support anti-design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 564,
+        "height": 831
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anti-design",
+      "folder": "Anti-design",
+      "file": "de92b1a036e9a387b2ccd65935c8ebc8.jpg",
+      "checksum": "8875d080b4a59a5b58bf3026a537c7545c2f84a5ca248c4fac5f0534757e4b9f",
+      "title": "Anti-design — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Disrupted typography, clashing scales and deliberately unconventional image-text construction support anti-design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 700,
+        "height": 1000
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Anti-design",
+      "folder": "Anti-design",
+      "file": "fc49472cfff60f3196de716a81783728.jpg",
+      "checksum": "28a00ea6db00a94c8acbdbd5a25001490de8b4709d9ba9ccbec04859974dbb4f",
+      "title": "Anti-design — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Disrupted typography, clashing scales and deliberately unconventional image-text construction support anti-design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 735,
+        "height": 1041
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "0720f8f8d4b3bbfb43b115da94ae2c1f.jpg",
+      "checksum": "4965a4378f9dc49a83b41fd853f461c92c705f9cc8a62ef10504ae71669ab6c8",
+      "title": "Art Brut — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Idiosyncratic figures, personal symbols and dense or unconventional mark-making support this visual direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1693
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "21f3192e23d97ee69c0bc4f25e78c771.jpg",
+      "checksum": "eb7703c6f5c0f27337e74bf93f1014adf4177498581e34c15cc46c78ca79f479",
+      "title": "Art Brut — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Idiosyncratic figures, personal symbols and dense or unconventional mark-making support this visual direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 393,
+        "height": 600
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "a89203af4ca8c8f251430f4395d70687.jpg",
+      "checksum": "e1b52a72ad34bc8a516b5c1e94456ed47c6822421aae68e62dc9feb9dac7576c",
+      "title": "Art Brut — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Idiosyncratic figures, personal symbols and dense or unconventional mark-making support this visual direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 563,
+        "height": 800
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "e4a6778c77f900563af0e26df1a266c5.jpg",
+      "checksum": "5b45c2fcc56667fd65761d8df931ae256631da2b52d831b060b6247c2b36ef6c",
+      "title": "Art Brut — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Idiosyncratic figures, personal symbols and dense or unconventional mark-making support this visual direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 936,
+        "height": 1500
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Brut",
+      "folder": "Art Brut",
+      "file": "f4ee4fa75968566547b13a81a8df4d47.jpg",
+      "checksum": "864af2e86de5d251535b43c4363613416b3f9529433d9fccb90af0a2737f3272",
+      "title": "Art Brut — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Idiosyncratic figures, personal symbols and dense or unconventional mark-making support this visual direction.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 619,
+        "height": 1000
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "13efb6ec48990e8f7d159e2f5b12032c.jpg",
+      "checksum": "27972e9557156168dbe79589435cc7aa9797642d02d57e3424ba5aaa87b94a61",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 977
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "5b65c6349b354dda96df8c9f370e6201.jpg",
+      "checksum": "cad1e14e3cdd02cbc960af076f76680e1450f6c0810c05e63f1bfa0c17374588",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1177
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "6b6e737fa6f4839e03b2a62cdeae5795.jpg",
+      "checksum": "5aaada7d891c669c03bd310138ac07e328ef7ffd120e17556223f87dcd342148",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1104
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "9e225a9762c8d46586112454fe0b4284.jpg",
+      "checksum": "665f5ffaf0a0b52f2e41a6eb5eeb73ff3b26617e77769c9842ebefc50828322d",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 680,
+        "height": 1000
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "b15a1a126149ed3a06a900b6eb8c5088.jpg",
+      "checksum": "2966ee6d1962af016d72d3b135ab98d99500eb9d8914365958974bed0c06e37d",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 481,
+        "height": 699
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "bed0bcf1569b1c50acbd4d2367ea693f.jpg",
+      "checksum": "312b82553f045e7966124cc93579ddfb0cf29c51b0e00ac4b235a5285e9a031f",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 600,
+        "height": 835
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "d1d04337c003022c77f1a9d1359bb64e.jpg",
+      "checksum": "071b92f4e02a4729bded8023075c4164c59bf1fc393f11047a8ac1e1ec91aa9b",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 600,
+        "height": 880
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "d2afc7087fedcc8c1b5886b27cf9addb.jpg",
+      "checksum": "d7916f7e2e3d9e45cd9a9be8e501b800ec01b18a17989c769850454293c67fcd",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 474,
+        "height": 750
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Deco",
+      "folder": "Art Deco",
+      "file": "d847a89a31dbee9f244fab581e0d7797.jpg",
+      "checksum": "0ee5bbe9aa93d43c94e71369203813162a0f73cdf91b8e21fc5e5317dcd17b0c",
+      "title": "Art Deco — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Stepped geometric forms, stylized verticals, luxury motifs or period-derived graphic treatment support Art Deco.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1308
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "964e742cceecd68572cfac16d86e5619.jpg",
+      "checksum": "15606edee56fa63b0e11d9ef454ea474b9f3f9db73afa4c84f405cbdb0ded8ba",
+      "title": "Art Nouveau — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Flowing botanical ornament, organic contours and integrated decorative framing support Art Nouveau.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 724,
+        "height": 1600
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "cf1fb85cd0dc1edfedc9de44f0629ecf.jpg",
+      "checksum": "a74837caf248026bd50ff864364f441ef7c359edc37754222918aef7e1096fc8",
+      "title": "Art Nouveau — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Flowing botanical ornament, organic contours and integrated decorative framing support Art Nouveau.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 723,
+        "height": 1595
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Art Nouveau",
+      "folder": "Art Nouveau",
+      "file": "e806d4a010b394d6d847cf725a1149e9.jpg",
+      "checksum": "83965a09b7094d633859736b89c04890cf0e246fecc5616868eb4b5584b6d8ef",
+      "title": "Art Nouveau — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Flowing botanical ornament, organic contours and integrated decorative framing support Art Nouveau.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1308
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "02128109c1570611a2bb68a3f59478ec.jpg",
+      "checksum": "75fd9a66a720975fa09d2efc5ab07ce921eeaf8f446886241d76e6e158e2ea2b",
+      "title": "ASCII Rendering — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible text or symbol glyphs construct the rendered image or its graphic overlay.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 431,
+        "height": 691
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "93644fc0a3714bffafa83e18ca34b93e.jpg",
+      "checksum": "71cbcefd4a3f732a3ea33e773d1b4b61f7fc85492f1f5b61afc51b7fc733f29d",
+      "title": "ASCII Rendering — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible text or symbol glyphs construct the rendered image or its graphic overlay.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 442,
+        "height": 800
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "cbbabcf4934e52f2fc797dc1e432aa15.jpg",
+      "checksum": "179f11d4d9591615c1d329b39c73a4a11a6b1240c5c00d6c4feab17815c0c319",
+      "title": "ASCII Rendering — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible text or symbol glyphs construct the rendered image or its graphic overlay.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1199,
+        "height": 1696
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "ASCII Rendering",
+      "folder": "ASCII Rendering",
+      "file": "d9c6ac2ceb90e0560e401d4198323928.jpg",
+      "checksum": "f70e22b66c3ef0cf539b853d8afe613b97945ad43e80957a87dbfdc54b612441",
+      "title": "ASCII Rendering — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Visible text or symbol glyphs construct the rendered image or its graphic overlay.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 920
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Asymmetric Layout",
+      "folder": "Asymmetric Layout",
+      "file": "72231349ee94e0b995fc1dd57c2155d5.jpg",
+      "checksum": "7f455bbe91b915d8f8e1f6dd767d005f1bd1d756be61a52dcc7b5753f8d11e5d",
+      "title": "Asymmetric Layout — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Unequal visual weights and off-centre arrangements organize image and text into a clear asymmetric composition.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 483,
+        "height": 640
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Asymmetric Layout",
+      "folder": "Asymmetric Layout",
+      "file": "b352352966ca0bea0b7ad724e9d2f54c.jpg",
+      "checksum": "1fae7eeebbc444e05c2a7ab4046594ce22d5df5069b7e6dc662daf748b843c00",
+      "title": "Asymmetric Layout — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Unequal visual weights and off-centre arrangements organize image and text into a clear asymmetric composition.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 564,
+        "height": 798
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Asymmetric Layout",
+      "folder": "Asymmetric Layout",
+      "file": "d6dc78740d683c9aa1c4b97cbae13953.jpg",
+      "checksum": "46392530f227316d51854bdf77fdf220f0a4655e9d5acbad2de5d901748b682b",
+      "title": "Asymmetric Layout — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Unequal visual weights and off-centre arrangements organize image and text into a clear asymmetric composition.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 550,
+        "height": 824
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "28a234b28e8e21423ecaa8ff674b81f9.jpg",
+      "checksum": "5db8a32a33d7488c39126e70634d033609552d7f42d22f2e0a33a9cb2e3622b8",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1104
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "5a0a8c121c69f8789a447893ce9b91ad.jpg",
+      "checksum": "136e216aa6462ee407c12ecdc0592bcf2c2eee981396f8fd1a17cc88322fa515",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1051
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "72ddcfb659ca92acd1c5b639a91bfab9.jpg",
+      "checksum": "59a3f456e14d62c1ea84ad4c6e23a4455c618b68d9f63089b626128d14edaa96",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 560,
+        "height": 784
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "b49d53440edf105d7fa179fddff21f71.jpg",
+      "checksum": "554a1244cdc6174a0899daf8dd857381c94ad0017f6e8dda7586134564e6c046",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1000,
+        "height": 1500
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "c58b45b26cb4e7b100ec5cd7a65fff25.jpg",
+      "checksum": "150896631e0cba312db4f94fb6e0ec5171dbfd8935ddfd3e53a9f74b42bfac8c",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 596,
+        "height": 842
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "d2c2ff24464fa0dc4dad98349f788d11.jpg",
+      "checksum": "af5dc08eb3b37dfa148102279f784a9f564c22bd63a98d68907ca3b78da4a49d",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1080,
+        "height": 1528
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "ebd1fcb88258a0e38e2f04f450362768.jpg",
+      "checksum": "77db5d2df4e182fe70ea01e9158866286c717702e15d4cef90f224da68aa902c",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Bauhaus",
+      "folder": "Bauhaus",
+      "file": "f552d455261d25833e61d7950c7ff71e.jpg",
+      "checksum": "480fbb0b99203250aa99fb38562e27c105d9009f57efb578ab8f26bbcb9193ae",
+      "title": "Bauhaus — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Reduced geometric forms, structured typography and a restrained graphic palette support this Bauhaus-influenced design.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 736,
+        "height": 1104
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Beadwork graphic aesthetic",
+      "folder": "Beadwork graphic aesthetic",
+      "file": "2c92dbada70c9777a7725d158ca6f44e.jpg",
+      "checksum": "2d92a442f58b4ffc901660cafdf813370c1e0c02162c606bb798bdf71b7c1f3a",
+      "title": "Beadwork graphic aesthetic — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Repeated bead-like units and sparkling or tactile patterned surfaces support this aesthetic.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 800,
+        "height": 1200
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Beadwork graphic aesthetic",
+      "folder": "Beadwork graphic aesthetic",
+      "file": "3b33f2ae2ceccdba839e6952349dc3b4.jpg",
+      "checksum": "8a865837c7c45792601bf388be1ab2d86267f140b8e55a1d838ada5fa755f160",
+      "title": "Beadwork graphic aesthetic — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Repeated bead-like units and sparkling or tactile patterned surfaces support this aesthetic.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 500,
+        "height": 476
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
+    },
+    {
+      "style": "Beadwork graphic aesthetic",
+      "folder": "Beadwork graphic aesthetic",
+      "file": "87ad58e0baa13081fa287eaf017ce700.jpg",
+      "checksum": "d2cf7911111ba8ccd9edee66d8975042b3dc5a172c421c65d7b73bdd02490d01",
+      "title": "Beadwork graphic aesthetic — selected reference",
+      "peopleReview": "no-real-people",
+      "reviewReason": "Repeated bead-like units and sparkling or tactile patterned surfaces support this aesthetic.",
+      "reviewedAt": "2026-10-21",
+      "dimensions": {
+        "width": 1200,
+        "height": 1788
+      },
+      "nativeFullHD": false,
+      "resolutionPolicy": "original-intake-resolution"
     }
   ],
   "replacements": [

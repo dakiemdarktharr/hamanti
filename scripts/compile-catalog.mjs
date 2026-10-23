@@ -7,11 +7,16 @@ export const isFullHD = item =>
   ((item.width >= 1920 && item.height >= 1080) || (item.width >= 1080 && item.height >= 1920));
 export const hasPeopleReview = item => ['no-real-people', 'posed-model'].includes(item.peopleReview);
 
-export function selectReferences(items, media, {manual = false, limit = 8} = {}) {
+export function selectReferences(items, media, {manual = false, allowFolderOriginals = false, limit = 8} = {}) {
   const seen = new Set();
   return items.filter(item => {
     const stored = media[item.imageUrl];
-    if (!stored || !isFullHD(stored) || !isFullHD(item) || item.reviewStatus !== 'approved' || !hasPeopleReview(item)) return false;
+    if (!stored || item.reviewStatus !== 'approved' || !hasPeopleReview(item)) return false;
+    const folderOriginal=manual && allowFolderOriginals && item.intakeVerified===true && stored.intakeVerified===true;
+    if (folderOriginal) {
+      if (![item.width,item.height,stored.width,stored.height].every(value=>Number.isInteger(value)&&value>0) ||
+          item.width!==stored.width || item.height!==stored.height) return false;
+    } else if (!isFullHD(stored) || !isFullHD(item)) return false;
     if (seen.has(stored.checksum || stored.id)) return false;
     if (manual) {
       if (stored.verified !== true) return false;
@@ -43,7 +48,7 @@ export async function compileCatalog() {
   const media = await read(manual ? 'data/manual-media-map.json' : 'data/hd-media-map.json');
   const styles = {};
   for (const style of catalog.styles) {
-    const examples = selectReferences(selected[style.name] || [], media, {manual,limit:manual ? Infinity : 8}).map((item, index) => {
+    const examples = selectReferences(selected[style.name] || [], media, {manual,allowFolderOriginals:policy.allowFolderOriginals===true,limit:manual ? Infinity : 8}).map((item, index) => {
       const stored = media[item.imageUrl];
       return {
         number: index + 1, title: item.title, url: item.url || null,
@@ -53,7 +58,7 @@ export async function compileCatalog() {
         kind: !item.url ? 'upload' : /^https:\/\/(?:www\.)?pinterest\.com\/pin\//.test(item.url)
           ? 'pin' : manual ? 'website' : 'board_or_idea',
         query: item.query || style.name, storage: 'mongodb', provenance: item.provider || 'Pinterest via TinyFish',
-        collected: item.collectedAt, nativeFullHD: true, peopleReview: item.peopleReview,
+        collected: item.collectedAt, nativeFullHD: isFullHD(stored), peopleReview: item.peopleReview,
       };
     });
     styles[style.id] = {
@@ -61,7 +66,7 @@ export async function compileCatalog() {
       ...(examples[0] && media[examples[0].originalImage].palette ? { palette: media[examples[0].originalImage].palette } : {}),
     };
   }
-  const content = { version: 3, target, minimumResolution: 'native-full-hd', styles };
+  const content = { version: 3, target, minimumResolution: manual && policy.allowFolderOriginals ? 'original-intake-resolution' : 'native-full-hd', styles };
   await writeFile(new URL('data/references.json', root), JSON.stringify(content));
   const csv = ['style_id,style_name,expected_examples,examples_found,direct_pin_pages,status'];
   for (const [id, style] of Object.entries(styles)) {
@@ -69,6 +74,6 @@ export async function compileCatalog() {
     csv.push(`${id},"${style.name.replaceAll('"', '""')}",${target},${n},${style.examples.filter(e => e.kind === 'pin').length},${n >= target ? 'complete' : n ? 'partial' : 'deferred'}`);
   }
   await writeFile(new URL('data/coverage.csv', root), csv.join('\n') + '\n');
-  console.log(`300 revised directions; ${Object.values(styles).reduce((n, s) => n + s.examples.length, 0)} verified Full HD references.`);
+  console.log(`300 revised directions; ${Object.values(styles).reduce((n, s) => n + s.examples.length, 0)} verified references.`);
   return content;
 }

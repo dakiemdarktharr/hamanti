@@ -1,0 +1,63 @@
+/* A hand of portrait cards, rather than a wall of perspective panels. */
+.home-track .explorer { --fan-slots: 7; --card-gap: 0px; --card-pitch: calc((100vw - 2 * var(--gutter)) / var(--fan-slots)); }
+.home-track .journey { container-type: size; width: max(calc(100vw - 2 * var(--gutter)),calc(var(--fan-count) * var(--card-pitch))); padding-top: 0; }
+.home-track .style-grid { grid-auto-columns: var(--card-pitch); gap: 0; }
+.fan-decks { position: absolute; inset: 0 auto auto 0; width: 100vw; height: 100%; pointer-events: none; will-change: transform; }
+.fan-deck { position: absolute; inset: 0 auto auto 0; }
+.fan-deck > i, .fan-deck > span { position: absolute; inset: 0; display: grid; place-items: center; border: 1px solid #697661; border-radius: 6px; background: #edf0e5; box-shadow: 0 4px 8px #222a2012; }
+.fan-deck > i:nth-child(1) { translate: -12px 12px; rotate: -4deg; }
+.fan-deck > i:nth-child(2) { translate: -8px 8px; rotate: -2deg; }
+.fan-deck > i:nth-child(3) { translate: -4px 4px; rotate: -1deg; }
+.fan-deck-lower > i:nth-child(1) { translate: 12px -12px; rotate: 4deg; }
+.fan-deck-lower > i:nth-child(2) { translate: 8px -8px; rotate: 2deg; }
+.fan-deck-lower > i:nth-child(3) { translate: 4px -4px; rotate: 1deg; }
+.fan-deck > span { background: repeating-linear-gradient(130deg,#222a2007 0 1px,transparent 1px 6px),#edf0e5; }
+.fan-deck img { width: 30%; height: auto; opacity: .6; }
+.home-track .style-card {
+  --fan-card-height: min(calc(var(--card-pitch) * 2.05), 60cqh);
+  width: calc(var(--fan-card-height) * .685);
+  height: var(--fan-card-height);
+  top: -3cqh;
+  grid-template-rows: minmax(0,1fr) 24px 65px;
+  padding: 8px 8px 14px;
+  gap: 7px;
+  border: 1px solid #697661;
+  border-radius: 12px;
+  background: #f1f1e7;
+  box-shadow: 0 2px 1px #222a2014, 0 12px 24px -12px #222a204d;
+  transform-origin: 50% 50%;
+  transition: translate .18s ease, scale .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.home-track .style-card .style-picture { min-height: 0; border-radius: 5px; }
+.home-track .style-card .card-label, .home-track .style-card .style-name { margin-inline: 4px; }
+.home-track .style-card .style-name { font-size: clamp(15px,1.15vw,22px); line-height: 1.18; padding-right: 0; }
+.home-track .style-card:nth-child(3n+2) .style-name { font-size: clamp(21px,1.65vw,30px); line-height: 1.05; }
+.home-track .style-card .card-label { gap: 2px 5px; }
+.home-track .style-card .style-number, .home-track .style-card .style-coverage { font-size: 9px; }
+.home-track .style-card .card-open { bottom: 5px; right: 7px; }
+.home-track .style-card:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; opacity: 1 !important; }
+.home-track .style-card:focus-visible { translate: 0 -18px; z-index: 60 !important; box-shadow: 0 18px 26px -10px #222a2066; }
+@media (hover:hover) {
+  .home-track .style-card:hover { scale: 1.035; z-index: 60 !important; box-shadow: 0 18px 26px -10px #222a2066; }
+}
+.motion-paused .home-track .style-card { translate: none; scale: 1; transition: none; }
+@media(min-width:701px) and (max-width:1199px) { .home-track .explorer { --fan-slots: 5; } }
+@media(max-width:700px) {
+  .home-track .explorer { --fan-slots: 1.35; }
+  .home-track .style-card { --fan-card-height: min(108vw,78cqh); grid-template-rows: minmax(0,1fr) 28px 78px; padding: 8px 8px 16px; }
+  .home-track .style-card .style-name { font-size: 22px; }
+  .home-track .style-card:nth-child(3n+2) .style-name { font-size: 30px; }
+  .home-track .style-card .style-number, .home-track .style-card .style-coverage { font-size: 10px; }
+  .fan-deck > i:nth-child(1) { translate: -6px 6px; }
+  .fan-deck > i:nth-child(2) { translate: -4px 4px; }
+  .fan-deck > i:nth-child(3) { translate: -2px 2px; }
+  .fan-deck-lower > i:nth-child(1) { translate: 6px -6px; }
+  .fan-deck-lower > i:nth-child(2) { translate: 4px -4px; }
+  .fan-deck-lower > i:nth-child(3) { translate: 2px -2px; }
+}
+@media(max-height:580px) {
+  .home-track .style-card { grid-template-rows: minmax(0,1fr) 18px 46px; gap: 4px; padding: 5px 5px 9px; border-radius: 8px; }
+  .home-track .style-card .style-name { font-size: 12px; }
+  .home-track .style-card:nth-child(3n+2) .style-name { font-size: 17px; }
+  .home-track .style-card .style-number, .home-track .style-card .style-coverage { font-size: 8px; }
+}

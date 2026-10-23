@@ -2,11 +2,13 @@
   "mode": "manual",
   "status": "agents-stopped-partial-publication",
   "intakeDirectory": "D:\\3000 reference images",
-  "minimumResolution": "1920x1080 or 1080x1920, native pixels",
+  "minimumResolution": "Original resolution for verified intake-folder files; native Full HD for external collections",
+  "allowFolderOriginals": true,
+  "resolutionExceptionAuthorized": "2026-10-21: User removed the native Full HD requirement for images saved in D:\\3000 reference images.",
   "minimumReferencesPerStyle": 6,
   "candidateBatchSize": 12,
   "peoplePolicy": "No casual people photos; deliberately posed models are allowed.",
   "collectionStopped": "2026-10-21",
-  "uploadTrigger": "User stopped search and check, then requested publication of the current local folder contents on 2026-10-21. Publish only hash-verified, visually approved native Full HD files. Preserve every intake file.",
+  "uploadTrigger": "User requested publication of suitable local folder images at their original resolution. Require checksum verification, relevance review, people-photo review and verified MongoDB storage. Preserve every intake file.",
   "cleanupRule": "Keep the intake directory until the user says done, every accepted file is verified in MongoDB and published successfully, and rejected or failed files are resolved."
 }

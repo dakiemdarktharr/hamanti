@@ -45,7 +45,13 @@
           </div>
           <div class="index-navigation"><p id="result-count" class="result-count mono" role="status" aria-live="polite" aria-atomic="true"></p><span id="index-position" class="journey-hint mono" aria-hidden="true"></span><div class="journey-buttons"><button id="index-prev" aria-label="Previous styles">←</button><button id="index-next" aria-label="Next styles">→</button></div></div>
           <p id="route-notice" class="route-notice" role="status" hidden>That style isn’t in the index. Explore the collection below.</p>
-          <div class="journey"><div id="style-index" class="style-index"></div></div>
+          <div class="journey">
+            <div class="fan-decks" aria-hidden="true">
+              <div class="fan-deck fan-deck-upper"><i></i><i></i><i></i><span><img src="./favicon.svg" alt="" width="40" height="40"></span></div>
+              <div class="fan-deck fan-deck-lower"><i></i><i></i><i></i><span><img src="./favicon.svg" alt="" width="40" height="40"></span></div>
+            </div>
+            <div id="style-index" class="style-index"></div>
+          </div>
           <div id="empty" class="empty" hidden><p>No styles found.</p><button id="clear-filters" class="text-button">Clear filters ↗</button></div>
         </section>
        </div>

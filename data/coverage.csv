@@ -1,7 +1,7 @@
 style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 1,"Web Brutalism",6,0,0,deferred
 2,"Neubrutalism",6,0,0,deferred
-3,"Anti-design",6,0,0,deferred
+3,"Anti-design",6,6,0,complete
 4,"Net Art",6,0,0,deferred
 5,"GeoCities Web",6,0,0,deferred
 6,"Flash-era Web",6,0,0,deferred
@@ -50,7 +50,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 49,"Masonry Layout",6,0,0,deferred
 50,"Justified Image Grid",6,0,0,deferred
 51,"Split-Screen Layout",6,0,0,deferred
-52,"Asymmetric Layout",6,0,0,deferred
+52,"Asymmetric Layout",6,3,0,partial
 53,"Editorial Design",6,0,0,deferred
 54,"Newspaper Design",6,0,0,deferred
 55,"Book Design",6,1,1,partial
@@ -125,7 +125,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 124,"Windows Aero UI",6,0,0,deferred
 125,"BeOS UI",6,0,0,deferred
 126,"NeXTSTEP UI",6,0,0,deferred
-127,"Amiga Workbench UI",6,0,0,deferred
+127,"Amiga Workbench UI",6,4,0,partial
 128,"ANSI Art",6,0,0,deferred
 129,"Teletext Art",6,0,0,deferred
 130,"Winamp Skinning",6,0,0,deferred
@@ -136,7 +136,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 135,"Corporate Cyberspace",6,0,0,deferred
 136,"Gen X Soft Club",6,0,0,deferred
 137,"Frutiger Aero",6,0,0,deferred
-138,"Acidgrafix",6,0,0,deferred
+138,"Acidgrafix",6,10,0,complete
 139,"Hexatron",6,0,0,deferred
 140,"Cyberbougie",6,0,0,deferred
 141,"Blob World",6,0,0,deferred
@@ -164,11 +164,11 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 163,"Chrome Rendering",6,0,0,deferred
 164,"Holographic Graphics",6,0,0,deferred
 165,"Isometric Rendering",6,0,0,deferred
-166,"Anaglyph Graphics",6,0,0,deferred
+166,"Anaglyph Graphics",6,5,0,partial
 167,"Matcap Rendering",6,0,0,deferred
 168,"Line-rendered 3D",6,0,0,deferred
 169,"Volumetric Rendering",6,0,0,deferred
-170,"ASCII Rendering",6,6,6,complete
+170,"ASCII Rendering",6,10,6,complete
 171,"Pixel Art",6,0,0,deferred
 172,"Dithered Rendering",6,0,0,deferred
 173,"Glitch Art",6,0,0,deferred
@@ -211,20 +211,20 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 210,"Neo Geo",6,0,0,deferred
 211,"Arts and Crafts",6,0,0,deferred
 212,"Plakatstil",6,0,0,deferred
-213,"Afrofuturism",6,0,0,deferred
+213,"Afrofuturism",6,6,0,complete
 214,"Impressionism",6,0,0,deferred
 215,"Post-Internet Aesthetic",6,0,0,deferred
 216,"New Aesthetic",6,0,0,deferred
-217,"Art Brut",6,9,0,complete
+217,"Art Brut",6,14,0,complete
 218,"Surrealism",6,0,0,deferred
 219,"Cubism",6,0,0,deferred
 220,"Fauvism",6,0,0,deferred
-221,"Art Nouveau",6,8,8,complete
-222,"Art Deco",6,0,0,deferred
+221,"Art Nouveau",6,11,8,complete
+222,"Art Deco",6,9,0,complete
 223,"Polish School of Graphic Design",6,0,0,deferred
 224,"Japanese Modernism",6,0,0,deferred
 225,"Soviet Constructivism",6,0,0,deferred
-226,"Bauhaus",6,0,0,deferred
+226,"Bauhaus",6,8,0,complete
 227,"De Stijl",6,0,0,deferred
 228,"Psychedelic Graphics",6,0,0,deferred
 229,"Punk Graphic Design",6,0,0,deferred
@@ -240,7 +240,7 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 239,"Precisionism",6,0,0,deferred
 240,"Op Art",6,0,0,deferred
 241,"Kinetic Art",6,0,0,deferred
-242,"Abstract Expressionism",6,1,0,partial
+242,"Abstract Expressionism",6,7,0,complete
 243,"Hard-Edge Abstraction",6,0,0,deferred
 244,"Color-Field Painting",6,0,0,deferred
 245,"Lyrical Abstraction",6,0,0,deferred
@@ -253,15 +253,15 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 252,"Minimal line illustration",6,0,0,deferred
 253,"Doodle illustration",6,0,0,deferred
 254,"Conceptual editorial illustration",6,0,0,deferred
-255,"Anime visual style",6,0,0,deferred
+255,"Anime visual style",6,6,0,complete
 256,"Manga visual style",6,0,0,deferred
 257,"Chibi illustration",6,0,0,deferred
 258,"Superflat illustration",6,0,0,deferred
 259,"Kawaii illustration",6,0,0,deferred
 260,"Ligne claire illustration",6,0,0,deferred
-261,"American comic-book art",6,0,0,deferred
+261,"American comic-book art",6,8,0,complete
 262,"Mid-century modern illustration",6,0,0,deferred
-263,"Airbrush illustration",6,0,0,deferred
+263,"Airbrush illustration",6,9,0,complete
 264,"Textured-vector illustration",6,0,0,deferred
 265,"Paper-cut illustration",6,0,0,deferred
 266,"Halftone illustration",6,0,0,deferred
@@ -296,6 +296,6 @@ style_id,style_name,expected_examples,examples_found,direct_pin_pages,status
 295,"Fresco-mural aesthetic",6,0,0,deferred
 296,"Embroidery illustration",6,0,0,deferred
 297,"Quilted-collage aesthetic",6,0,0,deferred
-298,"Beadwork graphic aesthetic",6,0,0,deferred
+298,"Beadwork graphic aesthetic",6,3,0,partial
 299,"Tapestry-inspired graphic style",6,0,0,deferred
 300,"Mosaic illustration",6,0,0,deferred

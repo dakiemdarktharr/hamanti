@@ -26,6 +26,18 @@ test('neither a large download label nor stored dimensions can excuse a small or
   assert.equal(select([{...original,width:736,height:1200}]).length,0);
   assert.equal(select([original],{'manual:first':{...media['manual:first'],width:736,height:1200}}).length,0);
 });
+test('the folder exception admits reviewed originals only after verified intake and storage',()=>{
+  const item={...original,width:736,height:1040,intakeVerified:true};
+  const stored={'manual:first':{...media['manual:first'],width:736,height:1040,intakeVerified:true}};
+  const options={manual:true,allowFolderOriginals:true};
+  assert.equal(selectReferences([item],stored,options).length,1);
+  assert.equal(selectReferences([{...item,intakeVerified:false}],stored,options).length,0);
+  assert.equal(selectReferences([item],{'manual:first':{...stored['manual:first'],intakeVerified:false}},options).length,0);
+  assert.equal(selectReferences([{...item,peopleReview:'casual-photo'}],stored,options).length,0);
+  assert.equal(selectReferences([{...item,width:0}],stored,options).length,0);
+  assert.equal(selectReferences([item],stored,{...options,manual:false}).length,0);
+  assert.equal(selectReferences([item],stored,{manual:true}).length,0);
+});
 test('missing manual source links are honest; unsafe links are never published', () => {
   assert.equal(select([original]).length,1);
   assert.equal(select([{...original,url:'javascript:alert(1)'}]).length,0);

@@ -11,3 +11,4 @@ server.mjs
 scripts/sync-notes.mjs
 .image-cache/
 .tmp/
+demos/

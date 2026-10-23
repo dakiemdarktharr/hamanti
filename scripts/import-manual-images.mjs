@@ -34,7 +34,7 @@ try {
       if (totalBytes + bytes.length > 4000e6) throw new Error('Storage capacity limit');
       await images.insertOne({_id:id,data:new Binary(bytes),mime,size:bytes.length,
         width:dimensions.width,height:dimensions.height,checksum,collectionVersion:4,
-        variant:archiveOnly?'source-original':original?'original':'thumbnail',nativeFullHD:original && isFullHD(dimensions),createdAt:new Date()});
+        variant:archiveOnly?'source-original':original?'original':'thumbnail',nativeFullHD:original && isFullHD(dimensions),intakeVerified:true,createdAt:new Date()});
       totalBytes += bytes.length; report.bytesAdded += bytes.length; report.storedDocuments++;
     } else report.reusedDocuments++;
     const stored = await images.findOne({_id:id});
@@ -54,7 +54,7 @@ try {
       const original = await fs.readFile(file);
       if (hash(original) !== item.checksum) throw new Error('Source changed after review');
       const meta = await sharp(original).metadata();
-      if (!isFullHD(meta)) throw new Error('Below native Full HD');
+      if (!policy.allowFolderOriginals && !isFullHD(meta)) throw new Error('Below native Full HD');
       const mime = {jpeg:'image/jpeg',png:'image/png',webp:'image/webp',avif:'image/avif'}[meta.format];
       if (!mime) throw new Error('Unsupported image format');
       const archiveOnly = original.length > 4300000;
@@ -69,11 +69,11 @@ try {
       const rgb = [dominant.r,dominant.g,dominant.b];
       const hex = values => '#' + values.map(v=>Math.round(v).toString(16).padStart(2,'0')).join('');
       const imageUrl = `manual:${item.checksum}`;
-      media[imageUrl] = {...stored,thumbnailId:thumb.id,sourceChecksum:item.checksum,sourceOriginalId:archived.id,
+      media[imageUrl] = {...stored,intakeVerified:true,thumbnailId:thumb.id,sourceChecksum:item.checksum,sourceOriginalId:archived.id,
         palette:{background:hex(rgb.map(v=>12+v*.055)),accent:hex(rgb.map(v=>v*.65+255*.35)),method:'dominant color of selected reference'}};
       const entries = selection[item.style] ||= [];
       const entry = {imageUrl,title:item.title,url:item.url || null,width:meta.width,height:meta.height,
-        reviewStatus:'approved',peopleReview:item.peopleReview,provider:item.provider || 'User-supplied collection',
+        reviewStatus:'approved',intakeVerified:true,peopleReview:item.peopleReview,provider:item.provider || 'User-supplied collection',
         ...(item.sourceUrl ? {sourceUrl:item.sourceUrl} : {}),collectedAt:report.date};
       const previous = entries.findIndex(e=>e.imageUrl===imageUrl);
       if (previous>=0) entries[previous]=entry; else entries.push(entry);

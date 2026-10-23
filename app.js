@@ -1,6 +1,7 @@
 import './styles.css';
 import './lib/horizontal.css';
 import './lib/polish.css';
+import './lib/card-fan.css';
 import { animate, hover, press } from 'motion';
 import Lenis from 'lenis';
 import { loadHandbook } from './lib/handbook.js';
@@ -10,6 +11,7 @@ import { openingAssets, warmImages } from './lib/preload.js';
 import { mixedCurtains, prepareHomeReturn } from './lib/page-transition.js';
 import { readIndexFilters, resolveRoute, shouldPauseMotion } from './lib/navigation.js';
 import { createImageViewer } from './lib/lightbox.js';
+import { fanFrame, fanPose, fanDeckPose } from './lib/card-fan.js';
 
 const $ = selector => document.querySelector(selector);
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -59,29 +61,49 @@ function measureCards() {
   const grid = $('.style-grid');
   if (!grid || currentStyle || !indexCards.length) return;
   const columns = getComputedStyle(grid);
+  const card = getComputedStyle(indexCards[0]);
   cardLayout = {
     start:grid.getBoundingClientRect().left + $('#home-page').scrollLeft,
-    width:parseFloat(columns.gridAutoColumns),
-    gap:parseFloat(columns.columnGap),
+    sectionStart:$('#index').offsetLeft,
+    pitch:parseFloat(columns.gridAutoColumns),
+    cardWidth:parseFloat(card.width), cardHeight:parseFloat(card.height),
+    slots:parseFloat(getComputedStyle($('#index')).getPropertyValue('--fan-slots')),
+    gutter:parseFloat(getComputedStyle($('#index')).paddingLeft),
+    count:indexCards.length,
+    journeyHeight:$('.journey').getBoundingClientRect().height,
   };
 }
 function curveCards(scrollLeft) {
   if (!cardLayout) return;
-  const {start,width,gap} = cardLayout, pitch = width + gap;
-  const first = Math.max(0,Math.floor((scrollLeft-start)/pitch)-1);
-  const last = Math.min(indexCards.length-1,Math.ceil((scrollLeft+innerWidth-start)/pitch)+1);
+  const {start,pitch,cardWidth,slots} = cardLayout;
+  const frame = fanFrame(cardLayout,scrollLeft,innerWidth);
+  const decks=$('.fan-decks');
+  decks.hidden=indexCards.length<2;
+  decks.style.transform=`translateX(${(scrollLeft-start).toFixed(2)}px)`;
+  for(const [selector,side] of [['.fan-deck-upper',1],['.fan-deck-lower',-1]]){
+    const deck=decks.querySelector(selector),pose=fanDeckPose(side,cardLayout,frame,innerWidth);
+    const width=cardWidth*pose.scale,height=cardLayout.cardHeight*pose.scale;
+    deck.style.width=`${width}px`; deck.style.height=`${height}px`;
+    deck.style.transform=`translate(${(pose.x-width/2).toFixed(2)}px,${(cardLayout.journeyHeight*.47+pose.y-height/2).toFixed(2)}px)`;
+  }
+  const reach = Math.max(1,(slots-1)/2) + 2;
+  const first = Math.max(0,Math.floor(frame.centre-reach));
+  const last = Math.min(indexCards.length-1,Math.ceil(frame.centre+reach));
   const visible = new Set();
   for (let i=first;i<=last;i++) {
     const card = indexCards[i];
-    const distance = Math.max(-3.7,Math.min(3.7,(start+i*pitch+width/2-scrollLeft-innerWidth/2)/pitch));
-    const tilt = -distance * 10;
-    const depth = Math.min(145,distance*distance*13);
-    card.style.transform = paused ? 'none' : `perspective(1000px) translateZ(${depth.toFixed(1)}px) rotateY(${tilt.toFixed(2)}deg)`;
+    const pose = fanPose(i,cardLayout,frame,innerWidth);
+    const shift = pose.x-(start+i*pitch+cardWidth/2-scrollLeft);
+    card.style.transform = `translate(${shift.toFixed(2)}px,${pose.y.toFixed(2)}px) rotate(${pose.rotation.toFixed(3)}deg) scale(${pose.scale.toFixed(4)})`;
+    card.style.opacity = String(pose.opacity);
+    card.style.zIndex = String(pose.order);
+    card.style.pointerEvents = pose.opacity < .1 ? 'none' : '';
     card.style.willChange = paused ? 'auto' : 'transform';
     visible.add(card);
   }
   for (const card of curvedCards) if (!visible.has(card)) {
-    card.style.transform = ''; card.style.willChange = '';
+    card.style.transform = ''; card.style.willChange = ''; card.style.opacity = '';
+    card.style.zIndex = ''; card.style.pointerEvents = '';
   }
   curvedCards = visible;
 }
@@ -170,7 +192,7 @@ function requestUpdate() {
       const home = $('#home-page'), index = $('#index').getBoundingClientRect();
       const sections=[...$('#home-track').children];
       const section=sections.findLast(element=>element.offsetLeft<=home.scrollLeft+2) || sections[0];
-      const unit=section.id==='index' && cardLayout ? cardLayout.width+cardLayout.gap : section.offsetWidth;
+      const unit=section.id==='index' && cardLayout ? cardLayout.pitch : section.offsetWidth;
       homeAnchor={id:section.id || 'hero',position:(home.scrollLeft-section.offsetLeft)/unit};
       introWordElements.forEach((word, i) => {
         // Reveal each word only after it passes the horizontal centre.
@@ -185,9 +207,9 @@ function requestUpdate() {
       $('#index-next').disabled = index.right <= innerWidth + 2;
       curveCards(home.scrollLeft);
       if (cardLayout && indexCards.length) {
-        const pitch = cardLayout.width + cardLayout.gap;
-        const first = Math.max(0,Math.min(indexCards.length-1,Math.floor((home.scrollLeft-cardLayout.start)/pitch)));
-        const last = Math.min(indexCards.length,Math.max(first+1,Math.round((home.scrollLeft+innerWidth-cardLayout.start)/pitch)));
+        const frame=fanFrame(cardLayout,home.scrollLeft,innerWidth);
+        const first=Math.max(0,Math.floor(frame.centre-(cardLayout.slots-1)/2));
+        const last=Math.min(indexCards.length,first+Math.ceil(cardLayout.slots));
         $('#index-position').textContent = `${pad(first+1)} — ${pad(last)} / ${indexCards.length}`;
       } else $('#index-position').textContent = '';
     } else galleryUpdate?.();
@@ -203,6 +225,7 @@ function renderIndex() {
   const styles = searchStyles(handbook.styles, query).filter(style =>
     filters.letter === 'all' || style.name.charAt(0).toLocaleUpperCase() === filters.letter
   );
+  $('#index').style.setProperty('--fan-count',String(styles.length));
   $('#style-index').innerHTML = `<div class="style-grid">${styles.map(style => `<a href="#/style/${style.id}" class="style-card${style.examples.length ? '' : ' style-card-empty'}" data-style="${style.id}" title="${escape(style.name)}" aria-label="${escape(style.name)}${style.found < style.expected ? ', examples pending' : ''}">
     ${style.examples[0] ? `<div class="style-picture"><img src="${escape(safeURL(style.examples[0].thumbnail || style.examples[0].image))}" alt="${escape(style.examples[0].title)}" loading="lazy" decoding="async" width="${style.examples[0].width}" height="${style.examples[0].height}"></div>` : `<div class="style-picture style-picture-pending" aria-hidden="true"><span>${escape(style.name.charAt(0))}</span></div>`}
     <div class="card-label"><span class="style-number">${pad(style.rank)}</span><span class="style-coverage">${style.found ? `${style.found} ref${style.found === 1 ? '' : 's'}${style.found < style.expected ? ' · pending' : ''}` : 'Images pending'}</span></div>
@@ -235,7 +258,7 @@ function renderDetail(style) {
       <p class="detail-label">${pad(style.rank)} / 300</p>
       <h1 class="detail-title" tabindex="-1">${escape(style.name)}</h1>
       <p class="detail-description">${escape(style.description)}</p>
-      <div class="detail-meta"><span>${examples.length} Full HD ${examples.length === 1 ? 'reference' : 'references'}${examples.length < style.expected ? ' · Examples pending' : ''}</span>${style.sources?.[0] ? `<a href="${escape(safeURL(style.sources[0].url))}" target="_blank" rel="noopener">Read about this direction ↗</a>` : `<a href="./artstyles-300.md" target="_blank" rel="noopener">Original notes ↗</a>`}</div>
+      <div class="detail-meta"><span>${examples.length} ${examples.length === 1 ? 'reference' : 'references'}${examples.length < style.expected ? ' · Examples pending' : ''}</span>${style.sources?.[0] ? `<a href="${escape(safeURL(style.sources[0].url))}" target="_blank" rel="noopener">Read about this direction ↗</a>` : `<a href="./artstyles-300.md" target="_blank" rel="noopener">Original notes ↗</a>`}</div>
     </header>
     ${examples.length ? `<section class="gallery-track" id="gallery-track" aria-label="${escape(style.name)} references">
       <div class="gallery-viewport"><div class="gallery-label"><span>( reference studies )</span><span id="gallery-hint">Select to view</span></div>
@@ -454,7 +477,7 @@ addEventListener('resize', () => {
     lenis?.resize(); measureCards();
     if(anchor){
       const section=anchor.id==='hero' ? $('.hero') : document.getElementById(anchor.id);
-      const unit=anchor.id==='index' && cardLayout ? cardLayout.width+cardLayout.gap : section.offsetWidth;
+      const unit=anchor.id==='index' && cardLayout ? cardLayout.pitch : section.offsetWidth;
       smoothTo(section.offsetLeft+anchor.position*unit,{immediate:true});
     }
   }
@@ -479,7 +502,7 @@ document.addEventListener('keydown', event => {
     const next = cards[nextIndex];
     event.preventDefault(); next?.focus({preventScroll:true});
     if (cardLayout) {
-      const destination = cardLayout.start + nextIndex*(cardLayout.width+cardLayout.gap) + cardLayout.width/2 - innerWidth/2;
+      const destination = cardLayout.sectionStart + (nextIndex-(cardLayout.slots-1)/2)*cardLayout.pitch;
       smoothTo(Math.max($('#index').offsetLeft,Math.min(destination,$('#index').offsetLeft+$('#index').offsetWidth-innerWidth)));
     }
     return;
